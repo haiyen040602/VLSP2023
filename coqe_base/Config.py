@@ -1,6 +1,6 @@
 from transformers import BertTokenizer
 from data_utils import shared_utils
-from coqe_base.eval_utils import eval_shared_modules
+from eval_utils import eval_shared_modules
 
 class BaseConfig(object):
     def __init__(self, args):
