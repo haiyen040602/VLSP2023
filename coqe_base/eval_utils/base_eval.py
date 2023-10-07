@@ -14,7 +14,7 @@ class BaseEvaluation(object):
         :param save_model: True denote save model by optimize exact measure.
         """
         self.config = config
-        self.elem_col = elem_col
+        self.elem_col = ["subject", "object", "aspect", "result"]
         self.fold = fold
 
         if ids_to_tags is None: # return dict {value: pos_key} {1 : B_entity_1}
@@ -119,7 +119,7 @@ class BaseEvaluation(object):
 
         assert len(elem_col) == len(elem_label_ids), "label length error!"
 
-        elem_key = ["entity_1", "entity_2", "aspect", "result"]
+        elem_key = ["subject", "object", "aspect", "result"]
 
         for i in range(len(elem_col)):
             for j in range(len(elem_label_ids[i])):
@@ -302,7 +302,8 @@ class BaseEvaluation(object):
         if not multi_elem_score:
             return result_dict
 
-        base_elem_col = ["entity_1", "entity_2", "aspect", "result"]
+        # base_elem_col = ["subject", "object", "aspect", "result"]
+        base_elem_col = self.elem_col
 
         result_dict = self.get_macro_measure(result_dict, base_elem_col, elem_name="macro")
         result_dict = self.get_micro_measure(
@@ -553,7 +554,8 @@ class BaseEvaluation(object):
         """
         elem_str = "["
 
-        cur_elem_col = ["entity_1", "entity_2", "aspect", "result"]
+        # cur_elem_col = ["subject", "object", "aspect", "result"]
+        cur_elem_col = self.elem_col
         for index, elem in enumerate(cur_elem_col):
             elem_str += "["
             for elem_index, elem_representation in enumerate(data_dict[elem]):
