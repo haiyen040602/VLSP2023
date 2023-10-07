@@ -199,7 +199,7 @@ def first_stage_model_main(
         optimizer_need_model = model
 
     ## 4 Adam optimizer for bert and normal model (LSTM) with different learning rate
-    OPTIM2FN = {"bert": optimizer_utils.Baseline_Optim, "norm": optimizer_utils.LSTMModel_Optim}
+    OPTIM2FN = {"bert-base-multilingual-cased": optimizer_utils.Baseline_Optim, "norm": optimizer_utils.LSTMModel_Optim}
     optimizer = OPTIM2FN[config.model_mode](optimizer_need_model, optimizer_parameters)
 
     dev_parameters = ["./ModelResult/" + model_name + "/dev_elem_result.txt",

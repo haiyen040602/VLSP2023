@@ -1,188 +1,88 @@
-Còn đối với những ai có kinh phí không quá cao , nhu cầu sử dụng vừa đủ thì Samsung Galaxy A73 cũng vẫn đáp ứng tốt từ nhu cầu chơi game , khi được trang bị chip Snapdragon 778G mạnh mẽ , dung lượng pin cao 5000mAh cho bạn dùng cả ngày và một Camera chính có độ phân giải lên đến 108MP .
+Apple đã mang đến khá nhiều tính năng hấp dẫn cho máy như Deep Fusion .
 [{}]
-Lựa chọn điện thoại phù hợp với nhu cầu sử dụng của mình .
+Thật bất ngờ khi tính năng này cũng xuất hiện trên model iPhone SE 2022 5G giá rẻ mới nhất .
+[{'subject': [], 'object': ['12&&model', '13&&iPhone', '14&&SE', '15&&2022', '16&&5G', '17&&giá', '18&&rẻ', '19&&mới', '20&&nhất'], 'aspect': ['5&&tính', '6&&năng', '7&&này'], 'predicate': ['8&&cũng', '9&&xuất', '10&&hiện'], 'label': 'EQL'}]
+Vậy sự khác biệt giữa camera iPhone rẻ nhất và iPhone đắt nhất của Apple là như thế nào ?
 [{}]
-Nếu đã quyết định mua Samsung Galaxy A73 và S21 FE thì bạn nên lựa chọn mua ở những cửa hàng uy tín để có thể mua được sản phẩm chất lượng và được hưởng các chính sách bảo hành chính hãng .
+Tuy nhiên iPhone SE 2022 5G mới khiến chúng ta ngạc nhiên khi tạp ra những hình ảnh thực đẹp mắt và có chất lượng gần giống với mẫu iPhone đắt tiền hơn .
+[{'subject': ['3&&iPhone', '4&&SE', '5&&2022', '6&&5G'], 'object': ['29&&mẫu', '30&&iPhone', '31&&đắt', '32&&tiền', '33&&hơn'], 'aspect': ['16&&những', '17&&hình', '18&&ảnh', '19&&thực'], 'predicate': ['24&&chất', '25&&lượng', '26&&gần', '27&&giống'], 'label': 'EQL'}]
+Cả hai điện thoại đều được tích hợp Smart HDR và mỗi sản phẩm đều làm tốt công việc cân bằng giữa bóng và chi tiết nổi bật .
+[{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['7&&tích', '8&&hợp', '9&&Smart', '10&&HDR'], 'predicate': ['5&&đều'], 'label': 'EQL'}]
+Mặc dù dải động của cảm biến trên iPhone SEmới không tốt bằng iPhone 13 Pro trong các điều kiện ánh sáng yếu , nhưng sự khác biệt không quá ấn tượn .
+[{'subject': ['9&&iPhone', '10&&SEmới'], 'object': ['14&&iPhone', '15&&13', '16&&Pro'], 'aspect': ['3&&dải', '4&&động', '5&&của', '6&&cảm', '7&&biến'], 'predicate': ['11&&không', '12&&tốt', '13&&bằng'], 'label': 'COM-'}]
+Điện thoại iPhone 13 Pro cũng có cảm biến hình ảnh lớn hơn iPhone SE 2022 .
+[{'subject': ['1&&Điện', '2&&thoại', '3&&iPhone', '4&&13', '5&&Pro'], 'object': ['14&&iPhone', '15&&SE', '16&&2022'], 'aspect': ['8&&cảm', '9&&biến', '10&&hình', '11&&ảnh'], 'predicate': ['12&&lớn', '13&&hơn'], 'label': 'COM+'}]
+Điều này có nghĩa là model đắt tiền hơn có được độ sâu trường ảnh nông hơn trong một số bức ảnh .
+[{'subject': ['6&&model', '7&&đắt', '8&&tiền', '9&&hơn'], 'object': [], 'aspect': ['12&&độ', '13&&sâu', '14&&trường', '15&&ảnh'], 'predicate': ['16&&nông', '17&&hơn', '18&&trong', '19&&một', '20&&số', '21&&bức', '22&&ảnh'], 'label': 'COM'}]
+Hãy xem bức ảnh bên dưới , chúng ta sẽ thấy được chất lượng hình ảnh được chụp từ hai model .
 [{}]
-Bạn hoàn toàn có thể an tâm khi mua điện thoại ở Thế Giới Di Động với nhiều ưu đãi cùng chính sách bảo hành hấp dẫn .
+Cả hai điện thoại đều được tích hợp Deep Fusion , một kỹ thuật xử lý hình ảnh được thiết kế để giúp cải thiện độ chi tiết trong các bức ảnh chụp ánh sáng trung bình đến thiếu sáng .
+[{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['9&&Deep', '10&&Fusion'], 'predicate': ['5&&đều', '6&&được', '7&&tích', '8&&hợp'], 'label': 'EQL'}]
+Mặc dù bạn không có cách nào để biết khi nào Deep Fusion được kích hoạt , nhưng iPhone SE 2022 có thể tạo ra hình ảnh gần giống với iPhone 13 Pro về độ sắc nét và chi tiết khi chụp ảnh trong điều kiện ánh sáng trung bình ( hoặc trong nhà ) .
+[{'subject': ['19&&iPhone', '20&&SE', '21&&2022'], 'object': ['31&&iPhone', '32&&13', '33&&Pro'], 'aspect': ['35&&độ', '36&&sắc', '37&&nét'], 'predicate': ['28&&gần', '29&&giống'], 'label': 'EQL'}, {'subject': ['19&&iPhone', '20&&SE', '21&&2022'], 'object': ['31&&iPhone', '32&&13', '33&&Pro'], 'aspect': ['39&&chi', '40&&tiết'], 'predicate': ['28&&gần', '29&&giống'], 'label': 'EQL'}]
+Mẫu iPhone SE mới , có khả năng hiển thị chi tiết trong điều kiện ánh sáng trung bình là một ưu điểm lớn so với iPhone SE 2020 .
+[{'subject': ['1&&Mẫu', '2&&iPhone', '3&&SE', '4&&mới'], 'object': ['27&&iPhone', '28&&SE', '29&&2020'], 'aspect': ['9&&hiển', '10&&thị', '11&&chi', '12&&tiết', '13&&trong', '14&&điều', '15&&kiện', '16&&ánh', '17&&sáng', '18&&trung', '19&&bình'], 'predicate': ['22&&ưu', '23&&điểm', '24&&lớn', '25&&so', '26&&với'], 'label': 'COM+'}]
+Trong điều kiện ánh sáng yếu thì chất lượng hình ảnh của điện thoại iPhone giá rẻ̉không thật sự tốt .
 [{}]
-Chính sách bảo hành tại Thế Giới Di Động .
+Hình ảnh được chụp vào ban đêm không có nhiều ánh sáng xung quanh , trông khá nhiễu vì điện thoại không thể chụp ảnh phơi sáng lâu hơn .
 [{}]
-Chính sách có thể thay đổi theo thời gian , để xem chi tiết chính sách bảo hành cụ thể bạn có thể xem TẠI ĐÂY .
+Việc không được trang bị chế độ ban đêm là một thiếu sót trên iPhone SE 2022 , đặc biệt là khi so sánh với các mẫu Android tầm trung .
 [{}]
-Trên đây là những so sánh Samsung Galaxy A73 5G và Samsung Galaxy S21 FE , hy vọng bài viết có thể giúp bạn hiểu rõ chi tiết hơn về hai phiên bản này và đưa ra lựa chọn phù hợp .
+Các điện thoại giá rẻ như Google Pixel 5A , Galaxy A53 5G . . . được ra mắt gần đây đều được trang bị tính năng này .
 [{}]
-Samsung Galaxy S22 Ultra là sản phẩm tốt nhất thế giới Android hiện nay .
-[{'subject': ['1&&Samsung', '2&&Galaxy', '3&&S22', '4&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['8&&tốt', '9&&nhất', '10&&thế', '11&&giới', '12&&Android', '13&&hiện', '14&&nay'], 'label': 'SUP+'}]
-Tuy nhiên , chỉ có một câu hỏi đặt ra : Liệu có nên mua Galaxy S22 Ultra ngay thời điểm này ?
+Ở khía cạnh này , chiến thắng hoàn toàn thuộc về iPhone 13 Pro .
+[{'subject': ['12&&iPhone', '13&&13', '14&&Pro'], 'object': [], 'aspect': ['2&&khía', '3&&cạnh', '4&&này'], 'predicate': ['6&&chiến', '7&&thắng', '8&&hoàn', '9&&toàn'], 'label': 'COM+'}]
+Trong khi iPhone SE 2022 chỉ có một góc nhìn từ ống kính của nó .
 [{}]
-Hi vọng bài viết sau đây của Hoàng Hà Mobile sẽ giúp khách hàng đang quan tâm về siêu phẩm này sẽ có sự lựa chọn chính xác !
+Rõ ràng phối cạnh 3x sẽ đẹp hơn nhiều cho khuôn mặt so với cùng một hình ảnh trên camera rộng .
+[{'subject': ['3&&phối', '4&&cạnh', '5&&3x'], 'object': ['16&&một', '17&&hình', '18&&ảnh', '19&&trên', '20&&camera', '21&&rộng'], 'aspect': ['11&&khuôn', '12&&mặt'], 'predicate': ['7&&đẹp', '8&&hơn', '9&&nhiều'], 'label': 'COM+'}]
+Tính năng phát hiện cạnh không mạnh trên iPhone SE mới vì nó vô tình làm mờ hoặc cắt đi một số chi tiết mà iPhone 13 Pro xác định chính xác , chẳng hạn như kính râm nằm trên đầu ai đó .
 [{}]
-Màn hình độ sáng & độ mượt tuyệt vời !
+Có một lợi thế rõ ràng khác trên iPhone 13 Pro là nó cho phép bạn chụp ảnh ở chế độ chân dung ở khá nhiều thứ bạn muốn , từ thú cưng đến hoa .
 [{}]
-Dòng Galaxy S22 series tự hào có một số cải tiến về hiển thị , nổi bật là nỗ lực tạo ra màn hình sáng nhất trên bất kỳ điện thoại thông minh nào.Trong trường hợp của Galaxy S22 Ultra , điều đó có nghĩa là màn hình hứa hẹn có độ sáng cao nhất là 1.750 nits .
-[{'subject': ['1&&Dòng', '2&&Galaxy', '3&&S22', '4&&series'], 'object': [], 'aspect': ['23&&màn', '24&&hình'], 'predicate': ['25&&sáng', '26&&nhất', '27&&trên', '28&&bất', '29&&kỳ', '30&&điện', '31&&thoại', '32&&thông', '33&&minh', '34&&nào.Trong'], 'label': 'SUP+'}]
-Và với tính năng Vision Booster của Samsung , Galaxy S22 Ultra sẽ điều chỉnh màn hình hiển thị và cân bằng màu sắc dựa trên ánh sáng xung quanh .
+Bởi vì iPhone SE 2022 chỉ có một ống kính duy nhất ở phía sau , nên thiết bị không thể chụp chân dung bất cứ thứ gì ngoại trừ con người .
 [{}]
-Bạn không cần phải đi sâu vào cài đặt của điện thoại để có được sự hiển thị vừa mắt nhất .
+Ngoài ra , điện thoại hàng đầu của Apple cũng cho phép bạn chụp ở định dạng ProRaw để có sự linh hoạt và vĩ độ nhất để chỉnh sửa hình ảnh của bạn .
 [{}]
-Mùa hè đã tới rồi , nếu bạn hay sử dụng điện thoại ngoài trời nắng , màn hình cực sáng của sản phẩm này sẽ không làm bạn thất vọng đâu !
+Máy ảnh góc rộng của iPhone 13 Pro cũng hỗ trợ tự động lấy nét , có nghĩa là bạn có thể đến gần đối tượng của mình hơn .
 [{}]
-Galaxy S21 Ultra năm ngoái có thể điều chỉnh tần số quét nằm trong khoảng từ 10Hz đến 120Hz , nhưng Galaxy S22 Ultra còn điều chỉnh hơn nữa .
-[{'subject': ['22&&Galaxy', '23&&S22', '24&&Ultra'], 'object': ['1&&Galaxy', '2&&S21', '3&&Ultra'], 'aspect': ['10&&tần', '11&&số', '12&&quét'], 'predicate': ['26&&điều', '27&&chỉnh', '28&&hơn', '29&&nữa'], 'label': 'COM'}]
-Dòng S21 Ultra hoạt động trong thời gian khá tốt , nhưng đôi lúc vẫn phải chỉnh xuống 60Hz nếu muốn kéo dài thời gian dùng thêm 1 giờ .
+Mặc dù điện thoại đắt tiền hơn của Apple có một số lợi thế phần cứng rõ ràng như cảm biến lớn hơn , độ dài tiêu cự bổ sung và chế độ ban đêm .
+[{'subject': ['3&&điện', '4&&thoại', '5&&đắt', '6&&tiền', '7&&hơn', '8&&của', '9&&Apple'], 'object': [], 'aspect': ['15&&phần', '16&&cứng'], 'predicate': ['13&&lợi', '14&&thế'], 'label': 'COM+'}, {'subject': ['3&&điện', '4&&thoại', '5&&đắt', '6&&tiền', '7&&hơn', '8&&của', '9&&Apple'], 'object': [], 'aspect': ['20&&cảm', '21&&biến'], 'predicate': ['22&&lớn', '23&&hơn'], 'label': 'COM+'}]
+Nhưng iPhone SE 2022 5G vẫn khiến chúng ta ngạc nhiên khi mang đến chất lượng chụp ảnh cũng khác tốt .
 [{}]
-Galaxy S22 Ultra , với tốc độ làm tươi được cải thiện , có thể giúp quản lý mức tiêu thụ điện năng một cách khéo léo hơn .
-[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': [], 'aspect': ['17&&quản', '18&&lý', '19&&mức', '20&&tiêu', '21&&thụ', '22&&điện', '23&&năng'], 'predicate': ['26&&khéo', '27&&léo', '28&&hơn'], 'label': 'COM+'}]
-Lần đầu tiên , bút S-Pen có sẵn !
+Samsung Galaxy Z Fold2 – mẫu điện thoại màn hình gập thế hệ mới của Samsung , mang tới nhiều nâng cấp và cải tiến hơn rất nhiều so với người tiền nhiệm Galaxy Fold .
+[{'subject': ['1&&Samsung', '2&&Galaxy', '3&&Z', '4&&Fold2'], 'object': ['31&&người', '32&&tiền', '33&&nhiệm', '34&&Galaxy', '35&&Fold'], 'aspect': ['21&&nâng', '22&&cấp'], 'predicate': ['20&&nhiều', '21&&nâng', '22&&cấp', '23&&và', '24&&cải', '25&&tiến', '26&&hơn', '27&&rất', '28&&nhiều'], 'label': 'COM+'}, {'subject': ['1&&Samsung', '2&&Galaxy', '3&&Z', '4&&Fold2'], 'object': ['31&&người', '32&&tiền', '33&&nhiệm', '34&&Galaxy', '35&&Fold'], 'aspect': ['24&&cải', '25&&tiến'], 'predicate': ['20&&nhiều', '21&&nâng', '22&&cấp', '23&&và', '24&&cải', '25&&tiến', '26&&hơn', '27&&rất', '28&&nhiều'], 'label': 'COM+'}]
+Hãy cùng Hoàng Hà Mobile trên tay siêu phẩm sẽ định hình lại thế giới smartphone trong tương lai nhé !
 [{}]
-Nói về Galaxy S21 Ultra , đây là điện thoại đầu tiên ngoài dòng Galaxy Note hỗ trợ bút S-Pen của Samsung .
+Với sự kiện Galaxy Unpacked dành riêng cho Galaxy Z Fold2 hôm 2 / 9 vừa qua , dường như Samsung đang gửi đến các hãng điện thoại khác một thông điệp cực kì rõ ràng : “ Galaxy Z Fold2 chính là tương lai của smartphone và chúng tôi vẫn đang dẫn đầu ” .
 [{}]
-Tuy nhiên , S-Pen là phụ kiện tùy chọn của S21 Ultra nên nó không được tích hợp trực tiếp vào máy !
+Bản thân người viết là mình cũng đã có cơ hội được trải nghiệm Galaxy Z Fold2 trong một thời gian không phải dài nhưng cũng không phải là ngắn .
 [{}]
-S-Pen đi kèm với Galaxy S22 Ultra cũng nhanh hơn trước , với tốc độ cải thiện 70% và độ trễ ít hơn .
-[{'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['9&&nhanh', '10&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['20&&độ', '21&&trễ'], 'predicate': ['22&&ít', '23&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['14&&tốc', '15&&độ'], 'predicate': ['16&&cải', '17&&thiện', '18&&70%'], 'label': 'COM+'}]
-Sau khi cung cấp tính năng sạc 45W trên Galaxy S20 Ultra năm 2020 , Samsung đã quay trở lại sạc 25W trong mô hình 2021 .
+Dù cho đã được mở hộp Galaxy Fold từ năm ngoái , thế nhưng với Galaxy Z Fold2 của năm nay , mọi trải nghiệm dường như hoàn toàn mới mẻ và cực kì ấn tượng .
 [{}]
-Thế hệ Galaxy S22 Ultra đảo ngược hướng đi đó và tốc độ sạc 45W một lần nữa được khôi phục trên điện thoại cao cấp của Samsung .
+Cảm nhận đầu tiên của mình khi cầm trên tay chiếc Galaxy Z Fold2 đó chính là các đường bo xung quanh máy đã được Samsung tinh chỉnh lại để mang lại một cảm giác máy có phần bền bỉ , chắc chắn hơn thế hệ Galaxy Fold đầu tiên .
+[{'subject': ['11&&chiếc', '12&&Galaxy', '13&&Z', '14&&Fold2'], 'object': ['45&&thế', '46&&hệ', '47&&Galaxy', '48&&Fold', '49&&đầu', '50&&tiên'], 'aspect': ['19&&đường', '20&&bo', '21&&xung', '22&&quanh', '23&&máy'], 'predicate': ['39&&bền', '40&&bỉ', '41&&,', '42&&chắc', '43&&chắn', '44&&hơn'], 'label': 'COM+'}]
+Từ vật liệu cấu thành cho tới kiểu cách hoàn thiện máy , mọi thứ đều mang lại cho người dùng một cảm giác cực kì cao cấp và sang trọng .
 [{}]
-Với tốc độ đó , bạn sẽ có thể sạc đầy Galaxy S22 Ultra đến 50% chỉ sau 20 phút .
+Các phím bấm vật lý bạn đọc có thể tìm thấy ở cạnh phải máy , và nút nguồn cũng đồng thời là cảm biến vân tay một chạm siêu nhạy .
 [{}]
-Tốc độ này nhanh hơn 10 phút so với những gì S21 Ultra cần để đạt được mốc đó .
-[{'subject': [], 'object': ['12&&S21', '13&&Ultra'], 'aspect': ['1&&Tốc', '2&&độ', '3&&này'], 'predicate': ['4&&nhanh', '5&&hơn'], 'label': 'COM+'}]
-Galaxy S22 Ultra cũng nhanh gấp đôi tốc độ sạc cao nhất của iPhone 13 Pro Max .
-[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': ['14&&iPhone', '15&&13', '16&&Pro', '17&&Max'], 'aspect': ['8&&tốc', '9&&độ', '10&&sạc', '11&&cao', '12&&nhất'], 'predicate': ['5&&nhanh', '6&&gấp', '7&&đôi'], 'label': 'COM+'}]
-Galaxy S22 Ultra chụp ảnh tốt hơn trong điều kiện thiếu sáng
-[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': [], 'aspect': ['4&&chụp', '5&&ảnh'], 'predicate': ['6&&tốt', '7&&hơn'], 'label': 'COM+'}]
-Chỉ nhìn vào thông số megapixel cho camera của Galaxy S22 Ultra , có vẻ như không có nhiều thay đổi so với Galaxy S21 Ultra .
-[{'subject': ['8&&camera', '9&&của', '10&&Galaxy', '11&&S22', '12&&Ultra'], 'object': ['24&&Galaxy', '25&&S21', '26&&Ultra'], 'aspect': ['4&&thông', '5&&số', '6&&megapixel'], 'predicate': ['17&&không', '18&&có', '19&&nhiều', '20&&thay', '21&&đổi'], 'label': 'EQL'}]
-Nhưng điều đó không đúng .
+Xoay qua phần mặt lưng , bạn đọc sẽ bắt gặp cụm camera rất quen thuộc đã từng xuất hiện trên Galaxy Note20 Ultra .
 [{}]
-Máy ảnh chính 108MP trên điện thoại mới hiện sử dụng cảm biến 2,4um lớn hơn để thu được nhiều ánh sáng và dữ liệu hơn .
-[{'subject': ['1&&Máy', '2&&ảnh', '3&&chính', '4&&108MP', '5&&trên', '6&&điện', '7&&thoại', '8&&mới'], 'object': [], 'aspect': ['12&&cảm', '13&&biến'], 'predicate': ['15&&lớn', '16&&hơn'], 'label': 'COM+'}]
-Samsung cũng đã giới thiệu ống kính Super Clear Glass để chụp ảnh ít chói và lóa ống kính vào ban đêm .
+Đó là một cụm module hình chữ nhật được nhô lên hơi cao so với mặt lưng cùng hệ thống 3 ống kính camera ở bên trong .
+[{'subject': ['4&&cụm', '5&&module', '6&&hình', '7&&chữ', '8&&nhật'], 'object': ['16&&mặt', '17&&lưng'], 'aspect': [], 'predicate': ['10&&nhô', '11&&lên', '12&&hơi', '13&&cao', '14&&so', '15&&với'], 'label': 'COM'}]
+Samsung sẽ cung cấp tới 2 phiên bản màu sắc của Galaxy Z Fold2 cho người dùng lựa chọn bao gồm Mystic Bronze và Mystic Black .
 [{}]
-Camera trên Galaxy S22 Ultra còn có khả năng xử lý HDR tốt tới ấn tượng , cứu lại được vùng sáng và tối một cách hài hòa nhất .
+Mình cảm thấy cực kì hài lòng và ấn tượng với độ chắc chắn và cứng cáp của phần bàn lề này .
 [{}]
-Những chuyên gia dùng điện thoại chụp ảnh sẽ rất hài lòng với sản phẩm này .
+Công nghệ bản lề này chúng ta đã từng thấy trên mẫu Galaxy Z Flip trước đây .
 [{}]
-Mùa nghỉ lễ đang diễn ra , bạn đừng bỏ lỡ cơ hội lưu lại khoảnh khắc của những chuyến đi nhé .
+Cấu trúc CAM mà hãng đang áp dụng bên trong phần bản lề giúp tăng cường độ cứng cáp , từ đó phần bản lề của máy sẽ trở nên cực kì bền bỉ .
 [{}]
-Tại sao lại gây tò mò ?
+des : Phần bản lề của Galaxy Z Fold2 giờ đây đã cứng cáp hơn rất nhiều
+[{'subject': ['7&&Galaxy', '8&&Z', '9&&Fold2'], 'object': [], 'aspect': ['3&&Phần', '4&&bản', '5&&lề'], 'predicate': ['13&&cứng', '14&&cáp', '15&&hơn', '16&&rất', '17&&nhiều'], 'label': 'COM+'}]
+Và theo như Samsung công bố thì phần bản lề này có thể đóng gập được tối đa 200.000 lần , vậy nên nếu bạn đang sở hữu một chiếc Galaxy Z Fold2 thì có thể yên tâm sử dụng được trong vòng ít nhất là từ 2 - 3 năm .
 [{}]
-Bạn đã biết Exynos trong nhiều năm qua , vậy thì chần chừ gì mà không trải nghiệm một sự thay đổi của Samsung ?
+Điểm cải tiến đáng giá tiếp theo chính là phần màn hình ngoài của Galaxy Z Fold2 đã được Samsung tăng kích thước lên rộng hơn .
+[{'subject': ['15&&Galaxy', '16&&Z', '17&&Fold2'], 'object': [], 'aspect': ['10&&phần', '11&&màn', '12&&hình', '13&&ngoài'], 'predicate': ['21&&tăng', '22&&kích', '23&&thước', '24&&lên', '25&&rộng', '26&&hơn'], 'label': 'COM+'}, {'subject': ['10&&phần', '11&&màn', '12&&hình', '13&&ngoài', '14&&của', '15&&Galaxy', '16&&Z', '17&&Fold2'], 'object': [], 'aspect': ['22&&kích', '23&&thước'], 'predicate': ['25&&rộng', '26&&hơn'], 'label': 'COM+'}]
+Giờ đây , người dùng chúng ta đã có một màn hình ngoài rộng tới 6.2 inch , tỉ lệ 25 : 9 trên tấm nền Super AMOLED , độ phân giải 2.260 x 816 pixel .
 [{}]
-Bộ xử lý 4nm của Qualcomm Snapdragon 8 Gen1 sẽ càn quét mọi ứng dụng hiện nay .
-[{}]
-Tất nhiên , điện thoại sẽ ấm lên nhưng không khó chịu , không có tác động lớn đến tốc độ khung hình , ngay cả ở cài đặt đồ họa cao nhất .
-[{}]
-Sản phẩm cao cấp nhất của thế giới Android hiện nay
-[{'subject': ['1&&Sản', '2&&phẩm'], 'object': [], 'aspect': [], 'predicate': ['3&&cao', '4&&cấp', '5&&nhất', '6&&của', '7&&thế', '8&&giới', '9&&Android', '10&&hiện', '11&&nay'], 'label': 'SUP+'}]
-Nói đến điện thoại thông minh không thể không nói đến điện thoại Samsung .
-[{}]
-Mới ngay đây Samsung đã cho ra mắt sản phẩm mới của hãng thuộc dòng Samsung Galaxy A .
-[{}]
-Mới ngay đây 24 / 04 , Samsung đã cho ra mắt sản phẩm mới thuộc phân khúc điện thoại tầm trung là Samsung Galaxy A24 với 2 phiên bản bộ nhớ lần lượt là Samsung A24 6GB và 8GB .
-[{}]
-Phiên bản màu sắc cũng được hãng công bố với 4 màu bao gồm đen , xanh lá , bạc và đỏ .
-[{}]
-Sản phẩm rất được đầu tư khi được trang bị bộ 3 camera sau đầy hiện đại , bộ vi xử lý mạnh mẽ với khả năng đa nhiệm tuyệt vời thêm nữa là màn hình với chất lượng hiển thị sắc nét và vô số những tính năng hiện đại khác .
-[{}]
-Sản phẩm Samsung Galaxy A24 được kế thừa những đường nét thiết kế từ dòng Galaxy A của Samsung .
-[{'subject': ['3&&Samsung', '4&&Galaxy', '5&&A24'], 'object': ['15&&dòng', '16&&Galaxy', '17&&A', '18&&của', '19&&Samsung'], 'aspect': ['9&&những', '10&&đường', '11&&nét', '12&&thiết', '13&&kế'], 'predicate': ['6&&được', '7&&kế', '8&&thừa'], 'label': 'EQL'}]
-Máy sở hữu bộ khung vuông vắn và phần mặt lưng được vát phẳng , 4 góc cũng được bo tròn để người dùng cũng có thề thoải mái sử dụng hơn .
-[{}]
-Giống với các sản phẩm thuộc dòng Galaxy A , khung viền quanh máy sử dụng chất liệu nhựa giúp khối lượng máy nhẹ hơn .
-[{'subject': [], 'object': ['3&&các', '4&&sản', '5&&phẩm', '6&&thuộc', '7&&dòng', '8&&Galaxy', '9&&A'], 'aspect': ['11&&khung', '12&&viền', '13&&quanh', '14&&máy'], 'predicate': ['1&&Giống', '2&&với'], 'label': 'EQL'}]
-Hơn nữa kích thước của máy cũng vừa vặn không quá to phù hợp cho mọi đối tượng kể cả nam và nữ đều sử dụng được .
-[{}]
-Các phiên bản màu sắc gồm có đen , xanh lá , bạc , đỏ những màu này đều làm toát lên vẻ hiện đại , trẻ trung và thời trang cho cả sản phẩm lẫn người dùng .
-[{}]
-Tấm nền Super AMOLED giúp các hình ảnh trở nên sống động , chân thực hơn .
-[{'subject': ['1&&Tấm', '2&&nền', '3&&Super', '4&&AMOLED'], 'object': [], 'aspect': ['7&&hình', '8&&ảnh'], 'predicate': ['11&&sống', '12&&động', '13&&,', '14&&chân', '15&&thực', '16&&hơn'], 'label': 'COM+'}]
-Bên cạnh đó nó còn giúp máy tiết kiệm điện năng và bảo vệ mắt của người dùng nhờ việc giảm thiểu ánh sáng xanh .
-[{}]
-Tần số quét 90Hz mang đến khả năng cuộn lướt vô cùng mượt mà .
-[{}]
-Thêm nữa , nữa người dùng có thể chạm 2 lần lên màn hình để kích hoạt màn hình chờ , đây là một tính năng khá hữu ích được tích hợp trên màn hình máy .
-[{}]
-Bộ 3 camera được trang bị với camera chính lên đến 50MP và 2 camera phụ lần lượt là 5MP và 2MP phục vụ đa dạng nhu cầu chụp ảnh , quay video của người dùng .
-[{}]
-Với ống kính chính có độ phân giải cao , sản phẩm tự tin sẽ mang đến những hình ảnh với độ chân thực , chi tiết và chất lượng đáp ứng được mọi yêu cầu từ chủ sở hữu .
-[{}]
-Không chỉ có camera xịn xò , vô số các tính năng hiện đại khác cũng được tích hợp trên máy có thể kể đến như AI Camera , Làm đẹp , Chống rung quang học ( OIS ) , Tự động lấy nét ( AF ) , . . . Điều này sẽ giúp tăng lên đáng kể chất lượng những khung hình hay video thu được .
-[{}]
-Bộ xử lý của Samsung Galay A24 được trang bị con chip MediaTek Helio G99 được đánh giá khá cao trong phân khúc điện thoại tầm trung - giá rẻ .
-[{}]
-Với hiệu suất tối đa đạt 2.2Ghz , máy có thể tự tin xử lý các tác vụ một cách gọn gàng và mang đến trải nghiệm giải trí mượt mà không giật lag .
-[{}]
-Hơn nữa , thanh RAM của sản phẩm cũng có dung lượng khá cao ( 6GB , 8GB ) .
-[{}]
-Nhờ đó khả năng đa nhiệm hay chuyển đổi tác vụ sẽ được đảm bảo hoạt động một cách trơn tru , uyển chuyển hạn chế tối đa tình trạng bị đơ , đứng máy .
-[{}]
-Theo thông số , bộ nhớ trong của sản phẩm là 128GB trong đó bộ nhớ khả dụng là khoảng 113GB .
-[{}]
-Với con số này thì người dùng có thể thoải mái lưu trữ các thông tin , dữ liệu quan trọng của bản thân mà không cần lo việc bị hết bộ nhớ .
-[{}]
-Và như đã đề cập , thanh RAM của máy cũng sở hữu dung lượng không hề nhỏ .
-[{}]
-Viên pin 5000 mAh cho thời lượng sử dụng lâu hơn
-[{'subject': ['1&&Viên', '2&&pin', '3&&5000', '4&&mAh'], 'object': [], 'aspect': ['6&&thời', '7&&lượng', '8&&sử', '9&&dụng'], 'predicate': ['10&&lâu', '11&&hơn'], 'label': 'COM+'}]
-Với việc trang bị viên pin 5000mAh , Samsung có tự tin đảm bảo sản phẩm của mình sẽ có thể hoạt động trong cả một ngày dài với nhiều tác vụ khác nhau .
-[{}]
-Thậm chí nếu chỉ dùng điện thoại cho các nhu cầu cơ bản quãng thời gian này có thể kéo dài đến 2 - 3 ngày .
-[{}]
-Không chỉ thế , sản phẩm còn hỗ trợ sạc tối đa 25W cùng với công nghệ sạc pin nhanh được tích hợp .
-[{}]
-Vì thế , chỉ tốn khoảng 1 giờ , thiết bị có thể lại được nạp đầy năng lượng .
-[{}]
-Có nên mua không ?
-[{}]
-Phía trên , ta đã lần lượt đánh giá các mặt của sản phẩm mới ra mắt nhà Samsung .
-[{}]
-Thiết kế cuốn hút , bộ camera hiện đại , màn hình cao cấp , hiệu năng mạnh mẽ và khả năng vận hành bền bỉ .
-[{}]
-Nếu bạn là học sinh - sinh viên hay những người chỉ có nhu cầu xử lý các tác vụ cơ bản , giải trí vừa phải như xem video , chơi các tựa game nhẹ , . . . thì mẫu điện thoại này có thể đáp ứng mọi yêu cầu của bạn một cách hoàn hảo nhất .
-[{}]
-Trên đây là bài viết đánh giá chi tiết về Samsung Galaxy A24 : Camera 50 MP cùng chip MediaTek Helio G99 .
-[{}]
-Hy vọng bài viết mang đến những thông tin hữu ích với bạn .
-[{}]
-Samsung Galaxy S20 FE là đối thủ của iPhone 12 ?
-[{}]
-Phiên bản này hứa hẹn là đối thủ cạnh tranh trực tiếp với iPhone 12 sắp ra mắt của nhà Táo .
-[{}]
-Hãy cùng so sánh hai siêu phẩm này nhé .
-[{}]
-Samsung Galaxy S20 FE ra mắt sớm để cạnh tranh iPhone 12 ?
-[{}]
-Trong thời điểm dịch Covid - 19 đang hoành hoành , khách hàng cũng dần thận trọng hơn trong việc mua sắm những thiết bị công nghệ mới .
-[{}]
-Họ không thoải mái chạy theo trào lưu mà cân nhắc vấn đề chi phí nhiều hơn .
-[{}]
-Đó là lý do hãng Samsung cho ra đời phiên bản Galaxy S20 FE , giúp người dùng sở hữu smartphone với chất lượng của siêu phẩm Galaxy S20 nhưng với mức giá rẻ hơn .
-[{'subject': ['12&&Galaxy', '13&&S20', '14&&FE'], 'object': ['28&&Galaxy', '29&&S20'], 'aspect': ['32&&mức', '33&&giá'], 'predicate': ['34&&rẻ', '35&&hơn'], 'label': 'COM+'}]
-Theo các tín đồ công nghệ , sự có mặt của phiên bản mở rộng này không chỉ đơn thuần mở rộng đối tượng tiếp cận đối với dòng Galaxy S , mà còn để cạnh tranh trực tiếp với phiên bản iPhone 12 mini ( theo tin đồn ) .
-[{}]
-Dưới đây là bảng so sánh các tính năng giữa Galaxy S20 FE và 2 phiên bản iPhone 12 mini và iPhone 12 theo dự đoán .
-[{}]
-Cá nhân mình nhận thấy , Redmi Note 11 sở hữu thiết kế đẹp và ấn tượng nhất trong bộ ba điện thoại này .
-[{'subject': ['7&&Redmi', '8&&Note', '9&&11'], 'object': [], 'aspect': ['12&&thiết', '13&&kế'], 'predicate': ['14&&đẹp', '15&&và', '16&&ấn', '17&&tượng', '18&&nhất', '19&&trong', '20&&bộ', '21&&ba', '22&&điện', '23&&thoại', '24&&này'], 'label': 'SUP+'}]
-Di động Xiaomi được trang bị màn hình đục lỗ hiện đại , bắt mắt ở mặt trước để chứa camera selfie nằm ở vị trí chính giữa viền trên .
-[{}]
-Trong khi đó , Realme 8 5G cũng sở hữu màn hình đục lỗ nhưng camera trước của nó nằm ở góc trên cùng bên trái nên không đẹp và đối xứng như Redmi Note 11 .
-[{'subject': ['5&&Realme', '6&&8', '7&&5G'], 'object': ['34&&Redmi', '35&&Note', '36&&11'], 'aspect': ['11&&màn', '12&&hình', '13&&đục', '14&&lỗ'], 'predicate': ['8&&cũng', '9&&sở', '10&&hữu'], 'label': 'EQL'}, {'subject': ['5&&Realme', '6&&8', '7&&5G'], 'object': ['34&&Redmi', '35&&Note', '36&&11'], 'aspect': ['16&&camera', '17&&trước'], 'predicate': ['28&&không', '29&&đẹp', '30&&và', '31&&đối', '32&&xứng', '33&&như'], 'label': 'EQL'}]
-Còn Galaxy M32 5G sở hữu màn hình giọt nước kém hiện đại hơn .
-[{'subject': ['2&&Galaxy', '3&&M32', '4&&5G'], 'object': [], 'aspect': ['7&&màn', '8&&hình'], 'predicate': ['11&&kém', '12&&hiện', '13&&đại', '14&&hơn'], 'label': 'COM-'}]
-Di chuyển sang mặt sau , cả ba điện thoại này đều sở hữu thân máy được hoàn thiện từ chất liệu nhựa , cụm camera sau khá lớn và mỗi thiết bị đều có điểm nhấn của riêng mình .
-[{}]
-Trong đó , Redmi Note 11 đi kèm các hiệu ứng chuyển màu gradient bắt mắt , còn Realme 8 5G có hiệu ứng ánh sáng thú vị phát ra từ cụm camera sau .
-[{}]
-Cuối cùng , Galaxy M32 5G có thiết kế phía sau rất đẹp với các cảm biến được đặt trực tiếp trong vỏ và không có mô-đun máy ảnh .
-[{}]
-Galaxy M32 5G có chất lượng màn hình kém hơn 2 mẫu máy còn lại .
-[{'subject': ['1&&Galaxy', '2&&M32', '3&&5G'], 'object': ['11&&2', '12&&mẫu', '13&&máy', '14&&còn', '15&&lại'], 'aspect': ['5&&chất', '6&&lượng', '7&&màn', '8&&hình'], 'predicate': ['9&&kém', '10&&hơn'], 'label': 'COM-'}]
-Điều này là do di động Samsung sử dụng màn hình TFT , trong khi Redmi Note 11 và Realme 8 5G đi kèm với tấm nền IPS tốt hơn .
-[{'subject': ['16&&Redmi', '17&&Note', '18&&11'], 'object': ['7&&Samsung'], 'aspect': ['26&&tấm', '27&&nền'], 'predicate': ['29&&tốt', '30&&hơn'], 'label': 'COM+'}, {'subject': ['20&&Realme', '21&&8', '22&&5G'], 'object': ['7&&Samsung'], 'aspect': ['26&&tấm', '27&&nền'], 'predicate': ['29&&tốt', '30&&hơn'], 'label': 'COM+'}]
-Hơn nữa , màn hình di động Samsung có độ phân giải HD + thấp hơn và tốc độ làm mới t60Hz tiêu chuẩn .
-[{'subject': ['4&&màn', '5&&hình', '6&&di', '7&&động', '8&&Samsung'], 'object': [], 'aspect': ['10&&độ', '11&&phân', '12&&giải'], 'predicate': ['15&&thấp', '16&&hơn'], 'label': 'COM-'}]

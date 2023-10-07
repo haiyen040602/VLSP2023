@@ -1,11 +1,11 @@
 import torch
 import numpy as np
 import random
-import os
+import os, sys
 import argparse
 import Config
 import logging
-
+logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
 logger = logging.getLogger()
 
 from data_utils import shared_utils, create_dataset, data_loader_utils
@@ -23,6 +23,18 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.bendmark = False
     torch.nn.Module.dump_patches = True
+
+def prepare_logger(args):
+    # Setup logging
+    logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
+    formatter = logFormatter = logging.Formatter(fmt='[%(asctime)s - %(name)s:%(lineno)d]: %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
+    log_file = os.path.join(args.seed_dir, "run.log")
+    file_handler = logging.FileHandler(log_file, mode="w", encoding=None, delay=False)
+    console_handler = logging.StreamHandler(sys.stdout)
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+    logger.handlers = [console_handler, file_handler]
+
 
 def TerminalParser():
     parser = argparse.ArgumentParser()
@@ -68,8 +80,6 @@ def get_necessary_parameters(args):
 def main():
     args = TerminalParser()
     set_seed(args.seed)
-    
-    
 
     config = Config.BaseConfig(args)
     config_parameters = get_necessary_parameters(args)
@@ -92,12 +102,16 @@ def main():
     global_eval = BaseEvaluation(config)
     global_pair_eval = BaseEvaluation(config)
 
-    logger.info("CREATE DATA LOADER")
+    logger.info("=======================CREATE DATA LOADER==========================")
+    logger.info("Train dataset input ids shape: {}".format(dataset.train_data_dict['input_ids'].shape) )
+
     train_loader = data_loader_utils.create_first_data_loader(dataset.train_data_dict, config.batch_size)
     dev_loader = data_loader_utils.create_first_data_loader(dataset.dev_data_dict, config.batch_size)
     test_loader = data_loader_utils.create_first_data_loader(dataset.test_data_dict, config.batch_size)
+    # logger.info("First object in data loader is {}".format(next()) )
 
     if config.stage_model == 'first' and config.program_mode != 'test':
+        logger.info("=======================Training==========================")
         first_data_loader = [train_loader, dev_loader, test_loader]
         dev_comp_eval = create_eval.create_first_stage_eval(
             config,

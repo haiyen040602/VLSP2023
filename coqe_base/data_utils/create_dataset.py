@@ -30,7 +30,7 @@ class Dataset(object):
         "return: a data dict with many parameters
         """
         data_dict = {}
-        sent_col, label_col = shared_utils.read_standard_file(data_path)
+        sent_col, label_col, comparative_label = shared_utils.read_standard_file(data_path)
 
         LP = LabelParser(label_col, self.elem_col, sent_col)
 
@@ -52,7 +52,7 @@ class Dataset(object):
         self.token_max_len = max(self.token_max_len, shared_utils.get_max_token_length(data_dict['standard_token']))
 
         data_dict['label_col'] = label_col
-        data_dict['comparative_label'] = []
+        data_dict['comparative_label'] = comparative_label
 
         if "bert" in self.config.model_mode :
             ## add <s> and </s> into sentence (using phoBERT)

@@ -68,7 +68,7 @@ def read_standard_file(path):
     :param: path
     :return: sentence collection, label collection
     """
-    sent_col, label_col = [], []
+    sent_col, label_col, comparative_labels = [], [], []
     last_sentence = ""
     with open(path, "r", encoding="utf-8") as f:
         for line in f.readlines():
@@ -76,16 +76,20 @@ def read_standard_file(path):
             # print(type(line))
             if line[:2] == "[{":
                 labels = line
+                isComparative = 1
             else:
                 if last_sentence != "":
                     sent_col.append(last_sentence)
                     label_col.append(labels)
+                    comparative_labels.append(isComparative)
+                isComparative = 0
                 last_sentence = line
                 labels = ""
         
         sent_col.append(last_sentence)
         label_col.append(labels)
-        return sent_col, label_col
+        comparative_labels.append(isComparative)
+        return sent_col, label_col, comparative_labels
 
 def split_element(arr, split_symbol):
     inds, eles = [], []

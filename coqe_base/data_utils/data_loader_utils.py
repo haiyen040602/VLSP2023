@@ -36,13 +36,13 @@ def get_loader(data_list, batch_size):
 def create_first_data_loader(data_dict, batch_size, mask_index=None):
     feature_data = [data_dict['input_ids'], data_dict['attn_mask'], data_dict['comparative_label'], 
                     data_dict['multi_label'], data_dict['result_label']]
-    logger.info("Feature size: ", len(feature_data))
+    logger.info("Feature size: {}".format(len(feature_data)) )
 
     if mask_index is not None:
         for data in feature_data:
             data = data[mask_index]
     
-    logger.info("Data Loader size: ", len(feature_data[0]))
+    logger.info("Data Loader size: {} ".format(len(feature_data[0])))
     return get_loader(feature_data, batch_size)
     
     
