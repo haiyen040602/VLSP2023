@@ -627,3 +627,40 @@ def get_after_pair_representation(pair_hat, representation):
                 representation[index][pair_index] = [0] * feature_dim
 
     return representation
+
+def calculate_average_measure(add_eval, global_eval):
+    """
+    :param add_eval:
+    :param global_eval:
+    :return:
+    """
+    global_eval.avg_exact_measure = global_eval.add_fold_measure(
+        global_eval.avg_exact_measure, add_eval.optimize_exact_measure, fold_num=1
+    )
+
+    global_eval.avg_prop_measure = global_eval.add_fold_measure(
+        global_eval.avg_prop_measure, add_eval.optimize_prop_measure, fold_num=1
+    )
+
+    global_eval.avg_binary_measure = global_eval.add_fold_measure(
+        global_eval.avg_binary_measure, add_eval.optimize_binary_measure, fold_num=1
+    )
+
+def clear_optimize_measure(pair_eval):
+    """
+    :param pair_eval:
+    :return:
+    """
+    pair_eval.optimize_exact_measure = {}
+    pair_eval.optimize_prop_measure = {}
+    pair_eval.optimize_binary_measure = {}
+
+
+def clear_global_measure(pair_eval):
+    """
+    :param pair_eval:
+    :return:
+    """
+    pair_eval.avg_exact_measure = {}
+    pair_eval.avg_prop_measure = {}
+    pair_eval.avg_binary_measure = {}
