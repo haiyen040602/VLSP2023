@@ -9,8 +9,9 @@ from itertools import product
 import nltk
 nltk.download('punkt')
 
-
-word_segmentator = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=r'D:\Research\comOP\competition\VLSP2023\vncorenlp')
+# pycorenlp_path = f""
+# py_vncorenlp.download_model(save_dir=r'D:\Research\comOP\competition\VLSP2023\vncorenlp')
+# word_segmentator = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=r'D:\Research\comOP\competition\VLSP2023\vncorenlp')
 
 def parameters_to_model_name(param_dict):
     """
@@ -146,7 +147,8 @@ def vnese_tokenize(sent_col = None, tokenizer = None, path=None, data_type=None,
         if token_method == 'standard':
             vnese_tokens.append(nltk.word_tokenize(sent))
         else:
-            word_segs = word_segmentator.word_segment(sent)    
+            # word_segs = word_segmentator.word_segment(sent)   
+            word_segs = sent 
             if token_method == 'bert' and tokenizer is not None:
                 word_seg = '[SEP]'.join(word_segs)
                 word_seg = "[CLS]" + word_seg + "[SEP]"
