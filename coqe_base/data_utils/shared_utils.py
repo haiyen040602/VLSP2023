@@ -20,10 +20,12 @@ def parameters_to_model_name(param_dict):
     """
     assert "config" in param_dict, "must need config parameters."
     
-    root_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
+    root_dir = os.path.abspath(os.getcwd())
     result_file, model_file =  os.path.join(root_dir, "ModelResult"), os.path.join(root_dir, "PreTrainModel")
-    os.mkdir(result_file)
-    os.mkdir(model_file)
+    if not os.path.exists(result_file):
+        os.mkdir(result_file)
+    if not os.path.exists(model_file):
+        os.mkdir(model_file)
     config_param = param_dict['config']
     model_param = param_dict['model'] if "model" in param_dict else None
     optimizer_param = param_dict['optimizer'] if "optimizer" in param_dict else None
