@@ -58,7 +58,7 @@ class Dataset(object):
         if self.config.model_mode == "bert":
             ## add <s> and </s> into sentence (using phoBERT)
             ## add [CLS], [SEP] if using multilingual-bert
-            data_dict['bert_token'] = shared_utils.vnese_tokenize(sent_col=sent_col, token_method=self.bert_tokenizer, token_method='bert')
+            data_dict['bert_token'] = shared_utils.vnese_tokenize(sent_col=sent_col, tokenizer=self.bert_tokenizer, token_method='bert')
             data_dict['input_ids'] = shared_utils.convert_tokens_ids(self.bert_tokenizer, data_dict['bert_token'], 'tokens')
             
             # ánh xạ các index của standard token với index của bert token
