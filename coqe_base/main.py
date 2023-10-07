@@ -94,7 +94,7 @@ def main():
     model_name  = shared_utils.parameters_to_model_name(
         {"config": config_parameters, "model": model_parameters}
     )
-    logger.info("Using model: ", model_name)
+    logger.info("Using model: {}".format(model_name) )
 
     dataset = create_dataset.Dataset(config)
     dataset.generate_data()
