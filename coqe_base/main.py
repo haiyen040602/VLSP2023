@@ -13,6 +13,7 @@ from eval_utils import create_eval
 from eval_utils.base_eval import BaseEvaluation, ElementEvaluation, PairEvaluation
 import train_test_utils
 
+
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
@@ -36,7 +37,7 @@ def TerminalParser():
     parser.add_argument('--hidden_size', help='the size of hidden embedding', type=int, default=512)
     parser.add_argument('--num_layers', help='the number of layers', type=int, default=2)
 
-    parser.add_argument('--model_mode', help='bert or norm', default='bert') #"bert-base-multilingual-cased"
+    parser.add_argument('--model_mode', help='bert or norm', type=str, default='bert') #"bert-base-multilingual-cased"
     parser.add_argument('--program_mode', help='run or test', default='run')
     parser.add_argument('--stage_model', help='first or second', default='first')
     parser.add_argument('--model_type', help='bert_crf, bert_crf_mtl', default='crf')
@@ -56,7 +57,7 @@ def TerminalParser():
 
 def get_necessary_parameters(args):
     param_dict = {"file_type": args.file_type,
-                "model_mode": args.mode_mode,
+                "model_mode": args.model_mode,
                 "stage_type": args.model_type,
                 "model_type": args.model_type,
                 "epoch": args.epoch,
@@ -67,6 +68,8 @@ def get_necessary_parameters(args):
 def main():
     args = TerminalParser()
     set_seed(args.seed)
+    
+    
 
     config = Config.BaseConfig(args)
     config_parameters = get_necessary_parameters(args)

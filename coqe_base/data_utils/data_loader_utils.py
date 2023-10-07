@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 class MyData(Dataset):
-    def __int__(self, data_list):
+    def __init__(self, data_list):
         self.data_list = data_list
     
     def __len__(self):

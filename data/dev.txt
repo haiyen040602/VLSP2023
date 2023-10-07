@@ -1,188 +1,188 @@
-Tại sao lại gây tò mò?
+Còn đối với những ai có kinh phí không quá cao , nhu cầu sử dụng vừa đủ thì Samsung Galaxy A73 cũng vẫn đáp ứng tốt từ nhu cầu chơi game , khi được trang bị chip Snapdragon 778G mạnh mẽ , dung lượng pin cao 5000mAh cho bạn dùng cả ngày và một Camera chính có độ phân giải lên đến 108MP .
 [{}]
-Bạn đã biết Exynos trong nhiều năm qua, vậy thì chần chừ gì mà không trải nghiệm một sự thay đổi của Samsung?
+Lựa chọn điện thoại phù hợp với nhu cầu sử dụng của mình .
 [{}]
-Bộ xử lý 4nm của Qualcomm Snapdragon 8 Gen1 sẽ càn quét mọi ứng dụng hiện nay.
+Nếu đã quyết định mua Samsung Galaxy A73 và S21 FE thì bạn nên lựa chọn mua ở những cửa hàng uy tín để có thể mua được sản phẩm chất lượng và được hưởng các chính sách bảo hành chính hãng .
 [{}]
-Tất nhiên, điện thoại sẽ ấm lên nhưng không khó chịu, không có tác động lớn đến tốc độ khung hình, ngay cả ở cài đặt đồ họa cao nhất.
+Bạn hoàn toàn có thể an tâm khi mua điện thoại ở Thế Giới Di Động với nhiều ưu đãi cùng chính sách bảo hành hấp dẫn .
+[{}]
+Chính sách bảo hành tại Thế Giới Di Động .
+[{}]
+Chính sách có thể thay đổi theo thời gian , để xem chi tiết chính sách bảo hành cụ thể bạn có thể xem TẠI ĐÂY .
+[{}]
+Trên đây là những so sánh Samsung Galaxy A73 5G và Samsung Galaxy S21 FE , hy vọng bài viết có thể giúp bạn hiểu rõ chi tiết hơn về hai phiên bản này và đưa ra lựa chọn phù hợp .
+[{}]
+Samsung Galaxy S22 Ultra là sản phẩm tốt nhất thế giới Android hiện nay .
+[{'subject': ['1&&Samsung', '2&&Galaxy', '3&&S22', '4&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['8&&tốt', '9&&nhất', '10&&thế', '11&&giới', '12&&Android', '13&&hiện', '14&&nay'], 'label': 'SUP+'}]
+Tuy nhiên , chỉ có một câu hỏi đặt ra : Liệu có nên mua Galaxy S22 Ultra ngay thời điểm này ?
+[{}]
+Hi vọng bài viết sau đây của Hoàng Hà Mobile sẽ giúp khách hàng đang quan tâm về siêu phẩm này sẽ có sự lựa chọn chính xác !
+[{}]
+Màn hình độ sáng & độ mượt tuyệt vời !
+[{}]
+Dòng Galaxy S22 series tự hào có một số cải tiến về hiển thị , nổi bật là nỗ lực tạo ra màn hình sáng nhất trên bất kỳ điện thoại thông minh nào.Trong trường hợp của Galaxy S22 Ultra , điều đó có nghĩa là màn hình hứa hẹn có độ sáng cao nhất là 1.750 nits .
+[{'subject': ['1&&Dòng', '2&&Galaxy', '3&&S22', '4&&series'], 'object': [], 'aspect': ['23&&màn', '24&&hình'], 'predicate': ['25&&sáng', '26&&nhất', '27&&trên', '28&&bất', '29&&kỳ', '30&&điện', '31&&thoại', '32&&thông', '33&&minh', '34&&nào.Trong'], 'label': 'SUP+'}]
+Và với tính năng Vision Booster của Samsung , Galaxy S22 Ultra sẽ điều chỉnh màn hình hiển thị và cân bằng màu sắc dựa trên ánh sáng xung quanh .
+[{}]
+Bạn không cần phải đi sâu vào cài đặt của điện thoại để có được sự hiển thị vừa mắt nhất .
+[{}]
+Mùa hè đã tới rồi , nếu bạn hay sử dụng điện thoại ngoài trời nắng , màn hình cực sáng của sản phẩm này sẽ không làm bạn thất vọng đâu !
+[{}]
+Galaxy S21 Ultra năm ngoái có thể điều chỉnh tần số quét nằm trong khoảng từ 10Hz đến 120Hz , nhưng Galaxy S22 Ultra còn điều chỉnh hơn nữa .
+[{'subject': ['22&&Galaxy', '23&&S22', '24&&Ultra'], 'object': ['1&&Galaxy', '2&&S21', '3&&Ultra'], 'aspect': ['10&&tần', '11&&số', '12&&quét'], 'predicate': ['26&&điều', '27&&chỉnh', '28&&hơn', '29&&nữa'], 'label': 'COM'}]
+Dòng S21 Ultra hoạt động trong thời gian khá tốt , nhưng đôi lúc vẫn phải chỉnh xuống 60Hz nếu muốn kéo dài thời gian dùng thêm 1 giờ .
+[{}]
+Galaxy S22 Ultra , với tốc độ làm tươi được cải thiện , có thể giúp quản lý mức tiêu thụ điện năng một cách khéo léo hơn .
+[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': [], 'aspect': ['17&&quản', '18&&lý', '19&&mức', '20&&tiêu', '21&&thụ', '22&&điện', '23&&năng'], 'predicate': ['26&&khéo', '27&&léo', '28&&hơn'], 'label': 'COM+'}]
+Lần đầu tiên , bút S-Pen có sẵn !
+[{}]
+Nói về Galaxy S21 Ultra , đây là điện thoại đầu tiên ngoài dòng Galaxy Note hỗ trợ bút S-Pen của Samsung .
+[{}]
+Tuy nhiên , S-Pen là phụ kiện tùy chọn của S21 Ultra nên nó không được tích hợp trực tiếp vào máy !
+[{}]
+S-Pen đi kèm với Galaxy S22 Ultra cũng nhanh hơn trước , với tốc độ cải thiện 70% và độ trễ ít hơn .
+[{'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['9&&nhanh', '10&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['20&&độ', '21&&trễ'], 'predicate': ['22&&ít', '23&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['14&&tốc', '15&&độ'], 'predicate': ['16&&cải', '17&&thiện', '18&&70%'], 'label': 'COM+'}]
+Sau khi cung cấp tính năng sạc 45W trên Galaxy S20 Ultra năm 2020 , Samsung đã quay trở lại sạc 25W trong mô hình 2021 .
+[{}]
+Thế hệ Galaxy S22 Ultra đảo ngược hướng đi đó và tốc độ sạc 45W một lần nữa được khôi phục trên điện thoại cao cấp của Samsung .
+[{}]
+Với tốc độ đó , bạn sẽ có thể sạc đầy Galaxy S22 Ultra đến 50% chỉ sau 20 phút .
+[{}]
+Tốc độ này nhanh hơn 10 phút so với những gì S21 Ultra cần để đạt được mốc đó .
+[{'subject': [], 'object': ['12&&S21', '13&&Ultra'], 'aspect': ['1&&Tốc', '2&&độ', '3&&này'], 'predicate': ['4&&nhanh', '5&&hơn'], 'label': 'COM+'}]
+Galaxy S22 Ultra cũng nhanh gấp đôi tốc độ sạc cao nhất của iPhone 13 Pro Max .
+[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': ['14&&iPhone', '15&&13', '16&&Pro', '17&&Max'], 'aspect': ['8&&tốc', '9&&độ', '10&&sạc', '11&&cao', '12&&nhất'], 'predicate': ['5&&nhanh', '6&&gấp', '7&&đôi'], 'label': 'COM+'}]
+Galaxy S22 Ultra chụp ảnh tốt hơn trong điều kiện thiếu sáng
+[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': [], 'aspect': ['4&&chụp', '5&&ảnh'], 'predicate': ['6&&tốt', '7&&hơn'], 'label': 'COM+'}]
+Chỉ nhìn vào thông số megapixel cho camera của Galaxy S22 Ultra , có vẻ như không có nhiều thay đổi so với Galaxy S21 Ultra .
+[{'subject': ['8&&camera', '9&&của', '10&&Galaxy', '11&&S22', '12&&Ultra'], 'object': ['24&&Galaxy', '25&&S21', '26&&Ultra'], 'aspect': ['4&&thông', '5&&số', '6&&megapixel'], 'predicate': ['17&&không', '18&&có', '19&&nhiều', '20&&thay', '21&&đổi'], 'label': 'EQL'}]
+Nhưng điều đó không đúng .
+[{}]
+Máy ảnh chính 108MP trên điện thoại mới hiện sử dụng cảm biến 2,4um lớn hơn để thu được nhiều ánh sáng và dữ liệu hơn .
+[{'subject': ['1&&Máy', '2&&ảnh', '3&&chính', '4&&108MP', '5&&trên', '6&&điện', '7&&thoại', '8&&mới'], 'object': [], 'aspect': ['12&&cảm', '13&&biến'], 'predicate': ['15&&lớn', '16&&hơn'], 'label': 'COM+'}]
+Samsung cũng đã giới thiệu ống kính Super Clear Glass để chụp ảnh ít chói và lóa ống kính vào ban đêm .
+[{}]
+Camera trên Galaxy S22 Ultra còn có khả năng xử lý HDR tốt tới ấn tượng , cứu lại được vùng sáng và tối một cách hài hòa nhất .
+[{}]
+Những chuyên gia dùng điện thoại chụp ảnh sẽ rất hài lòng với sản phẩm này .
+[{}]
+Mùa nghỉ lễ đang diễn ra , bạn đừng bỏ lỡ cơ hội lưu lại khoảnh khắc của những chuyến đi nhé .
+[{}]
+Tại sao lại gây tò mò ?
+[{}]
+Bạn đã biết Exynos trong nhiều năm qua , vậy thì chần chừ gì mà không trải nghiệm một sự thay đổi của Samsung ?
+[{}]
+Bộ xử lý 4nm của Qualcomm Snapdragon 8 Gen1 sẽ càn quét mọi ứng dụng hiện nay .
+[{}]
+Tất nhiên , điện thoại sẽ ấm lên nhưng không khó chịu , không có tác động lớn đến tốc độ khung hình , ngay cả ở cài đặt đồ họa cao nhất .
 [{}]
 Sản phẩm cao cấp nhất của thế giới Android hiện nay
 [{'subject': ['1&&Sản', '2&&phẩm'], 'object': [], 'aspect': [], 'predicate': ['3&&cao', '4&&cấp', '5&&nhất', '6&&của', '7&&thế', '8&&giới', '9&&Android', '10&&hiện', '11&&nay'], 'label': 'SUP+'}]
-Nói đến  điện thoại thông minh  không thể không nói đến  điện thoại Samsung .
+Nói đến điện thoại thông minh không thể không nói đến điện thoại Samsung .
 [{}]
-Mới ngay đây Samsung đã cho ra mắt sản phẩm mới của hãng thuộc dòng  Samsung Galaxy A .
+Mới ngay đây Samsung đã cho ra mắt sản phẩm mới của hãng thuộc dòng Samsung Galaxy A .
 [{}]
-Mới ngay đây 24/04, Samsung đã cho ra mắt sản phẩm mới thuộc phân khúc điện thoại tầm trung là Samsung Galaxy A24 với 2 phiên bản bộ nhớ lần lượt là  Samsung A24 6GB  và 8GB.
+Mới ngay đây 24 / 04 , Samsung đã cho ra mắt sản phẩm mới thuộc phân khúc điện thoại tầm trung là Samsung Galaxy A24 với 2 phiên bản bộ nhớ lần lượt là Samsung A24 6GB và 8GB .
 [{}]
-Phiên bản màu sắc cũng được hãng công bố với 4 màu bao gồm đen, xanh lá, bạc và đỏ.
+Phiên bản màu sắc cũng được hãng công bố với 4 màu bao gồm đen , xanh lá , bạc và đỏ .
 [{}]
-Sản phẩm rất được đầu tư khi được trang bị bộ 3 camera sau đầy hiện đại, bộ vi xử lý mạnh mẽ với khả năng đa nhiệm tuyệt vời thêm nữa là màn hình với chất lượng hiển thị sắc nét và vô số những tính năng hiện đại khác.
+Sản phẩm rất được đầu tư khi được trang bị bộ 3 camera sau đầy hiện đại , bộ vi xử lý mạnh mẽ với khả năng đa nhiệm tuyệt vời thêm nữa là màn hình với chất lượng hiển thị sắc nét và vô số những tính năng hiện đại khác .
 [{}]
-Sản phẩm Samsung Galaxy A24 được kế thừa những đường nét thiết kế từ dòng Galaxy A của Samsung.
+Sản phẩm Samsung Galaxy A24 được kế thừa những đường nét thiết kế từ dòng Galaxy A của Samsung .
 [{'subject': ['3&&Samsung', '4&&Galaxy', '5&&A24'], 'object': ['15&&dòng', '16&&Galaxy', '17&&A', '18&&của', '19&&Samsung'], 'aspect': ['9&&những', '10&&đường', '11&&nét', '12&&thiết', '13&&kế'], 'predicate': ['6&&được', '7&&kế', '8&&thừa'], 'label': 'EQL'}]
-Máy sở hữu bộ khung vuông vắn và phần mặt lưng được vát phẳng, 4 góc cũng được bo tròn để người dùng cũng có thề thoải mái sử dụng hơn.
+Máy sở hữu bộ khung vuông vắn và phần mặt lưng được vát phẳng , 4 góc cũng được bo tròn để người dùng cũng có thề thoải mái sử dụng hơn .
 [{}]
-Giống với các sản phẩm thuộc dòng Galaxy A, khung viền quanh máy sử dụng chất liệu nhựa giúp khối lượng máy nhẹ hơn.
+Giống với các sản phẩm thuộc dòng Galaxy A , khung viền quanh máy sử dụng chất liệu nhựa giúp khối lượng máy nhẹ hơn .
 [{'subject': [], 'object': ['3&&các', '4&&sản', '5&&phẩm', '6&&thuộc', '7&&dòng', '8&&Galaxy', '9&&A'], 'aspect': ['11&&khung', '12&&viền', '13&&quanh', '14&&máy'], 'predicate': ['1&&Giống', '2&&với'], 'label': 'EQL'}]
-Hơn nữa kích thước của máy cũng vừa vặn không quá to phù hợp cho mọi đối tượng kể cả nam và nữ đều sử dụng được.
+Hơn nữa kích thước của máy cũng vừa vặn không quá to phù hợp cho mọi đối tượng kể cả nam và nữ đều sử dụng được .
 [{}]
-Các phiên bản màu sắc gồm có đen, xanh lá, bạc, đỏ những màu này đều làm toát lên vẻ hiện đại, trẻ trung và thời trang cho cả sản phẩm lẫn người dùng.
+Các phiên bản màu sắc gồm có đen , xanh lá , bạc , đỏ những màu này đều làm toát lên vẻ hiện đại , trẻ trung và thời trang cho cả sản phẩm lẫn người dùng .
 [{}]
-Tấm nền  Super AMOLED  giúp các hình ảnh trở nên sống động, chân thực hơn.
+Tấm nền Super AMOLED giúp các hình ảnh trở nên sống động , chân thực hơn .
 [{'subject': ['1&&Tấm', '2&&nền', '3&&Super', '4&&AMOLED'], 'object': [], 'aspect': ['7&&hình', '8&&ảnh'], 'predicate': ['11&&sống', '12&&động', '13&&,', '14&&chân', '15&&thực', '16&&hơn'], 'label': 'COM+'}]
-Bên cạnh đó nó còn giúp máy tiết kiệm điện năng và bảo vệ mắt của người dùng nhờ việc giảm thiểu ánh sáng xanh.
+Bên cạnh đó nó còn giúp máy tiết kiệm điện năng và bảo vệ mắt của người dùng nhờ việc giảm thiểu ánh sáng xanh .
 [{}]
-Tần số quét 90Hz  mang đến khả năng cuộn lướt vô cùng mượt mà.
+Tần số quét 90Hz mang đến khả năng cuộn lướt vô cùng mượt mà .
 [{}]
-Thêm nữa, nữa người dùng có thể chạm 2 lần lên màn hình để kích hoạt màn hình chờ, đây là một tính năng khá hữu ích được tích hợp trên màn hình máy.
+Thêm nữa , nữa người dùng có thể chạm 2 lần lên màn hình để kích hoạt màn hình chờ , đây là một tính năng khá hữu ích được tích hợp trên màn hình máy .
 [{}]
-Bộ 3 camera được trang bị với camera chính lên đến 50MP và 2 camera phụ lần lượt là 5MP và 2MP phục vụ đa dạng nhu cầu chụp ảnh, quay video của người dùng.
+Bộ 3 camera được trang bị với camera chính lên đến 50MP và 2 camera phụ lần lượt là 5MP và 2MP phục vụ đa dạng nhu cầu chụp ảnh , quay video của người dùng .
 [{}]
-Với ống kính chính có độ phân giải cao, sản phẩm tự tin sẽ mang đến những hình ảnh với độ chân thực, chi tiết và chất lượng đáp ứng được mọi yêu cầu từ chủ sở hữu.
+Với ống kính chính có độ phân giải cao , sản phẩm tự tin sẽ mang đến những hình ảnh với độ chân thực , chi tiết và chất lượng đáp ứng được mọi yêu cầu từ chủ sở hữu .
 [{}]
-Không chỉ có camera xịn xò, vô số các tính năng hiện đại khác cũng được tích hợp trên máy có thể kể đến như  AI Camera ,  Làm đẹp ,  Chống rung quang học (OIS) ,  Tự động lấy nét (AF) ,... Điều này sẽ giúp tăng lên đáng kể chất lượng những khung hình hay video thu được.
+Không chỉ có camera xịn xò , vô số các tính năng hiện đại khác cũng được tích hợp trên máy có thể kể đến như AI Camera , Làm đẹp , Chống rung quang học ( OIS ) , Tự động lấy nét ( AF ) , . . . Điều này sẽ giúp tăng lên đáng kể chất lượng những khung hình hay video thu được .
 [{}]
-Bộ xử lý của Samsung Galay A24 được trang bị con chip MediaTek Helio G99 được đánh giá khá cao trong phân khúc điện thoại tầm trung - giá rẻ.
+Bộ xử lý của Samsung Galay A24 được trang bị con chip MediaTek Helio G99 được đánh giá khá cao trong phân khúc điện thoại tầm trung - giá rẻ .
 [{}]
-Với hiệu suất tối đa đạt 2.2Ghz, máy có thể tự tin xử lý các tác vụ một cách gọn gàng và mang đến trải nghiệm giải trí mượt mà không giật lag.
+Với hiệu suất tối đa đạt 2.2Ghz , máy có thể tự tin xử lý các tác vụ một cách gọn gàng và mang đến trải nghiệm giải trí mượt mà không giật lag .
 [{}]
-Hơn nữa, thanh  RAM  của sản phẩm cũng có dung lượng khá cao (6GB, 8GB).
+Hơn nữa , thanh RAM của sản phẩm cũng có dung lượng khá cao ( 6GB , 8GB ) .
 [{}]
-Nhờ đó khả năng đa nhiệm hay chuyển đổi tác vụ sẽ được đảm bảo hoạt động một cách trơn tru, uyển chuyển hạn chế tối đa tình trạng bị đơ, đứng máy.
+Nhờ đó khả năng đa nhiệm hay chuyển đổi tác vụ sẽ được đảm bảo hoạt động một cách trơn tru , uyển chuyển hạn chế tối đa tình trạng bị đơ , đứng máy .
 [{}]
-Theo thông số, bộ nhớ trong của sản phẩm là 128GB trong đó bộ nhớ khả dụng là khoảng 113GB.
+Theo thông số , bộ nhớ trong của sản phẩm là 128GB trong đó bộ nhớ khả dụng là khoảng 113GB .
 [{}]
-Với con số này thì người dùng có thể thoải mái lưu trữ các thông tin, dữ liệu quan trọng của bản thân mà không cần lo việc bị hết bộ nhớ.
+Với con số này thì người dùng có thể thoải mái lưu trữ các thông tin , dữ liệu quan trọng của bản thân mà không cần lo việc bị hết bộ nhớ .
 [{}]
-Và như đã đề cập, thanh RAM của máy cũng sở hữu dung lượng không hề nhỏ.
+Và như đã đề cập , thanh RAM của máy cũng sở hữu dung lượng không hề nhỏ .
 [{}]
 Viên pin 5000 mAh cho thời lượng sử dụng lâu hơn
 [{'subject': ['1&&Viên', '2&&pin', '3&&5000', '4&&mAh'], 'object': [], 'aspect': ['6&&thời', '7&&lượng', '8&&sử', '9&&dụng'], 'predicate': ['10&&lâu', '11&&hơn'], 'label': 'COM+'}]
-Với việc trang bị viên pin 5000mAh, Samsung có tự tin đảm bảo sản phẩm của mình sẽ có thể hoạt động trong cả một ngày dài với nhiều tác vụ khác nhau.
+Với việc trang bị viên pin 5000mAh , Samsung có tự tin đảm bảo sản phẩm của mình sẽ có thể hoạt động trong cả một ngày dài với nhiều tác vụ khác nhau .
 [{}]
-Thậm chí nếu chỉ dùng điện thoại cho các nhu cầu cơ bản quãng thời gian này có thể kéo dài đến 2-3 ngày.
+Thậm chí nếu chỉ dùng điện thoại cho các nhu cầu cơ bản quãng thời gian này có thể kéo dài đến 2 - 3 ngày .
 [{}]
-Không chỉ thế, sản phẩm còn hỗ trợ sạc tối đa 25W cùng với công nghệ  sạc pin nhanh  được tích hợp.
+Không chỉ thế , sản phẩm còn hỗ trợ sạc tối đa 25W cùng với công nghệ sạc pin nhanh được tích hợp .
 [{}]
-Vì thế, chỉ tốn khoảng 1 giờ, thiết bị có thể lại được nạp đầy năng lượng.
+Vì thế , chỉ tốn khoảng 1 giờ , thiết bị có thể lại được nạp đầy năng lượng .
 [{}]
-Có nên mua không?
+Có nên mua không ?
 [{}]
-Phía trên, ta đã lần lượt đánh giá các mặt của sản phẩm mới ra mắt nhà Samsung.
+Phía trên , ta đã lần lượt đánh giá các mặt của sản phẩm mới ra mắt nhà Samsung .
 [{}]
-Thiết kế cuốn hút, bộ camera hiện đại, màn hình cao cấp, hiệu năng mạnh mẽ và khả năng vận hành bền bỉ.
+Thiết kế cuốn hút , bộ camera hiện đại , màn hình cao cấp , hiệu năng mạnh mẽ và khả năng vận hành bền bỉ .
 [{}]
-Nếu bạn là học sinh - sinh viên hay những người chỉ có nhu cầu xử lý các tác vụ cơ bản, giải trí vừa phải như xem video, chơi các tựa game nhẹ,... thì mẫu điện thoại này có thể đáp ứng mọi yêu cầu của bạn một cách hoàn hảo nhất.
+Nếu bạn là học sinh - sinh viên hay những người chỉ có nhu cầu xử lý các tác vụ cơ bản , giải trí vừa phải như xem video , chơi các tựa game nhẹ , . . . thì mẫu điện thoại này có thể đáp ứng mọi yêu cầu của bạn một cách hoàn hảo nhất .
 [{}]
-Trên đây là bài viết đánh giá chi tiết về Samsung Galaxy A24: Camera 50 MP cùng chip MediaTek Helio G99.
+Trên đây là bài viết đánh giá chi tiết về Samsung Galaxy A24 : Camera 50 MP cùng chip MediaTek Helio G99 .
 [{}]
-Hy vọng bài viết mang đến những thông tin hữu ích với bạn.
+Hy vọng bài viết mang đến những thông tin hữu ích với bạn .
 [{}]
-Samsung Galaxy S20 FE là đối thủ của iPhone 12?
+Samsung Galaxy S20 FE là đối thủ của iPhone 12 ?
 [{}]
-Phiên bản này hứa hẹn là đối thủ cạnh tranh trực tiếp với iPhone 12 sắp ra mắt của nhà Táo.
+Phiên bản này hứa hẹn là đối thủ cạnh tranh trực tiếp với iPhone 12 sắp ra mắt của nhà Táo .
 [{}]
-Hãy cùng so sánh hai siêu phẩm này nhé.
+Hãy cùng so sánh hai siêu phẩm này nhé .
 [{}]
-Samsung Galaxy S20 FE ra mắt sớm để cạnh tranh iPhone 12?
+Samsung Galaxy S20 FE ra mắt sớm để cạnh tranh iPhone 12 ?
 [{}]
-Trong thời điểm dịch Covid-19 đang hoành hoành, khách hàng cũng dần thận trọng hơn trong việc mua sắm những thiết bị công nghệ mới.
+Trong thời điểm dịch Covid - 19 đang hoành hoành , khách hàng cũng dần thận trọng hơn trong việc mua sắm những thiết bị công nghệ mới .
 [{}]
-Họ không thoải mái chạy theo trào lưu mà cân nhắc vấn đề chi phí nhiều hơn.
+Họ không thoải mái chạy theo trào lưu mà cân nhắc vấn đề chi phí nhiều hơn .
 [{}]
-Đó là lý do hãng Samsung cho ra đời phiên bản Galaxy S20 FE, giúp người dùng sở hữu smartphone với chất lượng của siêu phẩm Galaxy S20 nhưng với mức giá rẻ hơn.
+Đó là lý do hãng Samsung cho ra đời phiên bản Galaxy S20 FE , giúp người dùng sở hữu smartphone với chất lượng của siêu phẩm Galaxy S20 nhưng với mức giá rẻ hơn .
 [{'subject': ['12&&Galaxy', '13&&S20', '14&&FE'], 'object': ['28&&Galaxy', '29&&S20'], 'aspect': ['32&&mức', '33&&giá'], 'predicate': ['34&&rẻ', '35&&hơn'], 'label': 'COM+'}]
-Theo các tín đồ công nghệ, sự có mặt của phiên bản mở rộng này không chỉ đơn thuần mở rộng đối tượng tiếp cận đối với dòng Galaxy S, mà còn để cạnh tranh trực tiếp với phiên bản iPhone 12 mini (theo tin đồn).
+Theo các tín đồ công nghệ , sự có mặt của phiên bản mở rộng này không chỉ đơn thuần mở rộng đối tượng tiếp cận đối với dòng Galaxy S , mà còn để cạnh tranh trực tiếp với phiên bản iPhone 12 mini ( theo tin đồn ) .
 [{}]
-Dưới đây là bảng so sánh các tính năng giữa Galaxy S20 FE và 2 phiên bản iPhone 12 mini và iPhone 12 theo dự đoán.
+Dưới đây là bảng so sánh các tính năng giữa Galaxy S20 FE và 2 phiên bản iPhone 12 mini và iPhone 12 theo dự đoán .
 [{}]
-Cá nhân mình nhận thấy,  Redmi Note 11  sở hữu thiết kế đẹp và ấn tượng nhất trong bộ ba  điện thoại  này.
+Cá nhân mình nhận thấy , Redmi Note 11 sở hữu thiết kế đẹp và ấn tượng nhất trong bộ ba điện thoại này .
 [{'subject': ['7&&Redmi', '8&&Note', '9&&11'], 'object': [], 'aspect': ['12&&thiết', '13&&kế'], 'predicate': ['14&&đẹp', '15&&và', '16&&ấn', '17&&tượng', '18&&nhất', '19&&trong', '20&&bộ', '21&&ba', '22&&điện', '23&&thoại', '24&&này'], 'label': 'SUP+'}]
-Di động  Xiaomi  được trang bị màn hình đục lỗ hiện đại, bắt mắt ở mặt trước để chứa camera selfie nằm ở vị trí chính giữa viền trên.
+Di động Xiaomi được trang bị màn hình đục lỗ hiện đại , bắt mắt ở mặt trước để chứa camera selfie nằm ở vị trí chính giữa viền trên .
 [{}]
-Trong khi đó,  Realme 8 5G  cũng sở hữu màn hình đục lỗ nhưng camera trước của nó nằm ở góc trên cùng bên trái nên không đẹp và đối xứng như Redmi Note 11.
+Trong khi đó , Realme 8 5G cũng sở hữu màn hình đục lỗ nhưng camera trước của nó nằm ở góc trên cùng bên trái nên không đẹp và đối xứng như Redmi Note 11 .
 [{'subject': ['5&&Realme', '6&&8', '7&&5G'], 'object': ['34&&Redmi', '35&&Note', '36&&11'], 'aspect': ['11&&màn', '12&&hình', '13&&đục', '14&&lỗ'], 'predicate': ['8&&cũng', '9&&sở', '10&&hữu'], 'label': 'EQL'}, {'subject': ['5&&Realme', '6&&8', '7&&5G'], 'object': ['34&&Redmi', '35&&Note', '36&&11'], 'aspect': ['16&&camera', '17&&trước'], 'predicate': ['28&&không', '29&&đẹp', '30&&và', '31&&đối', '32&&xứng', '33&&như'], 'label': 'EQL'}]
-Còn Galaxy M32 5G sở hữu màn hình giọt nước kém hiện đại hơn.
+Còn Galaxy M32 5G sở hữu màn hình giọt nước kém hiện đại hơn .
 [{'subject': ['2&&Galaxy', '3&&M32', '4&&5G'], 'object': [], 'aspect': ['7&&màn', '8&&hình'], 'predicate': ['11&&kém', '12&&hiện', '13&&đại', '14&&hơn'], 'label': 'COM-'}]
-Di chuyển sang mặt sau, cả ba điện thoại này đều sở hữu thân máy được hoàn thiện từ chất liệu nhựa, cụm camera sau khá lớn và mỗi thiết bị đều có điểm nhấn của riêng mình.
+Di chuyển sang mặt sau , cả ba điện thoại này đều sở hữu thân máy được hoàn thiện từ chất liệu nhựa , cụm camera sau khá lớn và mỗi thiết bị đều có điểm nhấn của riêng mình .
 [{}]
-Trong đó, Redmi Note 11 đi kèm các hiệu ứng chuyển màu gradient bắt mắt, còn Realme 8 5G có hiệu ứng ánh sáng thú vị phát ra từ cụm camera sau.
+Trong đó , Redmi Note 11 đi kèm các hiệu ứng chuyển màu gradient bắt mắt , còn Realme 8 5G có hiệu ứng ánh sáng thú vị phát ra từ cụm camera sau .
 [{}]
-Cuối cùng, Galaxy M32 5G có thiết kế phía sau rất đẹp với các cảm biến được đặt trực tiếp trong vỏ và không có mô-đun máy ảnh.
+Cuối cùng , Galaxy M32 5G có thiết kế phía sau rất đẹp với các cảm biến được đặt trực tiếp trong vỏ và không có mô-đun máy ảnh .
 [{}]
-Galaxy M32 5G có chất lượng màn hình kém hơn 2 mẫu máy còn lại.
+Galaxy M32 5G có chất lượng màn hình kém hơn 2 mẫu máy còn lại .
 [{'subject': ['1&&Galaxy', '2&&M32', '3&&5G'], 'object': ['11&&2', '12&&mẫu', '13&&máy', '14&&còn', '15&&lại'], 'aspect': ['5&&chất', '6&&lượng', '7&&màn', '8&&hình'], 'predicate': ['9&&kém', '10&&hơn'], 'label': 'COM-'}]
-Điều này là do di động  Samsung  sử dụng màn hình TFT, trong khi Redmi Note 11 và Realme 8 5G đi kèm với tấm nền IPS tốt hơn.
+Điều này là do di động Samsung sử dụng màn hình TFT , trong khi Redmi Note 11 và Realme 8 5G đi kèm với tấm nền IPS tốt hơn .
 [{'subject': ['16&&Redmi', '17&&Note', '18&&11'], 'object': ['7&&Samsung'], 'aspect': ['26&&tấm', '27&&nền'], 'predicate': ['29&&tốt', '30&&hơn'], 'label': 'COM+'}, {'subject': ['20&&Realme', '21&&8', '22&&5G'], 'object': ['7&&Samsung'], 'aspect': ['26&&tấm', '27&&nền'], 'predicate': ['29&&tốt', '30&&hơn'], 'label': 'COM+'}]
-Hơn nữa, màn hình di động Samsung có độ phân giải HD+ thấp hơn và tốc độ làm mới t60Hz tiêu chuẩn.
+Hơn nữa , màn hình di động Samsung có độ phân giải HD + thấp hơn và tốc độ làm mới t60Hz tiêu chuẩn .
 [{'subject': ['4&&màn', '5&&hình', '6&&di', '7&&động', '8&&Samsung'], 'object': [], 'aspect': ['10&&độ', '11&&phân', '12&&giải'], 'predicate': ['15&&thấp', '16&&hơn'], 'label': 'COM-'}]
-Với Redmi Note 11 và Realme 8 5G, bạn sẽ có được độ phân giải Full-HD+ và tốc độ làm mới 90Hz cao hơn.
-[{'subject': ['2&&Redmi', '3&&Note', '4&&11'], 'object': [], 'aspect': ['20&&tốc', '21&&độ', '22&&làm', '23&&mới'], 'predicate': ['25&&cao', '26&&hơn'], 'label': 'COM+'}, {'subject': ['6&&Realme', '7&&8', '8&&5G'], 'object': [], 'aspect': ['20&&tốc', '21&&độ', '22&&làm', '23&&mới'], 'predicate': ['25&&cao', '26&&hơn'], 'label': 'COM+'}]
-Điện thoại Xiaomi có màn hình rộng hơn một chút với kích thước 6.6 inch, trong khi Realme 8 5G dừng ở con số 6.5 inch.
-[{'subject': ['1&&Điện', '2&&thoại', '3&&Xiaomi'], 'object': ['19&&Realme', '20&&8'], 'aspect': ['5&&màn', '6&&hình'], 'predicate': ['7&&rộng', '8&&hơn', '9&&một', '10&&chút'], 'label': 'COM+'}]
-Redmi Note 11 có bộ phận phần cứng tiên tiến nhất vì nó đi kèm với bộ vi xử lý mạnh hơn: Mediatek Dimensity 810 5G mới được xây dựng trên tiến trình 6nm với xung nhịp tối đa là 2.4 GHz. Con chip này được kết hợp với RAM lên đến 8GB và bộ nhớ trong tối đa 256GB.
-[{'subject': ['1&&Redmi', '2&&Note', '3&&11'], 'object': [], 'aspect': ['5&&bộ', '6&&phận', '7&&phần', '8&&cứng'], 'predicate': ['9&&tiên', '10&&tiến', '11&&nhất'], 'label': 'SUP+'}, {'subject': ['13&&nó'], 'object': [], 'aspect': ['17&&bộ', '18&&vi', '19&&xử', '20&&lý'], 'predicate': ['21&&mạnh', '22&&hơn'], 'label': 'COM+'}]
-Mặt khác, hai điện thoại còn lại đều sử dụng chipset Mediatek Dimensity 700, nhưng hiệu năng của Realme 8 5G hứa hẹn nhỉnh hơn một chút so với Galaxy M32 5G vì nó sử dụng bộ nhớ trong chuẩn UFS 2.1 nhanh hơn.
-[{'subject': ['4&&hai', '5&&điện', '6&&thoại', '7&&còn', '8&&lại'], 'object': ['4&&hai', '5&&điện', '6&&thoại', '7&&còn', '8&&lại'], 'aspect': ['12&&chipset', '13&&Mediatek', '14&&Dimensity', '15&&700'], 'predicate': ['9&&đều', '10&&sử', '11&&dụng'], 'label': 'EQL'}, {'subject': ['21&&Realme', '22&&8', '23&&5G'], 'object': ['32&&Galaxy', '33&&M32', '34&&5G'], 'aspect': ['18&&hiệu', '19&&năng'], 'predicate': ['26&&nhỉnh', '27&&hơn', '28&&một', '29&&chút'], 'label': 'COM+'}, {'subject': ['21&&Realme', '22&&8', '23&&5G'], 'object': ['32&&Galaxy', '33&&M32', '34&&5G'], 'aspect': ['39&&bộ', '40&&nhớ', '41&&trong'], 'predicate': ['45&&nhanh', '46&&hơn'], 'label': 'COM+'}]
-Về phần mềm, tất cả các điện thoại này đều chạy trên hệ điều hành Android 11 với giao diện tùy chỉnh riêng của mỗi hãng.
-[{'subject': ['5&&tất', '6&&cả', '7&&các', '8&&điện', '9&&thoại', '10&&này'], 'object': [], 'aspect': ['2&&phần', '3&&mềm'], 'predicate': ['11&&đều', '12&&chạy', '13&&trên', '14&&hệ', '15&&điều', '16&&hành', '17&&Android', '18&&11'], 'label': 'EQL'}]
-Trong ba smartphone này, Galaxy M32 5G có hệ thống máy ảnh linh hoạt nhất.
-[{'subject': ['6&&Galaxy', '7&&M32', '8&&5G'], 'object': [], 'aspect': ['10&&hệ', '11&&thống', '12&&máy', '13&&ảnh'], 'predicate': ['14&&linh', '15&&hoạt', '16&&nhất'], 'label': 'SUP+'}]
-Di động Samsung sở hữu hệ thống 4 camera sau, bao gồm cảm biến chính 48MP, ống kính góc siêu rộng 8MP,  camera macro  5MP và cảm biến độ sâu 2MP.
-[{}]
-Redmi Note 11 chỉ có hai camera ở phía sau, nhưng camera chính vượt trội hơn vì nó sử dụng cảm biến 50MP mới hơn mang lại chất lượng ảnh tốt hơn.
-[{'subject': ['13&&camera', '14&&chính'], 'object': [], 'aspect': [], 'predicate': ['15&&vượt', '16&&trội', '17&&hơn'], 'label': 'COM+'}, {'subject': ['13&&camera', '14&&chính'], 'object': [], 'aspect': ['29&&chất', '30&&lượng', '31&&ảnh'], 'predicate': ['32&&tốt', '33&&hơn'], 'label': 'COM+'}, {'subject': ['19&&nó'], 'object': [], 'aspect': ['22&&cảm', '23&&biến'], 'predicate': ['25&&mới', '26&&hơn'], 'label': 'COM+'}]
-Realme 8 5G thua cuộc vì thiếu camera siêu rộng.
-[{}]
-Cả ba smartphone này đều sở hữu viên pin có dung lượng khá tốt là 5,000 mAh. Nhưng Samsung Galaxy M32 5G sẽ cung cấp thời lượng pin lâu hơn vì nó đi kèm màn hình hỗ trợ độ phân giải và tốc độ làm mới thấp hơn.
-[{'subject': ['20&&Samsung', '21&&Galaxy', '22&&M32', '23&&5G'], 'object': [], 'aspect': ['27&&thời', '28&&lượng', '29&&pin'], 'predicate': ['30&&lâu', '31&&hơn'], 'label': 'COM+'}, {'subject': ['33&&nó'], 'object': [], 'aspect': ['40&&độ', '41&&phân', '42&&giải'], 'predicate': ['48&&thấp', '49&&hơn'], 'label': 'COM-'}, {'subject': ['33&&nó'], 'object': [], 'aspect': ['44&&tốc', '45&&độ', '46&&làm', '47&&mới'], 'predicate': ['48&&thấp', '49&&hơn'], 'label': 'COM-'}]
-Redmi Note 11 có sạc nhanh hơn (33W).
-[{'subject': ['1&&Redmi', '2&&Note', '3&&11'], 'object': [], 'aspect': ['5&&sạc'], 'predicate': ['6&&nhanh', '7&&hơn'], 'label': 'COM+'}]
-Qua bài so sánh trên, có thể thấy Redmi Note 11 nổi bật và đáng mua hơn hai mẫu máy còn lại.
-[{'subject': ['10&&Redmi', '11&&Note', '12&&11'], 'object': ['19&&hai', '20&&mẫu', '21&&máy', '22&&còn', '23&&lại'], 'aspect': [], 'predicate': ['13&&nổi', '14&&bật'], 'label': 'COM+'}, {'subject': ['10&&Redmi', '11&&Note', '12&&11'], 'object': ['19&&hai', '20&&mẫu', '21&&máy', '22&&còn', '23&&lại'], 'aspect': [], 'predicate': ['16&&đáng', '17&&mua', '18&&hơn'], 'label': 'COM+'}]
-Điện thoại này sở hữu màn hình đục lỗ bắt mắt, trông hiện đại hơn, màn hình chất lượng, phần cứng mạnh mẽ, camera chính chất lượng và sạc nhanh hơn hai điện thoại còn lại.
-[{'subject': ['1&&Điện', '2&&thoại', '3&&này'], 'object': ['36&&hai', '37&&điện', '38&&thoại', '39&&còn', '40&&lại'], 'aspect': ['6&&màn', '7&&hình'], 'predicate': ['14&&hiện', '15&&đại', '16&&hơn'], 'label': 'COM+'}, {'subject': ['1&&Điện', '2&&thoại', '3&&này'], 'object': ['36&&hai', '37&&điện', '38&&thoại', '39&&còn', '40&&lại'], 'aspect': ['33&&sạc'], 'predicate': ['34&&nhanh', '35&&hơn'], 'label': 'COM+'}]
-Bạn có nghĩ vậy không?
-[{}]
-Mẫu điện thoại kế nhiệm mới được ra mắt từ nhà Realme có tên là  Realme 10  đang được mở bán tại FPTShop, tham khảo để có thêm nhiều đánh giá, lựa chọn hơn cho bạn nhé!
-[{}]
-title: iPhone 14 Pro Max hay Pixel 7 Pro có thời lượng pin tốt hơn?
-[{}]
-So sánh thời lượng pin iPhone 14 Pro Max và Google Pixel 7 Pro, model nào giành chiến thắng?
-[{}]
-iPhone 14 Pro Max và model Google Pixel 7 Pro đều là những điện thoại tốt nhất hiện nay.
-[{'subject': ['1&&iPhone', '2&&14', '3&&Pro', '4&&Max'], 'object': ['7&&Google', '8&&Pixel', '9&&7', '10&&Pro'], 'aspect': [], 'predicate': ['11&&đều', '12&&là', '13&&những', '14&&điện', '15&&thoại', '16&&tốt', '17&&nhất', '18&&hiện', '19&&nay'], 'label': 'EQL'}]
-Mặc dù cả hai thiết bị đều sở hữu viên pin có dung lượng tương đương, nhưng tuổi thọ pin có sự chênh lệch khá lớn.
-[{'subject': ['4&&hai', '5&&thiết', '6&&bị'], 'object': ['4&&hai', '5&&thiết', '6&&bị'], 'aspect': ['10&&viên', '11&&pin', '12&&có', '13&&dung', '14&&lượng', '15&&tương', '16&&đương'], 'predicate': ['7&&đều', '8&&sở', '9&&hữu'], 'label': 'EQL'}, {'subject': ['4&&hai', '5&&thiết', '6&&bị'], 'object': ['4&&hai', '5&&thiết', '6&&bị'], 'aspect': ['19&&tuổi', '20&&thọ', '21&&pin'], 'predicate': ['22&&có', '23&&sự', '24&&chênh', '25&&lệch', '26&&khá', '27&&lớn'], 'label': 'DIF'}]
-Youtuber PhoneBuff đã thực hiện kiểm tra thời lượng pin của iPhone 14 Pro Max và Google Pixel 7 Pro.
-[{}]
-Theo như đánh giá, một trong hai thiết bị đã có màn thể hiện nổi bật về thời lượng pin, bất chấp sự tối ưu hóa tuyệt vời mà hai công ty đã thực hiện chi model của mình.
-[{}]
-Apple trang bị cho model của mình viên pin 4323mAh, trong khi Pixel 7 Pro sở hữu viên pin 5000mAh.
-[{}]
-Việc trang bị dung lượng pin lớn hơn không có nghĩa là sẽ cung cấp thời lượng pin tốt hơn.
-[{}]
-Trong thử nghiệm của PhoneBuff đã thực hiện các tác vụ hàng ngày của người dùng trên hai thiết bị.
-[{}]
-Cả hai điện thoại đều được mở một số ứng dụng như Spotify, YouTube, cũng như ứng dụng máy ảnh để chụp một số hình ảnh và video.
-[{}]
-Sau một giờ sử dụng, iPhone 14 Pro Max và Google Pixel 7 Pro đều mất khoảng 10%, không có model nào nổi bật hơn.
-[{}]
-Tuy nhiên, sau hai giờ sử dụng thì điện thoại iPhone cho kết quả tốt hơn khi chỉ mất 5% pin.
-[{'subject': ['12&&iPhone'], 'object': [], 'aspect': ['14&&kết', '15&&quả'], 'predicate': ['16&&tốt', '17&&hơn'], 'label': 'COM+'}]
-Khoảng cách hiệu suất của hai điện thoại thông minh ngày càng tăng khi thử nghiệm tiếp tục.
-[{}]
-iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ
-[{'subject': ['1&&iPhone', '2&&14', '3&&Pro', '4&&Max'], 'object': ['13&&đối', '14&&thủ'], 'aspect': ['6&&thời', '7&&lượng', '8&&pin'], 'predicate': ['9&&tốt', '10&&hơn'], 'label': 'COM+'}]
-Không có bất kỳ ứng dụng cụ thể nào đặc biệt để đổ lỗi cho sự suy giảm thời lượng pin trên hai điện thoại.
-[{}]
-Bài kiểm tra kết thúc khi Google Pixel 7 Pro đã hết cạn pin.
-[{}]
-Trong khi trên iPhone 14 Pro Max vẫn còn 21%.
-[{}]
-Kết quả cho thấy model của Apple có thể kéo dài thời lượng sử dụng tối đa là 11 giờ 44 phút.
-[{}]
-Tuy nhiên, một lưu ý rằng Google Pixel 7 Pro vẫn mang đến hiệu suất mạnh mẽ tương tự như các đối thủ Android hiện nay.
-[{'subject': ['8&&Google', '9&&Pixel', '10&&7', '11&&Pro'], 'object': ['22&&các', '23&&đối', '24&&thủ', '25&&Android', '26&&hiện', '27&&nay'], 'aspect': ['15&&hiệu', '16&&suất'], 'predicate': ['17&&mạnh', '18&&mẽ', '19&&tương', '20&&tự'], 'label': 'EQL'}]
-Có vẻ như, Apple đã tối ưu khá tốt giữa phần cứng và phần mềm giúp thời lượng pin trên flagship của mình trở nên tốt hơn.
-[{}]

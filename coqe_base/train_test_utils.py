@@ -3,7 +3,6 @@ import copy
 import torch.nn as nn
 from data_utils import shared_utils, data_loader_utils
 from model_utils import pipeline_model_utils, optimizer_utils
-from data_utils import current_program_code as cpc
 from tqdm import tqdm
 
 import logging 
@@ -183,14 +182,14 @@ def first_stage_model_main(
     # define first stage model and optimizer
     MODEL2FN = {"bert": pipeline_model_utils.Baseline, "norm": pipeline_model_utils.LSTMModel}
 
-    if config.model_mode == "bert":
-        model = MODEL2FN[config.model_mode](config, model_parameters).to(config.device)
+    if "bert" in config.model_mode:
+        model = MODEL2FN["bert"](config, model_parameters).to(config.device)
     else:
         # weight = shared_utils.get_pretrain_weight(
         #     config.path.GloVe_path, config.path.Word2Vec_path, data_gene.vocab
         # )
         weight = None
-        model = MODEL2FN[config.model_mode](
+        model = MODEL2FN["norm"](
             config, model_parameters, data_gene.vocab, weight).to(config.device)
 
     if torch.cuda.device_count() > 1:
@@ -303,7 +302,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     )
 
     # get representation by is_pair label filter.
-    dev_polarity_representation = cpc.get_after_pair_representation(dev_pair_eval.y_hat, dev_pair_representation)
+    dev_polarity_representation = shared_utils.get_after_pair_representation(dev_pair_eval.y_hat, dev_pair_representation)
     dev_polarity_loader = data_loader_utils.get_loader([dev_polarity_representation], 1)
     shared_utils.clear_optimize_measure(dev_pair_eval)
 
@@ -334,7 +333,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     shared_utils.clear_optimize_measure(test_pair_eval)
 
     # create polarity representation and data loader.
-    test_polarity_representation = cpc.get_after_pair_representation(test_pair_eval.y_hat, test_pair_representation)
+    test_polarity_representation = shared_utils.get_after_pair_representation(test_pair_eval.y_hat, test_pair_representation)
     test_polarity_loader = data_loader_utils.get_loader([test_polarity_representation], 1)
 
     pair_stage_model_test(

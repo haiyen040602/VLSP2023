@@ -11,7 +11,7 @@ class Baseline(nn.Module):
         super(Baseline, self).__init__()
         self.config = config
 
-        self.encoder = Layer.BERTCell(config.path.bert_model_path)
+        self.encoder = Layer.BERTCell(config.model_mode)
         # thay thế embedding bằng các giá trị 0 với tỉ lệ số lượng bằng embed_dropout
         self.embedding_dropout = nn.Dropout(model_parameters['embed_dropout'])
 

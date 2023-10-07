@@ -3,9 +3,8 @@ import numpy as np
 import underthesea
 import logging
 
-from coqe_base.data_utils import shared_utils
+from data_utils import shared_utils
 from data_utils.label_parse import LabelParser
-from transformers import AutoTokenizer
 
 logger = logging.getLogger(__name__)
 
@@ -21,7 +20,7 @@ class Dataset(object):
         self.vocab_index, self.pos_index = 5, 5
         self.token_max_len, self.char_max_len = -1, -1
         self.train_data_dict, self.dev_data_dict, self.test_data_dict = {}, {}, {}
-        self.bert_tokenizer = AutoTokenizer.from_pretrained(config.path_bert_model_path)
+        self.bert_tokenizer = config.bert_tokenizer
         self.elem_col = ["subject", "object", "aspect", "result"]
 
     def create_data_dict(self, data_path, data_type, label_path=None):
@@ -33,7 +32,7 @@ class Dataset(object):
         data_dict = {}
         sent_col, label_col = shared_utils.read_standard_file(data_path)
 
-        LP = LabelParser(label_col, self.elem_col)
+        LP = LabelParser(label_col, self.elem_col, sent_col)
 
         ## label_col: list of {'subject': {(s_index, e_index)* num_label_per_sent}, 'object': set(), 'aspect': set(), 'opinion': {(s_index, e_index, label)}}
         ## tuple_pair_col: list of [index tuple of each element * num_label_per_sent]
@@ -46,16 +45,16 @@ class Dataset(object):
         if not os.path.exists(self.config.path.pre_process_data[data_type]):
             word_tokens = shared_utils.vnese_tokenize(sent_col=sent_col, token_method='standard')
             data_dict['standard_token'] = word_tokens
-            shared_utils.write_pickle(data_dict, self.config.pre_process_path[data_type])
+            shared_utils.write_pickle(data_dict, self.config.path.pre_process_data[data_type])
         else:
-            data_dict = shared_utils.read_pickle(self.config.pre_process_data[data_type])
+            data_dict = shared_utils.read_pickle(self.config.path.pre_process_data[data_type])
         
         self.token_max_len = max(self.token_max_len, shared_utils.get_max_token_length(data_dict['standard_token']))
 
         data_dict['label_col'] = label_col
         data_dict['comparative_label'] = []
 
-        if self.config.model_mode == "bert":
+        if "bert" in self.config.model_mode :
             ## add <s> and </s> into sentence (using phoBERT)
             ## add [CLS], [SEP] if using multilingual-bert
             data_dict['bert_token'] = shared_utils.vnese_tokenize(sent_col=sent_col, tokenizer=self.bert_tokenizer, token_method='bert')
@@ -85,7 +84,7 @@ class Dataset(object):
 
         data_dict['multi_label'], data_dict['result_label'], data_dict['polarity_label'] = \
         shared_utils.elem_dict_convert_to_multi_sequence_label(
-            token_col, label_col, special_symbol=special_symbol
+            self.elem_col, token_col, label_col, special_symbol=special_symbol
         )
 
 

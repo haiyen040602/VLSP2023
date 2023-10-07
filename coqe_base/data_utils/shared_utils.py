@@ -145,16 +145,17 @@ def vnese_tokenize(sent_col = None, tokenizer = None, path=None, data_type=None,
 
     for sent in sent_col:
         if token_method == 'standard':
-            vnese_tokens.append(nltk.word_tokenize(sent))
+            # vnese_tokens.append(nltk.word_tokenize(sent))
+            vnese_tokens.append(sent.split())
         else:
             # word_segs = word_segmentator.word_segment(sent)   
-            word_segs = sent 
+            # word_segs = sent 
             if token_method == 'bert' and tokenizer is not None:
-                word_seg = '[SEP]'.join(word_segs)
-                word_seg = "[CLS]" + word_seg + "[SEP]"
+                # word_seg = '[SEP]'.join(word_segs)
+                word_seg = "[CLS]" + sent + "[SEP]"
                 vnese_tokens.append(tokenizer.tokenize(word_seg))
             elif token_method == 'vnese':
-                word_seg = ''.join(word_segs)
+                word_seg = sent
                 vnese_tokens.append(underthesea.word_tokenize(word_seg))
         
         
@@ -180,6 +181,9 @@ def token_mapping_bert(tokenizer, bert_token_col, bert_id_col, gold_token_col):
         seq_map, bert_index, token_index = {}, 1, 0 ## bert token except [CLS] in index 0
         seq_bert_token, seq_bert_id, seq_gold_token = bert_tokens, bert_id_col[index], gold_token_col[index]
 
+        # print(seq_bert_token)
+        # print(seq_bert_id)
+        # print(seq_gold_token)
         while bert_index < len(seq_bert_token) and token_index < len(seq_gold_token):
             seq_map[token_index] = [bert_index]
 
@@ -200,7 +204,7 @@ def token_mapping_bert(tokenizer, bert_token_col, bert_id_col, gold_token_col):
                 seq_map[token_index].append(bert_index)
                 bert_length += len(seq_bert_token[bert_index])
 
-                if seq_bert_token[bert_index].find("@@") != -1:
+                if seq_bert_token[bert_index].find("##") != -1:
                     bert_length -= 2
             
             assert bert_length == token_length, "appear mapping error"
@@ -209,6 +213,7 @@ def token_mapping_bert(tokenizer, bert_token_col, bert_id_col, gold_token_col):
             bert_index += 1
         
         seq_map[token_index] = [bert_index]
+        # print(seq_map)
         mapping_col.append(seq_map)
         # print(mapping_col)
     return mapping_col
@@ -224,7 +229,8 @@ def convert_elem_dict_by_mapping(label_col, mapping_col):
     convert_label_col = []
     for index, label in enumerate(label_col):
         sequence_label, sequence_map = copy.deepcopy(label), mapping_col[index]
-
+        # print(sequence_label)
+        # print(sequence_map)
         for key in sequence_label:
             sequence_label[key] = sorted(list(sequence_label[key]), key=lambda x:x[0])
 
@@ -235,14 +241,15 @@ def convert_elem_dict_by_mapping(label_col, mapping_col):
             for elem_index, elem_position in enumerate(elem_position_col):
                 s_index = elem_position[0]
                 e_index = elem_position[1]
-
+                # print(elem_position, s_index, e_index)
+                # print(sequence_map[0])
                 if s_index == -1 or e_index == -1:
                     sequence_label[key][elem_index] = [-1, -1]
                 else:
                     ## phải xem xét trường hợp tokenize thành các từ ghép
-                    sequence_label[key][k] = [sequence_map[s_index][0], sequence_map[e_index][-1]]
-                    if key == 'result':
-                        sequence_label[key][elem_index].append(elem_position[-1])
+                    sequence_label[key][elem_index] = [sequence_map[s_index][0], sequence_map[e_index][-1]]
+                if key == 'result':
+                    sequence_label[key][elem_index].append(elem_position[-1])
         
         for key in sequence_label:
             for k in range(len(sequence_label[key])):
@@ -284,7 +291,7 @@ def convert_tokens_ids(bert_tokenizer, input_tokens, data_type = 'tokens'):
         input_tokens = input_tokens.tolist()
     for seq_tokens in input_tokens:
         if data_type == 'tokens':
-            result_data.append(bert_tokenizer.covert_tokens_to_ids(seq_tokens))
+            result_data.append(bert_tokenizer.convert_tokens_to_ids(seq_tokens))
         else:
             result_data.append(bert_tokenizer.convert_ids_to_tokens(seq_tokens))
     return result_data
@@ -414,7 +421,7 @@ def each_elem_convert_to_multi_sequence_label(sequence_token, each_elem, elem_ty
     return sequence_label, polarity_col
 
 
-def elem_dict_convert_to_multi_sequence_label(token_col, label_col, special_symbol=False):
+def elem_dict_convert_to_multi_sequence_label(elem_col, token_col, label_col, special_symbol=False):
     """
     :param token_col: a list of token list.
     :param label_col: a elem dict like: {elem: [(s_index, e_index)]}
@@ -422,7 +429,6 @@ def elem_dict_convert_to_multi_sequence_label(token_col, label_col, special_symb
     :return:
     """
     elem_pair_col, polarity_col, result_sequence_label_col = [], [], []
-    elem_col = ["entity_1", "entity_2", "aspect", "result"]
 
     for index in range(len(token_col)):
         sent_multi_col = []
@@ -593,3 +599,23 @@ def create_polarity_train_data(config, tuple_pair_col, feature_out, bert_feature
             polarity_col.append([tuple_pair_col[index][pair_index][-1][0] + 1])
 
     return representation_col, polarity_col
+
+def get_after_pair_representation(pair_hat, representation):
+    """
+    :param pair_hat:
+    :param representation:
+    :return:
+    """
+    feature_dim = len(representation[0][0])
+
+    if len(pair_hat) == 0:
+        return representation
+
+    for index in range(len(representation)):
+        assert len(pair_hat[index]) == len(representation[index]), "[ERROR] Param error or Data process error."
+
+        for pair_index in range(len(representation[index])):
+            if pair_hat[index][pair_index] == 0:
+                representation[index][pair_index] = [0] * feature_dim
+
+    return representation

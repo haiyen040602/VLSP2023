@@ -1,6 +1,6 @@
-from transformers import BertTokenizer
 from data_utils import shared_utils
 from eval_utils import eval_shared_modules
+from transformers import AutoTokenizer
 
 class BaseConfig(object):
     def __init__(self, args):
@@ -19,10 +19,12 @@ class BaseConfig(object):
         self.stage_model = args.stage_model
         self.program_mode = args.program_mode
         self.position_sys = args.position_sys
-       
 
         self.path = PathConfig(self.device, self.program_mode)
         self.val = GlobalConfig(self.position_sys)
+
+        if "bert" in self.model_mode:
+            self.bert_tokenizer = AutoTokenizer.from_pretrained(self.model_mode)
         
         
 class PathConfig(object):
@@ -34,11 +36,11 @@ class PathConfig(object):
         }
 
         self.bert_model_path = "bert-base-multilingual-cased"
-
+        self.pre_process_path = "../data/preprocess/"
         self.pre_process_data = {
-            "train": "../data/preprocess/train_data.txt",
-            "dev": "../data/preprocess/dev_data.txt",
-            "test": "../data/preprocess/test_data.txt"
+            "train": "../data/preprocess/train_data.pkl",
+            "dev": "../data/preprocess/dev_data.pkl",
+            "test": "../data/preprocess/test_data.pkl"
         }
 
 class GlobalConfig(object):

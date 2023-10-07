@@ -2,7 +2,7 @@ import csv
 import copy
 import torch
 import numpy as np
-import coqe_base.eval_utils.eval_shared_modules as eval_shared_modules
+import eval_utils.eval_shared_modules as eval_shared_modules
 
 
 class BaseEvaluation(object):

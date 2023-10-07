@@ -1,4 +1,4 @@
-import shared_utils 
+from data_utils import shared_utils 
 import re
 from ast import literal_eval
 
@@ -38,7 +38,7 @@ class LabelParser(object):
         for label_index, label in enumerate(self.label_col):
             if label == null_label:
                 tuple_pair_col.append([[(-1, -1)]* 5]) ## list of one list contain 5 tuple (-1, -1)
-                elem_representation.append(self.init_label_representation)
+                elem_representation.append(self.init_label_representation())
             
             else:
                 global_elem_col = self.init_label_representation() ##global_elem_col: {'subject': {(s_index, e_index)* num_label_per_sent}, 'object': set(), 'aspect': set(), 'opinion': {(s_index, e_index, label)}}
@@ -69,9 +69,9 @@ class LabelParser(object):
             elem_tuple = ()
             if key != 'label':
                 s_index, e_index, element = shared_utils.split_element(label_dict[key], split_symbol)
-                if element:
-                    # print(element)
-                    s_index, e_index = shared_utils.mapping_posistion(word_tokens, element[0], element[-1], s_index, e_index)
+                # if element:
+                #     # print(element)
+                #     s_index, e_index = shared_utils.mapping_posistion(word_tokens, element[0], element[-1], s_index, e_index)
                 
                 elem_tuple += (s_index, e_index)
 
