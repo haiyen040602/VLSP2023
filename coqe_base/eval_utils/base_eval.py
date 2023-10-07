@@ -101,7 +101,7 @@ class BaseEvaluation(object):
                 pre_elem_dict[cur_tag].append(self.get_elem_representation(s_index, index + 1, cur_emotion))
                 s_index = -1
 
-        return pre_elem_dict
+        return pre_elem_dict #(s_index, e_index, label_ids) of each element?
 
     def get_elem_dict(self, target):
         """

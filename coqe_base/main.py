@@ -43,6 +43,7 @@ def TerminalParser():
     parser.add_argument('--position_sys', help='BIES or BI or SPAN', default='BMES')
 
     parser.add_argument('--device', help='run program in device type', default='cuda' if torch.cuda.is_available() else 'cpu')
+    parser.add_argument('--file_type', help='the type of data set', default='iphone')
     # parser.add_argument('--premodel_path', help='the type of pretrained model', default= "bert-base-multilingual-cased")
     parser.add_argument('--embed_dropout', help='probability of embedding dropout', type=int, default=0.1)
     parser.add_argument('--factor', help='the trade-off hyperparameter in class-weight entropy loss cal', type=float, default=0.4)
@@ -54,12 +55,13 @@ def TerminalParser():
     return args
 
 def get_necessary_parameters(args):
-    param_dict = {"model_mode": args.mode_mode,
-                  "stage_type": args.model_type,
-                  "model_type": args.model_type,
-                  "epoch": args.epoch,
-                  "batch_size": args.batch,
-                  "program_mode": args.program_mode}
+    param_dict = {"file_type": args.file_type,
+                "model_mode": args.mode_mode,
+                "stage_type": args.model_type,
+                "model_type": args.model_type,
+                "epoch": args.epoch,
+                "batch_size": args.batch,
+                "program_mode": args.program_mode}
     return param_dict
 
 def main():

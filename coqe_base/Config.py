@@ -15,17 +15,18 @@ class BaseConfig(object):
 
         self.model_mode = args.model_mode
         self.model_type = args.model_type
+        self.file_type = args.file_type
         self.stage_model = args.stage_model
         self.program_mode = args.program_mode
         self.position_sys = args.position_sys
-        self.premodel_path = args.premodel_path
+       
 
-        self.path = PathConfig(self.device, self.program_mode, self.premodel_path)
+        self.path = PathConfig(self.device, self.program_mode)
         self.val = GlobalConfig(self.position_sys)
         
         
 class PathConfig(object):
-    def __init__(self, device, program_mode, premodel_path):
+    def __init__(self, file_type, program_mode):
         self.standard_path = {
             "train": "../data/train.txt",
             "test": "../data/test.txt",
@@ -34,10 +35,10 @@ class PathConfig(object):
 
         self.bert_model_path = "bert-base-multilingual-cased"
 
-        self.pre_process_path = {
-            "train": "../data/preprocess/train_data.pkl",
-            "dev": "../data/preprocess/dev_data.pkl",
-            "test": "../data/preprocess/test_data.pkl"
+        self.pre_process_data = {
+            "train": "../data/preprocess/train_data.txt",
+            "dev": "../data/preprocess/dev_data.txt",
+            "test": "../data/preprocess/test_data.txt"
         }
 
 class GlobalConfig(object):
