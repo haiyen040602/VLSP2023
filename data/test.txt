@@ -38,39 +38,3 @@ S-Pen đi kèm với Galaxy S22 Ultra cũng nhanh hơn trước , với tốc đ
 [{'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['9&&nhanh', '10&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['20&&độ', '21&&trễ'], 'predicate': ['22&&ít', '23&&hơn'], 'label': 'COM+'}, {'subject': ['1&&S-Pen', '2&&đi', '3&&kèm', '4&&với', '5&&Galaxy', '6&&S22', '7&&Ultra'], 'object': [], 'aspect': ['14&&tốc', '15&&độ'], 'predicate': ['16&&cải', '17&&thiện', '18&&70%'], 'label': 'COM+'}]
 Sau khi cung cấp tính năng sạc 45W trên Galaxy S20 Ultra năm 2020 , Samsung đã quay trở lại sạc 25W trong mô hình 2021 .
 [{}]
-Thế hệ Galaxy S22 Ultra đảo ngược hướng đi đó và tốc độ sạc 45W một lần nữa được khôi phục trên điện thoại cao cấp của Samsung .
-[{}]
-Với tốc độ đó , bạn sẽ có thể sạc đầy Galaxy S22 Ultra đến 50% chỉ sau 20 phút .
-[{}]
-Tốc độ này nhanh hơn 10 phút so với những gì S21 Ultra cần để đạt được mốc đó .
-[{'subject': [], 'object': ['12&&S21', '13&&Ultra'], 'aspect': ['1&&Tốc', '2&&độ', '3&&này'], 'predicate': ['4&&nhanh', '5&&hơn'], 'label': 'COM+'}]
-Galaxy S22 Ultra cũng nhanh gấp đôi tốc độ sạc cao nhất của iPhone 13 Pro Max .
-[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': ['14&&iPhone', '15&&13', '16&&Pro', '17&&Max'], 'aspect': ['8&&tốc', '9&&độ', '10&&sạc', '11&&cao', '12&&nhất'], 'predicate': ['5&&nhanh', '6&&gấp', '7&&đôi'], 'label': 'COM+'}]
-Galaxy S22 Ultra chụp ảnh tốt hơn trong điều kiện thiếu sáng
-[{'subject': ['1&&Galaxy', '2&&S22', '3&&Ultra'], 'object': [], 'aspect': ['4&&chụp', '5&&ảnh'], 'predicate': ['6&&tốt', '7&&hơn'], 'label': 'COM+'}]
-Chỉ nhìn vào thông số megapixel cho camera của Galaxy S22 Ultra , có vẻ như không có nhiều thay đổi so với Galaxy S21 Ultra .
-[{'subject': ['8&&camera', '9&&của', '10&&Galaxy', '11&&S22', '12&&Ultra'], 'object': ['24&&Galaxy', '25&&S21', '26&&Ultra'], 'aspect': ['4&&thông', '5&&số', '6&&megapixel'], 'predicate': ['17&&không', '18&&có', '19&&nhiều', '20&&thay', '21&&đổi'], 'label': 'EQL'}]
-Nhưng điều đó không đúng .
-[{}]
-Máy ảnh chính 108MP trên điện thoại mới hiện sử dụng cảm biến 2,4um lớn hơn để thu được nhiều ánh sáng và dữ liệu hơn .
-[{'subject': ['1&&Máy', '2&&ảnh', '3&&chính', '4&&108MP', '5&&trên', '6&&điện', '7&&thoại', '8&&mới'], 'object': [], 'aspect': ['12&&cảm', '13&&biến'], 'predicate': ['15&&lớn', '16&&hơn'], 'label': 'COM+'}]
-Samsung cũng đã giới thiệu ống kính Super Clear Glass để chụp ảnh ít chói và lóa ống kính vào ban đêm .
-[{}]
-Camera trên Galaxy S22 Ultra còn có khả năng xử lý HDR tốt tới ấn tượng , cứu lại được vùng sáng và tối một cách hài hòa nhất .
-[{}]
-Những chuyên gia dùng điện thoại chụp ảnh sẽ rất hài lòng với sản phẩm này .
-[{}]
-Mùa nghỉ lễ đang diễn ra , bạn đừng bỏ lỡ cơ hội lưu lại khoảnh khắc của những chuyến đi nhé .
-[{}]
-Tại sao lại gây tò mò ?
-[{}]
-Bạn đã biết Exynos trong nhiều năm qua , vậy thì chần chừ gì mà không trải nghiệm một sự thay đổi của Samsung ?
-[{}]
-Bộ xử lý 4nm của Qualcomm Snapdragon 8 Gen1 sẽ càn quét mọi ứng dụng hiện nay .
-[{}]
-Tất nhiên , điện thoại sẽ ấm lên nhưng không khó chịu , không có tác động lớn đến tốc độ khung hình , ngay cả ở cài đặt đồ họa cao nhất .
-[{}]
-Sản phẩm cao cấp nhất của thế giới Android hiện nay
-[{'subject': ['1&&Sản', '2&&phẩm'], 'object': [], 'aspect': [], 'predicate': ['3&&cao', '4&&cấp', '5&&nhất', '6&&của', '7&&thế', '8&&giới', '9&&Android', '10&&hiện', '11&&nay'], 'label': 'SUP+'}]
-Nói đến điện thoại thông minh không thể không nói đến điện thoại Samsung .
-[{}]
