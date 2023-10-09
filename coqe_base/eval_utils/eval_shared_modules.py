@@ -59,6 +59,7 @@ def split_string(line, split_symbol):
     """
     return list(filter(None, line.split(split_symbol)))
 
+# get elem key (subject, object, ...) after " - "(created after covert element pos to B-subject)
 def get_label_pos_tag(cur_label):
     """
     :param cur_label:

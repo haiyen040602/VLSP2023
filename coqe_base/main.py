@@ -99,8 +99,8 @@ def main():
     dataset = create_dataset.Dataset(config)
     dataset.generate_data()
 
-    global_eval = BaseEvaluation(config)
-    global_pair_eval = BaseEvaluation(config)
+    global_eval = BaseEvaluation(config, config.val.elem_col)
+    global_pair_eval = BaseEvaluation(config, config.val.elem_col)
 
     logger.info("=======================CREATE DATA LOADER==========================")
     logger.info("Train dataset input ids shape: {}".format(dataset.train_data_dict['input_ids'].shape) )

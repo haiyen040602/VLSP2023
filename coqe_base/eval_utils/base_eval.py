@@ -3,6 +3,8 @@ import copy
 import torch
 import numpy as np
 import eval_utils.eval_shared_modules as eval_shared_modules
+import logging
+logger = logging.getLogger(__name__)
 
 
 class BaseEvaluation(object):
@@ -14,7 +16,8 @@ class BaseEvaluation(object):
         :param save_model: True denote save model by optimize exact measure.
         """
         self.config = config
-        self.elem_col = ["subject", "object", "aspect", "result"]
+        self.elem_col = elem_col
+        # ["subject", "object", "aspect", "result"]
         self.fold = fold
 
         if ids_to_tags is None: # return dict {value: pos_key} {1 : B_entity_1}
@@ -57,10 +60,11 @@ class BaseEvaluation(object):
         if cur_emotion == "NULL":
             return tuple(elem_representation)
 
+        ## get label id of comparative label
         emotion_ids = self.config.val.polarity_dict[cur_emotion]
         elem_representation.append(emotion_ids)
 
-        return tuple(elem_representation)
+        return tuple(elem_representation) #(s_index, e_index, label_id or NUll)
     
     ##
     def sequence_label_convert_dict(self, sequence_label, pre_elem_dict, cur_tag):
@@ -83,6 +87,7 @@ class BaseEvaluation(object):
 
             current_tag = ids_mapping_dict[sequence_label[index]]
 
+            # divide "B-opinion?" to B and subject
             cur_position, cur_emotion = eval_shared_modules.get_label_pos_tag(current_tag)
 
             # "O" denote "Others", skip this token
@@ -90,23 +95,27 @@ class BaseEvaluation(object):
                 continue
 
             # "S" means alone element
+            # get_elem_represenatation return (s_index, e_index) for elem, (s_index, e_index, label_ids) for result 
+            # (index, index + 1, label_id?)
             if cur_position == "S":
                 s_index, pre_tag = -1, ""
                 pre_elem_dict[cur_tag].append(self.get_elem_representation(index, index + 1, cur_emotion))
-
+            #(s_index=index)
             elif cur_position == "B":
                 s_index = index
-
+            # (s_index = B-index, e_index = index + 1)
             elif cur_position == "E" and s_index != -1:
                 pre_elem_dict[cur_tag].append(self.get_elem_representation(s_index, index + 1, cur_emotion))
                 s_index = -1
 
-        return pre_elem_dict #(s_index, e_index, label_ids) of each element?
+        return pre_elem_dict #[(s_index, e_index, label_ids)] of each B, E position in sequence label?
 
+    ## trả về danh sách các vị trí B, E trong sequence của từng element
+    ## format {"result": [(B_sindex, B_eindex, label_id), (E_sindex, E_e_index)], "other element": []}
     def get_elem_dict(self, target):
         """
         :param target: a list of list, each sentences have correspond label
-        :return: a list of dict like: [{"elem1": {s_index: length}, "elem2": {s_index: length}}]
+        :return:  a list of dict like: [{"result": {s_index: length}, "elem2": {s_index: length}}]
         """
         elem_col = []
 
@@ -609,6 +618,9 @@ class BaseEvaluation(object):
         :param fold_num: fold number.
         :return:
         """
+        logger.info("Len average measure: {} {}", len(avg_measure), avg_measure)
+        logger.info("Len of optimizer mesurer is: {} {}", opt_measure, opt_measure)
+
         if len(avg_measure) == 0:
             avg_measure = copy.deepcopy(opt_measure)
 
@@ -649,7 +661,7 @@ class BaseEvaluation(object):
             writer.writerow(row_label)
             writer.writerows(data)
 
-
+## Đánh giá độ chính xác khi trích xuất các element
 class ElementEvaluation(BaseEvaluation):
     def __init__(self, config, target=None, attn_mask=None, elem_col=None, ids_to_tags=None, fold=0,
                  save_model=False, comparative_identity=False, gold_sent_label=None):
@@ -659,6 +671,7 @@ class ElementEvaluation(BaseEvaluation):
         self.comparative_identity = comparative_identity
         self.gold_sent_label = gold_sent_label
 
+        ## trường hợp đánh giá hiệu suất mô hình training
         if attn_mask is not None and target is not None:
             elem_label_ids, result_label_ids = target
 
@@ -673,6 +686,7 @@ class ElementEvaluation(BaseEvaluation):
 
             self.gold_dict = self.get_elem_dict(target)
 
+        ## trường hợp trích xuất các element
         else:
             self.gold_dict = None
         # store predict if comparative sentence.

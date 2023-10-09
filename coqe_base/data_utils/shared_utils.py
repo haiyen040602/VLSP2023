@@ -634,6 +634,8 @@ def calculate_average_measure(add_eval, global_eval):
     :param global_eval:
     :return:
     """
+    ## avg_extract_measure: dict {"elem" : avg score}?
+    ## optimize_extract_measure: a dict {}
     global_eval.avg_exact_measure = global_eval.add_fold_measure(
         global_eval.avg_exact_measure, add_eval.optimize_exact_measure, fold_num=1
     )

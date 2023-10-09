@@ -65,7 +65,7 @@ def first_stage_model_test(model, config, test_loader, res_eval, eval_parameters
     model.eval()
     if test_type == "eval":
         measure_file, model_path = eval_parameters
-    else:
+    else: ## extract task
         gold_pair_label = eval_parameters[0]
 
     with torch.no_grad():
