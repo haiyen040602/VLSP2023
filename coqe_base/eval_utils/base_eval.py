@@ -42,9 +42,9 @@ class BaseEvaluation(object):
         self.optimize_binary_measure = {}
 
         # store average measure.
-        self.avg_exact_measure = self.init_elem()
-        self.avg_prop_measure = self.init_elem()
-        self.avg_binary_measure = self.init_elem()
+        self.avg_exact_measure =  {} #self.init_elem()
+        self.avg_prop_measure = {}
+        self.avg_binary_measure = {}
 
     ####################################################################################################################
     # return (s_index, e_index, label_id)
@@ -618,8 +618,8 @@ class BaseEvaluation(object):
         :param fold_num: fold number.
         :return:
         """
-        logger.info("Len average measure: {} {}", len(avg_measure), avg_measure)
-        logger.info("Len of optimizer mesurer is: {} {}", opt_measure, opt_measure)
+        logger.info("Len average measure: {} {}".format(len(avg_measure), avg_measure))
+        logger.info("Len of optimizer mesurer is: {} {}".format(opt_measure, opt_measure))
 
         if len(avg_measure) == 0:
             avg_measure = copy.deepcopy(opt_measure)
