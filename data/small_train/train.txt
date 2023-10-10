@@ -1,0 +1,46 @@
+iPhone 14 được ra mắt vào 09 / 2022 , được đánh giá là chỉ nâng cấp nhẹ về phần cứng cũng như phần mềm so với thế hệ trước .
+[{'subject': ['1&&iPhone', '2&&14'], 'object': ['28&&thế', '29&&hệ', '30&&trước'], 'aspect': ['20&&phần', '21&&cứng'], 'predicate': ['16&&nâng', '17&&cấp', '18&&nhẹ'], 'label': 'COM+'}, {'subject': ['1&&iPhone', '2&&14'], 'object': ['28&&thế', '29&&hệ', '30&&trước'], 'aspect': ['24&&phần', '25&&mềm'], 'predicate': ['16&&nâng', '17&&cấp', '18&&nhẹ'], 'label': 'COM+'}]
+Về ngoại hình thì cũng có rất ít sự khác biệt so với thế hệ tiền nhiệm .
+[{'subject': [], 'object': ['14&&thế', '15&&hệ', '16&&tiền', '17&&nhiệm'], 'aspect': ['2&&ngoại', '3&&hình'], 'predicate': ['7&&rất', '8&&ít', '9&&sự', '10&&khác', '11&&biệt'], 'label': 'EQL'}]
+Có một vài ý kiến trái chiều cho rằng , phiên bản iPhone 14 này không có điểm gì nổi bật , thậm chí còn cho rằng không nên bỏ tiền ra nâng cấp hoặc mua .
+[{}]
+Nhìn chung , về thiết kế của iPhone 14 thì không có sự khác biệt gì quá nhiều so với phiên bản tiền nhiệm là iPhone 13 .
+[{'subject': ['8&&iPhone', '9&&14'], 'object': ['26&&iPhone', '27&&13'], 'aspect': ['5&&thiết', '6&&kế'], 'predicate': ['11&&không', '12&&có', '13&&sự', '14&&khác', '15&&biệt', '16&&gì', '17&&quá', '18&&nhiều'], 'label': 'EQL'}]
+Mặt lưng máy được vát phẳng , phần khung viền thì được thiết kế vuông vức và bo cong nhẹ nhàng giúp tăng tính mềm mại nhưng vẫn giữ được sự sang trọng , cao cấp vốn có .
+[{}]
+Thực tế khi trải nghiệm iPhone 14 thì cho người dùng cảm giác cầm nắm khá chắc chắn , đầm tay và rất thoải mái .
+[{}]
+Nhìn tổng thể , thì với kích thước như vậy là khá tối ưu , không quá nhỏ cũng không quá to , dù tay bạn lớn hay nhỏ thì cũng có thể cầm nắm được dễ dàng .
+[{}]
+Tương tự , thì hệ thống camera vẫn giữ nguyên thiết kế với 2 camera được đặt chéo nhau và được làm nhô lên so với mặt lưng của máy .
+[{'subject': ['5&&hệ', '6&&thống', '7&&camera'], 'object': [], 'aspect': ['11&&thiết', '12&&kế'], 'predicate': ['9&&giữ', '10&&nguyên'], 'label': 'EQL'}]
+Phần mô-đun chứa cụm camera được làm trong suốt nhằm tăng sự đồng bộ nhưng vẫn nổi bật .
+[{}]
+Chính giữa mặt sau là nơi đặt logo quả táo quen thuộc thường thấy .
+[{}]
+So với iPhone 13 , thì rất khó để nhận ra sự khác biệt giữa 2 thế hệ này qua vẻ bề ngoài , thậm chí ngay cả những phần mềm bên trong cũng không có quá nhiều sự khác biệt .
+[{'subject': ['16&&2', '17&&thế', '18&&hệ', '19&&này'], 'object': ['16&&2', '17&&thế', '18&&hệ', '19&&này'], 'aspect': ['21&&vẻ', '22&&bề', '23&&ngoài'], 'predicate': ['8&&khó', '9&&để', '10&&nhận', '11&&ra', '12&&sự', '13&&khác', '14&&biệt'], 'label': 'EQL'}, {'subject': ['16&&2', '17&&thế', '18&&hệ', '19&&này'], 'object': ['16&&2', '17&&thế', '18&&hệ', '19&&này'], 'aspect': ['29&&những', '30&&phần', '31&&mềm', '32&&bên', '33&&trong'], 'predicate': ['35&&không', '36&&có', '37&&quá', '38&&nhiều', '39&&sự', '40&&khác', '41&&biệt'], 'label': 'EQL'}]
+Trừ khi bạn mua 2 màu khác nhau còn nếu không thì sẽ rất khó để nhận ra .
+[{}]
+Ngoài ra , chiếc máy còn được trang bị khả năng chống nước IP68 , có nghĩa là thiết bị có khả năng kháng nước ở độ sâu khoảng 1.5m trong vòng 30 phút .
+[{}]
+Bạn có thể selfie và sử dụng ở bể bơi mà không hề sợ bị hỏng máy .
+[{}]
+Mặc dù , đây cũng được xem là 1 điểm khá ấn tượng trên iPhone 13 , nhưng mình khuyên bạn không nên thử điều này với chiếc máy .
+[{}]
+iPhone 14 được nhà sản xuất sử dụng chipset A15 Bionic được nhà Táo sản xuất dựa trên tiến trình 5nm , có 6 nhân , trong đó 4 nhân là 1.82 GHz Blizzard Avalanche và 2 nhân là 3.23 GHz . Bên cạnh đó , chiếc máy còn được trang bị Apple GPU ( 5 - core graphics ) giúp xử lý hình ảnh và video được tốt hơn .
+[{'subject': ['47&&chiếc', '48&&máy'], 'object': [], 'aspect': ['62&&xử', '63&&lý', '64&&hình', '65&&ảnh', '66&&và', '67&&video'], 'predicate': ['69&&tốt', '70&&hơn'], 'label': 'COM+'}]
+Mặc dù , không được Apple trang bị chipset mới nhất nhưng A15 Bionic cũng là một bộ vi xử lý mạnh mẽ bật nhất hiện nay .
+[{'subject': ['13&&A15', '14&&Bionic'], 'object': [], 'aspect': [], 'predicate': ['22&&mạnh', '23&&mẽ', '24&&bật', '25&&nhất', '26&&hiện', '27&&nay'], 'label': 'SUP+'}]
+Bên cạnh đó , iPhone 14 được nâng cấp bộ nhớ lên đến 6GB RAM cao hơn iPhone 13 đến 2GB RAM , cho khả năng đa nhiệm tốt hơn .
+[{'subject': ['5&&iPhone', '6&&14'], 'object': ['18&&iPhone', '19&&13'], 'aspect': ['10&&bộ', '11&&nhớ'], 'predicate': ['16&&cao', '17&&hơn'], 'label': 'COM+'}, {'subject': ['5&&iPhone', '6&&14'], 'object': ['18&&iPhone', '19&&13'], 'aspect': ['25&&khả', '26&&năng', '27&&đa', '28&&nhiệm'], 'predicate': ['29&&tốt', '30&&hơn'], 'label': 'COM+'}]
+Thực sự thì đa nhiệm trên dòng iPhone được rất nhiều người đánh giá là tốt hơn so với dòng Smartphone khác trên thị trường .
+[{'subject': ['8&&iPhone'], 'object': ['20&&dòng', '21&&Smartphone', '22&&khác', '23&&trên', '24&&thị', '25&&trường'], 'aspect': ['4&&đa', '5&&nhiệm'], 'predicate': ['16&&tốt', '17&&hơn'], 'label': 'COM+'}]
+Bạn có thể mở nhiều tác vụ cùng lúc và chuyển qua lại giữa chúng mà không cần phải tải lại .
+[{}]
+Với phần mềm này , thì iPhone 14 đạt điểm cũng khá cao lên đến 830.779 điểm .
+[{}]
+Trong đó , thì điểm CPU đạt 212.289 điểm , MEM đạt 134.956 điểm , GPU đạt 355.190 điểm và đạt 128.344 điểm UX .
+[{}]
+Nếu so sánh với một số chipset khác như Dimensity 9000 hay Snapdragon 8 Gen 1 thì có hơi thấp một chút .
+[{'subject': [], 'object': ['10&&Dimensity', '11&&9000'], 'aspect': [], 'predicate': ['19&&hơi', '20&&thấp', '21&&một', '22&&chút'], 'label': 'COM-'}, {'subject': [], 'object': ['13&&Snapdragon', '14&&8', '15&&Gen', '16&&1'], 'aspect': [], 'predicate': ['19&&hơi', '20&&thấp', '21&&một', '22&&chút'], 'label': 'COM-'}]
