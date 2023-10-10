@@ -6,7 +6,7 @@ from model_utils import pipeline_model_utils, optimizer_utils
 from tqdm import tqdm
 
 import logging 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
+# logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 

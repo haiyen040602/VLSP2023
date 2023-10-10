@@ -28,7 +28,7 @@ def prepare_logger(args):
     # Setup logging
     logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
     formatter = logFormatter = logging.Formatter(fmt='[%(asctime)s - %(name)s:%(lineno)d]: %(message)s', datefmt='%m/%d/%Y %H:%M:%S')
-    log_file = os.path.join(args.seed_dir, "run.log")
+    log_file = os.path.join(os.getcwd(), "run.log")
     file_handler = logging.FileHandler(log_file, mode="w", encoding=None, delay=False)
     console_handler = logging.StreamHandler(sys.stdout)
     file_handler.setFormatter(formatter)
