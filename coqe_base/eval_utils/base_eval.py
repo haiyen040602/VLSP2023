@@ -618,7 +618,7 @@ class BaseEvaluation(object):
         :param fold_num: fold number.
         :return:
         """
-        logger.info("Len average measure: {} {}".format(len(avg_measure), avg_measure))
+        print("Len average measure: {} {}".format(len(avg_measure), avg_measure))
         logger.info("Len of optimizer mesurer is: {} {}".format(opt_measure, opt_measure))
 
         if len(avg_measure) == 0:
