@@ -5,7 +5,7 @@ import os, sys
 import argparse
 import Config
 import logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
+# logging.basicConfig(format='%(asctime)s - %(name)s - %(message)s', datefmt='%m/%d/%Y %H:%M:%S', level=logging.INFO)
 logger = logging.getLogger()
 
 from data_utils import shared_utils, create_dataset, data_loader_utils
@@ -78,7 +78,9 @@ def get_necessary_parameters(args):
     return param_dict
 
 def main():
+
     args = TerminalParser()
+    prepare_logger(args)
     set_seed(args.seed)
 
     config = Config.BaseConfig(args)
