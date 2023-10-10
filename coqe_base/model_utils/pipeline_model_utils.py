@@ -74,9 +74,13 @@ class Baseline(nn.Module):
             elem_feature = multi_sequence_prob
             elem_feature = [elem_feature[index].unsqueeze(0) for index in range(len(elem_feature))]
             elem_feature = torch.cat(elem_feature, dim=0).permute(1, 0, 2, 3)
+            
+            # token_embedding: bert token embedding of each sequence, size (bs, sequence_size, hidden_size)
+            # elem_feature: [B, 3, N, feature_dim], 3 list of element extracted per sequence
+            # result_feature: [B, N, feature_dim], concat to one list
+            # result_output: extraction of result (4) element
+            # sent_output: probability of comparative sentence
 
-            # elem_feature: [B, 3, N, feature_dim]
-            # result_feature: [B, N, feature_dim]
             return token_embedding, elem_feature, elem_output, result_output, sent_output
 
         # calculate sent loss and crf loss.
@@ -160,6 +164,7 @@ class LSTMModel(nn.Module):
         result_output = self.decoder[3](multi_sequence_prob[3], attn_mask, result_label)
 
         if elem_label is None and result_label is None:
+            ## sent_output: index of Max
             _, sent_output = torch.max(torch.softmax(sent_class_prob, dim=1), dim=1)
 
             elem_output = torch.cat(elem_output, dim=0).view(3, batch_size, sequence_length).permute(1, 0, 2)

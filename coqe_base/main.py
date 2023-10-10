@@ -113,7 +113,7 @@ def main():
     # logger.info("First object in data loader is {}".format(next()) )
 
     if config.stage_model == 'first' and config.program_mode != 'test':
-        logger.info("=======================Training==========================")
+        logger.info("=======================Training FIRST STAGE==========================")
         first_data_loader = [train_loader, dev_loader, test_loader]
         dev_comp_eval = create_eval.create_first_stage_eval(
             config,
@@ -143,7 +143,7 @@ def main():
         dev_parameters = ["./ModelResult/" + model_name + "/dev_elem_result.txt",
                           "./PreTrainModel/" + model_name + "/dev_model"]
 
-        print("==================test================")
+        logger.info("=====================TEST FIRST STAGE====================")
         predicate_model = torch.load(dev_parameters[1])
 
         test_parameters = ["./ModelResult/" + model_name + "/test_elem_result.txt", None]

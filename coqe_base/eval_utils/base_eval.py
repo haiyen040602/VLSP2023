@@ -209,7 +209,7 @@ class BaseEvaluation(object):
         :param gold_col: [(s_index, e_index)]
         :param predict_col: [(s_index, e_index)]
         :param elem_type:
-        :return:
+        :return: correct_num: number of correct element position prediction
         """
         correct_num = 0.0
 
@@ -221,12 +221,14 @@ class BaseEvaluation(object):
             for gi in range(len(gold_col)):
                 if gi in vis:
                     continue
-
+                
+                ## check if s_index, e_index in predict_dict and gold_dict are equal
                 if self.is_position_tuple_equal(predict_col[pi], gold_col[gi]):
                     correct_num = correct_num + 1
                     vis.add(gi)
 
                     # calculate result element with polarity
+                    # last element tuple has (s_index, e_index, label_id)
                     if len(predict_col[pi]) == 3 and predict_col[pi] == gold_col[gi]:
                         result_polarity_correct_num += 1
                         polarity_correct_num_col[predict_col[pi][2] + 1] += 1
@@ -236,6 +238,7 @@ class BaseEvaluation(object):
         return [correct_num, result_polarity_correct_num, polarity_correct_num_col]
 
     @staticmethod
+    ## tính tỉ lệ dự đoán đúng (độ dài câu dự đoán) / độ dài element thực tế
     def get_cover_num(gold_col, predict_col, measure_type="binary"):
         """
         :param gold_col: [(s_index, e_index)]
@@ -707,6 +710,7 @@ class ElementEvaluation(BaseEvaluation):
         self.predict_dict = self.get_elem_dict((self.elem_hat, self.result_hat))
 
         # eval part do not drop elem.
+        # Nếu không phải câu comparative (predict_sent_label == 0) thì chuyển predict_dict thành []
         if self.comparative_identity:
             self.predict_dict = self.mask_non_comparative(self.predict_dict, self.predict_sent_label)
 
@@ -721,9 +725,13 @@ class ElementEvaluation(BaseEvaluation):
 
         assert len(self.predict_dict) == len(self.gold_dict)
 
+        for i in range(3):
+            logger.info("Predict dict: {}".format(self.predict_dict[i]))
+            logger.info("Gold dict: {}".format(self.gold_dict[i]))
+
         # calculate elem dict.
         for index in range(len(self.gold_dict)):
-            # sequence elem dict: {elem: {s_index: length}}
+            # sequence elem dict: {elem: {s_index, e_index}}
             gold_sequence_elem_dict = self.gold_dict[index]
             predict_sequence_elem_dict = self.predict_dict[index]
 
@@ -734,6 +742,11 @@ class ElementEvaluation(BaseEvaluation):
                 gold_num[elem] += len(gold_sequence_elem_dict[elem])
                 predict_num[elem] += len(predict_sequence_elem_dict[elem])
 
+                ## cur_exact_num = [correct_num, result_polarity_correct_num, polaruty_correct_num_col]
+                # tính số lượng dự đoán các element
+                ## cur_prop_num, cur_binary_num =[correct_num, result_polarity_correct_num, polaruty_correct_num_col]
+                # tính tỉ lệ cover = chiều dài chuỗi dự đoán đúng / chiều dài chuỗi thực tế
+                # binary ~ exatract, prop: cover_rate
                 cur_exact_num, cur_prop_num, cur_binary_num = self.get_elem_num(
                     gold_sequence_elem_dict[elem], predict_sequence_elem_dict[elem]
                 )
@@ -747,6 +760,7 @@ class ElementEvaluation(BaseEvaluation):
                 binary_correct_num[elem] += cur_binary_num[0]
 
         # print(gold_num)
+        # logger.info("Number of gold ")
         # calculate f-score.
         exact_measure = self.get_f_score(gold_num, predict_num, exact_correct_num, multi_elem_score)
         prop_measure = self.get_f_score(gold_num, predict_num, prop_correct_num, multi_elem_score)
@@ -765,6 +779,10 @@ class ElementEvaluation(BaseEvaluation):
             )
 
         # print result in file
+        logger.info("Extraction measure: {}".format(exact_measure))
+        logger.info("Binary measure: {}".format(binary_measure))
+        logger.info("Proportion measure: {}".format(prop_measure))
+
         self.print_measure(exact_measure, measure_file, measure_type='exact')
         self.print_measure(prop_measure, measure_file, measure_type='prop')
         self.print_measure(binary_measure, measure_file, measure_type='binary')
@@ -796,6 +814,7 @@ class ElementEvaluation(BaseEvaluation):
             self.predict_sent_label.append(mask_output)
 
     @staticmethod
+    ##
     def mask_non_comparative(data_dict, predict_label):
         """
         :param data_dict:
@@ -901,7 +920,7 @@ class ElementEvaluation(BaseEvaluation):
 
         write_str, elem_str = "", ""
         for index in range(len(input_ids)):
-            if drop_span:
+            if drop_span: ## drop [cls], [sep]
                 token_list = eval_shared_modules.bert_data_transfer(
                     self.bert_tokenizer, input_ids[index][mask[index] == 1][1:-1], data_type="ids"
                 )
@@ -915,6 +934,11 @@ class ElementEvaluation(BaseEvaluation):
 
             write_str += self.elem_dict_to_string(token_list, self.predict_dict[index]) + "\n"
             write_str += self.elem_dict_to_string(token_list, self.gold_dict[index]) + "\n"
+
+            if index < 3:
+                logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], add_special_tokens = False)))
+                logger.info("Gold token list: {}".format(self.gold_dict[index]))
+                logger.info("Predict dict: {} ".format(self.predict_dict[index]))
 
         with open(write_path, "w", encoding='utf-8', errors='ignore') as f:
             f.write(write_str)

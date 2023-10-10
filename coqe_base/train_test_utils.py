@@ -75,17 +75,23 @@ def first_stage_model_test(model, config, test_loader, res_eval, eval_parameters
             input_ids = torch.tensor(input_ids).long().to(config.device)
             attn_mask = torch.tensor(attn_mask).long().to(config.device)
 
+            ## extract each element of sequence
             bert_feature, elem_feature, elem_output, result_output, sent_output = model(input_ids, attn_mask)
 
+            
             if test_type == "eval":
+                ## thêm các giá trị dữ đoán vào result_hat, elem_hat
                 res_eval.add_data(elem_output, result_output, attn_mask)
+                ## res_eval: self. predict_sent_label
                 res_eval.add_sent_label(sent_output)
-            else:
+            else: ## extract 
                 res_eval.add_data(elem_output, result_output, attn_mask)
                 elem_feature_embed.append(elem_feature)
                 bert_feature_embed.append(bert_feature)
 
+    ## đánh giá mô hình hoặc sinh các element
     if test_type == "eval":
+        # eval của ElementEvaluation
         res_eval.eval_model(measure_file, model, model_path, multi_elem_score=True)
     else:
         return res_eval.generate_elem_representation(
@@ -199,8 +205,12 @@ def first_stage_model_main(
         optimizer_need_model = model
 
     ## 4 Adam optimizer for bert and normal model (LSTM) with different learning rate
-    OPTIM2FN = {"bert-base-multilingual-cased": optimizer_utils.Baseline_Optim, "norm": optimizer_utils.LSTMModel_Optim}
-    optimizer = OPTIM2FN[config.model_mode](optimizer_need_model, optimizer_parameters)
+    OPTIM2FN = {"bert": optimizer_utils.Baseline_Optim, "norm": optimizer_utils.LSTMModel_Optim}
+
+    if "bert" in config.model_mode:
+        optimizer = OPTIM2FN["bert"](optimizer_need_model, optimizer_parameters)
+    else:
+        optimizer = OPTIM2FN["norm"](optimizer_need_model, optimizer_parameters)
 
     dev_parameters = ["./ModelResult/" + model_name + "/dev_elem_result.txt",
                       "./PreTrainModel/" + model_name + "/dev_model"]
@@ -211,9 +221,10 @@ def first_stage_model_main(
         first_stage_model_train(model, optimizer, train_loader, config, epoch)
         first_stage_model_test(model, config, dev_loader, dev_comp_eval, dev_parameters)
 
-    print("==================test================")
+    print("=======================TEST=========================")
     ## load mô hình trích xuất
     predicate_model = torch.load(dev_parameters[1]) # load pretrain model? có lưu lại model đã train?
+    logger.info("Using model {} to predict element.".format(predicate_model))
 
     test_parameters = ["./ModelResult/" + model_name + "/test_elem_result.txt", None]
 
