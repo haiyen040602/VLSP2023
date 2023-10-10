@@ -725,9 +725,9 @@ class ElementEvaluation(BaseEvaluation):
 
         assert len(self.predict_dict) == len(self.gold_dict)
 
-        for i in range(3):
-            logger.info("Predict dict: {}".format(self.predict_dict[i]))
-            logger.info("Gold dict: {}".format(self.gold_dict[i]))
+        # for i in range(3):
+        #     logger.info("Predict dict: {}".format(self.predict_dict[i]))
+        #     logger.info("Gold dict: {}".format(self.gold_dict[i]))
 
         # calculate elem dict.
         for index in range(len(self.gold_dict)):
