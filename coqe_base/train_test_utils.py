@@ -285,7 +285,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     )
     # using Logistic Classifier to predict comparative label (9 label in VLSP)
     polarity_model = copy.deepcopy(
-        pipeline_model_utils.LogisticClassifier(config, pair_feature_dim, 4).to(config.device)
+        pipeline_model_utils.LogisticClassifier(config, pair_feature_dim, 9).to(config.device)
     )
 
     if torch.cuda.device_count() > 1:
