@@ -1,68 +1,68 @@
-Apple đã mang đến khá nhiều tính năng hấp dẫn cho máy như Deep Fusion .
+Apple đã mang đến khá nhiều tính năng hấp dẫn cho máy như Deep Fusion .
 [{}]
-Thật bất ngờ khi tính năng này cũng xuất hiện trên model iPhone SE 2022 5G giá rẻ mới nhất .
+Thật bất ngờ khi tính năng này cũng xuất hiện trên model iPhone SE 2022 5G giá rẻ mới nhất .
 [{'subject': [], 'object': ['12&&model', '13&&iPhone', '14&&SE', '15&&2022', '16&&5G', '17&&giá', '18&&rẻ', '19&&mới', '20&&nhất'], 'aspect': ['5&&tính', '6&&năng', '7&&này'], 'predicate': ['8&&cũng', '9&&xuất', '10&&hiện'], 'label': 'EQL'}]
-Vậy sự khác biệt giữa camera iPhone rẻ nhất và iPhone đắt nhất của Apple là như thế nào ?
+Vậy sự khác biệt giữa camera iPhone rẻ nhất và iPhone đắt nhất của Apple là như thế nào ?
 [{}]
-iPhone SE 2022 5G chỉ được trang bị 1 ống kính có độ phân giải 12MP .
+iPhone SE 2022 5G chỉ được trang bị 1 ống kính có độ phân giải 12MP .
 [{}]
-Trong khi iPhone 13 Pro được tích hợp 3 cảm biến sau .
+Trong khi iPhone 13 Pro được tích hợp 3 cảm biến sau .
 [{}]
-Các cảm biến này bao gồm : camera chính , camera góc siêu rộng cùng với camera tele có cùng độ phân giải 12MP .
+Các cảm biến này bao gồm : camera chính , camera góc siêu rộng cùng với camera tele có cùng độ phân giải 12MP .
 [{}]
-Mặc dù vậy nhưng cả hai model điều có một số điểm chung nhờ sở hữu phần cứng mạnh mẽ .
+Mặc dù vậy nhưng cả hai model điều có một số điểm chung nhờ sở hữu phần cứng mạnh mẽ .
 [{}]
-Hãy cùng xem chất lượng hình ảnh chụp từ camera trên hai mẫu iPhone này nhé !
+Hãy cùng xem chất lượng hình ảnh chụp từ camera trên hai mẫu iPhone này nhé !
 [{}]
-Trong điều kiện ánh sáng lý tưởng , tất cả các thiết bị ra mắt gần đây đều mang đến chất lượng khá tốt .
+Trong điều kiện ánh sáng lý tưởng , tất cả các thiết bị ra mắt gần đây đều mang đến chất lượng khá tốt .
 [{}]
-Không có gì bất ngờ khi khả năng chụp ảnh trên iPhone 13 Pro rất ấn tượng .
+Không có gì bất ngờ khi khả năng chụp ảnh trên iPhone 13 Pro rất ấn tượng .
 [{}]
-Tuy nhiên iPhone SE 2022 5G mới khiến chúng ta ngạc nhiên khi tạp ra những hình ảnh thực đẹp mắt và có chất lượng gần giống với mẫu iPhone đắt tiền hơn .
+Tuy nhiên iPhone SE 2022 5G mới khiến chúng ta ngạc nhiên khi tạp ra những hình ảnh thực đẹp mắt và có chất lượng gần giống với mẫu iPhone đắt tiền hơn .
 [{'subject': ['3&&iPhone', '4&&SE', '5&&2022', '6&&5G'], 'object': ['29&&mẫu', '30&&iPhone', '31&&đắt', '32&&tiền', '33&&hơn'], 'aspect': ['16&&những', '17&&hình', '18&&ảnh', '19&&thực'], 'predicate': ['24&&chất', '25&&lượng', '26&&gần', '27&&giống'], 'label': 'EQL'}]
-Cả hai điện thoại đều được tích hợp Smart HDR và mỗi sản phẩm đều làm tốt công việc cân bằng giữa bóng và chi tiết nổi bật .
+Cả hai điện thoại đều được tích hợp Smart HDR và mỗi sản phẩm đều làm tốt công việc cân bằng giữa bóng và chi tiết nổi bật .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['7&&tích', '8&&hợp', '9&&Smart', '10&&HDR'], 'predicate': ['5&&đều'], 'label': 'EQL'}]
-Mặc dù dải động của cảm biến trên iPhone SEmới không tốt bằng iPhone 13 Pro trong các điều kiện ánh sáng yếu , nhưng sự khác biệt không quá ấn tượn .
+Mặc dù dải động của cảm biến trên iPhone SEmới không tốt bằng iPhone 13 Pro trong các điều kiện ánh sáng yếu , nhưng sự khác biệt không quá ấn tượn .
 [{'subject': ['9&&iPhone', '10&&SEmới'], 'object': ['14&&iPhone', '15&&13', '16&&Pro'], 'aspect': ['3&&dải', '4&&động', '5&&của', '6&&cảm', '7&&biến'], 'predicate': ['11&&không', '12&&tốt', '13&&bằng'], 'label': 'COM-'}]
-Điện thoại iPhone 13 Pro cũng có cảm biến hình ảnh lớn hơn iPhone SE 2022 .
+Điện thoại iPhone 13 Pro cũng có cảm biến hình ảnh lớn hơn iPhone SE 2022 .
 [{'subject': ['1&&Điện', '2&&thoại', '3&&iPhone', '4&&13', '5&&Pro'], 'object': ['14&&iPhone', '15&&SE', '16&&2022'], 'aspect': ['8&&cảm', '9&&biến', '10&&hình', '11&&ảnh'], 'predicate': ['12&&lớn', '13&&hơn'], 'label': 'COM+'}]
-Điều này có nghĩa là model đắt tiền hơn có được độ sâu trường ảnh nông hơn trong một số bức ảnh .
+Điều này có nghĩa là model đắt tiền hơn có được độ sâu trường ảnh nông hơn trong một số bức ảnh .
 [{'subject': ['6&&model', '7&&đắt', '8&&tiền', '9&&hơn'], 'object': [], 'aspect': ['12&&độ', '13&&sâu', '14&&trường', '15&&ảnh'], 'predicate': ['16&&nông', '17&&hơn', '18&&trong', '19&&một', '20&&số', '21&&bức', '22&&ảnh'], 'label': 'COM'}]
-Hãy xem bức ảnh bên dưới , chúng ta sẽ thấy được chất lượng hình ảnh được chụp từ hai model .
+Hãy xem bức ảnh bên dưới , chúng ta sẽ thấy được chất lượng hình ảnh được chụp từ hai model .
 [{}]
-Cả hai điện thoại đều được tích hợp Deep Fusion , một kỹ thuật xử lý hình ảnh được thiết kế để giúp cải thiện độ chi tiết trong các bức ảnh chụp ánh sáng trung bình đến thiếu sáng .
+Cả hai điện thoại đều được tích hợp Deep Fusion , một kỹ thuật xử lý hình ảnh được thiết kế để giúp cải thiện độ chi tiết trong các bức ảnh chụp ánh sáng trung bình đến thiếu sáng .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['9&&Deep', '10&&Fusion'], 'predicate': ['5&&đều', '6&&được', '7&&tích', '8&&hợp'], 'label': 'EQL'}]
-Mặc dù bạn không có cách nào để biết khi nào Deep Fusion được kích hoạt , nhưng iPhone SE 2022 có thể tạo ra hình ảnh gần giống với iPhone 13 Pro về độ sắc nét và chi tiết khi chụp ảnh trong điều kiện ánh sáng trung bình ( hoặc trong nhà ) .
+Mặc dù bạn không có cách nào để biết khi nào Deep Fusion được kích hoạt , nhưng iPhone SE 2022 có thể tạo ra hình ảnh gần giống với iPhone 13 Pro về độ sắc nét và chi tiết khi chụp ảnh trong điều kiện ánh sáng trung bình ( hoặc trong nhà ) .
 [{'subject': ['19&&iPhone', '20&&SE', '21&&2022'], 'object': ['31&&iPhone', '32&&13', '33&&Pro'], 'aspect': ['35&&độ', '36&&sắc', '37&&nét'], 'predicate': ['28&&gần', '29&&giống'], 'label': 'EQL'}, {'subject': ['19&&iPhone', '20&&SE', '21&&2022'], 'object': ['31&&iPhone', '32&&13', '33&&Pro'], 'aspect': ['39&&chi', '40&&tiết'], 'predicate': ['28&&gần', '29&&giống'], 'label': 'EQL'}]
-Mẫu iPhone SE mới , có khả năng hiển thị chi tiết trong điều kiện ánh sáng trung bình là một ưu điểm lớn so với iPhone SE 2020 .
+Mẫu iPhone SE mới , có khả năng hiển thị chi tiết trong điều kiện ánh sáng trung bình là một ưu điểm lớn so với iPhone SE 2020 .
 [{'subject': ['1&&Mẫu', '2&&iPhone', '3&&SE', '4&&mới'], 'object': ['27&&iPhone', '28&&SE', '29&&2020'], 'aspect': ['9&&hiển', '10&&thị', '11&&chi', '12&&tiết', '13&&trong', '14&&điều', '15&&kiện', '16&&ánh', '17&&sáng', '18&&trung', '19&&bình'], 'predicate': ['22&&ưu', '23&&điểm', '24&&lớn', '25&&so', '26&&với'], 'label': 'COM+'}]
-Trong điều kiện ánh sáng yếu thì chất lượng hình ảnh của điện thoại iPhone giá rẻ̉không thật sự tốt .
+Trong điều kiện ánh sáng yếu thì chất lượng hình ảnh của điện thoại iPhone giá rẻ̉không thật sự tốt .
 [{}]
-Hình ảnh được chụp vào ban đêm không có nhiều ánh sáng xung quanh , trông khá nhiễu vì điện thoại không thể chụp ảnh phơi sáng lâu hơn .
+Hình ảnh được chụp vào ban đêm không có nhiều ánh sáng xung quanh , trông khá nhiễu vì điện thoại không thể chụp ảnh phơi sáng lâu hơn .
 [{}]
-Việc không được trang bị chế độ ban đêm là một thiếu sót trên iPhone SE 2022 , đặc biệt là khi so sánh với các mẫu Android tầm trung .
+Việc không được trang bị chế độ ban đêm là một thiếu sót trên iPhone SE 2022 , đặc biệt là khi so sánh với các mẫu Android tầm trung .
 [{}]
-Các điện thoại giá rẻ như Google Pixel 5A , Galaxy A53 5G . . . được ra mắt gần đây đều được trang bị tính năng này .
+Các điện thoại giá rẻ như Google Pixel 5A , Galaxy A53 5G . . . được ra mắt gần đây đều được trang bị tính năng này .
 [{}]
-Ở khía cạnh này , chiến thắng hoàn toàn thuộc về iPhone 13 Pro .
+Ở khía cạnh này , chiến thắng hoàn toàn thuộc về iPhone 13 Pro .
 [{'subject': ['12&&iPhone', '13&&13', '14&&Pro'], 'object': [], 'aspect': ['2&&khía', '3&&cạnh', '4&&này'], 'predicate': ['6&&chiến', '7&&thắng', '8&&hoàn', '9&&toàn'], 'label': 'COM+'}]
-Trong khi iPhone SE 2022 chỉ có một góc nhìn từ ống kính của nó .
+Trong khi iPhone SE 2022 chỉ có một góc nhìn từ ống kính của nó .
 [{}]
-Rõ ràng phối cạnh 3x sẽ đẹp hơn nhiều cho khuôn mặt so với cùng một hình ảnh trên camera rộng .
+Rõ ràng phối cạnh 3x sẽ đẹp hơn nhiều cho khuôn mặt so với cùng một hình ảnh trên camera rộng .
 [{'subject': ['3&&phối', '4&&cạnh', '5&&3x'], 'object': ['16&&một', '17&&hình', '18&&ảnh', '19&&trên', '20&&camera', '21&&rộng'], 'aspect': ['11&&khuôn', '12&&mặt'], 'predicate': ['7&&đẹp', '8&&hơn', '9&&nhiều'], 'label': 'COM+'}]
-Tính năng phát hiện cạnh không mạnh trên iPhone SE mới vì nó vô tình làm mờ hoặc cắt đi một số chi tiết mà iPhone 13 Pro xác định chính xác , chẳng hạn như kính râm nằm trên đầu ai đó .
+Tính năng phát hiện cạnh không mạnh trên iPhone SE mới vì nó vô tình làm mờ hoặc cắt đi một số chi tiết mà iPhone 13 Pro xác định chính xác , chẳng hạn như kính râm nằm trên đầu ai đó .
 [{}]
-Có một lợi thế rõ ràng khác trên iPhone 13 Pro là nó cho phép bạn chụp ảnh ở chế độ chân dung ở khá nhiều thứ bạn muốn , từ thú cưng đến hoa .
+Có một lợi thế rõ ràng khác trên iPhone 13 Pro là nó cho phép bạn chụp ảnh ở chế độ chân dung ở khá nhiều thứ bạn muốn , từ thú cưng đến hoa .
 [{}]
-Bởi vì iPhone SE 2022 chỉ có một ống kính duy nhất ở phía sau , nên thiết bị không thể chụp chân dung bất cứ thứ gì ngoại trừ con người .
+Bởi vì iPhone SE 2022 chỉ có một ống kính duy nhất ở phía sau , nên thiết bị không thể chụp chân dung bất cứ thứ gì ngoại trừ con người .
 [{}]
-Ngoài ra , điện thoại hàng đầu của Apple cũng cho phép bạn chụp ở định dạng ProRaw để có sự linh hoạt và vĩ độ nhất để chỉnh sửa hình ảnh của bạn .
+Ngoài ra , điện thoại hàng đầu của Apple cũng cho phép bạn chụp ở định dạng ProRaw để có sự linh hoạt và vĩ độ nhất để chỉnh sửa hình ảnh của bạn .
 [{}]
 Máy ảnh góc rộng của iPhone 13 Pro cũng hỗ trợ tự động lấy nét , có nghĩa là bạn có thể đến gần đối tượng của mình hơn .
 [{}]
-Mặc dù điện thoại đắt tiền hơn của Apple có một số lợi thế phần cứng rõ ràng như cảm biến lớn hơn , độ dài tiêu cự bổ sung và chế độ ban đêm .
+Mặc dù điện thoại đắt tiền hơn của Apple có một số lợi thế phần cứng rõ ràng như cảm biến lớn hơn , độ dài tiêu cự bổ sung và chế độ ban đêm .
 [{'subject': ['3&&điện', '4&&thoại', '5&&đắt', '6&&tiền', '7&&hơn', '8&&của', '9&&Apple'], 'object': [], 'aspect': ['15&&phần', '16&&cứng'], 'predicate': ['13&&lợi', '14&&thế'], 'label': 'COM+'}, {'subject': ['3&&điện', '4&&thoại', '5&&đắt', '6&&tiền', '7&&hơn', '8&&của', '9&&Apple'], 'object': [], 'aspect': ['20&&cảm', '21&&biến'], 'predicate': ['22&&lớn', '23&&hơn'], 'label': 'COM+'}]
-Nhưng iPhone SE 2022 5G vẫn khiến chúng ta ngạc nhiên khi mang đến chất lượng chụp ảnh cũng khác tốt .
+Nhưng iPhone SE 2022 5G vẫn khiến chúng ta ngạc nhiên khi mang đến chất lượng chụp ảnh cũng khác tốt .
 [{}]
 Samsung Galaxy Z Fold2 – mẫu điện thoại màn hình gập thế hệ mới của Samsung , mang tới nhiều nâng cấp và cải tiến hơn rất nhiều so với người tiền nhiệm Galaxy Fold .
 [{'subject': ['1&&Samsung', '2&&Galaxy', '3&&Z', '4&&Fold2'], 'object': ['31&&người', '32&&tiền', '33&&nhiệm', '34&&Galaxy', '35&&Fold'], 'aspect': ['21&&nâng', '22&&cấp'], 'predicate': ['20&&nhiều', '21&&nâng', '22&&cấp', '23&&và', '24&&cải', '25&&tiến', '26&&hơn', '27&&rất', '28&&nhiều'], 'label': 'COM+'}, {'subject': ['1&&Samsung', '2&&Galaxy', '3&&Z', '4&&Fold2'], 'object': ['31&&người', '32&&tiền', '33&&nhiệm', '34&&Galaxy', '35&&Fold'], 'aspect': ['24&&cải', '25&&tiến'], 'predicate': ['20&&nhiều', '21&&nâng', '22&&cấp', '23&&và', '24&&cải', '25&&tiến', '26&&hơn', '27&&rất', '28&&nhiều'], 'label': 'COM+'}]
@@ -1352,51 +1352,51 @@ Tuy nhiên , nếu bạn đang tìm kiếm một chiếc điện thoại có kh�
 [{}]
 title : Samsung Galaxy A73 5G ra mắt khi nào ? Giá bao nhiêu ? Có nên mua không ?
 [{}]
-Vào tháng 04 / 2022 , Samsung cho ra mắt Samsung Galaxy A73 5G tại thị trường Việt Nam .
+Vào tháng 04 / 2022 , Samsung cho ra mắt Samsung Galaxy A73 5G tại thị trường Việt Nam .
 [{}]
-Sản phẩm dự kiến sẽ là một trong những mẫu điện thoại nổi bật trong dòng Galaxy A .
+Sản phẩm dự kiến sẽ là một trong những mẫu điện thoại nổi bật trong dòng Galaxy A .
 [{}]
-Cùng tìm hiểu giá bán Samsung Galaxy A73 5G và một số thông tin về sản phẩm này .
+Cùng tìm hiểu giá bán Samsung Galaxy A73 5G và một số thông tin về sản phẩm này .
 [{}]
 Vào đầu tháng 04 / 2022 Samsung Galaxy A73 5G được chính thức mở bán tại thị trường Việt Nam .
 [{}]
-Với những thiết kế cùng công nghệ hiện đại thừa kế từ thế hế tiền nhiệm , Samsung Galaxy A73 5G chắc chắn sẽ là sản phẩm chủ lực thuộc dòng Galaxy A của Samsung .
+Với những thiết kế cùng công nghệ hiện đại thừa kế từ thế hế tiền nhiệm , Samsung Galaxy A73 5G chắc chắn sẽ là sản phẩm chủ lực thuộc dòng Galaxy A của Samsung .
 [{}]
-Ngoại hình Samsung Galaxy A73 5G sở hữu những đường nét thiết kế trẻ trung , năng động và cũng không kém phần hiện đại , sang trọng .
+Ngoại hình Samsung Galaxy A73 5G sở hữu những đường nét thiết kế trẻ trung , năng động và cũng không kém phần hiện đại , sang trọng .
 [{}]
-Ngoài ra , người dùng có thể thoải mái lựa chọn với 3 phiên bản màu sắc đa dạng .
+Ngoài ra , người dùng có thể thoải mái lựa chọn với 3 phiên bản màu sắc đa dạng .
 [{}]
-Không chỉ có vẻ ngoài bắt mắt , bộ máy của sản phẩm được đánh giá cao với cấu hình phần cứng mạnh mẽ cùng độ bền sản phẩm cao .
+Không chỉ có vẻ ngoài bắt mắt , bộ máy của sản phẩm được đánh giá cao với cấu hình phần cứng mạnh mẽ cùng độ bền sản phẩm cao .
 [{}]
-Bộ camera chất lượng với camera chính 108MP đầy ấn tượng .
+Bộ camera chất lượng với camera chính 108MP đầy ấn tượng .
 [{}]
-Và dù thuộc phân khúc cận cao cấp nhưng giá của sản phẩm lại phải chăng phù hợp cho nhiều đối tượng khách hàng .
+Và dù thuộc phân khúc cận cao cấp nhưng giá của sản phẩm lại phải chăng phù hợp cho nhiều đối tượng khách hàng .
 [{}]
-Về tổng quan , thiết kế của chiếc mày này khá giống với các thế hệ tiền nhiệm với các cạnh và mặt được vát phẳng , tạo hình vuông vắn .
+Về tổng quan , thiết kế của chiếc mày này khá giống với các thế hệ tiền nhiệm với các cạnh và mặt được vát phẳng , tạo hình vuông vắn .
 [{'subject': ['8&&chiếc', '9&&mày', '10&&này'], 'object': ['14&&các', '15&&thế', '16&&hệ', '17&&tiền', '18&&nhiệm'], 'aspect': ['5&&thiết', '6&&kế'], 'predicate': ['11&&khá', '12&&giống'], 'label': 'EQL'}]
-Thêm vào đó , 3 tông màu xanh lá , xám và đen mang đến sự trẻ trung , hiện đại cho sản phẩm .
+Thêm vào đó , 3 tông màu xanh lá , xám và đen mang đến sự trẻ trung , hiện đại cho sản phẩm .
 [{}]
-Lớp vỏ ngoài làm bằng nhựa cho nên trọng lượng máy khá nhẹ , thuận tiện cho người dùng .
+Lớp vỏ ngoài làm bằng nhựa cho nên trọng lượng máy khá nhẹ , thuận tiện cho người dùng .
 [{}]
-Cụm camera hình chữ nhật thiết kế nhô lên nhẹ so với mặt lưng .
+Cụm camera hình chữ nhật thiết kế nhô lên nhẹ so với mặt lưng .
 [{}]
-Logo Samsung được khắc mờ trên vỏ máy tạo điểm nhấn cho mặt sau điện thoại .
+Logo Samsung được khắc mờ trên vỏ máy tạo điểm nhấn cho mặt sau điện thoại .
 [{}]
 Galaxy A73 5G có RAM 8GB hỗ trợ các thao tác đa nhiệm mượt mà , hạn chế tối đa tình trạng lỗi máy khi khởi chạy nhiều ứng dụng đồng thời .
 [{}]
 Ngoài ra điện thoại được trang bị bộ nhớ trong dung lượng lên đến 128GB giúp mang đến cho bạn không gian lưu trữ rộng lớn , thuận tiện lưu trữ dữ liệu .
 [{}]
-Nói đến Samsung Galaxy A73 5G không thể bỏ qua cụm camera siêu chất của máy .
+Nói đến Samsung Galaxy A73 5G không thể bỏ qua cụm camera siêu chất của máy .
 [{}]
-Bộ 4 camera với nhiều tính năng hiện đại như chụp đêm , chụp toàn cảnh , làm đẹp , . . . Đặc biệt , với camera chính 108MP , bạn chắc chắc sẽ được sở hữu những bức ảnh vô cùng chi tiết và sắc nét , cho bạn thỏa sức đam mê nhiếp ảnh .
+Bộ 4 camera với nhiều tính năng hiện đại như chụp đêm , chụp toàn cảnh , làm đẹp , . . . Đặc biệt , với camera chính 108MP , bạn chắc chắc sẽ được sở hữu những bức ảnh vô cùng chi tiết và sắc nét , cho bạn thỏa sức đam mê nhiếp ảnh .
 [{}]
-Camera trước 32MP sẽ mang đến trải nghiệm selfie hoàn hảo nhờ độ phân giải cao và nhiều tính năng hiện đại .
+Camera trước 32MP sẽ mang đến trải nghiệm selfie hoàn hảo nhờ độ phân giải cao và nhiều tính năng hiện đại .
 [{}]
-Các bức ảnh thu được sẽ luôn đạt chất lượng , kể cả khi chụp ngược sáng .
+Các bức ảnh thu được sẽ luôn đạt chất lượng , kể cả khi chụp ngược sáng .
 [{}]
-Thêm nữa , các camera trên máy đều có khả năng chống rung quang học .
+Thêm nữa , các camera trên máy đều có khả năng chống rung quang học .
 [{}]
-Với việc trang bị chuấn chống nước IP67 , bạn có thể thoải mái sử dụng thiết bị ngay cả khi trời mưa mà không lo hư hỏng .
+Với việc trang bị chuấn chống nước IP67 , bạn có thể thoải mái sử dụng thiết bị ngay cả khi trời mưa mà không lo hư hỏng .
 [{}]
 Màn hình điện thoại có tần số quét 120Hz và độ sáng 800 nits hỗ trợ hiển thị nội dung khi xem phim hay giải trí với những khung hình mượt mà , không mờ nhòe , siêu chi tiết và độ tương phản cao .
 [{}]
@@ -1406,13 +1406,13 @@ Nên mua không ?
 [{}]
 Dù sở hữu nhiều tính năng vượt trội so với các sản phẩm khác trong cùng phân khúc nhưng Samsung Galaxy A73 5G có mức giá thành rất hợp lý .
 [{'subject': ['20&&Samsung', '21&&Galaxy', '22&&A73', '23&&5G'], 'object': ['11&&các', '12&&sản', '13&&phẩm', '14&&khác', '15&&trong', '16&&cùng', '17&&phân', '18&&khúc'], 'aspect': ['4&&nhiều', '5&&tính', '6&&năng'], 'predicate': ['7&&vượt', '8&&trội'], 'label': 'COM+'}]
-Tóm lại đây là một mẫu điện thoại vô cùng chất lượng có thể đáp ứng mọi yêu cầu từ mọi đối tượng .
+Tóm lại đây là một mẫu điện thoại vô cùng chất lượng có thể đáp ứng mọi yêu cầu từ mọi đối tượng .
 [{}]
-Dù bạn là sinh viên hay nhân viên văn phòng và kể cả là doanh nhân , chiếc điện thoại này đều có thể phục vụ tối đa các yêu cầu từ cơ bản đến nâng cao của bạn .
+Dù bạn là sinh viên hay nhân viên văn phòng và kể cả là doanh nhân , chiếc điện thoại này đều có thể phục vụ tối đa các yêu cầu từ cơ bản đến nâng cao của bạn .
 [{}]
 Giá bán điện thoại Samsung Galaxy A73 5G bao nhiêu ?
 [{}]
-Bài viết đã giới thiệu đến bạn một số thông tin và giá bán của điện thoại Samsung Galaxy A73 5G .
+Bài viết đã giới thiệu đến bạn một số thông tin và giá bán của điện thoại Samsung Galaxy A73 5G .
 [{}]
 Hy vọng bạn sẽ chọn được sản phẩm phù hợp khi có nhu cầu mua điện thoại .
 [{}]

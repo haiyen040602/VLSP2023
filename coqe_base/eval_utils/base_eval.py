@@ -1024,6 +1024,8 @@ class ElementEvaluation(BaseEvaluation):
 
                     else:
                         # 采用5维 + 768维
+                        # tensor có kích thước = 5 lưu giá trị trung bình biểu diễn của các element (từ s_index -> e_index)
+                        # concatenate element extraction from s-> e_index with hidden_representation of all sentence but from (s->e_index of element) 
                         if feature_type == 0:
                             each_pair_representation.append(
                                 torch.mean(feature_out[index][elem_index][s: e], dim=0).cpu().view(-1, hidden_size)

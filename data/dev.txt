@@ -262,9 +262,9 @@ Còn đối với những ai có kinh phí không quá cao , nhu cầu sử dụ
 [{}]
 Lựa chọn điện thoại phù hợp với nhu cầu sử dụng của mình .
 [{}]
-Nếu đã quyết định mua Samsung Galaxy A73 và S21 FE thì bạn nên lựa chọn mua ở những cửa hàng uy tín để có thể mua được sản phẩm chất lượng và được hưởng các chính sách bảo hành chính hãng .
+Nếu đã quyết định mua Samsung Galaxy A73 và S21 FE thì bạn nên lựa chọn mua ở những cửa hàng uy tín để có thể mua được sản phẩm chất lượng và được hưởng các chính sách bảo hành chính hãng .
 [{}]
-Bạn hoàn toàn có thể an tâm khi mua điện thoại ở Thế Giới Di Động với nhiều ưu đãi cùng chính sách bảo hành hấp dẫn .
+Bạn hoàn toàn có thể an tâm khi mua điện thoại ở Thế Giới Di Động với nhiều ưu đãi cùng chính sách bảo hành hấp dẫn .
 [{}]
 Chính sách bảo hành tại Thế Giới Di Động .
 [{}]
@@ -338,75 +338,75 @@ Tất nhiên , điện thoại sẽ ấm lên nhưng không khó chịu , không
 [{}]
 Sản phẩm cao cấp nhất của thế giới Android hiện nay
 [{'subject': ['1&&Sản', '2&&phẩm'], 'object': [], 'aspect': [], 'predicate': ['3&&cao', '4&&cấp', '5&&nhất', '6&&của', '7&&thế', '8&&giới', '9&&Android', '10&&hiện', '11&&nay'], 'label': 'SUP+'}]
-Nói đến điện thoại thông minh không thể không nói đến điện thoại Samsung .
+Nói đến điện thoại thông minh không thể không nói đến điện thoại Samsung .
 [{}]
-Mới ngay đây Samsung đã cho ra mắt sản phẩm mới của hãng thuộc dòng Samsung Galaxy A .
+Mới ngay đây Samsung đã cho ra mắt sản phẩm mới của hãng thuộc dòng Samsung Galaxy A .
 [{}]
-Mới ngay đây 24 / 04 , Samsung đã cho ra mắt sản phẩm mới thuộc phân khúc điện thoại tầm trung là Samsung Galaxy A24 với 2 phiên bản bộ nhớ lần lượt là Samsung A24 6GB và 8GB .
+Mới ngay đây 24 / 04 , Samsung đã cho ra mắt sản phẩm mới thuộc phân khúc điện thoại tầm trung là Samsung Galaxy A24 với 2 phiên bản bộ nhớ lần lượt là Samsung A24 6GB và 8GB .
 [{}]
-Phiên bản màu sắc cũng được hãng công bố với 4 màu bao gồm đen , xanh lá , bạc và đỏ .
+Phiên bản màu sắc cũng được hãng công bố với 4 màu bao gồm đen , xanh lá , bạc và đỏ .
 [{}]
-Sản phẩm rất được đầu tư khi được trang bị bộ 3 camera sau đầy hiện đại , bộ vi xử lý mạnh mẽ với khả năng đa nhiệm tuyệt vời thêm nữa là màn hình với chất lượng hiển thị sắc nét và vô số những tính năng hiện đại khác .
+Sản phẩm rất được đầu tư khi được trang bị bộ 3 camera sau đầy hiện đại , bộ vi xử lý mạnh mẽ với khả năng đa nhiệm tuyệt vời thêm nữa là màn hình với chất lượng hiển thị sắc nét và vô số những tính năng hiện đại khác .
 [{}]
-Sản phẩm Samsung Galaxy A24 được kế thừa những đường nét thiết kế từ dòng Galaxy A của Samsung .
+Sản phẩm Samsung Galaxy A24 được kế thừa những đường nét thiết kế từ dòng Galaxy A của Samsung .
 [{'subject': ['3&&Samsung', '4&&Galaxy', '5&&A24'], 'object': ['15&&dòng', '16&&Galaxy', '17&&A', '18&&của', '19&&Samsung'], 'aspect': ['9&&những', '10&&đường', '11&&nét', '12&&thiết', '13&&kế'], 'predicate': ['6&&được', '7&&kế', '8&&thừa'], 'label': 'EQL'}]
-Máy sở hữu bộ khung vuông vắn và phần mặt lưng được vát phẳng , 4 góc cũng được bo tròn để người dùng cũng có thề thoải mái sử dụng hơn .
+Máy sở hữu bộ khung vuông vắn và phần mặt lưng được vát phẳng , 4 góc cũng được bo tròn để người dùng cũng có thề thoải mái sử dụng hơn .
 [{}]
-Giống với các sản phẩm thuộc dòng Galaxy A , khung viền quanh máy sử dụng chất liệu nhựa giúp khối lượng máy nhẹ hơn .
+Giống với các sản phẩm thuộc dòng Galaxy A , khung viền quanh máy sử dụng chất liệu nhựa giúp khối lượng máy nhẹ hơn .
 [{'subject': [], 'object': ['3&&các', '4&&sản', '5&&phẩm', '6&&thuộc', '7&&dòng', '8&&Galaxy', '9&&A'], 'aspect': ['11&&khung', '12&&viền', '13&&quanh', '14&&máy'], 'predicate': ['1&&Giống', '2&&với'], 'label': 'EQL'}]
-Hơn nữa kích thước của máy cũng vừa vặn không quá to phù hợp cho mọi đối tượng kể cả nam và nữ đều sử dụng được .
+Hơn nữa kích thước của máy cũng vừa vặn không quá to phù hợp cho mọi đối tượng kể cả nam và nữ đều sử dụng được .
 [{}]
-Các phiên bản màu sắc gồm có đen , xanh lá , bạc , đỏ những màu này đều làm toát lên vẻ hiện đại , trẻ trung và thời trang cho cả sản phẩm lẫn người dùng .
+Các phiên bản màu sắc gồm có đen , xanh lá , bạc , đỏ những màu này đều làm toát lên vẻ hiện đại , trẻ trung và thời trang cho cả sản phẩm lẫn người dùng .
 [{}]
-Tấm nền Super AMOLED giúp các hình ảnh trở nên sống động , chân thực hơn .
+Tấm nền Super AMOLED giúp các hình ảnh trở nên sống động , chân thực hơn .
 [{'subject': ['1&&Tấm', '2&&nền', '3&&Super', '4&&AMOLED'], 'object': [], 'aspect': ['7&&hình', '8&&ảnh'], 'predicate': ['11&&sống', '12&&động', '13&&,', '14&&chân', '15&&thực', '16&&hơn'], 'label': 'COM+'}]
-Bên cạnh đó nó còn giúp máy tiết kiệm điện năng và bảo vệ mắt của người dùng nhờ việc giảm thiểu ánh sáng xanh .
+Bên cạnh đó nó còn giúp máy tiết kiệm điện năng và bảo vệ mắt của người dùng nhờ việc giảm thiểu ánh sáng xanh .
 [{}]
-Tần số quét 90Hz mang đến khả năng cuộn lướt vô cùng mượt mà .
+Tần số quét 90Hz mang đến khả năng cuộn lướt vô cùng mượt mà .
 [{}]
-Thêm nữa , nữa người dùng có thể chạm 2 lần lên màn hình để kích hoạt màn hình chờ , đây là một tính năng khá hữu ích được tích hợp trên màn hình máy .
+Thêm nữa , nữa người dùng có thể chạm 2 lần lên màn hình để kích hoạt màn hình chờ , đây là một tính năng khá hữu ích được tích hợp trên màn hình máy .
 [{}]
-Bộ 3 camera được trang bị với camera chính lên đến 50MP và 2 camera phụ lần lượt là 5MP và 2MP phục vụ đa dạng nhu cầu chụp ảnh , quay video của người dùng .
+Bộ 3 camera được trang bị với camera chính lên đến 50MP và 2 camera phụ lần lượt là 5MP và 2MP phục vụ đa dạng nhu cầu chụp ảnh , quay video của người dùng .
 [{}]
-Với ống kính chính có độ phân giải cao , sản phẩm tự tin sẽ mang đến những hình ảnh với độ chân thực , chi tiết và chất lượng đáp ứng được mọi yêu cầu từ chủ sở hữu .
+Với ống kính chính có độ phân giải cao , sản phẩm tự tin sẽ mang đến những hình ảnh với độ chân thực , chi tiết và chất lượng đáp ứng được mọi yêu cầu từ chủ sở hữu .
 [{}]
-Không chỉ có camera xịn xò , vô số các tính năng hiện đại khác cũng được tích hợp trên máy có thể kể đến như AI Camera , Làm đẹp , Chống rung quang học ( OIS ) , Tự động lấy nét ( AF ) , . . . Điều này sẽ giúp tăng lên đáng kể chất lượng những khung hình hay video thu được .
+Không chỉ có camera xịn xò , vô số các tính năng hiện đại khác cũng được tích hợp trên máy có thể kể đến như AI Camera , Làm đẹp , Chống rung quang học ( OIS ) , Tự động lấy nét ( AF ) , . . . Điều này sẽ giúp tăng lên đáng kể chất lượng những khung hình hay video thu được .
 [{}]
-Bộ xử lý của Samsung Galay A24 được trang bị con chip MediaTek Helio G99 được đánh giá khá cao trong phân khúc điện thoại tầm trung - giá rẻ .
+Bộ xử lý của Samsung Galay A24 được trang bị con chip MediaTek Helio G99 được đánh giá khá cao trong phân khúc điện thoại tầm trung - giá rẻ .
 [{}]
-Với hiệu suất tối đa đạt 2.2Ghz , máy có thể tự tin xử lý các tác vụ một cách gọn gàng và mang đến trải nghiệm giải trí mượt mà không giật lag .
+Với hiệu suất tối đa đạt 2.2Ghz , máy có thể tự tin xử lý các tác vụ một cách gọn gàng và mang đến trải nghiệm giải trí mượt mà không giật lag .
 [{}]
-Hơn nữa , thanh RAM của sản phẩm cũng có dung lượng khá cao ( 6GB , 8GB ) .
+Hơn nữa , thanh RAM của sản phẩm cũng có dung lượng khá cao ( 6GB , 8GB ) .
 [{}]
-Nhờ đó khả năng đa nhiệm hay chuyển đổi tác vụ sẽ được đảm bảo hoạt động một cách trơn tru , uyển chuyển hạn chế tối đa tình trạng bị đơ , đứng máy .
+Nhờ đó khả năng đa nhiệm hay chuyển đổi tác vụ sẽ được đảm bảo hoạt động một cách trơn tru , uyển chuyển hạn chế tối đa tình trạng bị đơ , đứng máy .
 [{}]
-Theo thông số , bộ nhớ trong của sản phẩm là 128GB trong đó bộ nhớ khả dụng là khoảng 113GB .
+Theo thông số , bộ nhớ trong của sản phẩm là 128GB trong đó bộ nhớ khả dụng là khoảng 113GB .
 [{}]
-Với con số này thì người dùng có thể thoải mái lưu trữ các thông tin , dữ liệu quan trọng của bản thân mà không cần lo việc bị hết bộ nhớ .
+Với con số này thì người dùng có thể thoải mái lưu trữ các thông tin , dữ liệu quan trọng của bản thân mà không cần lo việc bị hết bộ nhớ .
 [{}]
-Và như đã đề cập , thanh RAM của máy cũng sở hữu dung lượng không hề nhỏ .
+Và như đã đề cập , thanh RAM của máy cũng sở hữu dung lượng không hề nhỏ .
 [{}]
 Viên pin 5000 mAh cho thời lượng sử dụng lâu hơn
 [{'subject': ['1&&Viên', '2&&pin', '3&&5000', '4&&mAh'], 'object': [], 'aspect': ['6&&thời', '7&&lượng', '8&&sử', '9&&dụng'], 'predicate': ['10&&lâu', '11&&hơn'], 'label': 'COM+'}]
-Với việc trang bị viên pin 5000mAh , Samsung có tự tin đảm bảo sản phẩm của mình sẽ có thể hoạt động trong cả một ngày dài với nhiều tác vụ khác nhau .
+Với việc trang bị viên pin 5000mAh , Samsung có tự tin đảm bảo sản phẩm của mình sẽ có thể hoạt động trong cả một ngày dài với nhiều tác vụ khác nhau .
 [{}]
-Thậm chí nếu chỉ dùng điện thoại cho các nhu cầu cơ bản quãng thời gian này có thể kéo dài đến 2 - 3 ngày .
+Thậm chí nếu chỉ dùng điện thoại cho các nhu cầu cơ bản quãng thời gian này có thể kéo dài đến 2 - 3 ngày .
 [{}]
-Không chỉ thế , sản phẩm còn hỗ trợ sạc tối đa 25W cùng với công nghệ sạc pin nhanh được tích hợp .
+Không chỉ thế , sản phẩm còn hỗ trợ sạc tối đa 25W cùng với công nghệ sạc pin nhanh được tích hợp .
 [{}]
-Vì thế , chỉ tốn khoảng 1 giờ , thiết bị có thể lại được nạp đầy năng lượng .
+Vì thế , chỉ tốn khoảng 1 giờ , thiết bị có thể lại được nạp đầy năng lượng .
 [{}]
 Có nên mua không ?
 [{}]
-Phía trên , ta đã lần lượt đánh giá các mặt của sản phẩm mới ra mắt nhà Samsung .
+Phía trên , ta đã lần lượt đánh giá các mặt của sản phẩm mới ra mắt nhà Samsung .
 [{}]
-Thiết kế cuốn hút , bộ camera hiện đại , màn hình cao cấp , hiệu năng mạnh mẽ và khả năng vận hành bền bỉ .
+Thiết kế cuốn hút , bộ camera hiện đại , màn hình cao cấp , hiệu năng mạnh mẽ và khả năng vận hành bền bỉ .
 [{}]
-Nếu bạn là học sinh - sinh viên hay những người chỉ có nhu cầu xử lý các tác vụ cơ bản , giải trí vừa phải như xem video , chơi các tựa game nhẹ , . . . thì mẫu điện thoại này có thể đáp ứng mọi yêu cầu của bạn một cách hoàn hảo nhất .
+Nếu bạn là học sinh - sinh viên hay những người chỉ có nhu cầu xử lý các tác vụ cơ bản , giải trí vừa phải như xem video , chơi các tựa game nhẹ , . . . thì mẫu điện thoại này có thể đáp ứng mọi yêu cầu của bạn một cách hoàn hảo nhất .
 [{}]
-Trên đây là bài viết đánh giá chi tiết về Samsung Galaxy A24 : Camera 50 MP cùng chip MediaTek Helio G99 .
+Trên đây là bài viết đánh giá chi tiết về Samsung Galaxy A24 : Camera 50 MP cùng chip MediaTek Helio G99 .
 [{}]
-Hy vọng bài viết mang đến những thông tin hữu ích với bạn .
+Hy vọng bài viết mang đến những thông tin hữu ích với bạn .
 [{}]
 Samsung Galaxy S20 FE là đối thủ của iPhone 12 ?
 [{}]
@@ -478,41 +478,41 @@ Mẫu điện thoại kế nhiệm mới được ra mắt từ nhà Realme có 
 [{}]
 title : iPhone 14 Pro Max hay Pixel 7 Pro có thời lượng pin tốt hơn ?
 [{}]
-So sánh thời lượng pin iPhone 14 Pro Max và Google Pixel 7 Pro , model nào giành chiến thắng ?
+So sánh thời lượng pin iPhone 14 Pro Max và Google Pixel 7 Pro , model nào giành chiến thắng ?
 [{}]
-iPhone 14 Pro Max và model Google Pixel 7 Pro đều là những điện thoại tốt nhất hiện nay .
+iPhone 14 Pro Max và model Google Pixel 7 Pro đều là những điện thoại tốt nhất hiện nay .
 [{'subject': ['1&&iPhone', '2&&14', '3&&Pro', '4&&Max'], 'object': ['7&&Google', '8&&Pixel', '9&&7', '10&&Pro'], 'aspect': [], 'predicate': ['11&&đều', '12&&là', '13&&những', '14&&điện', '15&&thoại', '16&&tốt', '17&&nhất', '18&&hiện', '19&&nay'], 'label': 'EQL'}]
-Mặc dù cả hai thiết bị đều sở hữu viên pin có dung lượng tương đương , nhưng tuổi thọ pin có sự chênh lệch khá lớn .
+Mặc dù cả hai thiết bị đều sở hữu viên pin có dung lượng tương đương , nhưng tuổi thọ pin có sự chênh lệch khá lớn .
 [{'subject': ['4&&hai', '5&&thiết', '6&&bị'], 'object': ['4&&hai', '5&&thiết', '6&&bị'], 'aspect': ['10&&viên', '11&&pin', '12&&có', '13&&dung', '14&&lượng', '15&&tương', '16&&đương'], 'predicate': ['7&&đều', '8&&sở', '9&&hữu'], 'label': 'EQL'}, {'subject': ['4&&hai', '5&&thiết', '6&&bị'], 'object': ['4&&hai', '5&&thiết', '6&&bị'], 'aspect': ['19&&tuổi', '20&&thọ', '21&&pin'], 'predicate': ['22&&có', '23&&sự', '24&&chênh', '25&&lệch', '26&&khá', '27&&lớn'], 'label': 'DIF'}]
-Youtuber PhoneBuff đã thực hiện kiểm tra thời lượng pin của iPhone 14 Pro Max và Google Pixel 7 Pro .
+Youtuber PhoneBuff đã thực hiện kiểm tra thời lượng pin của iPhone 14 Pro Max và Google Pixel 7 Pro .
 [{}]
-Theo như đánh giá , một trong hai thiết bị đã có màn thể hiện nổi bật về thời lượng pin , bất chấp sự tối ưu hóa tuyệt vời mà hai công ty đã thực hiện chi model của mình .
+Theo như đánh giá , một trong hai thiết bị đã có màn thể hiện nổi bật về thời lượng pin , bất chấp sự tối ưu hóa tuyệt vời mà hai công ty đã thực hiện chi model của mình .
 [{}]
-Apple trang bị cho model của mình viên pin 4323mAh , trong khi Pixel 7 Pro sở hữu viên pin 5000mAh .
+Apple trang bị cho model của mình viên pin 4323mAh , trong khi Pixel 7 Pro sở hữu viên pin 5000mAh .
 [{}]
-Việc trang bị dung lượng pin lớn hơn không có nghĩa là sẽ cung cấp thời lượng pin tốt hơn .
+Việc trang bị dung lượng pin lớn hơn không có nghĩa là sẽ cung cấp thời lượng pin tốt hơn .
 [{}]
-Trong thử nghiệm của PhoneBuff đã thực hiện các tác vụ hàng ngày của người dùng trên hai thiết bị .
+Trong thử nghiệm của PhoneBuff đã thực hiện các tác vụ hàng ngày của người dùng trên hai thiết bị .
 [{}]
-Cả hai điện thoại đều được mở một số ứng dụng như Spotify , YouTube , cũng như ứng dụng máy ảnh để chụp một số hình ảnh và video .
+Cả hai điện thoại đều được mở một số ứng dụng như Spotify , YouTube , cũng như ứng dụng máy ảnh để chụp một số hình ảnh và video .
 [{}]
-Sau một giờ sử dụng , iPhone 14 Pro Max và Google Pixel 7 Pro đều mất khoảng 10% , không có model nào nổi bật hơn .
+Sau một giờ sử dụng , iPhone 14 Pro Max và Google Pixel 7 Pro đều mất khoảng 10% , không có model nào nổi bật hơn .
 [{}]
-Tuy nhiên , sau hai giờ sử dụng thì điện thoại iPhone cho kết quả tốt hơn khi chỉ mất 5% pin .
+Tuy nhiên , sau hai giờ sử dụng thì điện thoại iPhone cho kết quả tốt hơn khi chỉ mất 5% pin .
 [{'subject': ['12&&iPhone'], 'object': [], 'aspect': ['14&&kết', '15&&quả'], 'predicate': ['16&&tốt', '17&&hơn'], 'label': 'COM+'}]
 Khoảng cách hiệu suất của hai điện thoại thông minh ngày càng tăng khi thử nghiệm tiếp tục .
 [{}]
-iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ
+iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ
 [{'subject': ['1&&iPhone', '2&&14', '3&&Pro', '4&&Max'], 'object': ['13&&đối', '14&&thủ'], 'aspect': ['6&&thời', '7&&lượng', '8&&pin'], 'predicate': ['9&&tốt', '10&&hơn'], 'label': 'COM+'}]
-Không có bất kỳ ứng dụng cụ thể nào đặc biệt để đổ lỗi cho sự suy giảm thời lượng pin trên hai điện thoại .
+Không có bất kỳ ứng dụng cụ thể nào đặc biệt để đổ lỗi cho sự suy giảm thời lượng pin trên hai điện thoại .
 [{}]
-Bài kiểm tra kết thúc khi Google Pixel 7 Pro đã hết cạn pin .
+Bài kiểm tra kết thúc khi Google Pixel 7 Pro đã hết cạn pin .
 [{}]
-Trong khi trên iPhone 14 Pro Max vẫn còn 21% .
+Trong khi trên iPhone 14 Pro Max vẫn còn 21% .
 [{}]
-Kết quả cho thấy model của Apple có thể kéo dài thời lượng sử dụng tối đa là 11 giờ 44 phút .
+Kết quả cho thấy model của Apple có thể kéo dài thời lượng sử dụng tối đa là 11 giờ 44 phút .
 [{}]
-Tuy nhiên , một lưu ý rằng Google Pixel 7 Pro vẫn mang đến hiệu suất mạnh mẽ tương tự như các đối thủ Android hiện nay .
+Tuy nhiên , một lưu ý rằng Google Pixel 7 Pro vẫn mang đến hiệu suất mạnh mẽ tương tự như các đối thủ Android hiện nay .
 [{'subject': ['8&&Google', '9&&Pixel', '10&&7', '11&&Pro'], 'object': ['22&&các', '23&&đối', '24&&thủ', '25&&Android', '26&&hiện', '27&&nay'], 'aspect': ['15&&hiệu', '16&&suất'], 'predicate': ['17&&mạnh', '18&&mẽ', '19&&tương', '20&&tự'], 'label': 'EQL'}]
-Có vẻ như , Apple đã tối ưu khá tốt giữa phần cứng và phần mềm giúp thời lượng pin trên flagship của mình trở nên tốt hơn .
+Có vẻ như , Apple đã tối ưu khá tốt giữa phần cứng và phần mềm giúp thời lượng pin trên flagship của mình trở nên tốt hơn .
 [{}]

@@ -281,6 +281,7 @@ def main():
         dev_first_process_data_path = "./ModelResult/" + model_name + "/dev_first_data_" + str(feature_type) + ".txt"
         test_first_process_data_path = "./ModelResult/" + model_name + "/test_first_data_" + str(feature_type) + ".txt"
 
+        ## extract element for train dataset
         if os.path.exists(train_first_process_data_path):
             train_pair_representation, train_make_pair_label, train_polarity_representation, train_polarity_label = \
                 shared_utils.read_pickle(train_first_process_data_path)
@@ -306,7 +307,8 @@ def main():
                  train_polarity_representation, train_polarity_label],
                 train_first_process_data_path
             )
-
+        
+        ## extract element for dev dataset
         if os.path.exists(dev_first_process_data_path):
             dev_candidate_pair_col, dev_pair_representation, dev_make_pair_label = \
                 shared_utils.read_pickle(dev_first_process_data_path)
@@ -324,6 +326,7 @@ def main():
                 dev_first_process_data_path
             )
 
+        ## extract element for test dataset
         if os.path.exists(test_first_process_data_path):
             test_candidate_pair_col, test_pair_representation, test_make_pair_label = \
                 shared_utils.read_pickle(test_first_process_data_path)
@@ -362,6 +365,7 @@ def main():
             save_model=False
         )
 
+        ## from extracted element tuple, predict comparative label
         train_test_utils.pair_stage_model_main(
             config, pair_representation, make_pair_label,
             [dev_pair_eval, test_pair_eval, global_pair_eval],

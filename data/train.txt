@@ -640,117 +640,117 @@ Vậy cuối cùng bạn đọc có suy nghĩ và nhận xét như thế nào v�
 [{}]
 Hãy để lại comment của bạn dưới phần bình luận và cũng đừng quên theo dõi Hoàng Hà Mobile để cập nhật các tin tức công nghệ mới nhất nhé .
 [{}]
-title : Sự khác biệt giữa Galaxy S23 Plus và Galaxy S23 Ultra là gì ?
+title : Sự khác biệt giữa Galaxy S23 Plus và Galaxy S23 Ultra là gì ?
 [{}]
-Ngoài bút S-Pen thì Galaxy S23 Plus và Galaxy S23 Ultra có những điểm khác biệt nào ?
+Ngoài bút S-Pen thì Galaxy S23 Plus và Galaxy S23 Ultra có những điểm khác biệt nào ?
 [{}]
-Galaxy S23 Plus và Galaxy S23 Ultra có mức chênh lệch giá khoảng 200USD .
+Galaxy S23 Plus và Galaxy S23 Ultra có mức chênh lệch giá khoảng 200USD .
 [{}]
-Liệu với mức giá này , Samsung đã tạo ra những khác biệt gì cho hai sản phẩm .
+Liệu với mức giá này , Samsung đã tạo ra những khác biệt gì cho hai sản phẩm .
 [{}]
-Trên phiên bản Plus , công ty đã tích hợp viên pin có dung lượng lớn hơn .
+Trên phiên bản Plus , công ty đã tích hợp viên pin có dung lượng lớn hơn .
 [{'subject': ['11&&viên', '12&&pin'], 'object': [], 'aspect': ['14&&dung', '15&&lượng'], 'predicate': ['16&&lớn', '17&&hơn'], 'label': 'COM+'}, {'subject': ['2&&phiên', '3&&bản', '4&&Plus'], 'object': [], 'aspect': ['11&&viên', '12&&pin'], 'predicate': ['14&&dung', '15&&lượng', '16&&lớn', '17&&hơn'], 'label': 'COM+'}]
-Tất cả các biến thể đều được sử dụng chip Snapdragon 8 Gen 2 độc quyền với các lõi được ép xung .
+Tất cả các biến thể đều được sử dụng chip Snapdragon 8 Gen 2 độc quyền với các lõi được ép xung .
 [{}]
-Nếu như trên Galaxy S22 + và Galaxy S22 Ultra có sự khác biệt rõ ràng về ngoại hình .
+Nếu như trên Galaxy S22 + và Galaxy S22 Ultra có sự khác biệt rõ ràng về ngoại hình .
 [{'subject': ['4&&Galaxy', '5&&S22', '6&&+'], 'object': ['8&&Galaxy', '9&&S22', '10&&Ultra'], 'aspect': ['18&&ngoại', '19&&hình'], 'predicate': ['13&&khác', '14&&biệt', '15&&rõ', '16&&ràng'], 'label': 'DIF'}]
-Thì giờ đây , ngôn ngữ thiết kế trên Galaxy S23 , S23 + và Galaxy S23 Ultra đã có sự thống nhất với nhau .
+Thì giờ đây , ngôn ngữ thiết kế trên Galaxy S23 , S23 + và Galaxy S23 Ultra đã có sự thống nhất với nhau .
 [{'subject': ['10&&Galaxy', '11&&S23', '12&&,', '13&&S23', '14&&+'], 'object': ['16&&Galaxy', '17&&S23', '18&&Ultra'], 'aspect': ['5&&ngôn', '6&&ngữ', '7&&thiết', '8&&kế'], 'predicate': ['20&&có', '21&&sự', '22&&thống', '23&&nhất', '24&&với', '25&&nhau'], 'label': 'EQL'}]
-Các ống kính trên hai phiên bản tiêu chuẩn giờ đây cũng từng tách thành từng phần riêng lẻ thay vì đặt trong một mô-đun camera .
+Các ống kính trên hai phiên bản tiêu chuẩn giờ đây cũng từng tách thành từng phần riêng lẻ thay vì đặt trong một mô-đun camera .
 [{}]
-Do đó , dù mua model nào thì bạn cũng sẽ được tiếp cận ngoại hình tinh tế và trang nhã hơn .
+Do đó , dù mua model nào thì bạn cũng sẽ được tiếp cận ngoại hình tinh tế và trang nhã hơn .
 [{}]
-Tất nhiên , việc sử dụng thiết kế mới sẽ khiến người dùng không thể dùng chung ốp lưng cho Galaxy S22 và Galaxy S23 , dù có kích thước tương đương nhau .
+Tất nhiên , việc sử dụng thiết kế mới sẽ khiến người dùng không thể dùng chung ốp lưng cho Galaxy S22 và Galaxy S23 , dù có kích thước tương đương nhau .
 [{'subject': ['21&&Galaxy', '22&&S22'], 'object': ['24&&Galaxy', '25&&S23'], 'aspect': ['29&&kích', '30&&thước'], 'predicate': ['31&&tương', '32&&đương', '33&&nhau'], 'label': 'EQL'}]
-Trên Samsung Galaxy S23 Plus và Galaxy S23 Ultra đều mang đến cho người dùng 4 tùy chọn màu sắc gồm xanh lục , tím , đen và kem .
+Trên Samsung Galaxy S23 Plus và Galaxy S23 Ultra đều mang đến cho người dùng 4 tùy chọn màu sắc gồm xanh lục , tím , đen và kem .
 [{'subject': ['2&&Samsung', '3&&Galaxy', '4&&S23', '5&&Plus'], 'object': ['7&&Galaxy', '8&&S23', '9&&Ultra'], 'aspect': ['16&&4', '17&&tùy', '18&&chọn', '19&&màu', '20&&sắc'], 'predicate': ['10&&đều', '11&&mang', '12&&đến'], 'label': 'EQL'}]
-Tuy nhiên , các sản phẩm cũng có màu sắc độc quyền như Đỏ , xanh lam , vôi hoặc than chì được bán trên trang web của Samsung .
+Tuy nhiên , các sản phẩm cũng có màu sắc độc quyền như Đỏ , xanh lam , vôi hoặc than chì được bán trên trang web của Samsung .
 [{}]
-Về tổng thể kích thước , điện thoại Galaxy S23 + có phần nhẹ , hẹp và ngắn hơn so với người anh em Ultra của mình .
+Về tổng thể kích thước , điện thoại Galaxy S23 + có phần nhẹ , hẹp và ngắn hơn so với người anh em Ultra của mình .
 [{'subject': ['7&&điện', '8&&thoại', '9&&Galaxy', '10&&S23', '11&&+'], 'object': ['22&&người', '23&&anh', '24&&em', '25&&Ultra', '26&&của', '27&&mình'], 'aspect': ['2&&tổng', '3&&thể', '4&&kích', '5&&thước'], 'predicate': ['14&&nhẹ', '15&&,', '16&&hẹp', '17&&và', '18&&ngắn', '19&&hơn'], 'label': 'COM+'}]
-Nếu bạn không thích một thiết bị quá cồng kềnh thì việc lựa chọn phiên bản Plus cũng khá tuyệt vời .
+Nếu bạn không thích một thiết bị quá cồng kềnh thì việc lựa chọn phiên bản Plus cũng khá tuyệt vời .
 [{}]
-Ở khía cạnh màn hình , Samsung S23 Ultra có phần tỏa sáng hơn .
+Ở khía cạnh màn hình , Samsung S23 Ultra có phần tỏa sáng hơn .
 [{'subject': ['7&&Samsung', '8&&S23', '9&&Ultra'], 'object': [], 'aspect': ['4&&màn', '5&&hình'], 'predicate': ['12&&tỏa', '13&&sáng', '14&&hơn'], 'label': 'COM+'}]
-Samsung đã trang bị cho máy màn hình 6,8 inch , trong khi trên Galaxy S23 Plus là 6,6 inch .
+Samsung đã trang bị cho máy màn hình 6,8 inch , trong khi trên Galaxy S23 Plus là 6,6 inch .
 [{}]
-Model cao cấp hơn cũng được trang bị tấm nền LTPO OLED mới nhất cho phép làm mới động chi tiết hơn nhiều tốc độ có thể giảm xuống 1Hz ngay cả khi hiển thị hình ảnh tĩnh .
+Model cao cấp hơn cũng được trang bị tấm nền LTPO OLED mới nhất cho phép làm mới động chi tiết hơn nhiều tốc độ có thể giảm xuống 1Hz ngay cả khi hiển thị hình ảnh tĩnh .
 [{'subject': ['1&&Model', '2&&cao', '3&&cấp', '4&&hơn'], 'object': [], 'aspect': ['17&&làm', '18&&mới', '19&&động'], 'predicate': ['20&&chi', '21&&tiết', '22&&hơn', '23&&nhiều'], 'label': 'COM+'}]
-Từ đó giúp tiết kiệm thời lượng sử dụng tốt hơn .
+Từ đó giúp tiết kiệm thời lượng sử dụng tốt hơn .
 [{'subject': [], 'object': [], 'aspect': ['4&&tiết', '5&&kiệm', '6&&thời', '7&&lượng', '8&&sử', '9&&dụng'], 'predicate': ['10&&tốt', '11&&hơn'], 'label': 'COM+'}]
-Trong khi đó , màn hình Galaxy S23 Plus có thể cung cấp tần số quét 48 - 120Hz .
+Trong khi đó , màn hình Galaxy S23 Plus có thể cung cấp tần số quét 48 - 120Hz .
 [{}]
-Nhưng đô phân giải 1080P thấp hơn cho phép bù đắp lợi thế tiêu thụ pin so với màn hình Ultra .
+Nhưng đô phân giải 1080P thấp hơn cho phép bù đắp lợi thế tiêu thụ pin so với màn hình Ultra .
 [{'subject': [], 'object': ['19&&màn', '20&&hình', '21&&Ultra'], 'aspect': ['2&&đô', '3&&phân', '4&&giải'], 'predicate': ['6&&thấp', '7&&hơn'], 'label': 'COM-'}, {'subject': [], 'object': ['19&&màn', '20&&hình', '21&&Ultra'], 'aspect': ['14&&tiêu', '15&&thụ', '16&&pin'], 'predicate': ['12&&lợi', '13&&thế'], 'label': 'COM+'}]
-Cả hai điện thoại đều được trang bị độ sáng tối đa 1750 nits vì đạt hơn 2000 nits .
+Cả hai điện thoại đều được trang bị độ sáng tối đa 1750 nits vì đạt hơn 2000 nits .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['9&&độ', '10&&sáng', '11&&tối', '12&&đa', '13&&1750', '14&&nits'], 'predicate': ['5&&đều', '6&&được', '7&&trang', '8&&bị'], 'label': 'EQL'}]
-Để tìm ra người dành chiến thắng thì tất nhiên Galaxy S23 Ultra chiếm ưu thế nhờ công nghệ LTPO tiết kiệm so với Galaxy S23 Plus sử dụng công nghệ LTPS cũ hơn .
+Để tìm ra người dành chiến thắng thì tất nhiên Galaxy S23 Ultra chiếm ưu thế nhờ công nghệ LTPO tiết kiệm so với Galaxy S23 Plus sử dụng công nghệ LTPS cũ hơn .
 [{'subject': ['11&&Galaxy', '12&&S23', '13&&Ultra'], 'object': ['25&&Galaxy', '26&&S23', '27&&Plus'], 'aspect': [], 'predicate': ['14&&chiếm', '15&&ưu', '16&&thế'], 'label': 'COM+'}, {'subject': ['18&&công', '19&&nghệ', '20&&LTPO'], 'object': ['30&&công', '31&&nghệ', '32&&LTPS', '33&&cũ', '34&&hơn'], 'aspect': [], 'predicate': ['21&&tiết', '22&&kiệm', '23&&so', '24&&với'], 'label': 'COM+'}]
-Tất cả các biến thể Galaxy S23 đều được tran bị chip xử lý Snapdragon thay vì Exynos tại một số thị trường .
+Tất cả các biến thể Galaxy S23 đều được tran bị chip xử lý Snapdragon thay vì Exynos tại một số thị trường .
 [{'subject': ['1&&Tất', '2&&cả', '3&&các', '4&&biến', '5&&thể', '6&&Galaxy', '7&&S23'], 'object': [], 'aspect': ['12&&chip', '13&&xử', '14&&lý', '15&&Snapdragon'], 'predicate': ['8&&đều', '9&&được', '10&&tran', '11&&bị'], 'label': 'EQL'}]
-Việc không chọn sử dụng chip Exynos cho thấy , Samsung đã lắng nghe khách hàng của mình .
+Việc không chọn sử dụng chip Exynos cho thấy , Samsung đã lắng nghe khách hàng của mình .
 [{}]
-Tuy nhiên , một lưu ý rằng công ty vẫn chưa giải quyết chính xác cho giải pháp có sẵn .
+Tuy nhiên , một lưu ý rằng công ty vẫn chưa giải quyết chính xác cho giải pháp có sẵn .
 [{}]
-Cấu hình Samsung S23 + và S23 Ultra đều được sử dụng chip Snapdragon 8 Gen 2 mới nhất của Qualcomm với các lõi được ép xung .
+Cấu hình Samsung S23 + và S23 Ultra đều được sử dụng chip Snapdragon 8 Gen 2 mới nhất của Qualcomm với các lõi được ép xung .
 [{'subject': ['3&&Samsung', '4&&S23', '5&&+'], 'object': ['7&&S23', '8&&Ultra'], 'aspect': ['1&&Cấu', '2&&hình'], 'predicate': ['9&&đều', '10&&được', '11&&sử', '12&&dụng', '13&&chip', '14&&Snapdragon', '15&&8', '16&&Gen', '17&&2', '18&&mới', '19&&nhất', '20&&của', '21&&Qualcomm', '22&&với', '23&&các', '24&&lõi', '25&&được', '26&&ép', '27&&xung'], 'label': 'EQL'}]
-Chipset này không giống như các phiên bản thông thường có tốc độ 3,2 GHZ do TSMC sản xuất .
+Chipset này không giống như các phiên bản thông thường có tốc độ 3,2 GHZ do TSMC sản xuất .
 [{'subject': ['1&&Chipset', '2&&này'], 'object': ['6&&các', '7&&phiên', '8&&bản', '9&&thông', '10&&thường', '11&&có', '12&&tốc', '13&&độ', '14&&3,2', '15&&GHZ'], 'aspect': [], 'predicate': ['3&&không', '4&&giống', '5&&như'], 'label': 'DIF'}]
-Theo đó , SoC trên Galaxy S23 series là độc quyền của Samsung nó được gọi là nền tảng di động Snapdragon 8 Gen 2 với lõi chính ARM-Cortex X3 được ép xung chạy ở tốc độ 3,36 GHz .
+Theo đó , SoC trên Galaxy S23 series là độc quyền của Samsung nó được gọi là nền tảng di động Snapdragon 8 Gen 2 với lõi chính ARM-Cortex X3 được ép xung chạy ở tốc độ 3,36 GHz .
 [{}]
-Kết quả thử nghiệm trên Geekbench cho thấy , các thiết bị mang đến điểm chuẩn tương đương nhau .
+Kết quả thử nghiệm trên Geekbench cho thấy , các thiết bị mang đến điểm chuẩn tương đương nhau .
 [{'subject': ['10&&các', '11&&thiết', '12&&bị'], 'object': ['10&&các', '11&&thiết', '12&&bị'], 'aspect': ['15&&điểm', '16&&chuẩn'], 'predicate': ['17&&tương', '18&&đương', '19&&nhau'], 'label': 'EQL'}]
-Tuy nhiên , Galaxy S23 Plus có xu hướng đánh bại Galaxy S23 Ultra một chút ở mức trung bình nhờ thiết bị có màn hình nhỏ và độ phân giải thấp hơn .
+Tuy nhiên , Galaxy S23 Plus có xu hướng đánh bại Galaxy S23 Ultra một chút ở mức trung bình nhờ thiết bị có màn hình nhỏ và độ phân giải thấp hơn .
 [{'subject': ['4&&Galaxy', '5&&S23', '6&&Plus'], 'object': ['12&&Galaxy', '13&&S23', '14&&Ultra'], 'aspect': [], 'predicate': ['10&&đánh', '11&&bại'], 'label': 'COM+'}, {'subject': ['22&&thiết', '23&&bị'], 'object': ['12&&Galaxy', '13&&S23', '14&&Ultra'], 'aspect': ['25&&màn', '26&&hình'], 'predicate': ['27&&nhỏ', '28&&và', '29&&độ', '30&&phân', '31&&giải', '32&&thấp', '33&&hơn'], 'label': 'COM-'}]
-Do đó , hệ thống đồ họa phải đẩy ít pixel hơn trong các bài kiểm tra tiêu chuẩn .
+Do đó , hệ thống đồ họa phải đẩy ít pixel hơn trong các bài kiểm tra tiêu chuẩn .
 [{}]
-So với chip A16 Bionic của Apple , Snapdragon 8 Gen 2 chỉ hoạt động chậm hơn 10 - 20% trong các điểm chuẩn tổng hợp .
+So với chip A16 Bionic của Apple , Snapdragon 8 Gen 2 chỉ hoạt động chậm hơn 10 - 20% trong các điểm chuẩn tổng hợp .
 [{'subject': ['9&&Snapdragon', '10&&8', '11&&Gen', '12&&2'], 'object': ['3&&chip', '4&&A16', '5&&Bionic'], 'aspect': ['14&&hoạt', '15&&động'], 'predicate': ['16&&chậm', '17&&hơn', '18&&10', '19&&-', '20&&20%'], 'label': 'COM-'}]
-Nhìn chung , việc trang bị chip xử lý cao cấp sẽ giúp Galaxy S23 Plus và Galaxy S23 Ultra hoạt động mượt mà trong mọi tình huống .
+Nhìn chung , việc trang bị chip xử lý cao cấp sẽ giúp Galaxy S23 Plus và Galaxy S23 Ultra hoạt động mượt mà trong mọi tình huống .
 [{}]
 Hơn nữa , nó đã chứng minh khả năng chơi game của mình mát hơn và ổn định hơn cả dòng A hùng mạnh của Apple trong dòng iPhone 14 mới nhất .
 [{'subject': ['4&&nó'], 'object': ['21&&dòng', '22&&A', '23&&hùng', '24&&mạnh', '25&&của', '26&&Apple'], 'aspect': ['8&&khả', '9&&năng', '10&&chơi', '11&&game'], 'predicate': ['14&&mát', '15&&hơn'], 'label': 'COM+'}, {'subject': ['4&&nó'], 'object': ['21&&dòng', '22&&A', '23&&hùng', '24&&mạnh', '25&&của', '26&&Apple'], 'aspect': ['8&&khả', '9&&năng', '10&&chơi', '11&&game'], 'predicate': ['17&&ổn', '18&&định', '19&&hơn'], 'label': 'COM+'}]
-Về bộ nhớ lưu trữ , Galaxy S23 Plus có bộ nhớ RAM cao nhất là 8GB trong khi phiên bản Ultra là RAM 12GB .
+Về bộ nhớ lưu trữ , Galaxy S23 Plus có bộ nhớ RAM cao nhất là 8GB trong khi phiên bản Ultra là RAM 12GB .
 [{}]
-Chiến thắng rõ ràng đã thuộc về camera Galaxy S23 Ultra khi máy được trang bị cảm biến ISOCELL HP2 200MP .
+Chiến thắng rõ ràng đã thuộc về camera Galaxy S23 Ultra khi máy được trang bị cảm biến ISOCELL HP2 200MP .
 [{'subject': ['9&&Galaxy', '10&&S23', '11&&Ultra'], 'object': [], 'aspect': ['8&&camera'], 'predicate': ['1&&Chiến', '2&&thắng'], 'label': 'COM+'}]
-Cảm biến này không chỉ có độ phân giải lớn hơn 50MP trên Galaxy S23 Plus mà nó còn được Samsung bổ sung công nghệ ảnh mới và tốt nhất .
+Cảm biến này không chỉ có độ phân giải lớn hơn 50MP trên Galaxy S23 Plus mà nó còn được Samsung bổ sung công nghệ ảnh mới và tốt nhất .
 [{}]
-Nổi bật nhất là tính năng phát hiện 4 pha lây nét tự động , cải tiến hơn so với Dual PD trên Galxy S23 + .
+Nổi bật nhất là tính năng phát hiện 4 pha lây nét tự động , cải tiến hơn so với Dual PD trên Galxy S23 + .
 [{}]
-Ngoài ra , camera Galaxy S23 Ultra còn được trang bị công nghệ tạo pixel tiên tiến có tên Tetra2pixel , giúp thay đổi kích thước pixel dựa vào điều ánh sáng xung quanh .
+Ngoài ra , camera Galaxy S23 Ultra còn được trang bị công nghệ tạo pixel tiên tiến có tên Tetra2pixel , giúp thay đổi kích thước pixel dựa vào điều ánh sáng xung quanh .
 [{}]
-Khả năng chụp ảnh trên camera Galaxy S23 Ultra được đánh giá chi tiết hơn so với các model tiền nhiệm và thậm chí là Galaxy S23 Plus .
+Khả năng chụp ảnh trên camera Galaxy S23 Ultra được đánh giá chi tiết hơn so với các model tiền nhiệm và thậm chí là Galaxy S23 Plus .
 [{'subject': ['6&&camera', '7&&Galaxy', '8&&S23', '9&&Ultra'], 'object': ['18&&các', '19&&model', '20&&tiền', '21&&nhiệm'], 'aspect': ['1&&Khả', '2&&năng', '3&&chụp', '4&&ảnh'], 'predicate': ['13&&chi', '14&&tiết', '15&&hơn'], 'label': 'COM+'}, {'subject': ['6&&camera', '7&&Galaxy', '8&&S23', '9&&Ultra'], 'object': ['26&&Galaxy', '27&&S23', '28&&Plus'], 'aspect': ['1&&Khả', '2&&năng', '3&&chụp', '4&&ảnh'], 'predicate': ['13&&chi', '14&&tiết', '15&&hơn'], 'label': 'COM+'}]
-Màu sắc được đánh giá ấm hơn , thu hút hơn so với những mà thuật toán Galaxy S23 Plus thu được từ cảm biến chính 50MP .
+Màu sắc được đánh giá ấm hơn , thu hút hơn so với những mà thuật toán Galaxy S23 Plus thu được từ cảm biến chính 50MP .
 [{'subject': [], 'object': ['18&&Galaxy', '19&&S23', '20&&Plus'], 'aspect': ['1&&Màu', '2&&sắc'], 'predicate': ['6&&ấm', '7&&hơn'], 'label': 'COM+'}, {'subject': [], 'object': ['18&&Galaxy', '19&&S23', '20&&Plus'], 'aspect': ['1&&Màu', '2&&sắc'], 'predicate': ['9&&thu', '10&&hút', '11&&hơn'], 'label': 'COM+'}]
-Ngoài ra , thêm lợi thế dành cho biến thể Ultra chính là có khả năng thu phóng 10x nhờ ông kính tiềm vọng .
+Ngoài ra , thêm lợi thế dành cho biến thể Ultra chính là có khả năng thu phóng 10x nhờ ông kính tiềm vọng .
 [{'subject': ['9&&biến', '10&&thể', '11&&Ultra'], 'object': [], 'aspect': ['15&&khả', '16&&năng', '17&&thu', '18&&phóng', '19&&10x'], 'predicate': ['5&&lợi', '6&&thế'], 'label': 'COM+'}]
-Cả hai điện thoại đều quay video với độ mượt và độ nét lên tới 8K @ 30FPS , nhưng tính năng ổn định toàn trục trên Samsung S23 Ultra được đánh giá cao hơn .
+Cả hai điện thoại đều quay video với độ mượt và độ nét lên tới 8K @ 30FPS , nhưng tính năng ổn định toàn trục trên Samsung S23 Ultra được đánh giá cao hơn .
 [{'subject': ['28&&Samsung', '29&&S23', '30&&Ultra'], 'object': [], 'aspect': ['21&&tính', '22&&năng', '23&&ổn', '24&&định', '25&&toàn', '26&&trục'], 'predicate': ['31&&được', '32&&đánh', '33&&giá', '34&&cao', '35&&hơn'], 'label': 'COM+'}]
-So với Galaxy S22 + , điện thoại Galaxy S23 Plus được nâng cấp dung lượng pin lên 4.700mAh thay vì 4.500mAh .
+So với Galaxy S22 + , điện thoại Galaxy S23 Plus được nâng cấp dung lượng pin lên 4.700mAh thay vì 4.500mAh .
 [{'subject': ['9&&Galaxy', '10&&S23', '11&&Plus'], 'object': ['3&&Galaxy', '4&&S22'], 'aspect': ['15&&dung', '16&&lượng', '17&&pin'], 'predicate': ['12&&được', '13&&nâng', '14&&cấp'], 'label': 'COM+'}]
-Trong khi , Samsung S23 Ultra được trang bị viên pin 5.000mAh .
+Trong khi , Samsung S23 Ultra được trang bị viên pin 5.000mAh .
 [{}]
-Cả hai điện thoại đều được hỗ trợ sạc nhanh có dây 45W và sạc không dây 15W .
+Cả hai điện thoại đều được hỗ trợ sạc nhanh có dây 45W và sạc không dây 15W .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['9&&sạc', '10&&nhanh', '11&&có', '12&&dây', '13&&45W'], 'predicate': ['5&&đều', '6&&được', '7&&hỗ', '8&&trợ'], 'label': 'EQL'}, {'subject': [], 'object': [], 'aspect': ['15&&sạc', '16&&không', '17&&dây', '18&&15W'], 'predicate': ['5&&đều', '6&&được', '7&&hỗ', '8&&trợ'], 'label': 'EQL'}]
-Việc trang bị chip Snapdragon 8 Gen 2 tốc độ 3,36 GHz , sẽ tiết kiệm điện năng hơn cho hai sản phẩm .
+Việc trang bị chip Snapdragon 8 Gen 2 tốc độ 3,36 GHz , sẽ tiết kiệm điện năng hơn cho hai sản phẩm .
 [{}]
-Sự khác biệt nhỏ về dung lượng sẽ bù đắp cho bất kỳ lợi thế nào về mức tiêu thụ năng lượng mà Galaxy S23 + có thể có do màn hình nhỏ hơn với độ phân giải thấp hơn .
+Sự khác biệt nhỏ về dung lượng sẽ bù đắp cho bất kỳ lợi thế nào về mức tiêu thụ năng lượng mà Galaxy S23 + có thể có do màn hình nhỏ hơn với độ phân giải thấp hơn .
 [{'subject': ['24&&Galaxy', '25&&S23', '26&&+'], 'object': [], 'aspect': ['31&&màn', '32&&hình'], 'predicate': ['33&&nhỏ', '34&&hơn'], 'label': 'COM-'}, {'subject': ['24&&Galaxy', '25&&S23', '26&&+'], 'object': [], 'aspect': ['36&&độ', '37&&phân', '38&&giải'], 'predicate': ['39&&thấp', '40&&hơn'], 'label': 'COM-'}]
 Ngoài ra , Galaxy S23 Ultra thực sự có thời lượng pin tốt hơn so với S23 + nhờ công nghệ màn hình LTPO tiết kiệm hơn và dải tốc độ làm mới động rộng hơn .
 [{'subject': ['4&&Galaxy', '5&&S23', '6&&Ultra'], 'object': ['17&&S23', '18&&+'], 'aspect': ['10&&thời', '11&&lượng', '12&&pin'], 'predicate': ['13&&tốt', '14&&hơn'], 'label': 'COM+'}, {'subject': ['4&&Galaxy', '5&&S23', '6&&Ultra'], 'object': ['17&&S23', '18&&+'], 'aspect': ['20&&công', '21&&nghệ', '22&&màn', '23&&hình', '24&&LTPO'], 'predicate': ['25&&tiết', '26&&kiệm', '27&&hơn'], 'label': 'COM+'}, {'subject': ['4&&Galaxy', '5&&S23', '6&&Ultra'], 'object': ['17&&S23', '18&&+'], 'aspect': ['29&&dải', '30&&tốc', '31&&độ', '32&&làm', '33&&mới', '34&&động'], 'predicate': ['35&&rộng', '36&&hơn'], 'label': 'COM+'}]
-Theo như công bố của Samsung thì thời lượng pin của S23 Ultra đã tăng 20%  so với thế hệ tiền nhiệm .
+Theo như công bố của Samsung thì thời lượng pin của S23 Ultra đã tăng 20%  so với thế hệ tiền nhiệm .
 [{'subject': ['12&&S23', '13&&Ultra'], 'object': ['21&&hệ', '22&&tiền', '23&&nhiệm'], 'aspect': ['8&&thời', '9&&lượng', '10&&pin'], 'predicate': ['15&&tăng', '16&&20%'], 'label': 'COM+'}]
-Nhìn chung , Samsung thực sự đã thu hẹp khoảng cách về thông số kỹ thuật của Galaxy S23 + với S23 Ultra so với sự khác biệt giữa những người tiền nhiệm của chúng .
+Nhìn chung , Samsung thực sự đã thu hẹp khoảng cách về thông số kỹ thuật của Galaxy S23 + với S23 Ultra so với sự khác biệt giữa những người tiền nhiệm của chúng .
 [{}]
-Bởi nó đã tăng gấp đôi dung lượng lưu trữ cơ bản của S23 + .
+Bởi nó đã tăng gấp đôi dung lượng lưu trữ cơ bản của S23 + .
 [{}]
 Tuy nhiên , Galaxy S23 Ultra mang lại nhiều lợi ích hơn .
 [{'subject': ['4&&Galaxy', '5&&S23', '6&&Ultra'], 'object': [], 'aspect': ['10&&lợi', '11&&ích'], 'predicate': ['9&&nhiều', '10&&lợi', '11&&ích', '12&&hơn'], 'label': 'COM+'}]
-Thiết bị không chỉ cung cấp khả năng thu phóng mạnh mẽ nhất trên điện thoại hiện đại mà còn có cảm biến 200MP tiên tiến nhất .
+Thiết bị không chỉ cung cấp khả năng thu phóng mạnh mẽ nhất trên điện thoại hiện đại mà còn có cảm biến 200MP tiên tiến nhất .
 [{'subject': ['1&&Thiết', '2&&bị'], 'object': [], 'aspect': ['7&&khả', '8&&năng', '9&&thu', '10&&phóng'], 'predicate': ['11&&mạnh', '12&&mẽ', '13&&nhất', '14&&trên', '15&&điện', '16&&thoại', '17&&hiện', '18&&đại'], 'label': 'SUP+'}, {'subject': ['1&&Thiết', '2&&bị'], 'object': [], 'aspect': ['22&&cảm', '23&&biến', '24&&200MP'], 'predicate': ['25&&tiên', '26&&tiến', '27&&nhất'], 'label': 'SUP+'}]
-Điều này bỏ xa mọi Android hoặc iPhone , bao gồm cả Galaxy S23 + .
+Điều này bỏ xa mọi Android hoặc iPhone , bao gồm cả Galaxy S23 + .
 [{'subject': [], 'object': [], 'aspect': [], 'predicate': ['3&&bỏ', '4&&xa', '5&&mọi', '6&&Android', '7&&hoặc', '8&&iPhone', '9&&,', '10&&bao', '11&&gồm', '12&&cả', '13&&Galaxy', '14&&S23', '15&&+'], 'label': 'COM+'}]
 Tính linh hoạt cao nhất của nhiếp ảnh được tăng cường nhờ phương thức nhập liệu bổ sung nhờ S Pen tích hợp , trong khi màn hình LTPO OLED sáng hơn có tốc độ làm mới động linh hoạt hơn nhiều .
 [{'subject': ['27&&màn', '28&&hình', '29&&LTPO', '30&&OLED'], 'object': [], 'aspect': [], 'predicate': ['31&&sáng', '32&&hơn'], 'label': 'COM+'}, {'subject': ['27&&màn', '28&&hình', '29&&LTPO', '30&&OLED'], 'object': [], 'aspect': ['34&&tốc', '35&&độ', '36&&làm', '37&&mới', '38&&động'], 'predicate': ['39&&linh', '40&&hoạt', '41&&hơn', '42&&nhiều'], 'label': 'COM+'}]
@@ -992,7 +992,7 @@ Cảm ơn bạn đã dành thời gian đọc bài viết .
 [{}]
 Hẹn gặp lại ở những bài viết tiếp theo !
 [{}]
-title : Camera Xiaomi Mi 10 Pro và Galaxy S20 Ultra : Ngôi vương là ai ?
+title : Camera Xiaomi Mi 10 Pro và Galaxy S20 Ultra : Ngôi vương là ai ?
 [{}]
 Galaxy S20 Ultra ra mắt được không lâu thì lại phải đối mặt với đối thủ mới .
 [{}]
@@ -1010,17 +1010,17 @@ Các cảm biến camera còn lại trên Mi 10 bao gồm ống kính tele 12MP 
 [{}]
 Một ống kính tele 8MP khác với zoom quang 5x va cuối cùng là ống kính góc siêu nét 20MP .
 [{}]
-So với bản tiêu chuẩn Xiaomi Mi 10 , chiếc điện thoại Mi 10 Pro có khả năng quay video 8K và zoom lên tới 50 lần .
+So với bản tiêu chuẩn Xiaomi Mi 10 , chiếc điện thoại Mi 10 Pro có khả năng quay video 8K và zoom lên tới 50 lần .
 [{}]
-Trong khi đó các cảm biến camera còn lại trên Galaxy S20 Ultra bao gồm ống kính kiểu kính tiềm vọng 48MP với zoom lai 10x , ống kính góc siêu rộng 12MP và cảm biến độ sâu ToF 3D .
+Trong khi đó các cảm biến camera còn lại trên Galaxy S20 Ultra bao gồm ống kính kiểu kính tiềm vọng 48MP với zoom lai 10x , ống kính góc siêu rộng 12MP và cảm biến độ sâu ToF 3D .
 [{}]
 Galaxy S20 Ultra hỗ trợ tính năng Zoom không gian mới của Samsung , cho phép thu phóng siêu phân giải lên tới 100 lần .
 [{}]
 Camera trước trên Mi 10 Pro là một game cảm biến 20MP được đặt trong một nốt ruồi bên trái màn hình .
 [{}]
-Galaxy S20 Ultra có cảm biến camera trước 40MP được đặt trong một camera chính giữa màn hình .
+Galaxy S20 Ultra có cảm biến camera trước 40MP được đặt trong một camera chính giữa màn hình .
 [{}]
-Thiết lập camera mới này cũng có thể quay video ở mức 8K .
+Thiết lập camera mới này cũng có thể quay video ở mức 8K .
 [{}]
 Thật khó để đánh giá camera của 2 smartphone này .
 [{}]
@@ -1044,63 +1044,63 @@ Thông số camera của Mi 10 Pro và Samsung Galaxy S20 Ultra thực sự ấn
 [{}]
 Bạn yêu thích hình ảnh chụp bởi điện thoại nào hơn ?
 [{}]
-title : So sánh Galaxy S23 Ultra và Xiaomi 13 Pro : Xiaomi có theo kịp ?
+title : So sánh Galaxy S23 Ultra và Xiaomi 13 Pro : Xiaomi có theo kịp ?
 [{}]
-Galaxy S23 Ultra và Xiaomi 13 Pro , đâu là flagship Android tốt hơn .
+Galaxy S23 Ultra và Xiaomi 13 Pro , đâu là flagship Android tốt hơn .
 [{}]
-Cả Galaxy S23 Ultra và Xiaomi 13 Pro đều là flagship Android .
+Cả Galaxy S23 Ultra và Xiaomi 13 Pro đều là flagship Android .
 [{'subject': ['2&&Galaxy', '3&&S23', '4&&Ultra'], 'object': ['6&&Xiaomi', '7&&13', '8&&Pro'], 'aspect': [], 'predicate': ['9&&đều', '10&&là', '11&&flagship', '12&&Android'], 'label': 'EQL'}]
-Galaxy S23 Ultra là điện thoại đang nhận được khá nhiều đánh giá tích cực từ các chuyên gia cũng như người dùng ở thời điểm hiện tại .
+Galaxy S23 Ultra là điện thoại đang nhận được khá nhiều đánh giá tích cực từ các chuyên gia cũng như người dùng ở thời điểm hiện tại .
 [{}]
-Trong khi Xiaomi 13 Pro cũng là một trong những smartphone Android sở hữu nhiều công nghệ hàng đầu .
+Trong khi Xiaomi 13 Pro cũng là một trong những smartphone Android sở hữu nhiều công nghệ hàng đầu .
 [{'subject': ['3&&Xiaomi', '4&&13', '5&&Pro'], 'object': [], 'aspect': ['16&&công', '17&&nghệ'], 'predicate': ['18&&hàng', '19&&đầu'], 'label': 'SUP+'}]
-Xiaomi được biết đến nhiều nhất với các thiết bị giá rẻ .
+Xiaomi được biết đến nhiều nhất với các thiết bị giá rẻ .
 [{}]
-Nhưng họ đã được cải thiện nhờ những bước nhảy vọt .
+Nhưng họ đã được cải thiện nhờ những bước nhảy vọt .
 [{}]
 Flagship Xiaomi 13 Pro mới nhất có giá ngang với Galaxy S23 Ultra .
 [{'subject': ['1&&Flagship', '2&&Xiaomi', '3&&13', '4&&Pro', '5&&mới', '6&&nhất'], 'object': ['11&&Galaxy', '12&&S23', '13&&Ultra'], 'aspect': ['8&&giá'], 'predicate': ['9&&ngang'], 'label': 'EQL'}]
-Đi kèm hệ thống camera sánh ngang và thậm chí đánh bại Galaxy trong một số trường hợp .
+Đi kèm hệ thống camera sánh ngang và thậm chí đánh bại Galaxy trong một số trường hợp .
 [{'subject': [], 'object': ['13&&Galaxy'], 'aspect': ['3&&hệ', '4&&thống', '5&&camera'], 'predicate': ['6&&sánh', '7&&ngang'], 'label': 'EQL'}, {'subject': [], 'object': ['13&&Galaxy'], 'aspect': ['3&&hệ', '4&&thống', '5&&camera'], 'predicate': ['11&&đánh', '12&&bại'], 'label': 'COM+'}]
-Không những vậy , điện thoại cũng được trang bị một trong những con chip mạnh mẽ nhất trong thời gian gần đây - Snapdragon 8 Gen 2 , tốc độ sạc nhanh . . . liệu khi đặt hai thiết bị lên bàn cân so sánh , thì đâu là model hấp dẫn hơn .
+Không những vậy , điện thoại cũng được trang bị một trong những con chip mạnh mẽ nhất trong thời gian gần đây - Snapdragon 8 Gen 2 , tốc độ sạc nhanh . . . liệu khi đặt hai thiết bị lên bàn cân so sánh , thì đâu là model hấp dẫn hơn .
 [{'subject': ['5&&điện', '6&&thoại'], 'object': [], 'aspect': ['15&&chip'], 'predicate': ['16&&mạnh', '17&&mẽ', '18&&nhất', '19&&trong', '20&&thời', '21&&gian', '22&&gần', '23&&đây'], 'label': 'SUP+'}]
-Xiaomi sở hữu màn hình nhỏ gọn hơn
+Xiaomi sở hữu màn hình nhỏ gọn hơn
 [{'subject': ['1&&Xiaomi'], 'object': [], 'aspect': ['4&&màn', '5&&hình'], 'predicate': ['6&&nhỏ', '7&&gọn', '8&&hơn'], 'label': 'COM'}]
 Khi nói đến chất lượng hoàn thiện .
 [{}]
 Xiaomi chắc chắn hoàn toàn ngang bằng với Galaxy S23 Ultra .
 [{'subject': ['1&&Xiaomi'], 'object': ['9&&Galaxy', '10&&S23', '11&&Ultra'], 'aspect': [], 'predicate': ['4&&hoàn', '5&&toàn', '6&&ngang', '7&&bằng'], 'label': 'EQL'}]
-Cả hai đều mang đến ngoại hình tinh tế , kết hợp chắc chắn với nhau nhờ vật liệu cao cấp .
+Cả hai đều mang đến ngoại hình tinh tế , kết hợp chắc chắn với nhau nhờ vật liệu cao cấp .
 [{'subject': ['1&&Cả', '2&&hai'], 'object': ['1&&Cả', '2&&hai'], 'aspect': ['6&&ngoại', '7&&hình', '8&&tinh', '9&&tế'], 'predicate': ['3&&đều', '4&&mang', '5&&đến'], 'label': 'EQL'}]
 Trong khi Galaxy S23 Ultra được làm bằng kính ở mặt trước và mặt sau .
 [{}]
-Kết hợp khung viền nhôm thì Xiaomi được cung cấp ba lớp hoàn thiện khác nhau .
+Kết hợp khung viền nhôm thì Xiaomi được cung cấp ba lớp hoàn thiện khác nhau .
 [{}]
-Cụ thể , Xiaomi 13 Pro được sử dụng chất liệu kính giống như Galaxy ở mặt sau .
+Cụ thể , Xiaomi 13 Pro được sử dụng chất liệu kính giống như Galaxy ở mặt sau .
 [{'subject': ['4&&Xiaomi', '5&&13', '6&&Pro'], 'object': ['15&&Galaxy'], 'aspect': ['17&&mặt', '18&&sau'], 'predicate': ['10&&chất', '11&&liệu', '12&&kính', '13&&giống'], 'label': 'EQL'}]
-Nhưng mặt sau máy được hoàn thiện từ gốm bền hơn nhiều .
+Nhưng mặt sau máy được hoàn thiện từ gốm bền hơn nhiều .
 [{'subject': ['9&&gốm'], 'object': [], 'aspect': [], 'predicate': ['10&&bền', '11&&hơn', '12&&nhiều'], 'label': 'COM+'}]
 Chống trầy xước và thậm chí là lớp hoàn thiện giả da với kết cấu rất dễ chịu .
 [{}]
-Cả hai điện thoại đều tích hợp các nút vật lý dễ bấm , đẹp mặt và xếp hạng chống nước và bụi IP68 .
+Cả hai điện thoại đều tích hợp các nút vật lý dễ bấm , đẹp mặt và xếp hạng chống nước và bụi IP68 .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['8&&các', '9&&nút', '10&&vật', '11&&lý', '12&&dễ', '13&&bấm'], 'predicate': ['5&&đều', '6&&tích', '7&&hợp'], 'label': 'EQL'}, {'subject': [], 'object': [], 'aspect': ['20&&chống', '21&&nước', '22&&và', '23&&bụi', '24&&IP68'], 'predicate': ['5&&đều', '6&&tích', '7&&hợp'], 'label': 'EQL'}]
-Tuy nhiên , tổng thể Galaxy S23 Ultra lớn và nặng hơn so với đối thủ .
+Tuy nhiên , tổng thể Galaxy S23 Ultra lớn và nặng hơn so với đối thủ .
 [{'subject': ['6&&Galaxy', '7&&S23', '8&&Ultra'], 'object': ['15&&đối', '16&&thủ'], 'aspect': ['4&&tổng', '5&&thể'], 'predicate': ['9&&lớn', '10&&và', '11&&nặng', '12&&hơn'], 'label': 'COM'}]
 Trong khi Xiaomi 13 Pro thì ngược lại .
 [{'subject': ['3&&Xiaomi', '4&&13', '5&&Pro'], 'object': [], 'aspect': [], 'predicate': ['7&&ngược', '8&&lại'], 'label': 'DIF'}]
-Thiết bị nhỏ gọn dễ thao tác hơn bằng một tay và nhẹ hơn một chút .
+Thiết bị nhỏ gọn dễ thao tác hơn bằng một tay và nhẹ hơn một chút .
 [{'subject': ['1&&Thiết', '2&&bị'], 'object': [], 'aspect': ['6&&thao', '7&&tác'], 'predicate': ['5&&dễ', '6&&thao', '7&&tác', '8&&hơn'], 'label': 'COM+'}, {'subject': ['1&&Thiết', '2&&bị'], 'object': [], 'aspect': [], 'predicate': ['13&&nhẹ', '14&&hơn', '15&&một', '16&&chút'], 'label': 'COM+'}]
-Kích thước màn hình là một trong những khác biệt dễ nhận thấy trên hai model này .
+Kích thước màn hình là một trong những khác biệt dễ nhận thấy trên hai model này .
 [{'subject': ['15&&hai', '16&&model', '17&&này'], 'object': ['15&&hai', '16&&model', '17&&này'], 'aspect': ['1&&Kích', '2&&thước', '3&&màn', '4&&hình'], 'predicate': ['9&&khác', '10&&biệt', '11&&dễ', '12&&nhận', '13&&thấy'], 'label': 'DIF'}]
-Điện thoại nhà Samsung sử dụng màn hình 6,8 inch lớn hơn 1 inch so với màn hình 6,7 inch .
+Điện thoại nhà Samsung sử dụng màn hình 6,8 inch lớn hơn 1 inch so với màn hình 6,7 inch .
 [{'subject': ['1&&Điện', '2&&thoại', '3&&nhà', '4&&Samsung'], 'object': [], 'aspect': ['7&&màn', '8&&hình'], 'predicate': ['11&&lớn', '12&&hơn'], 'label': 'COM+'}]
-Tuy nhiên , khi trải nghiệm bạn sẽ thấy màn hình Galaxy S23 Ultra lớn hơn đáng kể .
+Tuy nhiên , khi trải nghiệm bạn sẽ thấy màn hình Galaxy S23 Ultra lớn hơn đáng kể .
 [{'subject': ['12&&Galaxy', '13&&S23', '14&&Ultra'], 'object': [], 'aspect': ['10&&màn', '11&&hình'], 'predicate': ['15&&lớn', '16&&hơn', '17&&đáng', '18&&kể'], 'label': 'COM+'}]
 Nhờ tỷ lệ khung hình 19,3 : 9 rộng hơn 20 : 9 trên Xiaomi 13 Pro .
 [{'subject': [], 'object': ['15&&Xiaomi', '16&&13', '17&&Pro'], 'aspect': ['2&&tỷ', '3&&lệ', '4&&khung', '5&&hình'], 'predicate': ['9&&rộng', '10&&hơn'], 'label': 'COM'}]
 Cả hai đều sử dụng công nghệ tấm nền OLED mới nhất của Samsung .
 [{'subject': ['1&&Cả', '2&&hai'], 'object': ['1&&Cả', '2&&hai'], 'aspect': ['6&&công', '7&&nghệ', '8&&tấm', '9&&nền', '10&&OLED', '11&&mới', '12&&nhất', '13&&của', '14&&Samsung'], 'predicate': ['3&&đều', '4&&sử', '5&&dụng'], 'label': 'EQL'}]
-Nên mang đến màu sắc rất sống động , ít bị đổi màu ở một góc và độ sáng tối đa đáng kinh ngạc giúp sử dụng những điện thoại này ngoài trời dễ dàng hơn .
+Nên mang đến màu sắc rất sống động , ít bị đổi màu ở một góc và độ sáng tối đa đáng kinh ngạc giúp sử dụng những điện thoại này ngoài trời dễ dàng hơn .
 [{}]
 Về sinh trắc học , cả hai đều dựa vào máy quét dấu vân tay dưới màn hình .
 [{'subject': ['6&&cả', '7&&hai'], 'object': ['6&&cả', '7&&hai'], 'aspect': ['2&&sinh', '3&&trắc', '4&&học'], 'predicate': ['8&&đều', '9&&dựa', '10&&vào', '11&&máy', '12&&quét', '13&&dấu', '14&&vân', '15&&tay', '16&&dưới', '17&&màn', '18&&hình'], 'label': 'EQL'}]
@@ -1110,19 +1110,19 @@ Trong khi Xiaomi sử dụng cảm biến loại quang học .
 [{}]
 Cả hai đều hoàn thành công việc tốt như nhau .
 [{'subject': ['1&&Cả', '2&&hai'], 'object': [], 'aspect': ['4&&hoàn', '5&&thành', '6&&công', '7&&việc'], 'predicate': ['8&&tốt', '9&&như', '10&&nhau'], 'label': 'EQL'}]
-Do đó bạn sẽ không thấy sự chênh lệch đáng kể khi trải nghiệm thực tế về tốc độ mở khóa .
+Do đó bạn sẽ không thấy sự chênh lệch đáng kể khi trải nghiệm thực tế về tốc độ mở khóa .
 [{'subject': [], 'object': [], 'aspect': ['18&&tốc', '19&&độ', '20&&mở', '21&&khóa'], 'predicate': ['5&&không', '6&&thấy', '7&&sự', '8&&chênh', '9&&lệch', '10&&đáng', '11&&kể'], 'label': 'EQL'}]
-Cấu hình Galaxy S23 Ultra và Xiaomi 13 Pro đều được cung cấp sức mạnh từ chip xử lý Snapdragon 8 Gen 2 của Qualcomm .
+Cấu hình Galaxy S23 Ultra và Xiaomi 13 Pro đều được cung cấp sức mạnh từ chip xử lý Snapdragon 8 Gen 2 của Qualcomm .
 [{'subject': ['1&&Cấu', '2&&hình', '3&&Galaxy', '4&&S23', '5&&Ultra'], 'object': ['7&&Xiaomi', '8&&13', '9&&Pro'], 'aspect': ['17&&chip', '18&&xử', '19&&lý', '20&&Snapdragon', '21&&8', '22&&Gen', '23&&2', '24&&của', '25&&Qualcomm'], 'predicate': ['10&&đều', '11&&được', '12&&cung', '13&&cấp'], 'label': 'EQL'}]
-Mặc dù phiên bản chip trên Galaxy S23 Ultra là đặc biệt được ép xung cao hơn 3.36GHZ .
+Mặc dù phiên bản chip trên Galaxy S23 Ultra là đặc biệt được ép xung cao hơn 3.36GHZ .
 [{'subject': ['3&&phiên', '4&&bản', '5&&chip', '6&&trên', '7&&Galaxy', '8&&S23', '9&&Ultra'], 'object': [], 'aspect': ['15&&xung'], 'predicate': ['16&&cao', '17&&hơn'], 'label': 'COM+'}]
 Nhưng sự khác biệt về hiệu suất thực tế là không đáng kể .
 [{'subject': [], 'object': [], 'aspect': ['6&&hiệu', '7&&suất', '8&&thực', '9&&tế'], 'predicate': ['2&&sự', '3&&khác', '4&&biệt', '5&&về', '6&&hiệu', '7&&suất', '8&&thực', '9&&tế', '10&&là', '11&&không', '12&&đáng', '13&&kể'], 'label': 'EQL'}]
-Tuy nhiên , ít nhiều chúng sẽ mang đến một số lợi thế trong các trường hợp khác .
+Tuy nhiên , ít nhiều chúng sẽ mang đến một số lợi thế trong các trường hợp khác .
 [{}]
 Về RAM và dung lượng lưu trữ .
 [{}]
-Galaxy S23 Ultra có phiên bản tiêu chuẩn RAM 8GB và dung lượng lưu trữ 256GB .
+Galaxy S23 Ultra có phiên bản tiêu chuẩn RAM 8GB và dung lượng lưu trữ 256GB .
 [{}]
 Trong khi Xiaomi có cùng dung lượng lưu trữ cho mẫu cơ sở nhưng RAM 12GB .
 [{'subject': ['3&&Xiaomi'], 'object': [], 'aspect': ['6&&dung', '7&&lượng', '8&&lưu', '9&&trữ', '10&&cho', '11&&mẫu', '12&&cơ', '13&&sở'], 'predicate': ['4&&có', '5&&cùng'], 'label': 'EQL'}]
@@ -1130,11 +1130,11 @@ Samsung cũng có 1 phiên bản RAM 12 GB trên s23 Ultra .
 [{}]
 Nhưng bạn phải chi nhiều tiền hơn và mua phiên bản bộ nhớ trong 512GB để được nâng cấp RAM .
 [{}]
-Trong thử nghiệm 3D Mark Wildlife , cho thấy tăng tốc đáng kể như thế nào sau vài phút thử nghiệm chơi trò chơi căng thẳng này .
+Trong thử nghiệm 3D Mark Wildlife , cho thấy tăng tốc đáng kể như thế nào sau vài phút thử nghiệm chơi trò chơi căng thẳng này .
 [{}]
 Trong khi Xiaomi giữ tốt hơn nhiều .
 [{'subject': ['3&&Xiaomi'], 'object': [], 'aspect': [], 'predicate': ['5&&tốt', '6&&hơn', '7&&nhiều'], 'label': 'COM+'}]
-Có vẻ như Xiaomi được tối ưu hóa tốt hơn để chơi game .
+Có vẻ như Xiaomi được tối ưu hóa tốt hơn để chơi game .
 [{'subject': ['4&&Xiaomi'], 'object': [], 'aspect': ['12&&chơi', '13&&game'], 'predicate': ['9&&tốt', '10&&hơn'], 'label': 'COM+'}]
 Vì vậy nếu bạn muốn chạy Genshin Impact ở cài đặt cao hơn , Xiaomi là lựa chọn tốt hơn .
 [{}]
@@ -1142,21 +1142,21 @@ Khi nói đến phần mềm , cả hai đều đi kèm với Android .
 [{'subject': ['7&&cả', '8&&hai'], 'object': ['7&&cả', '8&&hai'], 'aspect': ['4&&phần', '5&&mềm'], 'predicate': ['9&&đều', '10&&đi', '11&&kèm', '12&&với', '13&&Android'], 'label': 'EQL'}]
 Trên Xiaomi 13 Pro bạn có MIUI 13 .
 [{}]
-Trên Samsung S23 Ultra là One UI 5.1 .
+Trên Samsung S23 Ultra là One UI 5.1 .
 [{}]
-Samsung hứa hẹn sẽ hỗ trợ 4 năm cập nhật Android và 5 năm sửa lỗi bảo mật cho thiết bị của mình .
+Samsung hứa hẹn sẽ hỗ trợ 4 năm cập nhật Android và 5 năm sửa lỗi bảo mật cho thiết bị của mình .
 [{}]
-Đây là một lợi thế so với 3 năm cập nhật lớn và 5 năm cập nhật bảo mật trên Xiaomi .
+Đây là một lợi thế so với 3 năm cập nhật lớn và 5 năm cập nhật bảo mật trên Xiaomi .
 [{'subject': [], 'object': [], 'aspect': ['9&&năm', '10&&cập', '11&&nhật'], 'predicate': ['4&&lợi', '5&&thế'], 'label': 'COM+'}]
 Hứa hẹn lớn của Xiaomi 13 Pro chắc chắn là về máy ảnh : Với cảm biến máy ảnh chính 1 inch , lớn hơn cảm biến trên Galaxy S23 Ultra .
 [{'subject': ['5&&Xiaomi', '6&&13', '7&&Pro'], 'object': ['29&&Galaxy', '30&&S23', '31&&Ultra'], 'aspect': ['16&&cảm', '17&&biến', '18&&máy', '19&&ảnh', '20&&chính'], 'predicate': ['24&&lớn', '25&&hơn'], 'label': 'COM+'}]
 Về mặt lý thuyết sẽ hoạt động tốt hơn vào ban đêm và bạn có khả năng thu phóng 3,2 lần .
 [{'subject': [], 'object': [], 'aspect': ['10&&vào', '11&&ban', '12&&đêm'], 'predicate': ['6&&hoạt', '7&&động', '8&&tốt', '9&&hơn'], 'label': 'COM+'}]
-Đối với trong điều kiện ánh sáng tốt , Xiaomi 13 Pro có xu hướng phơi sáng tối hơn .
+Đối với trong điều kiện ánh sáng tốt , Xiaomi 13 Pro có xu hướng phơi sáng tối hơn .
 [{'subject': ['10&&Xiaomi', '11&&13', '12&&Pro'], 'object': [], 'aspect': ['16&&phơi', '17&&sáng'], 'predicate': ['18&&tối', '19&&hơn'], 'label': 'COM'}]
 Trong khi Galaxy S23 Ultra chụp ảnh sáng hơn .
 [{'subject': ['3&&Galaxy', '4&&S23', '5&&Ultra'], 'object': [], 'aspect': ['6&&chụp', '7&&ảnh'], 'predicate': ['8&&sáng', '9&&hơn'], 'label': 'COM'}]
-Khi nói đến camera siêu rộng của Xiaomi 13 Pro .
+Khi nói đến camera siêu rộng của Xiaomi 13 Pro .
 [{}]
 Chúng ta có cách xử lý tương tự như với camera chính trong ảnh chụp ban ngày : Hình ảnh sáng hơn và sống động hơn so với Galaxy .
 [{'subject': [], 'object': ['29&&Galaxy'], 'aspect': ['19&&Hình', '20&&ảnh'], 'predicate': ['21&&sáng', '22&&hơn'], 'label': 'COM'}, {'subject': [], 'object': ['29&&Galaxy'], 'aspect': ['19&&Hình', '20&&ảnh'], 'predicate': ['24&&sống', '25&&động', '26&&hơn'], 'label': 'COM+'}]
@@ -1164,39 +1164,39 @@ Nhưng vào ban đêm , camera siêu rộng trên Xiaomi lại kém hơn nữa .
 [{'subject': ['6&&camera', '7&&siêu', '8&&rộng', '9&&trên', '10&&Xiaomi'], 'object': [], 'aspect': [], 'predicate': ['12&&kém', '13&&hơn', '14&&nữa'], 'label': 'COM-'}]
 cân bằng trắng kém hơn Galaxy và ảnh thiếu chi tiết và không sáng bằng .
 [{'subject': [], 'object': ['6&&Galaxy'], 'aspect': ['1&&cân', '2&&bằng', '3&&trắng'], 'predicate': ['4&&kém', '5&&hơn'], 'label': 'COM-'}, {'subject': [], 'object': [], 'aspect': ['8&&ảnh'], 'predicate': ['9&&thiếu', '10&&chi', '11&&tiết'], 'label': 'COM-'}, {'subject': [], 'object': [], 'aspect': ['8&&ảnh'], 'predicate': ['13&&không', '14&&sáng', '15&&bằng'], 'label': 'COM-'}]
-Máy ảnh zoom 3,2X trên Xiaomi được đánh giá khá tốt .
+Máy ảnh zoom 3,2X trên Xiaomi được đánh giá khá tốt .
 [{}]
 Nhưng nó không hoàn toàn ngang bằng với tổ hợp zoom 3X + 10X trên Galaxy .
 [{'subject': ['2&&nó'], 'object': ['9&&tổ', '10&&hợp', '11&&zoom', '12&&3X', '13&&+', '14&&10X', '15&&trên', '16&&Galaxy'], 'aspect': [], 'predicate': ['3&&không', '4&&hoàn', '5&&toàn', '6&&ngang', '7&&bằng'], 'label': 'DIF'}]
-Trong điều kiện ban ngày , bạn có chi tiết tốt hơn từ máy ảnh Samsung .
+Trong điều kiện ban ngày , bạn có chi tiết tốt hơn từ máy ảnh Samsung .
 [{'subject': ['16&&Samsung'], 'object': [], 'aspect': ['14&&máy', '15&&ảnh'], 'predicate': ['9&&chi', '10&&tiết', '11&&tốt', '12&&hơn'], 'label': 'COM+'}]
 Xiaomi đã tạo ra một bước nhảy vọt về chất lượng khi chụp ảnh ban đêm .
 [{}]
 Cả hai điện thoại trông rất đẹp khi chụp đêm .
 [{}]
-Khả năng quay video với chế độ siêu ổn định trên Galaxy S23 Ultra được đánh giá khá tốt .
+Khả năng quay video với chế độ siêu ổn định trên Galaxy S23 Ultra được đánh giá khá tốt .
 [{}]
-Đặc biệt máy còn hỗ trợ quay video 8k / 30fps là một điểm nổi bật hơn so với đối thủ .
+Đặc biệt máy còn hỗ trợ quay video 8k / 30fps là một điểm nổi bật hơn so với đối thủ .
 [{'subject': ['3&&máy'], 'object': ['20&&đối', '21&&thủ'], 'aspect': ['5&&hỗ', '6&&trợ', '7&&quay', '8&&video', '9&&8k', '10&&/', '11&&30fps'], 'predicate': ['15&&nổi', '16&&bật', '17&&hơn'], 'label': 'COM+'}]
-Xiaomi 13 Pro được trang bị viên pin có dung lượng 4.820 mAh .
+Xiaomi 13 Pro được trang bị viên pin có dung lượng 4.820 mAh .
 [{}]
-Trong khi Galaxy S23 Ultra được trang bị viên pin 5000mAh , lớn hơn 4% .
+Trong khi Galaxy S23 Ultra được trang bị viên pin 5000mAh , lớn hơn 4% .
 [{'subject': ['3&&Galaxy', '4&&S23', '5&&Ultra'], 'object': [], 'aspect': ['9&&viên', '10&&pin'], 'predicate': ['13&&lớn', '14&&hơn'], 'label': 'COM+'}]
-Có thể với thông số này nhiều người cho rằng , Galaxy sẽ dễ dàng giành chiến thắng .
+Có thể với thông số này nhiều người cho rằng , Galaxy sẽ dễ dàng giành chiến thắng .
 [{}]
 Nhưng nếu ta loại bỏ các ứng dụng chạy nền trên Xiaomi giúp kéo dài thời lượng pin hơn bạn mong đợi .
 [{}]
-Nhìn chung , cả hai điện thoại không có nhiều chênh lệch đáng kể .
+Nhìn chung , cả hai điện thoại không có nhiều chênh lệch đáng kể .
 [{'subject': ['4&&cả', '5&&hai', '6&&điện', '7&&thoại'], 'object': ['4&&cả', '5&&hai', '6&&điện', '7&&thoại'], 'aspect': [], 'predicate': ['8&&không', '9&&có', '10&&nhiều', '11&&chênh', '12&&lệch', '13&&đáng', '14&&kể'], 'label': 'EQL'}]
-Về thời lượng pin khi đạt điểm số gần như ngang nhau khi duyệt web .
+Về thời lượng pin khi đạt điểm số gần như ngang nhau khi duyệt web .
 [{'subject': [], 'object': [], 'aspect': ['2&&thời', '3&&lượng', '4&&pin'], 'predicate': ['9&&gần', '10&&như', '11&&ngang', '12&&nhau', '13&&khi', '14&&duyệt', '15&&web'], 'label': 'EQL'}]
-Tuy nhiên , trong các trò chơi 3D thì Galaxy chiếm lợi thế hơn .
+Tuy nhiên , trong các trò chơi 3D thì Galaxy chiếm lợi thế hơn .
 [{'subject': ['10&&Galaxy'], 'object': [], 'aspect': ['6&&trò', '7&&chơi', '8&&3D'], 'predicate': ['11&&chiếm', '12&&lợi', '13&&thế', '14&&hơn'], 'label': 'COM+'}]
-Nhưng bù lại Xiaomi 13 Pro có thời gian phát lại video Youtube tốt hơn .
+Nhưng bù lại Xiaomi 13 Pro có thời gian phát lại video Youtube tốt hơn .
 [{'subject': ['4&&Xiaomi', '5&&13', '6&&Pro'], 'object': [], 'aspect': ['8&&thời', '9&&gian', '10&&phát', '11&&lại', '12&&video', '13&&Youtube'], 'predicate': ['14&&tốt', '15&&hơn'], 'label': 'COM+'}]
-Về khả năng sạc , Galaxy S23 Ultra hỗ trợ sạc nhanh 45W .
+Về khả năng sạc , Galaxy S23 Ultra hỗ trợ sạc nhanh 45W .
 [{}]
-Trong khi đối thủ có sạc nhanh đến 120W .
+Trong khi đối thủ có sạc nhanh đến 120W .
 [{}]
 Xiaomi sạc đầy trong vòng chưa đầy 30 phút .
 [{}]
@@ -1204,15 +1204,15 @@ Trong khi Galaxy mất hơn một giờ .
 [{}]
 Cả hai điện thoại cũng hỗ trợ sạc không dây và một lần nữa , Xiaomi nhanh hơn rất nhiều với tốc độ 50W so với chỉ 10W trên Galaxy .
 [{'subject': ['16&&Xiaomi'], 'object': ['30&&Galaxy'], 'aspect': ['8&&sạc', '9&&không', '10&&dây'], 'predicate': ['17&&nhanh', '18&&hơn', '19&&rất', '20&&nhiều'], 'label': 'COM+'}, {'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['8&&sạc', '9&&không', '10&&dây'], 'predicate': ['5&&cũng', '6&&hỗ', '7&&trợ'], 'label': 'EQL'}]
-So sánh Galaxy S23 Ultra và Xiaomi 13 Pro cho thấy , flagship của Xiaomi là một thiết bị chắc chắn , vượt trội ở hầu hết các lĩnh vực cơ bản tạo nên một chiếc điện thoại thông minh tuyệt vời : thời lượng pin ổn định , camera rất tốt ( đặc biệt là những bức ảnh macro ) và có sạc siêu nhanh .
+So sánh Galaxy S23 Ultra và Xiaomi 13 Pro cho thấy , flagship của Xiaomi là một thiết bị chắc chắn , vượt trội ở hầu hết các lĩnh vực cơ bản tạo nên một chiếc điện thoại thông minh tuyệt vời : thời lượng pin ổn định , camera rất tốt ( đặc biệt là những bức ảnh macro ) và có sạc siêu nhanh .
 [{'subject': ['7&&Xiaomi', '8&&13', '9&&Pro'], 'object': ['3&&Galaxy', '4&&S23', '5&&Ultra'], 'aspect': ['28&&các', '29&&lĩnh', '30&&vực', '31&&cơ', '32&&bản'], 'predicate': ['23&&vượt', '24&&trội'], 'label': 'COM+'}]
 Mặt khác , Galaxy là " sự lựa chọn an toàn " cho một chiếc flagship Android .
 [{}]
-Nhưng điều đó không làm cho nó kém thú vị đi chút nào với bút S-Pen nổi bật , ngoại hình tinh tế , cấu hình mạnh mẽ , khả năng zoom ấn tượng và các bản cập nhật lâu hơn .
+Nhưng điều đó không làm cho nó kém thú vị đi chút nào với bút S-Pen nổi bật , ngoại hình tinh tế , cấu hình mạnh mẽ , khả năng zoom ấn tượng và các bản cập nhật lâu hơn .
 [{'subject': ['7&&nó'], 'object': [], 'aspect': ['36&&các', '37&&bản', '38&&cập', '39&&nhật'], 'predicate': ['40&&lâu', '41&&hơn'], 'label': 'COM+'}]
-Nếu bạn thích cái gì mới mẻ hơn một chút thì có thể lựa chọn Xiaomi 13 Pro vẫn đáp ứng tốt trải nghiệm .
+Nếu bạn thích cái gì mới mẻ hơn một chút thì có thể lựa chọn Xiaomi 13 Pro vẫn đáp ứng tốt trải nghiệm .
 [{}]
-Liên hệ XTmobile để sở hữu các thiết bị cao cấp với mức giá tốt nhất !
+Liên hệ XTmobile để sở hữu các thiết bị cao cấp với mức giá tốt nhất !
 [{}]
 title : Đánh giá điện thoại Samsung Galaxy A24 vừa trình làng tại Việt Nam : Có đáng mua năm 2023 ?
 [{}]
@@ -1526,7 +1526,7 @@ Vậy đâu sẽ là sự lựa chọn của bạn ?
 [{}]
 title : Galaxy S20 Ultra so với ROG Phone 2 : Quái thú 120Hz nào đáng mua ?
 [{}]
-Galaxy S20 Ultra vừa ra mắt với hệ thống camera đỉnh cao , cùng thông số kỹ thuật ấn tượng .
+Galaxy S20 Ultra vừa ra mắt với hệ thống camera đỉnh cao , cùng thông số kỹ thuật ấn tượng .
 [{}]
 Liệu smartphone nào sẽ đáng mua hơn ?
 [{}]
@@ -1548,7 +1548,7 @@ Tuy nhiên , đây là một lựa chọn tuyệt vời để sử dụng hàng 
 [{}]
 Màn hình AMOLED 120Hz mượt mà như màn hình trên S20 Ultra và màn hình phẳng lý tưởng để chơi game .
 [{}]
-Chipset Snapdragon 855 + mạnh mẽ được kết hợp với hệ thống làm mát bằng chất lỏng ba lớp , thiết kế này giúp giảm nhiệt .
+Chipset Snapdragon 855 + mạnh mẽ được kết hợp với hệ thống làm mát bằng chất lỏng ba lớp , thiết kế này giúp giảm nhiệt .
 [{}]
 Ngoài ra , bạn còn có được một viên pin khổng lồ 6.000mAh .
 [{}]
@@ -1636,129 +1636,129 @@ Tuy vậy , ROG Phone 2 vẫn là một trong những điện thoại tốt nh�
 [{'subject': ['4&&ROG', '5&&Phone', '6&&2'], 'object': [], 'aspect': [], 'predicate': ['9&&một', '10&&trong', '11&&những', '12&&điện', '13&&thoại', '14&&tốt', '15&&nhất'], 'label': 'SUP+'}]
 Nếu bạn không quá bận tâm đến camera , smartphone này thực sự đáng đồng tiền bát gạo đấy .
 [{}]
-Giữa Galaxy S23 Ultra và Galaxy Z Fold 4 , đâu mới là sự lựa chọn hấp dẫn hơn ?
+Giữa Galaxy S23 Ultra và Galaxy Z Fold 4 , đâu mới là sự lựa chọn hấp dẫn hơn ?
 [{}]
-Galaxy S23 Ultra và điện thoại màn hình gập Galaxy Z Fold 4 đều là những model hàng đầu của Samsung ở thời điểm hiện tại .
+Galaxy S23 Ultra và điện thoại màn hình gập Galaxy Z Fold 4 đều là những model hàng đầu của Samsung ở thời điểm hiện tại .
 [{'subject': ['1&&Galaxy', '2&&S23', '3&&Ultra'], 'object': [], 'aspect': [], 'predicate': ['18&&hàng', '19&&đầu', '20&&của', '21&&Samsung', '22&&ở', '23&&thời', '24&&điểm', '25&&hiện', '26&&tại'], 'label': 'SUP+'}, {'subject': ['5&&điện', '6&&thoại', '7&&màn', '8&&hình', '9&&gập', '10&&Galaxy', '11&&Z', '12&&Fold', '13&&4'], 'object': [], 'aspect': [], 'predicate': ['18&&hàng', '19&&đầu', '20&&của', '21&&Samsung', '22&&ở', '23&&thời', '24&&điểm', '25&&hiện', '26&&tại'], 'label': 'SUP+'}]
-Cả hai đều có mức giá khá cao , nhưng việc sở hữu ngoại hình đẳng cấp cùng nhiều tính năng cao cấp khiến chúng trở nên hấp dẫn với nhiều người dùng .
+Cả hai đều có mức giá khá cao , nhưng việc sở hữu ngoại hình đẳng cấp cùng nhiều tính năng cao cấp khiến chúng trở nên hấp dẫn với nhiều người dùng .
 [{'subject': ['1&&Cả', '2&&hai'], 'object': ['1&&Cả', '2&&hai'], 'aspect': ['3&&đều', '4&&có'], 'predicate': ['5&&mức', '6&&giá', '7&&khá', '8&&cao'], 'label': 'EQL'}]
-Liệu khi đặt lên bàn cân so sánh thì giữa 2 thiết bị này , đâu là lựa chọn hấp dẫn hơn ?
+Liệu khi đặt lên bàn cân so sánh thì giữa 2 thiết bị này , đâu là lựa chọn hấp dẫn hơn ?
 [{}]
-Khi gập điện thoại Galaxy Z Fold 4 thì thiết bị có phần ngắn và hẹp hơn so với Galaxy S23 Ultra .
+Khi gập điện thoại Galaxy Z Fold 4 thì thiết bị có phần ngắn và hẹp hơn so với Galaxy S23 Ultra .
 [{'subject': ['10&&thiết', '11&&bị'], 'object': ['20&&Galaxy', '21&&S23', '22&&Ultra'], 'aspect': [], 'predicate': ['12&&có', '13&&phần', '14&&ngắn', '15&&và', '16&&hẹp', '17&&hơn'], 'label': 'COM-'}]
-Tuy nhiên , nó cũng khá dày và cồng kềnh hơn khi bỏ vào túi của bạn .
+Tuy nhiên , nó cũng khá dày và cồng kềnh hơn khi bỏ vào túi của bạn .
 [{'subject': ['4&&nó'], 'object': [], 'aspect': [], 'predicate': ['6&&khá', '7&&dày', '8&&và', '9&&cồng', '10&&kềnh', '11&&hơn'], 'label': 'COM-'}]
-Khoảng cánh về diện tích viền và khả năng hiển thị nếp gấp của Samsung còn khá hạn chế .
+Khoảng cánh về diện tích viền và khả năng hiển thị nếp gấp của Samsung còn khá hạn chế .
 [{}]
-Do đó ở khía cạnh này Galaxy S23 Ultra là model dành chiến thắng .
+Do đó ở khía cạnh này Galaxy S23 Ultra là model dành chiến thắng .
 [{'subject': ['7&&Galaxy', '8&&S23', '9&&Ultra'], 'object': [], 'aspect': ['4&&khía', '5&&cạnh', '6&&này'], 'predicate': ['13&&chiến', '14&&thắng'], 'label': 'COM+'}]
-Samsung trang bị cho Galaxy Z Fold 4 màn hình phụ bên ngoài với kích thước 6,2 inch .
+Samsung trang bị cho Galaxy Z Fold 4 màn hình phụ bên ngoài với kích thước 6,2 inch .
 [{}]
-Khá tiện lợi và giúp người dùng dễ dàng thao tác bằng một tay .
+Khá tiện lợi và giúp người dùng dễ dàng thao tác bằng một tay .
 [{}]
-Tuy nhiên , tổng thể dày và nặng vẫn luôn hiện hữu trên thiết bị .
+Tuy nhiên , tổng thể dày và nặng vẫn luôn hiện hữu trên thiết bị .
 [{}]
-Ưu điểm lớn nhất của smartphone màn hình gập tốt nhất hiện nay của Samsung so với Galaxy S23 Ultra là sở hữu màn hình lên đến 7,6 inch .
+Ưu điểm lớn nhất của smartphone màn hình gập tốt nhất hiện nay của Samsung so với Galaxy S23 Ultra là sở hữu màn hình lên đến 7,6 inch .
 [{'subject': ['6&&smartphone', '7&&màn', '8&&hình', '9&&gập', '10&&tốt', '11&&nhất', '12&&hiện', '13&&nay', '14&&của', '15&&Samsung'], 'object': ['18&&Galaxy', '19&&S23', '20&&Ultra'], 'aspect': ['24&&màn', '25&&hình'], 'predicate': ['1&&Ưu', '2&&điểm', '3&&lớn', '4&&nhất'], 'label': 'COM+'}]
-Giúp người dùng thoải mái lướt web , chơi game , xem phim . . . Thực tế kích thước 7,6 inch không lớn hơn nhiều so với màn hình 6,8 inch của biến thể Ultra .
+Giúp người dùng thoải mái lướt web , chơi game , xem phim . . . Thực tế kích thước 7,6 inch không lớn hơn nhiều so với màn hình 6,8 inch của biến thể Ultra .
 [{'subject': ['19&&kích', '20&&thước', '21&&7,6', '22&&inch'], 'object': ['29&&màn', '30&&hình', '31&&6,8', '32&&inch', '33&&của', '34&&biến', '35&&thể', '36&&Ultra'], 'aspect': [], 'predicate': ['23&&không', '24&&lớn', '25&&hơn', '26&&nhiều'], 'label': 'EQL'}]
-Nhưng việc sử dụng tỷ lệ gần như vuông .
+Nhưng việc sử dụng tỷ lệ gần như vuông .
 [{}]
-Đã giúp diện tích bề mặt Galaxy Z Fold 4 lớn hơn nhiều .
+Đã giúp diện tích bề mặt Galaxy Z Fold 4 lớn hơn nhiều .
 [{'subject': ['7&&Galaxy', '8&&Z', '9&&Fold', '10&&4'], 'object': [], 'aspect': ['3&&diện', '4&&tích', '5&&bề', '6&&mặt'], 'predicate': ['11&&lớn', '12&&hơn', '13&&nhiều'], 'label': 'COM+'}]
-Samsung Galaxy S23 Ultra nổi bật với bút S-Pen được tích hợp bên trong thân máy .
+Samsung Galaxy S23 Ultra nổi bật với bút S-Pen được tích hợp bên trong thân máy .
 [{}]
-Mặc dù Samsung Z Fold 4 cũng được hỗ trợ chiếc bút thần thánh này .
+Mặc dù Samsung Z Fold 4 cũng được hỗ trợ chiếc bút thần thánh này .
 [{}]
-Nhưng người dùng phải mang theo như một món phụ kiện .
+Nhưng người dùng phải mang theo như một món phụ kiện .
 [{}]
-Tuy nhiên , trên Galaxy S23 Ultra có độ sáng tối đa cao hơn .
+Tuy nhiên , trên Galaxy S23 Ultra có độ sáng tối đa cao hơn .
 [{'subject': ['5&&Galaxy', '6&&S23', '7&&Ultra'], 'object': [], 'aspect': ['9&&độ', '10&&sáng', '11&&tối', '12&&đa'], 'predicate': ['13&&cao', '14&&hơn'], 'label': 'COM+'}]
-Cả hai điện thoại đều mang đến khả năng hiển thị tuyệt vời nhờ trang bị tần số quét 1 - 120Hz .
+Cả hai điện thoại đều mang đến khả năng hiển thị tuyệt vời nhờ trang bị tần số quét 1 - 120Hz .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['8&&khả', '9&&năng', '10&&hiển', '11&&thị', '12&&tuyệt', '13&&vời'], 'predicate': ['5&&đều', '6&&mang', '7&&đến'], 'label': 'EQL'}]
-Việc sở hữu màn hình sáng hơn khiến biến thể Ultra có lợi thế hơn một chút so với Galaxy Z Fold 4 .
+Việc sở hữu màn hình sáng hơn khiến biến thể Ultra có lợi thế hơn một chút so với Galaxy Z Fold 4 .
 [{'subject': ['9&&biến', '10&&thể', '11&&Ultra'], 'object': ['20&&Galaxy', '21&&Z', '22&&Fold', '23&&4'], 'aspect': ['4&&màn', '5&&hình'], 'predicate': ['6&&sáng', '7&&hơn'], 'label': 'COM+'}, {'subject': ['9&&biến', '10&&thể', '11&&Ultra'], 'object': ['20&&Galaxy', '21&&Z', '22&&Fold', '23&&4'], 'aspect': [], 'predicate': ['13&&lợi', '14&&thế', '15&&hơn', '16&&một', '17&&chút'], 'label': 'COM+'}]
-Với điện thoại màn hình gập Galaxy Z Fold 4 sẽ mang đến không gian hiển thị linh hoạt hơn với 2 màn hình .
+Với điện thoại màn hình gập Galaxy Z Fold 4 sẽ mang đến không gian hiển thị linh hoạt hơn với 2 màn hình .
 [{'subject': ['2&&điện', '3&&thoại', '4&&màn', '5&&hình', '6&&gập', '7&&Galaxy', '8&&Z', '9&&Fold', '10&&4'], 'object': ['2&&điện', '3&&thoại', '4&&màn', '5&&hình', '6&&gập', '7&&Galaxy', '8&&Z', '9&&Fold', '10&&4'], 'aspect': ['14&&không', '15&&gian', '16&&hiển', '17&&thị'], 'predicate': ['18&&linh', '19&&hoạt', '20&&hơn'], 'label': 'COM+'}]
-Trong khi Samsung S23 Ultra sở hữu màn hình cong tràn , không có nếp gấp và độ sáng tốt hơn .
+Trong khi Samsung S23 Ultra sở hữu màn hình cong tràn , không có nếp gấp và độ sáng tốt hơn .
 [{'subject': ['3&&Samsung', '4&&S23', '5&&Ultra'], 'object': [], 'aspect': ['18&&độ', '19&&sáng'], 'predicate': ['20&&tốt', '21&&hơn'], 'label': 'COM+'}]
-Camera Galaxy S23 Ultra nổi bật với cảm biến chính 200MP ISOCELL HP2 .
+Camera Galaxy S23 Ultra nổi bật với cảm biến chính 200MP ISOCELL HP2 .
 [{}]
-Lớn hơn khá nhiều so với cảm biến 50MP khiêm tốn trên Galaxy Z Fold 4 .
+Lớn hơn khá nhiều so với cảm biến 50MP khiêm tốn trên Galaxy Z Fold 4 .
 [{'subject': [], 'object': ['13&&Galaxy', '14&&Z', '15&&Fold', '16&&4'], 'aspect': [], 'predicate': ['1&&Lớn', '2&&hơn', '3&&khá', '4&&nhiều'], 'label': 'COM+'}]
-Mặc dù gã khổng lồ công nghệ Hàn Quốc đã ngừng đưa các cảm biến 12MP trên các model màn hình gập của mình .
+Mặc dù gã khổng lồ công nghệ Hàn Quốc đã ngừng đưa các cảm biến 12MP trên các model màn hình gập của mình .
 [{}]
-Nhưng ngay cả khi camera 50MP cũng không thể so với Galaxy S23 Ultra .
+Nhưng ngay cả khi camera 50MP cũng không thể so với Galaxy S23 Ultra .
 [{'subject': ['5&&camera', '6&&50MP'], 'object': ['12&&Galaxy', '13&&S23', '14&&Ultra'], 'aspect': [], 'predicate': ['8&&không', '9&&thể', '10&&so', '11&&với'], 'label': 'COM-'}]
 Với khả năng phóng đại kính tiềm vọng 10 lần và zoom tele 3x để chụp chân dung và các vật thể gần hơn .
 [{}]
 Các mẫu Ultra của Samsung chiếm ưu thế trong cuộc cạnh tranh .
 [{}]
-Camera chính trên Samsung S23 Ultra cung cấp hình ảnh sắc nét .
+Camera chính trên Samsung S23 Ultra cung cấp hình ảnh sắc nét .
 [{}]
-Nhiều chi tiết và dải động tốt hơn so với điện thoại màn hình gập Galaxy Z Fold 4 .
+Nhiều chi tiết và dải động tốt hơn so với điện thoại màn hình gập Galaxy Z Fold 4 .
 [{'subject': [], 'object': ['11&&điện', '12&&thoại', '13&&màn', '14&&hình', '15&&gập', '16&&Galaxy', '17&&Z', '18&&Fold', '19&&4'], 'aspect': [], 'predicate': ['1&&Nhiều', '2&&chi', '3&&tiết', '4&&và', '5&&dải', '6&&động', '7&&tốt', '8&&hơn'], 'label': 'COM+'}]
-Trong khi ở mức 30x , hình ảnh chụp từ Galaxy Z Fold 4 khá mờ ảo .
+Trong khi ở mức 30x , hình ảnh chụp từ Galaxy Z Fold 4 khá mờ ảo .
 [{}]
-Các thuật toán máy ảnh Galaxy S23 Ultra cũng mang đến chất lượng tốt trong các điều kiện .
+Các thuật toán máy ảnh Galaxy S23 Ultra cũng mang đến chất lượng tốt trong các điều kiện .
 [{}]
-Bên cạnh đó , khả năng chụp ảnh chiếu sáng trên camera Galaxy S23 Ultra cũng được đánh giá caoo với chi tiết được cải thiện .
+Bên cạnh đó , khả năng chụp ảnh chiếu sáng trên camera Galaxy S23 Ultra cũng được đánh giá caoo với chi tiết được cải thiện .
 [{}]
-Trong các tình huống có điều kiện ánh sáng không mấy thuận lợi , kích thước pixel của cảm biến 200MP sẽ tăng lên 2,4 micron pixel ảo bằng cách kết hợp 16 thành 1 .
+Trong các tình huống có điều kiện ánh sáng không mấy thuận lợi , kích thước pixel của cảm biến 200MP sẽ tăng lên 2,4 micron pixel ảo bằng cách kết hợp 16 thành 1 .
 [{}]
-Bên cạnh đó , khả năng xử lý hình ảnh của chip Snapdragon 8 Gen 2 cũng đến nhiều tính năng chụp ảnh mới cho Samsung S23 Ultra .
+Bên cạnh đó , khả năng xử lý hình ảnh của chip Snapdragon 8 Gen 2 cũng đến nhiều tính năng chụp ảnh mới cho Samsung S23 Ultra .
 [{}]
-Camera trước giờ đây có các tính năng phân đoạn ngữ nghĩa của nó .
+Camera trước giờ đây có các tính năng phân đoạn ngữ nghĩa của nó .
 [{}]
-Hình ảnh có màu sắc chân thật hơn Z Fold 4 và chế độ Super HDR được áp dụng cho camera selfie mang lại dải động tốt hơn so với camera trước của điện thoại màn hình gập .
+Hình ảnh có màu sắc chân thật hơn Z Fold 4 và chế độ Super HDR được áp dụng cho camera selfie mang lại dải động tốt hơn so với camera trước của điện thoại màn hình gập .
 [{'subject': ['1&&Hình', '2&&ảnh'], 'object': ['9&&Z', '10&&Fold', '11&&4'], 'aspect': ['4&&màu', '5&&sắc'], 'predicate': ['6&&chân', '7&&thật', '8&&hơn'], 'label': 'COM+'}, {'subject': ['21&&camera', '22&&selfie'], 'object': ['31&&camera', '32&&trước', '33&&của', '34&&điện', '35&&thoại', '36&&màn', '37&&hình', '38&&gập'], 'aspect': ['25&&dải', '26&&động'], 'predicate': ['27&&tốt', '28&&hơn'], 'label': 'COM+'}, {'subject': [], 'object': ['9&&Z', '10&&Fold', '11&&4'], 'aspect': ['1&&Hình', '2&&ảnh'], 'predicate': ['4&&màu', '5&&sắc', '6&&chân', '7&&thật', '8&&hơn'], 'label': 'COM+'}]
-Bên cạnh đó , Samsung còn tích hợp tính năng ổn định độc đáo ở chế độ quay video 360 độ trên Galaxy S23 Ultra cũng mượt mà hơn .
+Bên cạnh đó , Samsung còn tích hợp tính năng ổn định độc đáo ở chế độ quay video 360 độ trên Galaxy S23 Ultra cũng mượt mà hơn .
 [{'subject': ['23&&Galaxy', '24&&S23', '25&&Ultra'], 'object': [], 'aspect': ['16&&chế', '17&&độ', '18&&quay', '19&&video', '20&&360', '21&&độ'], 'predicate': ['27&&mượt', '28&&mà', '29&&hơn'], 'label': 'COM+'}]
-Cấu hình Galaxy S23 Ultra được cung cấp sức mạnh từ chip xử lý Snapdragon 8 Gen 2 .
+Cấu hình Galaxy S23 Ultra được cung cấp sức mạnh từ chip xử lý Snapdragon 8 Gen 2 .
 [{}]
-Mặc dù chipset mới nhất của Qualcomm vẫn được sản xuất trên tiến trình 4nm , nhưng nó là thế hệ thứ 2 .
+Mặc dù chipset mới nhất của Qualcomm vẫn được sản xuất trên tiến trình 4nm , nhưng nó là thế hệ thứ 2 .
 [{}]
-Bên cạnh đó , việc bổ sung cải tiến SoC mới đã giúp hiệu suất Galaxy S23 Ultra vượt trội hơn Galaxy Z Fold 4 với chip Snapdragon 8 Gen 1 .
+Bên cạnh đó , việc bổ sung cải tiến SoC mới đã giúp hiệu suất Galaxy S23 Ultra vượt trội hơn Galaxy Z Fold 4 với chip Snapdragon 8 Gen 1 .
 [{'subject': ['16&&Galaxy', '17&&S23', '18&&Ultra'], 'object': ['22&&Galaxy', '23&&Z', '24&&Fold', '25&&4'], 'aspect': ['14&&hiệu', '15&&suất'], 'predicate': ['19&&vượt', '20&&trội', '21&&hơn'], 'label': 'COM+'}]
-Qualcomm đã trang bị tốc độ 3,36 GHz nhanh hơn cho Snapdragon 8 Gen 2 dành cho các biến thể Galaxy S23 .
+Qualcomm đã trang bị tốc độ 3,36 GHz nhanh hơn cho Snapdragon 8 Gen 2 dành cho các biến thể Galaxy S23 .
 [{}]
-Tốc độ xung nhịp cao hơn phiên bản 3.2 GHZ được Qualcomm công bố .
+Tốc độ xung nhịp cao hơn phiên bản 3.2 GHZ được Qualcomm công bố .
 [{'subject': [], 'object': ['7&&phiên', '8&&bản', '9&&3.2', '10&&GHZ'], 'aspect': ['1&&Tốc', '2&&độ', '3&&xung', '4&&nhịp'], 'predicate': ['5&&cao', '6&&hơn'], 'label': 'COM+'}]
 Điểm số Geekbench trong các bài kiểm tra điểm chuẩn đơn và đa lõi cũng vượt qua điểm số của Snapdragon 8 Gen 1 của Z Fold 4 .
 [{'subject': [], 'object': ['18&&điểm', '19&&số', '20&&của', '21&&Snapdragon', '22&&8', '23&&Gen', '24&&1', '25&&của', '26&&Z', '27&&Fold', '28&&4'], 'aspect': ['1&&Điểm', '2&&số', '3&&Geekbench', '4&&trong', '5&&các', '6&&bài', '7&&kiểm', '8&&tra', '9&&điểm', '10&&chuẩn', '11&&đơn', '12&&và', '13&&đa', '14&&lõi'], 'predicate': ['16&&vượt', '17&&qua'], 'label': 'COM+'}]
 Chưa kể đến khả năng của hệ thống con đồ họa vượt trội .
 [{}]
-Snapdragon 8 Gen 2 được đánh giá là chipset hàng đầu mạnh mẽ , ổn định nhất của Qualcomm ở thời điểm hiện tại .
+Snapdragon 8 Gen 2 được đánh giá là chipset hàng đầu mạnh mẽ , ổn định nhất của Qualcomm ở thời điểm hiện tại .
 [{'subject': ['1&&Snapdragon', '2&&8', '3&&Gen', '4&&2'], 'object': [], 'aspect': [], 'predicate': ['12&&mạnh', '13&&mẽ', '14&&,', '15&&ổn', '16&&định', '17&&nhất', '18&&của', '19&&Qualcomm', '20&&ở', '21&&thời', '22&&điểm', '23&&hiện', '24&&tại'], 'label': 'SUP+'}]
-SoC còn hỗ trợ các xu hướng kết xuất đồ họa 3D mới nhất .
+SoC còn hỗ trợ các xu hướng kết xuất đồ họa 3D mới nhất .
 [{}]
-Thậm chí chipset này có thể ngang bằng với A16 Bionic trên iPhone 14 .
+Thậm chí chipset này có thể ngang bằng với A16 Bionic trên iPhone 14 .
 [{'subject': ['3&&chipset', '4&&này'], 'object': ['10&&A16', '11&&Bionic', '12&&trên', '13&&iPhone', '14&&14'], 'aspect': [], 'predicate': ['7&&ngang', '8&&bằng'], 'label': 'EQL'}]
-Nhìn chung ở phần hiệu suất .
+Nhìn chung ở phần hiệu suất .
 [{}]
-Điện thoại Galaxy S23 Ultra đã giành chiến thắng so với người anh em của mình .
+Điện thoại Galaxy S23 Ultra đã giành chiến thắng so với người anh em của mình .
 [{'subject': ['1&&Điện', '2&&thoại', '3&&Galaxy', '4&&S23', '5&&Ultra'], 'object': ['12&&người', '13&&anh', '14&&em', '15&&của', '16&&mình'], 'aspect': [], 'predicate': ['8&&chiến', '9&&thắng'], 'label': 'COM+'}]
-Việc trang bị kích thước màn hình lớn cùng với gánh 2 màn hình đã khiến Galaxy Z Fold 4 tiêu tốn khá nhiều năng lượng .
+Việc trang bị kích thước màn hình lớn cùng với gánh 2 màn hình đã khiến Galaxy Z Fold 4 tiêu tốn khá nhiều năng lượng .
 [{}]
-Bất chấp điện thoại được Samsung trang bị chipset tiết kiệm điện năng .
+Bất chấp điện thoại được Samsung trang bị chipset tiết kiệm điện năng .
 [{}]
-Mặt khác , chip xử lý mới của Qualcomm cũng hiệu quả hơn trong việc tiết kiệm năng lượng .
+Mặt khác , chip xử lý mới của Qualcomm cũng hiệu quả hơn trong việc tiết kiệm năng lượng .
 [{'subject': ['4&&chip', '5&&xử', '6&&lý', '7&&mới', '8&&của', '9&&Qualcomm'], 'object': [], 'aspect': ['16&&tiết', '17&&kiệm', '18&&năng', '19&&lượng'], 'predicate': ['11&&hiệu', '12&&quả', '13&&hơn'], 'label': 'COM+'}]
-Theo như công bố của Samsung thì nó giúp tăng thời lượng pin lên 20% so với model tiền nhiệm và đánh bại thời lượng pin trên Samsung Z Fold 4 .
+Theo như công bố của Samsung thì nó giúp tăng thời lượng pin lên 20% so với model tiền nhiệm và đánh bại thời lượng pin trên Samsung Z Fold 4 .
 [{'subject': ['8&&nó'], 'object': ['18&&model', '19&&tiền', '20&&nhiệm'], 'aspect': ['11&&thời', '12&&lượng', '13&&pin'], 'predicate': ['10&&tăng'], 'label': 'COM+'}, {'subject': ['8&&nó'], 'object': ['28&&Samsung', '29&&Z', '30&&Fold', '31&&4'], 'aspect': ['24&&thời', '25&&lượng', '26&&pin'], 'predicate': ['22&&đánh', '23&&bại'], 'label': 'COM+'}]
-Ngoài ra , Samsung S23 Ultra cũng mang đến khả năng sạc nhanh hơn là 66 phút thay vì 73 phút như Galaxy Z Fold 4 .
+Ngoài ra , Samsung S23 Ultra cũng mang đến khả năng sạc nhanh hơn là 66 phút thay vì 73 phút như Galaxy Z Fold 4 .
 [{'subject': ['4&&Samsung', '5&&S23', '6&&Ultra'], 'object': ['23&&Galaxy', '24&&Z', '25&&Fold', '26&&4'], 'aspect': ['10&&khả', '11&&năng', '12&&sạc'], 'predicate': ['13&&nhanh', '14&&hơn'], 'label': 'COM+'}]
 Nên mua Galaxy S23 Ultra hay Galaxy Z Fold 4 ?
 [{}]
-So sánh Galaxy S23 Ultra và Galaxy Z Fold 4 cho thấy khá dễ dàng để đưa ra quyết định .
+So sánh Galaxy S23 Ultra và Galaxy Z Fold 4 cho thấy khá dễ dàng để đưa ra quyết định .
 [{}]
-Nếu bạn thích trải nghiệm một chiếc điện thoại với máy ảnh hàng đầu , hiệu năng mạnh mẽ , màn hình sắc nét . . . cùng với những tiện ích về bút S-Pen thì chắc chắn Galaxy S23 Ultra sẽ là lựa chọn tốt hơn .
+Nếu bạn thích trải nghiệm một chiếc điện thoại với máy ảnh hàng đầu , hiệu năng mạnh mẽ , màn hình sắc nét . . . cùng với những tiện ích về bút S-Pen thì chắc chắn Galaxy S23 Ultra sẽ là lựa chọn tốt hơn .
 [{}]
 Galaxy Z Fold 4 có thể gây cảm giác cồng kềnh khi cầm trên tay và trong túi .
 [{}]
 Nhưng lại đáp ứng nhu cầu thông tin giải trí của một người khi mở ra .
 [{}]
-Vì vậy sự lựa chọn tập trung vào yếu tố hiển thị .
+Vì vậy sự lựa chọn tập trung vào yếu tố hiển thị .
 [{}]
 title : So sánh OPPO A74 và Samsung Galaxy A32 : Chọn lựa nào hợp lý khi có cùng giá 6.69 triệu đồng ?
 [{}]
@@ -2028,101 +2028,101 @@ Tuy nhiên , camera selfie trước của Apple đi kèm với gyro-EIS mà Sams
 [{'subject': ['4&&camera', '5&&selfie', '6&&trước', '7&&của', '8&&Apple'], 'object': ['14&&Samsung'], 'aspect': ['12&&gyro-EIS'], 'predicate': ['15&&không', '16&&có'], 'label': 'DIF'}]
 Cả hai thiết bị đều có cùng mức giá smartphone cao cấp dù Galaxy S21 đắt hơn khoảng $100 .
 [{'subject': ['1&&Cả', '2&&hai', '3&&thiết', '4&&bị'], 'object': ['1&&Cả', '2&&hai', '3&&thiết', '4&&bị'], 'aspect': ['8&&mức', '9&&giá'], 'predicate': ['5&&đều', '6&&có', '7&&cùng'], 'label': 'EQL'}, {'subject': ['14&&Galaxy', '15&&S21'], 'object': [], 'aspect': ['8&&mức', '9&&giá'], 'predicate': ['16&&đắt', '17&&hơn', '18&&khoảng', '19&&$100'], 'label': 'COM+'}]
-title : So sánh Galaxy Z Fold 4 và iPhone 13 Pro Max : Flagship nào hấp dẫn hơn ?
+title : So sánh Galaxy Z Fold 4 và iPhone 13 Pro Max : Flagship nào hấp dẫn hơn ?
 [{}]
-Galaxy Z Fold 4 so với iPhone 13 Pro Max có thật sự đáng mua hơn ?
+Galaxy Z Fold 4 so với iPhone 13 Pro Max có thật sự đáng mua hơn ?
 [{}]
-Samsung Galaxy Z Fold 4 và iPhone 13 Pro Max đều là hai điện thoại cao cấp nhất hiện nay của hai ông lớn Samsung và Apple .
+Samsung Galaxy Z Fold 4 và iPhone 13 Pro Max đều là hai điện thoại cao cấp nhất hiện nay của hai ông lớn Samsung và Apple .
 [{}]
-Do đó , ngay khi Samsung Z Fold 4 được trình làng , model này đã được đặt lên bàn cân so sánh với iPhone 13 Pro Max .
+Do đó , ngay khi Samsung Z Fold 4 được trình làng , model này đã được đặt lên bàn cân so sánh với iPhone 13 Pro Max .
 [{}]
-Như đã nói , Galaxy Z Fold 4 là điện thoại màn hình gập mới nhất .
+Như đã nói , Galaxy Z Fold 4 là điện thoại màn hình gập mới nhất .
 [{}]
-Trong khi iPhone 13 Pro Max của Apple là một chiếc phalet cổ điển với thiết kế màn hình bình thường .
+Trong khi iPhone 13 Pro Max của Apple là một chiếc phalet cổ điển với thiết kế màn hình bình thường .
 [{}]
-Chính vì vậy , việc nên mua điện thoại Galaxy Z Fold 4 hay iPhone 13 Pro Max sẽ không quá khó khăn đối với người dùng đã có định hướng riêng .
+Chính vì vậy , việc nên mua điện thoại Galaxy Z Fold 4 hay iPhone 13 Pro Max sẽ không quá khó khăn đối với người dùng đã có định hướng riêng .
 [{}]
-Thiết kế và kích thước màn hình là những điểm khác biệt dễ nhận thấy nhất trên iPhone 13 Pro Max và Samsung Z Fold 4 .
+Thiết kế và kích thước màn hình là những điểm khác biệt dễ nhận thấy nhất trên iPhone 13 Pro Max và Samsung Z Fold 4 .
 [{'subject': ['18&&iPhone', '19&&13', '20&&Pro', '21&&Max'], 'object': ['23&&Samsung', '24&&Z', '25&&Fold', '26&&4'], 'aspect': ['1&&Thiết', '2&&kế'], 'predicate': ['11&&khác', '12&&biệt'], 'label': 'DIF'}, {'subject': ['18&&iPhone', '19&&13', '20&&Pro', '21&&Max'], 'object': ['23&&Samsung', '24&&Z', '25&&Fold', '26&&4'], 'aspect': ['4&&kích', '5&&thước', '6&&màn', '7&&hình'], 'predicate': ['11&&khác', '12&&biệt'], 'label': 'DIF'}]
-Trên smartphone màn hình gập mới nhất của Samsung được trang bị đến 2 màn hình chính và phụ .
+Trên smartphone màn hình gập mới nhất của Samsung được trang bị đến 2 màn hình chính và phụ .
 [{}]
-Kích thước màn hình phụ lớn - 6,2 inch giúp người dùng có thể kiểm tra mail , thông báo thường xuyên mà không cần phải mở máy .
+Kích thước màn hình phụ lớn - 6,2 inch giúp người dùng có thể kiểm tra mail , thông báo thường xuyên mà không cần phải mở máy .
 [{}]
-Nếu bạn thích sử dụng không gian lớn hơn thì vẫn có thể sử màn hình chính với kích thước lớn lên đến 7,6 inch tương tự như một chiếc máy tính bảng .
+Nếu bạn thích sử dụng không gian lớn hơn thì vẫn có thể sử màn hình chính với kích thước lớn lên đến 7,6 inch tương tự như một chiếc máy tính bảng .
 [{'subject': ['15&&màn', '16&&hình', '17&&chính'], 'object': ['29&&một', '30&&chiếc', '31&&máy', '32&&tính', '33&&bảng'], 'aspect': ['19&&kích', '20&&thước'], 'predicate': ['26&&tương', '27&&tự', '28&&như'], 'label': 'EQL'}]
-Tỷ lệ màn hình chính của Samsung Galaxy Z Fold 4 là 21,6 : 18 hỗ trợ tốt cho các tác vụ chơi game , xem video , lướt web . . .
+Tỷ lệ màn hình chính của Samsung Galaxy Z Fold 4 là 21,6 : 18 hỗ trợ tốt cho các tác vụ chơi game , xem video , lướt web . . .
 [{}]
-Một điểm cộng dành cho màn hình chính của Samsung là không có bất cứ notch nào khi máy sử dụng camera selfie ẩn dưới màn hình .
+Một điểm cộng dành cho màn hình chính của Samsung là không có bất cứ notch nào khi máy sử dụng camera selfie ẩn dưới màn hình .
 [{}]
-Màn hình iPhone 13 Pro Max sử dụng thiết kế notch tai thỏ với kích thước 6,7 inch và có tỷ lệ màn hình là 19,5 : 9 .
+Màn hình iPhone 13 Pro Max sử dụng thiết kế notch tai thỏ với kích thước 6,7 inch và có tỷ lệ màn hình là 19,5 : 9 .
 [{}]
-Màn hình điện thoại được đánh giá khá tốt khi so sánh với các đối thủ thông thường .
+Màn hình điện thoại được đánh giá khá tốt khi so sánh với các đối thủ thông thường .
 [{}]
-Đối với chất lượng hiển thị , cả hai đều khiến người dùng hài lòng khi cùng sở hữu tốc độ làm mới 120Hz , cho phản hồi nhanh và linh hoạt .
+Đối với chất lượng hiển thị , cả hai đều khiến người dùng hài lòng khi cùng sở hữu tốc độ làm mới 120Hz , cho phản hồi nhanh và linh hoạt .
 [{'subject': ['8&&cả', '9&&hai'], 'object': ['8&&cả', '9&&hai'], 'aspect': ['3&&chất', '4&&lượng', '5&&hiển', '6&&thị'], 'predicate': ['10&&đều', '11&&khiến', '12&&người', '13&&dùng', '14&&hài', '15&&lòng'], 'label': 'EQL'}]
-Tấm nền AMOLED cũng mang đến màu sắc rực rỡ , độ chi tiết cao và hình ảnh chân thật .
+Tấm nền AMOLED cũng mang đến màu sắc rực rỡ , độ chi tiết cao và hình ảnh chân thật .
 [{}]
-Nếu bạn thích sử dụng các thiết bị màn hình lớn và có thể gập nhỏ lại khi bỏ túi thì tất nhiên Samsung Z Fold 4 là sự lựa chọn lý tưởng .
+Nếu bạn thích sử dụng các thiết bị màn hình lớn và có thể gập nhỏ lại khi bỏ túi thì tất nhiên Samsung Z Fold 4 là sự lựa chọn lý tưởng .
 [{}]
-Thiết kế tổng thể có gì khác biệt ?
+Thiết kế tổng thể có gì khác biệt ?
 [{}]
-Thiết kế iPhone 13 Pro Max khá đơn giản nhưng cũng không kém phần cao cấp .
+Thiết kế iPhone 13 Pro Max khá đơn giản nhưng cũng không kém phần cao cấp .
 [{}]
-Trong khi đó , điện thoại Galaxy Z Fold 4 sử dụng hệ thống camera hình chữ nhật khá tinh tế ở mặt lưng .
+Trong khi đó , điện thoại Galaxy Z Fold 4 sử dụng hệ thống camera hình chữ nhật khá tinh tế ở mặt lưng .
 [{}]
-Samsung Z Fold 4 sở hữu thiết kế màn hình gập như một quyển sách
+Samsung Z Fold 4 sở hữu thiết kế màn hình gập như một quyển sách
 [{'subject': ['1&&Samsung', '2&&Z', '3&&Fold', '4&&4'], 'object': ['13&&một', '14&&quyển', '15&&sách'], 'aspect': ['7&&thiết', '8&&kế', '9&&màn', '10&&hình', '11&&gập'], 'predicate': ['12&&như'], 'label': 'EQL'}]
-Samsung Z Fold 4 khá dày khi gập lại với kích thước 15,8mm và nặng đến 263 gram .
+Samsung Z Fold 4 khá dày khi gập lại với kích thước 15,8mm và nặng đến 263 gram .
 [{}]
-Mặt khác , đối thủ của nó có trọng lượng chỉ 240 gram và mỏng 7,65mm .
+Mặt khác , đối thủ của nó có trọng lượng chỉ 240 gram và mỏng 7,65mm .
 [{}]
-Khác biệt chính trên hai điện thoại là yếu tố hình thức và những tính năng khác nhau .
+Khác biệt chính trên hai điện thoại là yếu tố hình thức và những tính năng khác nhau .
 [{}]
-Mua iPhone 13 Pro Max người dùng sẽ có các tùy chọn màu sắc gồm : Bạc , đen , vàng , xanh lá cây và xanh dương .
+Mua iPhone 13 Pro Max người dùng sẽ có các tùy chọn màu sắc gồm : Bạc , đen , vàng , xanh lá cây và xanh dương .
 [{}]
-Trong khi đó , Samsung Galaxy Z Fold 4 có các tùy chọn như : Đen , xám xanh , màu be và đỏi tía .
+Trong khi đó , Samsung Galaxy Z Fold 4 có các tùy chọn như : Đen , xám xanh , màu be và đỏi tía .
 [{}]
-Cả hai điện thoại đều được hoàn thiện từ chất liệu cao cấp nhất hiện nay , từ đó giúp tăng độ bền tốt hơn .
+Cả hai điện thoại đều được hoàn thiện từ chất liệu cao cấp nhất hiện nay , từ đó giúp tăng độ bền tốt hơn .
 [{'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': [], 'aspect': ['10&&chất', '11&&liệu'], 'predicate': ['12&&cao', '13&&cấp', '14&&nhất', '15&&hiện', '16&&nay'], 'label': 'SUP+'}, {'subject': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'object': ['1&&Cả', '2&&hai', '3&&điện', '4&&thoại'], 'aspect': ['10&&chất', '11&&liệu', '12&&cao', '13&&cấp', '14&&nhất'], 'predicate': ['5&&đều', '6&&được', '7&&hoàn', '8&&thiện', '9&&từ'], 'label': 'EQL'}]
-Nếu như trên flagship Apple được cung cấp khả năng kháng nước , bụi đạt chuẩn IP68 thì trên Galaxy Z Fold 4 là IPX8 .
+Nếu như trên flagship Apple được cung cấp khả năng kháng nước , bụi đạt chuẩn IP68 thì trên Galaxy Z Fold 4 là IPX8 .
 [{}]
-Mặc dù có khả năng kháng nước , nhưng smartphone màn hình gập này không có khả năng chống bụi do cơ chế bản lề .
+Mặc dù có khả năng kháng nước , nhưng smartphone màn hình gập này không có khả năng chống bụi do cơ chế bản lề .
 [{}]
-Đánh giá hiệu suất Galaxy Z Fold 4 cho thấy đây là chiếc điện thoại Android mạnh nhất hiện nay .
+Đánh giá hiệu suất Galaxy Z Fold 4 cho thấy đây là chiếc điện thoại Android mạnh nhất hiện nay .
 [{'subject': ['5&&Galaxy', '6&&Z', '7&&Fold', '8&&4'], 'object': [], 'aspect': ['3&&hiệu', '4&&suất'], 'predicate': ['17&&mạnh', '18&&nhất', '19&&hiện', '20&&nay'], 'label': 'SUP+'}]
-Samsung đã trang bị cho flagship mới của mình chip xử lý Snapdragon 8 + Gen 1 mới nhất và được sản xuất trên quy trình 4nm .
+Samsung đã trang bị cho flagship mới của mình chip xử lý Snapdragon 8 + Gen 1 mới nhất và được sản xuất trên quy trình 4nm .
 [{}]
-Thiết bị có thể đạt tốc độ tối đa lên đến 3,2Hz mang đến hiệu năng vượt trội , tiết kiệm năng lượng và các tác vụ AI cũng rất ấn tượng .
+Thiết bị có thể đạt tốc độ tối đa lên đến 3,2Hz mang đến hiệu năng vượt trội , tiết kiệm năng lượng và các tác vụ AI cũng rất ấn tượng .
 [{}]
-Tất nhiên , chip xử lý A15 Bionic trên iPhone 13 Pro Max ở thời điểm này vẫn mang đến hiệu suất mạnh mẽ .
+Tất nhiên , chip xử lý A15 Bionic trên iPhone 13 Pro Max ở thời điểm này vẫn mang đến hiệu suất mạnh mẽ .
 [{}]
-Nhìn chung , cả hai điện thoại đều có thể đáp ứng tốt các tác vụ hàng ngày ở mức tốt nhất .
+Nhìn chung , cả hai điện thoại đều có thể đáp ứng tốt các tác vụ hàng ngày ở mức tốt nhất .
 [{'subject': ['4&&cả', '5&&hai', '6&&điện', '7&&thoại'], 'object': ['4&&cả', '5&&hai', '6&&điện', '7&&thoại'], 'aspect': ['11&&đáp', '12&&ứng', '13&&tốt', '14&&các', '15&&tác', '16&&vụ', '17&&hàng', '18&&ngày', '19&&ở', '20&&mức', '21&&tốt', '22&&nhất'], 'predicate': ['8&&đều', '9&&có', '10&&thể'], 'label': 'EQL'}]
-Về phẩn mềm , mặc dù nền tảng iOS trên iPhone khá tốt , nhưng Samsung cũng không hề kém cạnh .
+Về phẩn mềm , mặc dù nền tảng iOS trên iPhone khá tốt , nhưng Samsung cũng không hề kém cạnh .
 [{'subject': ['16&&Samsung'], 'object': ['11&&iPhone'], 'aspect': ['2&&phẩn', '3&&mềm'], 'predicate': ['18&&không', '19&&hề', '20&&kém', '21&&cạnh'], 'label': 'EQL'}]
-Cụ thể , trên điện thoại mới của mình gã khổng lồ công nghệ Hàn Quốc đã thiết kế lại giao diện người dùng OneUI đặc biệt với các tính năng đa tác vụ .
+Cụ thể , trên điện thoại mới của mình gã khổng lồ công nghệ Hàn Quốc đã thiết kế lại giao diện người dùng OneUI đặc biệt với các tính năng đa tác vụ .
 [{}]
-Việc tích hợp ứng dụng dock cho phép chuyển nhanh các ứng dụng và khởi chạy các tác vụ chia đôi màn hình một cách dễ dàng .
+Việc tích hợp ứng dụng dock cho phép chuyển nhanh các ứng dụng và khởi chạy các tác vụ chia đôi màn hình một cách dễ dàng .
 [{}]
-Không những vậy , với bút S-Pen còn mang đến cho người dùng nhiều tiện ích hơn .
+Không những vậy , với bút S-Pen còn mang đến cho người dùng nhiều tiện ích hơn .
 [{}]
-Dung lượng pin trên hai điện thoại không có nhiều sự chênh lệch .
+Dung lượng pin trên hai điện thoại không có nhiều sự chênh lệch .
 [{'subject': ['5&&hai', '6&&điện', '7&&thoại'], 'object': ['5&&hai', '6&&điện', '7&&thoại'], 'aspect': ['1&&Dung', '2&&lượng', '3&&pin'], 'predicate': ['8&&không', '9&&có', '10&&nhiều', '11&&sự', '12&&chênh', '13&&lệch'], 'label': 'EQL'}]
-Trong khi Samsung Z Fold 4 được cung cấp viên pin 4.400mAh thì trên iPhone 13 Pro Max là viên pin 4.352mAh . Mặc dù thời lượng pin trên Galaxy Z Fold 4 có thể đáp ứng cả ngày , nhưng nó chưa thật sự ấn tượng khi phải gánh hai màn hình khá lớn .
+Trong khi Samsung Z Fold 4 được cung cấp viên pin 4.400mAh thì trên iPhone 13 Pro Max là viên pin 4.352mAh . Mặc dù thời lượng pin trên Galaxy Z Fold 4 có thể đáp ứng cả ngày , nhưng nó chưa thật sự ấn tượng khi phải gánh hai màn hình khá lớn .
 [{}]
-Mặt khác , model của Apple được đánh giá là thiết bị có thời gian sử dụng tốt nhất hiện nay , thậm chí có thể kéo dài đến 2 ngày nhờ tối ưu iOS tuyệt vời .
+Mặt khác , model của Apple được đánh giá là thiết bị có thời gian sử dụng tốt nhất hiện nay , thậm chí có thể kéo dài đến 2 ngày nhờ tối ưu iOS tuyệt vời .
 [{'subject': ['4&&model', '5&&của', '6&&Apple'], 'object': [], 'aspect': ['14&&thời', '15&&gian', '16&&sử', '17&&dụng'], 'predicate': ['18&&tốt', '19&&nhất', '20&&hiện', '21&&nay'], 'label': 'SUP+'}]
-Cả hai điện thoại đều được hỗ trợ sạc nhanh với công suất 25W và 27W tương ứng với Galaxy Z Fold 4 và iPhone 13 Pro Max .
+Cả hai điện thoại đều được hỗ trợ sạc nhanh với công suất 25W và 27W tương ứng với Galaxy Z Fold 4 và iPhone 13 Pro Max .
 [{}]
-Camera Galaxy Z Fold 4 nhận được một số nâng cấp so với thế hệ tiền nhiệm .
+Camera Galaxy Z Fold 4 nhận được một số nâng cấp so với thế hệ tiền nhiệm .
 [{}]
-So sánh Galaxy Z Fold 4 và iPhone 13 Pro Max cho thấy sự khác biệt hoàn toàn giữa hai thiết bị .
+So sánh Galaxy Z Fold 4 và iPhone 13 Pro Max cho thấy sự khác biệt hoàn toàn giữa hai thiết bị .
 [{}]
-Galaxy Z Fold 4 mang đến khả năng đa nhiệm tốt hơn , không gian hiển thị rộng rãi và hỗ trợ bút S-Pen tuyệt vời .
+Galaxy Z Fold 4 mang đến khả năng đa nhiệm tốt hơn , không gian hiển thị rộng rãi và hỗ trợ bút S-Pen tuyệt vời .
 [{'subject': ['1&&Galaxy', '2&&Z', '3&&Fold', '4&&4'], 'object': [], 'aspect': ['7&&khả', '8&&năng', '9&&đa', '10&&nhiệm'], 'predicate': ['11&&tốt', '12&&hơn'], 'label': 'COM+'}]
-Trong khi đó , điện thoại iPhone 13 Pro Max là một mẫu flagship thông thường với cấu hình mạnh mẽ , thiết kế đơn giản nhưng không kém phần cao cấp .
+Trong khi đó , điện thoại iPhone 13 Pro Max là một mẫu flagship thông thường với cấu hình mạnh mẽ , thiết kế đơn giản nhưng không kém phần cao cấp .
 [{}]
-Tùy vào nhu cầu cũng như sở thích mà mà chúng ta có thể lựa chọn thiết bị hấp dẫn cho riêng mình .
+Tùy vào nhu cầu cũng như sở thích mà mà chúng ta có thể lựa chọn thiết bị hấp dẫn cho riêng mình .
 [{}]
 Với mức giá phải chăng và các thông số kỹ thuật khá tốt , đây là một trong những lựa chọn hấp dẫn của của người dùng ở phân khúc smartphone tầm trung .
 [{}]
@@ -2812,9 +2812,9 @@ Nó thực sự đẹp , nhưng bạn sẽ không thể mong chờ độ bền �
 [{}]
 Dù sao đây vẫn smartphone gập rẻ và bền nhất bạn có thể mua ở thời điểm hiện tại .
 [{}]
-title : So sánh camera iPhone SE 2022 và iPhone 13 Pro : Chất lượng ảnh như thế nào ?
+title : So sánh camera iPhone SE 2022 và iPhone 13 Pro : Chất lượng ảnh như thế nào ?
 [{}]
-Chất lượng chụp ảnh trên camera iPhone SE 2022 5G so với iPhone 13 Pro series sẽ như thế nào ?
+Chất lượng chụp ảnh trên camera iPhone SE 2022 5G so với iPhone 13 Pro series sẽ như thế nào ?
 [{}]
-iPhone 13 Pro và iPhone 13 Pro Max là một trong những điện thoại sở hữu camera tốt nhất hiện nay .
+iPhone 13 Pro và iPhone 13 Pro Max là một trong những điện thoại sở hữu camera tốt nhất hiện nay .
 [{'subject': ['1&&iPhone', '2&&13', '3&&Pro'], 'object': [], 'aspect': ['17&&camera'], 'predicate': ['18&&tốt', '19&&nhất'], 'label': 'SUP+'}, {'subject': ['5&&iPhone', '6&&13', '7&&Pro', '8&&Max'], 'object': [], 'aspect': ['17&&camera'], 'predicate': ['18&&tốt', '19&&nhất'], 'label': 'SUP+'}]

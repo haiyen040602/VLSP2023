@@ -26,6 +26,7 @@ class Baseline(nn.Module):
         self.sent_linear = nn.Linear(self.encoder.hidden_size, 2)
 
         # define mapping full-connect layer.
+        # changing hidden_representation from hidden_size to (norm_id_map) size (size = 5)
         self.W = nn.ModuleList()
         for i in range(4):
             self.W.append(copy.deepcopy(nn.Linear(self.encoder.hidden_size, len(config.val.norm_id_map))))
@@ -33,6 +34,7 @@ class Baseline(nn.Module):
         # define multi-crf decode the sequence.
         # mô hình thống kê dự đoán output của sequence, CRF thường được dùng trong POS, NER
         # Trường hợp đầu vào có target, trả về loss CRF để huấn luyện mô hình
+        # CRF function receive num_tag = len(norm_id_map) = 5
         self.decoder = nn.ModuleList()
         for i in range(4):
             self.decoder.append(copy.deepcopy(Layer.CRFCell(len(config.val.norm_id_map), batch_first=True)))
@@ -149,6 +151,7 @@ class LSTMModel(nn.Module):
         class_embedding = self.embedding_dropout(pooled_output)
 
         # linear mapping.
+        # hidden representation of each element 
         multi_sequence_prob = [self.W[index](final_embedding) for index in range(len(self.W))]
         sent_class_prob = self.sent_linear(class_embedding)
 

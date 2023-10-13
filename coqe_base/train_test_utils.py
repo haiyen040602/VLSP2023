@@ -279,10 +279,11 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     pair_feature_dim = feature_dim[feature_type]
 
     # define pair and polarity model.
-    # using Logistic Classfier to predict comparision type label
+    # using Logistic Classfier to identify comparative sentence (class = 0, 1)
     pair_model = copy.deepcopy(
         pipeline_model_utils.LogisticClassifier(config, pair_feature_dim, 2, weight=pair_weight).to(config.device)
     )
+    # using Logistic Classifier to predict comparative label (9 label in VLSP)
     polarity_model = copy.deepcopy(
         pipeline_model_utils.LogisticClassifier(config, pair_feature_dim, 4).to(config.device)
     )
@@ -302,7 +303,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     dev_polarity_parameters = ["./ModelResult/" + model_name + "/dev_polarity_result.txt",
                                "./PreTrainModel/" + model_name + "/dev_polarity_model"]
 
-    logger.info("===============TRAIN SECOND AND THIRD STAGE==================")
+    logger.info("===============Identifying comparative sentence==================")
     for epoch in range(config.epochs):
         pair_stage_model_train(pair_model, pair_optimizer, train_pair_loader, config, epoch)
         pair_stage_model_test(
@@ -323,6 +324,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     dev_polarity_loader = data_loader_utils.get_loader([dev_polarity_representation], 1)
     eval_shared_modules.clear_optimize_measure(dev_pair_eval)
 
+    logger.info("===============Predicting comparative label==================")
     for epoch in range(config.epochs):
         pair_stage_model_train(polarity_model, polarity_optimizer, train_polarity_loader, config, epoch)
         pair_stage_model_test(
@@ -330,7 +332,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
             dev_polarity_parameters, mode="polarity", polarity=True, initialize=(True, False)
         )
 
-    logger.info("==================TEST SECOND AND THIRD STAGE================")
+    # logger.info("==================TEST SECOND AND THIRD STAGE================")
     predict_pair_model = torch.load(dev_pair_parameters[1])
     predict_polarity_model = torch.load(dev_polarity_parameters[1])
 

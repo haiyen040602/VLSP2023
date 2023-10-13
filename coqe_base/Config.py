@@ -46,9 +46,9 @@ class PathConfig(object):
 class GlobalConfig(object):
     def __init__(self, position_sys):
         self.elem_col = ['subject', 'object', 'aspect', 'result']
-        self.polarity_col = ['COM', 'COM+', 'COM-', 'SUP', 'SUP+', 'SUP-', 'EQL', 'DIF']
+        self.polarity_col = ['None', 'COM', 'COM+', 'COM-', 'SUP', 'SUP+', 'SUP-', 'EQL', 'DIF']
         # self.polarity_dict = {k: index for index, k in enumerate(self.polarity_col)}
-        self.polarity_dict = {k: index for index, k in enumerate(self.polarity_col)}
+        self.polarity_dict = {k: index -1 for index, k in enumerate(self.polarity_col)}
         # self.polarity_dict ={
         #     "COM": 1,
         #     "COM-":-1,
