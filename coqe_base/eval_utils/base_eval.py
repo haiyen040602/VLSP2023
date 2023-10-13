@@ -936,7 +936,7 @@ class ElementEvaluation(BaseEvaluation):
             write_str += self.elem_dict_to_string(token_list, self.gold_dict[index]) + "\n"
 
             if index < 3:
-                logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], add_special_tokens = False)))
+                logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], skip_special_tokens = True)))
                 logger.info("Gold token list: {}".format(self.gold_dict[index]))
                 logger.info("Predict dict: {} ".format(self.predict_dict[index]))
 

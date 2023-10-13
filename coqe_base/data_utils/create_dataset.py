@@ -36,7 +36,7 @@ class Dataset(object):
 
         ## label_col: list of {'subject': {(s_index, e_index)* num_label_per_sent}, 'object': set(), 'aspect': set(), 'opinion': {(s_index, e_index, label)}}
         ## tuple_pair_col: list of [index tuple of each element * num_label_per_sent]
-        label_col, tuple_pair_col = LP.parse_sequence_label("&&", sent_col)
+        label_col, tuple_pair_col = LP.parse_sequence_label("&&", self.config.val.polarity_dict, sent_col)
         
         ## tokenize các câu:
         # "standard": sử dụng thư viện ntlk
@@ -77,7 +77,7 @@ class Dataset(object):
         data_dict['tuple_pair_col'] = tuple_pair_col
         logger.info("Convert pair number: {}".format(shared_utils.get_tuple_pair_num(data_dict['tuple_pair_col'])) )
 
-        token_col = data_dict['stand_token'] if self.config.model_mode == 'norm' else data_dict['bert_token']
+        token_col = data_dict['standard_token'] if self.config.model_mode == 'norm' else data_dict['bert_token']
         data_dict['attn_mask'] = shared_utils.get_mask(token_col, dim=1)
         
         special_symbol = False
@@ -102,6 +102,18 @@ class Dataset(object):
             self.config.val.norm_id_map,
             dim=1
         )
+        
+        write_dict = []
+        for i in range(len(label_col)):
+            write_dict.append(data_dict['standard_token'][i])
+            write_dict.append("Mulilang bert token: {}".format(data_dict['bert_token'][i]))
+            write_dict.append("label_col: {}".format(data_dict['label_col'][i]))
+            write_dict.append("Tuple_pair_col: {}".format(data_dict['tuple_pair_col'][i]))
+            write_dict.append("comparative_label: {}{}".format(data_dict['comparative_label'][i], data_dict['polarity_label'][i]))
+            write_dict.append("Subject, Object, Aspect: {}".format(data_dict['multi_label'][i]))
+            write_dict.append("predicate element: {}".format(data_dict['result_label'][i]))
+        
+        shared_utils.write_text(write_dict, "../data/data_dict/{}_dict.txt".format(data_type))
 
         return data_dict
         
@@ -129,7 +141,6 @@ class Dataset(object):
         self.train_data_dict = self.data_dict_to_numpy(self.train_data_dict)
         self.dev_data_dict = self.data_dict_to_numpy(self.dev_data_dict)
         self.test_data_dict = self.data_dict_to_numpy(self.test_data_dict)
-    
 
     def padding_data_dict(self, data_dict):
         """

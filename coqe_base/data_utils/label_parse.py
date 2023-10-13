@@ -2,16 +2,16 @@ from data_utils import shared_utils
 import re
 from ast import literal_eval
 
-LABEL_CONVERT = {
-    "COM": 1,
-    "COM-":-1,
-    "COM+": 2,
-    "SUP": 3,
-    "SUP-":-2,
-    "SUP+": 4, 
-    "DIF":-3,
-    "EQL": 0
-}
+# LABEL_CONVERT = {
+#     "COM": 1,
+#     "COM-":-1,
+#     "COM+": 2,
+#     "SUP": 3,
+#     "SUP-":-2,
+#     "SUP+": 4, 
+#     "DIF":-3,
+#     "EQL": 0
+# }
 
 class LabelParser(object):
     def __init__(self, label_col, elem_col, word_tokens, intermittent=False):
@@ -25,7 +25,7 @@ class LabelParser(object):
         self.intermittent = intermittent
         self.word_tokens = word_tokens
 
-    def parse_sequence_label(self, split_symbol="&&", sent_col=None):
+    def parse_sequence_label(self, split_symbol="&&", polarity_dict = None, sent_col=None):
         """
         :param split_symbol:
         :param sent_col:
@@ -46,14 +46,14 @@ class LabelParser(object):
                 label_dicts = re.findall(r'\{.*?\}', label)
                 
                 for pair_index, pair in enumerate(label_dicts):
-                    global_elem_col, cur_tuple_pair = self.parse_each_pair_label(literal_eval(pair), global_elem_col, split_symbol, self.word_tokens[label_index], sent_col[label_index])
+                    global_elem_col, cur_tuple_pair = self.parse_each_pair_label(literal_eval(pair), global_elem_col, split_symbol, self.word_tokens[label_index], polarity_dict, sent_col[label_index])
                     sequence_tup_pair.append(cur_tuple_pair)
 
                 tuple_pair_col.append(sequence_tup_pair)
                 elem_representation.append(global_elem_col)
         return elem_representation, tuple_pair_col
                     
-    def parse_each_pair_label(self, label_dict, global_elem_col, split_symbol, word_tokens, sent=None):
+    def parse_each_pair_label(self, label_dict, global_elem_col, split_symbol, word_tokens, polarity_dict, sent=None):
         """
         :param sequence_label:
         :param global_elem_col:
@@ -77,13 +77,15 @@ class LabelParser(object):
 
                 if key == 'predicate':
                     opininion_elem += [s_index, e_index]
+                    # if [s_index, e_index] == [-1, -1]:
+                    #     print(label_dict)
                 
                 else:
                     global_elem_col[key].add(elem_tuple)
             
             else:
                 label = label_dict['label']
-                label = LABEL_CONVERT[label]
+                label = polarity_dict[label]
                 elem_tuple += (label, label)
 
                 if len(opininion_elem) == 0:

@@ -80,7 +80,8 @@ def read_standard_file(path):
             # print(type(line))
             if line[:2] == "[{":
                 labels = line
-                isComparative = 1
+                if len(line) != 4:
+                    isComparative = 1
             else:
                 if last_sentence != "":
                     sent_col.append(last_sentence)

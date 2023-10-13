@@ -56,7 +56,7 @@ def TerminalParser():
     parser.add_argument('--position_sys', help='BIES or BI or SPAN', default='BMES')
 
     parser.add_argument('--device', help='run program in device type', default='cuda' if torch.cuda.is_available() else 'cpu')
-    parser.add_argument('--file_type', help='the type of data set', default='iphone')
+    parser.add_argument('--file_type', help='the type of data set', default='data')
     # parser.add_argument('--premodel_path', help='the type of pretrained model', default= "bert-base-multilingual-cased")
     parser.add_argument('--embed_dropout', help='probability of embedding dropout', type=int, default=0.1)
     parser.add_argument('--factor', help='the trade-off hyperparameter in class-weight entropy loss cal', type=float, default=0.4)
@@ -107,9 +107,9 @@ def main():
     logger.info("=======================CREATE DATA LOADER==========================")
     logger.info("Train dataset input ids shape: {}".format(dataset.train_data_dict['input_ids'].shape) )
 
-    train_loader = data_loader_utils.create_first_data_loader(dataset.train_data_dict, config.batch_size)
-    dev_loader = data_loader_utils.create_first_data_loader(dataset.dev_data_dict, config.batch_size)
-    test_loader = data_loader_utils.create_first_data_loader(dataset.test_data_dict, config.batch_size)
+    train_loader = data_loader_utils.create_first_data_loader(dataset.train_data_dict, config.batch_size, "train")
+    dev_loader = data_loader_utils.create_first_data_loader(dataset.dev_data_dict, config.batch_size, "dev")
+    test_loader = data_loader_utils.create_first_data_loader(dataset.test_data_dict, config.batch_size, "test")
     # logger.info("First object in data loader is {}".format(next()) )
 
     if config.stage_model == 'first' and config.program_mode != 'test':

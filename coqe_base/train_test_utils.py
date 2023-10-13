@@ -22,6 +22,7 @@ def first_stage_model_train(model, optimizer, train_loader, config, epoch):
     :return:
     """
     model.train()
+    logger.info("===============TRAIN FIRST STAGE==================")
 
     epoch_loss = 0
     for index, data in tqdm(enumerate(train_loader)):
@@ -54,7 +55,7 @@ def first_stage_model_test(model, config, test_loader, res_eval, eval_parameters
     :param test_loader:
     :param res_eval:
     :param eval_parameters:
-    :param test_type:
+    :param test_type: "eval": first stage evaluation, "gene" generate dataset for second and third stage running
     :param feature_type:
     :return:
     """
@@ -111,6 +112,7 @@ def pair_stage_model_train(model, optimizer, train_loader, config, epoch):
     """
     model.train()
     epoch_loss, t = 0, 0
+    logger.info("===============TRAIN SECOND AND THIRD STAGE==================")
     for index, data in tqdm(enumerate(train_loader)):
         pair_representation, pair_label = data
 
@@ -129,7 +131,7 @@ def pair_stage_model_train(model, optimizer, train_loader, config, epoch):
         loss.backward()
         optimizer.step()
 
-    print("epoch is {} and Loss: {:.2f}".format(epoch, epoch_loss))
+    logger.info("epoch is {} and Loss: {:.2f}".format(epoch, epoch_loss))
 
 
 def pair_stage_model_test(
@@ -224,7 +226,7 @@ def first_stage_model_main(
     print("=======================TEST=========================")
     ## load mô hình trích xuất
     predicate_model = torch.load(dev_parameters[1]) # load pretrain model? có lưu lại model đã train?
-    logger.info("Using model {} to predict element.".format(predicate_model))
+    logger.info("Using model {} to predict element.".format(model_name))
 
     test_parameters = ["./ModelResult/" + model_name + "/test_elem_result.txt", None]
 
@@ -259,7 +261,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     dev_pair_eval, test_pair_eval, global_pair_eval = pair_eval
     train_polarity_representation, train_polarity_col = polarity_col
 
-    print("finish second model data generate")
+    logger.info("finish second model data generate")
 
     # get pair loader
     train_pair_loader = data_loader_utils.get_loader([train_pair_representation, train_make_pair_label], 16)
@@ -275,6 +277,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     pair_feature_dim = feature_dim[feature_type]
 
     # define pair and polarity model.
+    # using Logistic Classfier to predict comparision type label
     pair_model = copy.deepcopy(
         pipeline_model_utils.LogisticClassifier(config, pair_feature_dim, 2, weight=pair_weight).to(config.device)
     )
@@ -324,7 +327,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
             dev_polarity_parameters, mode="polarity", polarity=True, initialize=(True, False)
         )
 
-    print("==================test================")
+    logger.info("==================TEST SECOND AND THIRD STAGE================")
     predict_pair_model = torch.load(dev_pair_parameters[1])
     predict_polarity_model = torch.load(dev_polarity_parameters[1])
 

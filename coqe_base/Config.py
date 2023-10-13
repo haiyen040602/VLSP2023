@@ -48,16 +48,17 @@ class GlobalConfig(object):
         self.elem_col = ['subject', 'object', 'aspect', 'result']
         self.polarity_col = ['COM', 'COM+', 'COM-', 'SUP', 'SUP+', 'SUP-', 'EQL', 'DIF']
         # self.polarity_dict = {k: index for index, k in enumerate(self.polarity_col)}
-        self.polarity_dict ={
-            "COM": 1,
-            "COM-":-1,
-            "COM+": 2,
-            "SUP": 3,
-            "SUP-":-2,
-            "SUP+": 4, 
-            "DIF":-3,
-            "EQL": 0
-        }
+        self.polarity_dict = {k: index for index, k in enumerate(self.polarity_col)}
+        # self.polarity_dict ={
+        #     "COM": 1,
+        #     "COM-":-1,
+        #     "COM+": 2,
+        #     "SUP": 3,
+        #     "SUP-":-2,
+        #     "SUP+": 4, 
+        #     "DIF":-3,
+        #     "EQL": 0
+        # }
         if position_sys == 'SPAN': # include (s_index, e_index)
             self.position_sys = []
         else: 
