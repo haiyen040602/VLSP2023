@@ -554,7 +554,7 @@ def create_polarity_train_data(config, tuple_pair_col, feature_out, bert_feature
     :return:
     """
     representation_col, polarity_col, hidden_size = [], [], 5
-    encode_hidden_size = 768 if config.model_mode == "bert" else config.hidden_size * 2
+    encode_hidden_size = 768 if "bert" in config.model_mode else config.hidden_size * 2
 
     for index in range(len(tuple_pair_col)):
         for pair_index in range(len(tuple_pair_col[index])):
