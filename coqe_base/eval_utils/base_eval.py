@@ -621,8 +621,8 @@ class BaseEvaluation(object):
         :param fold_num: fold number.
         :return:
         """
-        print("Len average measure: {} {}".format(len(avg_measure), avg_measure))
-        logger.info("Len of optimizer mesurer is: {} {}".format(opt_measure, opt_measure))
+        logger.info("average mesurer is: {}".format(avg_measure))
+        logger.info("optimizer mesurer is: {}".format(opt_measure))
 
         if len(avg_measure) == 0:
             avg_measure = copy.deepcopy(opt_measure)
@@ -948,8 +948,8 @@ class ElementEvaluation(BaseEvaluation):
     ####################################################################################################################
     def generate_elem_representation(self, gold_pair_label, feature_embed, bert_feature_embed, feature_type=0):
         """
-        :param gold_pair_label: [(s_index, e_index)] * 5
-        :param feature_embed: [N, 3, sequence_length, feature_dim], feature_dim=5
+        :param gold_pair_label: [(s_index, e_index)] * 5 = data_dict['tuple_pair_col]
+        :param feature_embed: [N, 3, sequence_length, feature_dim], feature_dim=5?
         :param bert_feature_embed:
         :param feature_type：
         :return:
@@ -993,7 +993,7 @@ class ElementEvaluation(BaseEvaluation):
         :return:
         """
         pair_input, hidden_size = [], 5
-        if self.config.model_mode == "bert":
+        if "bert" in self.config.model_mode :
             encode_hidden_size = 768
         else:
             encode_hidden_size = self.config.hidden_size * 2

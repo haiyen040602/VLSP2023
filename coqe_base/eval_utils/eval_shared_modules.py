@@ -131,3 +131,42 @@ def cartesian_product(init_elem_col, add_elem_list):
             result_elem_data_col.append(init_elem_col[index] + [add_elem])
 
     return result_elem_data_col
+
+def calculate_average_measure(add_eval, global_eval):
+    """
+    :param add_eval:
+    :param global_eval:
+    :return:
+    """
+    ## avg_extract_measure: dict {"elem" : avg score}?
+    ## optimize_extract_measure: a dict {}
+    global_eval.avg_exact_measure = global_eval.add_fold_measure(
+        global_eval.avg_exact_measure, add_eval.optimize_exact_measure, fold_num=1
+    )
+
+    global_eval.avg_prop_measure = global_eval.add_fold_measure(
+        global_eval.avg_prop_measure, add_eval.optimize_prop_measure, fold_num=1
+    )
+
+    global_eval.avg_binary_measure = global_eval.add_fold_measure(
+        global_eval.avg_binary_measure, add_eval.optimize_binary_measure, fold_num=1
+    )
+
+def clear_optimize_measure(pair_eval):
+    """
+    :param pair_eval:
+    :return:
+    """
+    pair_eval.optimize_exact_measure = {}
+    pair_eval.optimize_prop_measure = {}
+    pair_eval.optimize_binary_measure = {}
+
+
+def clear_global_measure(pair_eval):
+    """
+    :param pair_eval:
+    :return:
+    """
+    pair_eval.avg_exact_measure = {}
+    pair_eval.avg_prop_measure = {}
+    pair_eval.avg_binary_measure = {}

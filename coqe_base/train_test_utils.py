@@ -3,6 +3,7 @@ import copy
 import torch.nn as nn
 from data_utils import shared_utils, data_loader_utils
 from model_utils import pipeline_model_utils, optimizer_utils
+from eval_utils import eval_shared_modules
 from tqdm import tqdm
 
 import logging 
@@ -22,7 +23,7 @@ def first_stage_model_train(model, optimizer, train_loader, config, epoch):
     :return:
     """
     model.train()
-    logger.info("===============TRAIN FIRST STAGE==================")
+    
 
     epoch_loss = 0
     for index, data in tqdm(enumerate(train_loader)):
@@ -112,7 +113,7 @@ def pair_stage_model_train(model, optimizer, train_loader, config, epoch):
     """
     model.train()
     epoch_loss, t = 0, 0
-    logger.info("===============TRAIN SECOND AND THIRD STAGE==================")
+    
     for index, data in tqdm(enumerate(train_loader)):
         pair_representation, pair_label = data
 
@@ -219,11 +220,12 @@ def first_stage_model_main(
 
     # train and test model.
     # using dev để chỉnh tham số?
+    logger.info("===============TRAIN FIRST STAGE==================")
     for epoch in range(config.epochs):
         first_stage_model_train(model, optimizer, train_loader, config, epoch)
         first_stage_model_test(model, config, dev_loader, dev_comp_eval, dev_parameters)
 
-    print("=======================TEST=========================")
+    logger.info("=======================TEST FRIST STAGE=========================")
     ## load mô hình trích xuất
     predicate_model = torch.load(dev_parameters[1]) # load pretrain model? có lưu lại model đã train?
     logger.info("Using model {} to predict element.".format(model_name))
@@ -238,7 +240,7 @@ def first_stage_model_main(
     )
 
     # add average measure.
-    shared_utils.calculate_average_measure(test_comp_eval, global_comp_eval)
+    eval_shared_modules.calculate_average_measure(test_comp_eval, global_comp_eval)
 
 
 def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eval, polarity_col,
@@ -300,7 +302,8 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     dev_polarity_parameters = ["./ModelResult/" + model_name + "/dev_polarity_result.txt",
                                "./PreTrainModel/" + model_name + "/dev_polarity_model"]
 
-    for epoch in range(50):
+    logger.info("===============TRAIN SECOND AND THIRD STAGE==================")
+    for epoch in range(config.epochs):
         pair_stage_model_train(pair_model, pair_optimizer, train_pair_loader, config, epoch)
         pair_stage_model_test(
             pair_model, config, dev_pair_loader, dev_pair_eval,
@@ -318,9 +321,9 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     # get representation by is_pair label filter.
     dev_polarity_representation = shared_utils.get_after_pair_representation(dev_pair_eval.y_hat, dev_pair_representation)
     dev_polarity_loader = data_loader_utils.get_loader([dev_polarity_representation], 1)
-    shared_utils.clear_optimize_measure(dev_pair_eval)
+    eval_shared_modules.clear_optimize_measure(dev_pair_eval)
 
-    for epoch in range(50):
+    for epoch in range(config.epochs):
         pair_stage_model_train(polarity_model, polarity_optimizer, train_polarity_loader, config, epoch)
         pair_stage_model_test(
             polarity_model, config, dev_polarity_loader, dev_pair_eval,
@@ -339,12 +342,12 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
         test_pair_parameters, mode="pair", polarity=False, initialize=(False, False)
     )
 
-    shared_utils.calculate_average_measure(test_pair_eval, global_pair_eval)
+    eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
     global_pair_eval.avg_model("./ModelResult/" + model_name + "/test_pair_result.txt")
     global_pair_eval.store_result_to_csv([model_name], "result.csv")
 
-    shared_utils.clear_global_measure(global_pair_eval)
-    shared_utils.clear_optimize_measure(test_pair_eval)
+    eval_shared_modules.clear_global_measure(global_pair_eval)
+    eval_shared_modules.clear_optimize_measure(test_pair_eval)
 
     # create polarity representation and data loader.
     test_polarity_representation = shared_utils.get_after_pair_representation(test_pair_eval.y_hat, test_pair_representation)
@@ -357,5 +360,5 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
 
 
     # add average measure.
-    shared_utils.calculate_average_measure(test_pair_eval, global_pair_eval)
+    eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
 

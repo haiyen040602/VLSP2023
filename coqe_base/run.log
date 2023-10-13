@@ -1,14 +1,11 @@
-[10/13/2023 16:34:25 - root:99]: Using model: iphone_bert-base-multilingual-cased_crf_crf_20_16_run/embe_1
-[10/13/2023 16:34:26 - data_utils.create_dataset:78]: Convert pair number: 632
-[10/13/2023 16:34:26 - data_utils.create_dataset:78]: Convert pair number: 110
-[10/13/2023 16:34:26 - data_utils.create_dataset:78]: Convert pair number: 347
-[10/13/2023 16:34:27 - root:107]: =======================CREATE DATA LOADER==========================
-[10/13/2023 16:34:27 - root:108]: Train dataset input ids shape: (1410, 121)
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:39]: Feature size: 5
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:45]: Data Loader size: 1410 
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:39]: Feature size: 5
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:45]: Data Loader size: 259 
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:39]: Feature size: 5
-[10/13/2023 16:34:27 - data_utils.data_loader_utils:45]: Data Loader size: 715 
-[10/13/2023 16:34:27 - root:116]: =======================Training FIRST STAGE==========================
-[10/13/2023 16:34:30 - train_test_utils:25]: ===============TRAIN FIRST STAGE==================
+[10/13/2023 23:11:16 - root:99]: Using model: data_bert-base-multilingual-cased_crf_crf_20_16_run/embe_1
+[10/13/2023 23:11:17 - data_utils.create_dataset:78]: Convert pair number: 632
+[10/13/2023 23:11:17 - data_utils.create_dataset:78]: Convert pair number: 110
+[10/13/2023 23:11:17 - data_utils.create_dataset:78]: Convert pair number: 347
+[10/13/2023 23:11:18 - root:107]: =======================CREATE DATA LOADER==========================
+[10/13/2023 23:11:18 - root:108]: Train dataset input ids shape: (1410, 121)
+[10/13/2023 23:11:18 - data_utils.data_loader_utils:45]: train data loader size: 1410 
+[10/13/2023 23:11:18 - data_utils.data_loader_utils:45]: dev data loader size: 259 
+[10/13/2023 23:11:18 - data_utils.data_loader_utils:45]: test data loader size: 715 
+[10/13/2023 23:11:18 - root:116]: =======================Training FIRST STAGE==========================
+[10/13/2023 23:11:22 - train_test_utils:223]: ===============TRAIN FIRST STAGE==================

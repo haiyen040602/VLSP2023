@@ -161,7 +161,7 @@ def vnese_tokenize(sent_col = None, tokenizer = None, path=None, data_type=None,
             # word_segs = sent 
             if token_method == 'bert' and tokenizer is not None:
                 # word_seg = '[SEP]'.join(word_segs)
-                word_seg = "[CLS]" + sent + "[SEP]"
+                word_seg = "[CLS] " + sent + " [SEP]"
                 vnese_tokens.append(tokenizer.tokenize(word_seg))
             elif token_method == 'vnese':
                 word_seg = sent
@@ -629,41 +629,3 @@ def get_after_pair_representation(pair_hat, representation):
 
     return representation
 
-def calculate_average_measure(add_eval, global_eval):
-    """
-    :param add_eval:
-    :param global_eval:
-    :return:
-    """
-    ## avg_extract_measure: dict {"elem" : avg score}?
-    ## optimize_extract_measure: a dict {}
-    global_eval.avg_exact_measure = global_eval.add_fold_measure(
-        global_eval.avg_exact_measure, add_eval.optimize_exact_measure, fold_num=1
-    )
-
-    global_eval.avg_prop_measure = global_eval.add_fold_measure(
-        global_eval.avg_prop_measure, add_eval.optimize_prop_measure, fold_num=1
-    )
-
-    global_eval.avg_binary_measure = global_eval.add_fold_measure(
-        global_eval.avg_binary_measure, add_eval.optimize_binary_measure, fold_num=1
-    )
-
-def clear_optimize_measure(pair_eval):
-    """
-    :param pair_eval:
-    :return:
-    """
-    pair_eval.optimize_exact_measure = {}
-    pair_eval.optimize_prop_measure = {}
-    pair_eval.optimize_binary_measure = {}
-
-
-def clear_global_measure(pair_eval):
-    """
-    :param pair_eval:
-    :return:
-    """
-    pair_eval.avg_exact_measure = {}
-    pair_eval.avg_prop_measure = {}
-    pair_eval.avg_binary_measure = {}

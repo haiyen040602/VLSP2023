@@ -9,7 +9,7 @@ import logging
 logger = logging.getLogger()
 
 from data_utils import shared_utils, create_dataset, data_loader_utils
-from eval_utils import create_eval
+from eval_utils import create_eval, eval_shared_modules
 from eval_utils.base_eval import BaseEvaluation, ElementEvaluation, PairEvaluation
 import train_test_utils
 
@@ -113,7 +113,7 @@ def main():
     # logger.info("First object in data loader is {}".format(next()) )
 
     if config.stage_model == 'first' and config.program_mode != 'test':
-        logger.info("=======================Training FIRST STAGE==========================")
+        logger.info("%"*15+"FIRST STAGE RUNNING" + "%"*15)
         first_data_loader = [train_loader, dev_loader, test_loader]
         dev_comp_eval = create_eval.create_first_stage_eval(
             config,
@@ -142,8 +142,8 @@ def main():
     elif config.program_mode == 'test' and config.stage_model == 'first':
         dev_parameters = ["./ModelResult/" + model_name + "/dev_elem_result.txt",
                           "./PreTrainModel/" + model_name + "/dev_model"]
-
-        logger.info("=====================TEST FIRST STAGE====================")
+        logger.info("%"*15+"FIRST STAGE TESTING" + "%"*15)
+        # logger.info("=====================TEST FIRST STAGE====================")
         predicate_model = torch.load(dev_parameters[1])
 
         test_parameters = ["./ModelResult/" + model_name + "/test_elem_result.txt", None]
@@ -166,10 +166,11 @@ def main():
         )
 
         # add average measure.
-        shared_utils.calculate_average_measure(test_comp_eval, global_eval)
+        eval_shared_modules.calculate_average_measure(test_comp_eval, global_eval)
 
     elif config.program_mode == "test" and config.stage_model == "second":
         # 0: 768 + 5, 1: 5, 2: 768
+        logger.info("%"*15+"SECOND STAGE TESTING" + "%"*15)
         feature_type = 0
 
         # using evaluation to generate index col and pair label.
@@ -238,12 +239,12 @@ def main():
             test_pair_parameters, mode="pair", polarity=False, initialize=(False, False)
         )
 
-        shared_utils.calculate_average_measure(test_pair_eval, global_pair_eval)
+        eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
         global_pair_eval.avg_model("./ModelResult/" + model_name + "/test_pair_result.txt")
         global_pair_eval.store_result_to_csv([model_name], "result.csv")
 
-        shared_utils.clear_global_measure(global_pair_eval)
-        shared_utils.clear_optimize_measure(test_pair_eval)
+        eval_shared_modules.clear_global_measure(global_pair_eval)
+        eval_shared_modules.clear_optimize_measure(test_pair_eval)
 
         # create polarity representation and data loader.
         test_polarity_representation = shared_utils.get_after_pair_representation(test_pair_eval.y_hat, test_pair_representation)
@@ -255,10 +256,11 @@ def main():
         )
 
         # add average measure.
-        shared_utils.calculate_average_measure(test_pair_eval, global_pair_eval)
+        eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
 
     elif config.stage_model == "second":
         # 0: 768 + 5, 1: 5, 2: 768
+        logger.info("%"*15+"SECOND STAGE RUNNING" + "%"*15)
         feature_type = 0
 
         # using evaluation to generate index col and pair label.
