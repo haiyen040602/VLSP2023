@@ -605,7 +605,7 @@ def create_polarity_train_data(config, tuple_pair_col, feature_out, bert_feature
             representation_col.append(cur_representation)
 
             assert tuple_pair_col[index][pair_index][-1][0] in {-1, 0, 1, 2, 3, 4, 5, 6, 7}, "[ERROR] Tuple Pair Col Error."
-            polarity_col.append([tuple_pair_col[index][pair_index][-1][0]] + 1)
+            polarity_col.append([tuple_pair_col[index][pair_index][-1][0] + 1])
 
     return representation_col, polarity_col
 
