@@ -263,7 +263,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
     dev_pair_eval, test_pair_eval, global_pair_eval = pair_eval
     train_polarity_representation, train_polarity_col = polarity_col
 
-    logger.info("finish second model data generate")
+    # logger.info("finish second model data generate")
 
     # get pair loader
     train_pair_loader = data_loader_utils.get_loader([train_pair_representation, train_make_pair_label], 16)
@@ -302,7 +302,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
 
     dev_polarity_parameters = ["./ModelResult/" + model_name + "/dev_polarity_result.txt",
                                "./PreTrainModel/" + model_name + "/dev_polarity_model"]
-
+    logger.info("===============TRAIN SECOND AND THIRD STAGE==================")
     logger.info("===============Identifying comparative sentence==================")
     for epoch in range(config.epochs):
         pair_stage_model_train(pair_model, pair_optimizer, train_pair_loader, config, epoch)
@@ -332,7 +332,7 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
             dev_polarity_parameters, mode="polarity", polarity=True, initialize=(True, False)
         )
 
-    # logger.info("==================TEST SECOND AND THIRD STAGE================")
+    logger.info("==================TEST SECOND AND THIRD STAGE================")
     predict_pair_model = torch.load(dev_pair_parameters[1])
     predict_polarity_model = torch.load(dev_polarity_parameters[1])
 

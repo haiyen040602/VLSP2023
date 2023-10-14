@@ -113,7 +113,7 @@ def main():
     # logger.info("First object in data loader is {}".format(next()) )
 
     if config.stage_model == 'first' and config.program_mode != 'test':
-        logger.info("%"*15+"FIRST STAGE RUNNING" + "%"*15)
+        logger.info("%"*30+"FIRST STAGE RUNNING" + "%"*30)
         first_data_loader = [train_loader, dev_loader, test_loader]
         dev_comp_eval = create_eval.create_first_stage_eval(
             config,
@@ -142,7 +142,7 @@ def main():
     elif config.program_mode == 'test' and config.stage_model == 'first':
         dev_parameters = ["./ModelResult/" + model_name + "/dev_elem_result.txt",
                           "./PreTrainModel/" + model_name + "/dev_model"]
-        logger.info("%"*15+"FIRST STAGE TESTING" + "%"*15)
+        logger.info("%"*30+"FIRST STAGE TESTING" + "%"*30)
         # logger.info("=====================TEST FIRST STAGE====================")
         predicate_model = torch.load(dev_parameters[1])
 
@@ -170,7 +170,7 @@ def main():
 
     elif config.program_mode == "test" and config.stage_model == "second":
         # 0: 768 + 5, 1: 5, 2: 768
-        logger.info("%"*15+"SECOND STAGE TESTING" + "%"*15)
+        logger.info("%"*30+"SECOND STAGE TESTING" + "%"*30)
         feature_type = 0
 
         # using evaluation to generate index col and pair label.
@@ -260,7 +260,7 @@ def main():
 
     elif config.stage_model == "second":
         # 0: 768 + 5, 1: 5, 2: 768
-        logger.info("%"*15+"SECOND STAGE RUNNING" + "%"*15)
+        logger.info("%"*30+"SECOND STAGE RUNNING" + "%"*30)
         feature_type = 0
 
         # using evaluation to generate index col and pair label.
