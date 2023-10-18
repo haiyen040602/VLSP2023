@@ -353,7 +353,8 @@ def main():
             candidate_pair_col=dev_candidate_pair_col,
             elem_col=config.val.elem_col,
             ids_to_tags=config.val.norm_id_map,
-            save_model=True
+            save_model=True,
+            bert_token_col=dataset.dev_data_dict['bert_token']
         )
 
         test_pair_eval = PairEvaluation(
@@ -362,7 +363,8 @@ def main():
             candidate_pair_col=test_candidate_pair_col,
             elem_col=config.val.elem_col,
             ids_to_tags=config.val.norm_id_map,
-            save_model=False
+            save_model=False,
+            bert_token_col=dataset.test_data_dict['bert_token']
         )
 
         ## from extracted element tuple, predict comparative label
@@ -372,6 +374,7 @@ def main():
             [train_polarity_representation, train_polarity_label],
             model_parameters, optimizer_parameters, model_name, feature_type
         )
+
 
     if config.stage_model == "first":
         global_eval.avg_model("./ModelResult/" + model_name + "/test_extraction_result.txt")

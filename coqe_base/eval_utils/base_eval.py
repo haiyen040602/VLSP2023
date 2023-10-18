@@ -934,6 +934,7 @@ class ElementEvaluation(BaseEvaluation):
 
             write_str += self.elem_dict_to_string(token_list, self.predict_dict[index]) + "\n"
             write_str += self.elem_dict_to_string(token_list, self.gold_dict[index]) + "\n"
+            
 
             if index < 3:
                 logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], skip_special_tokens = True)))
@@ -1099,7 +1100,7 @@ class ElementEvaluation(BaseEvaluation):
 
 
 class PairEvaluation(BaseEvaluation):
-    def __init__(self, config, candidate_pair_col, gold_pair_col, elem_col, ids_to_tags, save_model=False, fold=0):
+    def __init__(self, config, candidate_pair_col, gold_pair_col, elem_col, ids_to_tags, save_model=False, fold=0, bert_token_col=None):
         super(PairEvaluation, self).__init__(
             config, elem_col=elem_col, ids_to_tags=ids_to_tags, save_model=save_model, fold=fold
         )
@@ -1129,6 +1130,21 @@ class PairEvaluation(BaseEvaluation):
         predict_tuple_pair_col = self.get_predict_truth_tuple_pair(self.candidate_pair_col)
 
         assert len(self.gold_pair_col) == len(predict_tuple_pair_col), "data length error!"
+
+        resultfile= "predict"
+        if initialize[0]:
+            resultfile += "_com_label"
+        if initialize[1]:
+            resultfile += "_pair"
+      
+
+        with open("./ModelResult/"+resultfile+".txt", 'w', encoding='utf-8') as fp:
+            for i, sent in enumerate(self.gold_pair_col):
+                fp.write(f"{sent} ===> {predict_tuple_pair_col[i]}\n")
+
+        for i in range(10):
+            logger.info("Gold pair label: {}".format(self.gold_pair_col[i]))
+            logger.info("Predict pair label: {}".format(predict_tuple_pair_col[i]))
 
         # calculate elem dict.
         # tuple_str = ""
@@ -1199,9 +1215,9 @@ class PairEvaluation(BaseEvaluation):
                 torch.save(model, model_path)
 
         if initialize[0]:
-            self.polarity_hat = []
+            self.polarity_hat = [] # predict comparative label of sentence
         elif initialize[1]:
-            self.y_hat = []
+            self.y_hat = [] #identify whether sentence is comparative
 
     @staticmethod
     def get_effective_pair_num(tuple_pair_col):
@@ -1259,7 +1275,7 @@ class PairEvaluation(BaseEvaluation):
         """
         truth_tuple_pair_col = []
 
-        # with polarity and is_pair.
+        # with polarity and is_pair. (in training)
         if len(self.y_hat) != 0 and len(self.polarity_hat) != 0:
 
             for index in range(len(candidate_tuple_pair_col)):
@@ -1274,7 +1290,7 @@ class PairEvaluation(BaseEvaluation):
 
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 
-        elif len(self.polarity_hat) != 0:
+        elif len(self.polarity_hat) != 0: # test stage 3
             for index in range(len(candidate_tuple_pair_col)):
                 cur_predicate_tuple_pair = []
 
@@ -1286,19 +1302,20 @@ class PairEvaluation(BaseEvaluation):
 
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 
-        elif len(self.y_hat) != 0:
+        elif len(self.y_hat) != 0: # test stage 2
             for index in range(len(candidate_tuple_pair_col)):
                 cur_predicate_tuple_pair = []
 
                 # drop none-pair and add polarity to pair.
                 for k in range(len(self.y_hat[index])):
-                    if self.y_hat[index][k] == 1:
+                    if self.y_hat[index][k] == 1: # comparative sentence
                         cur_predicate_tuple_pair.append(copy.deepcopy(candidate_tuple_pair_col[index][k]))
 
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 
         assert len(self.y_hat) != 0 or len(self.polarity_hat) != 0, "[ERROR] Data Process Error!"
 
+       
         return truth_tuple_pair_col
 
     @staticmethod
@@ -1336,6 +1353,7 @@ class PairEvaluation(BaseEvaluation):
         :return:
         """
         write_str = "["
+        elem_col = {0: "subject", 1: "object", 2: "aspect", 3:"predicate", 4: "label"}
         for index in range(len(tuple_pair)):
             write_str += "(" + str(tuple_pair[index][0]) + ", " + str(tuple_pair[index][1]) + ")"
 
