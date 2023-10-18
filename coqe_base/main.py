@@ -43,6 +43,7 @@ def TerminalParser():
     parser.add_argument('--seed', help='random seed', type = int, default=42)
     parser.add_argument('--batch', help='input data batch size', type= int, default=16)
     parser.add_argument('--epoch', help='number of run times', type=int, default=20)
+    parser.add_argument('--second_epoch', help='number of second times', type=int, default=50)
     parser.add_argument('--fold', help='the fold of data', type= int, default=5)
 
     parser.add_argument('--input_size', help='the size of encoder embedding', type=int, default=512)
@@ -72,8 +73,8 @@ def get_necessary_parameters(args):
                 "model_mode": args.model_mode,
                 "stage_type": args.model_type,
                 "model_type": args.model_type,
-                "epoch": args.epoch,
-                "batch_size": args.batch,
+                # "epoch": args.epoch,
+                # "batch_size": args.batch,
                 "program_mode": args.program_mode}
     return param_dict
 
@@ -354,7 +355,7 @@ def main():
             elem_col=config.val.elem_col,
             ids_to_tags=config.val.norm_id_map,
             save_model=True,
-            bert_token_col=dataset.dev_data_dict['bert_token']
+            token_col=[dataset.dev_data_dict['standard_token'], dataset.dev_data_dict['bert_token']]
         )
 
         test_pair_eval = PairEvaluation(
@@ -364,7 +365,7 @@ def main():
             elem_col=config.val.elem_col,
             ids_to_tags=config.val.norm_id_map,
             save_model=False,
-            bert_token_col=dataset.test_data_dict['bert_token']
+            token_col=[dataset.test_data_dict['standard_token'], dataset.test_data_dict['bert_token']]
         )
 
         ## from extracted element tuple, predict comparative label

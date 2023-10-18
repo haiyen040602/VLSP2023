@@ -1100,7 +1100,7 @@ class ElementEvaluation(BaseEvaluation):
 
 
 class PairEvaluation(BaseEvaluation):
-    def __init__(self, config, candidate_pair_col, gold_pair_col, elem_col, ids_to_tags, save_model=False, fold=0, bert_token_col=None):
+    def __init__(self, config, candidate_pair_col, gold_pair_col, elem_col, ids_to_tags, save_model=False, fold=0, token_col=None):
         super(PairEvaluation, self).__init__(
             config, elem_col=elem_col, ids_to_tags=ids_to_tags, save_model=save_model, fold=fold
         )
@@ -1110,6 +1110,10 @@ class PairEvaluation(BaseEvaluation):
 
         self.y_hat = []
         self.polarity_hat = []
+        if token_col:
+            self.standard_token_col, self.bert_token_col = token_col
+        else:
+            self.standard_token_col, self.bert_token_col = [], []
 
     def eval_model(self, measure_file, model=None, model_path=None, polarity=False, initialize=(False, False)):
         """
@@ -1144,6 +1148,7 @@ class PairEvaluation(BaseEvaluation):
 
         for i in range(10):
             logger.info("Gold pair label: {}".format(self.gold_pair_col[i]))
+            logger.info("Candidate pair label: {}".format(self.candidate_pair_col[i]))
             logger.info("Predict pair label: {}".format(predict_tuple_pair_col[i]))
 
         # calculate elem dict.
@@ -1184,7 +1189,8 @@ class PairEvaluation(BaseEvaluation):
         # with open("./tuple_pair_output.txt", "w", encoding='utf-8') as f:
         #     f.write(tuple_str)
 
-        print(gold_num, predict_num)
+        logger.info("Gold num: {}".format(gold_num))
+        logger.info("Predict num: {}".format(predict_num))
 
         # calculate f-score.
         exact_measure = self.get_f_score(gold_num, predict_num, exact_correct_num, multi_elem_score=False)
@@ -1322,7 +1328,7 @@ class PairEvaluation(BaseEvaluation):
     def add_polarity_to_tuple_pair(tuple_pair, polarity):
         return copy.deepcopy(tuple_pair + [(int(polarity - 1), int(polarity - 1))])
 
-    def print_tuple_pair(self, gold_tuple_pair, predict_tuple_pair, correct_num):
+    def print_tuple_pair(self, gold_token_col, gold_tuple_pair, predict_tuple_pair, correct_num):
         """
         :param gold_tuple_pair:
         :param predict_tuple_pair:
@@ -1331,12 +1337,12 @@ class PairEvaluation(BaseEvaluation):
         """
         write_str = ""
         for index in range(len(gold_tuple_pair)):
-            write_str += self.tuple_pair_to_string(gold_tuple_pair[index])
+            write_str += self.tuple_pair_to_string(gold_tuple_pair[index], gold_token_col[index])
 
         write_str += "----------------------------------\n"
 
         for index in range(len(predict_tuple_pair)):
-            write_str += self.tuple_pair_to_string(predict_tuple_pair[index])
+            write_str += self.tuple_pair_to_string(predict_tuple_pair[index], gold_token_col[index])
 
         for index in range(len(correct_num)):
             write_str += str(correct_num[index])
@@ -1347,14 +1353,15 @@ class PairEvaluation(BaseEvaluation):
                 write_str += "\n"
 
     @staticmethod
-    def tuple_pair_to_string(tuple_pair):
+    def tuple_pair_to_string(tuple_pair, gold_token_col):
         """
         :param tuple_pair:
         :return:
         """
         write_str = "["
         elem_col = {0: "subject", 1: "object", 2: "aspect", 3:"predicate", 4: "label"}
-        for index in range(len(tuple_pair)):
+        for index, pair in enumerate(tuple_pair):
+
             write_str += "(" + str(tuple_pair[index][0]) + ", " + str(tuple_pair[index][1]) + ")"
 
             if index != len(tuple_pair) - 1:
