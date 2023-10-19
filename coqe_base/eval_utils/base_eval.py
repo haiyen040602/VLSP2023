@@ -1331,29 +1331,29 @@ class PairEvaluation(BaseEvaluation):
     def add_polarity_to_tuple_pair(tuple_pair, polarity):
         return copy.deepcopy(tuple_pair + [(int(polarity - 1), int(polarity - 1))])
 
-    def print_tuple_pair(self, gold_token_col, model_path):
-        """
-        :param gold_tuple_pair:
-        :param predict_tuple_pair:
-        :param correct_num:
-        :return:
-        """
-        write_str = ""
-        for index in range(len(gold_tuple_pair)):
-            write_str += self.tuple_pair_to_string(gold_tuple_pair[index], gold_token_col[index])
+    # def print_tuple_pair(self, gold_token_col, model_path):
+    #     """
+    #     :param gold_tuple_pair:
+    #     :param predict_tuple_pair:
+    #     :param correct_num:
+    #     :return:
+    #     """
+    #     write_str = ""
+    #     for index in range(len(gold_tuple_pair)):
+    #         write_str += self.tuple_pair_to_string(gold_tuple_pair[index], gold_token_col[index])
 
-        write_str += "----------------------------------\n"
+    #     write_str += "----------------------------------\n"
 
-        for index in range(len(predict_tuple_pair)):
-            write_str += self.tuple_pair_to_string(predict_tuple_pair[index], gold_token_col[index])
+    #     for index in range(len(predict_tuple_pair)):
+    #         write_str += self.tuple_pair_to_string(predict_tuple_pair[index], gold_token_col[index])
 
-        for index in range(len(correct_num)):
-            write_str += str(correct_num[index])
+    #     for index in range(len(correct_num)):
+    #         write_str += str(correct_num[index])
 
-            if index != len(correct_num) - 1:
-                write_str += " "
-            else:
-                write_str += "\n"
+    #         if index != len(correct_num) - 1:
+    #             write_str += " "
+    #         else:
+    #             write_str += "\n"
 
     
     def tuple_pair_to_string(tuple_pair, gold_token_col):
