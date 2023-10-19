@@ -108,6 +108,7 @@ class BaseEvaluation(object):
                 pre_elem_dict[cur_tag].append(self.get_elem_representation(s_index, index + 1, cur_emotion))
                 s_index = -1
 
+
         return pre_elem_dict #[(s_index, e_index, label_ids)] of each B, E position in sequence label?
 
     ## trả về danh sách các vị trí B, E trong sequence của từng element
@@ -136,6 +137,8 @@ class BaseEvaluation(object):
                     elem_label_ids[i][j], elem_col[i], elem_key[j]
                 )
 
+        for i in range(5):
+            logger.info("Element dictionary: {}".format(elem_col[i]))
         return elem_col
 
     def add_data(self, elem_output, result_output, attn_mask):
@@ -1135,21 +1138,21 @@ class PairEvaluation(BaseEvaluation):
 
         assert len(self.gold_pair_col) == len(predict_tuple_pair_col), "data length error!"
 
-        resultfile= "predict"
-        if initialize[0]:
-            resultfile += "_com_label"
-        if initialize[1]:
-            resultfile += "_pair"
+        # resultfile= "predict"
+        # if initialize[0]:
+        #     resultfile += "_com_label"
+        # if initialize[1]:
+        #     resultfile += "_pair"
       
 
-        with open("./ModelResult/"+resultfile+".txt", 'w', encoding='utf-8') as fp:
-            for i, sent in enumerate(self.gold_pair_col):
-                fp.write(f"{sent} ===> {predict_tuple_pair_col[i]}\n")
+        # with open("./ModelResult/"+resultfile+".txt", 'w', encoding='utf-8') as fp:
+        #     for i, sent in enumerate(self.gold_pair_col):
+        #         fp.write(f"{sent} ===> {predict_tuple_pair_col[i]}\n")
 
-        for i in range(10):
-            logger.info("Gold pair label: {}".format(self.gold_pair_col[i]))
-            logger.info("Candidate pair label: {}".format(self.candidate_pair_col[i]))
-            logger.info("Predict pair label: {}".format(predict_tuple_pair_col[i]))
+        # for i in range(10):
+        #     logger.info("Gold pair label: {}".format(self.gold_pair_col[i]))
+        #     logger.info("Candidate pair label: {}".format(self.candidate_pair_col[i]))
+        #     logger.info("Predict pair label: {}".format(predict_tuple_pair_col[i]))
 
         # calculate elem dict.
         # tuple_str = ""
@@ -1324,11 +1327,11 @@ class PairEvaluation(BaseEvaluation):
        
         return truth_tuple_pair_col
 
-    @staticmethod
+    
     def add_polarity_to_tuple_pair(tuple_pair, polarity):
         return copy.deepcopy(tuple_pair + [(int(polarity - 1), int(polarity - 1))])
 
-    def print_tuple_pair(self, gold_token_col, gold_tuple_pair, predict_tuple_pair, correct_num):
+    def print_tuple_pair(self, gold_token_col, model_path):
         """
         :param gold_tuple_pair:
         :param predict_tuple_pair:
@@ -1352,7 +1355,7 @@ class PairEvaluation(BaseEvaluation):
             else:
                 write_str += "\n"
 
-    @staticmethod
+    
     def tuple_pair_to_string(tuple_pair, gold_token_col):
         """
         :param tuple_pair:

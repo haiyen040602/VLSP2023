@@ -278,9 +278,9 @@ def main():
 
         elem_model = torch.load(pre_train_model_path)
 
-        train_first_process_data_path = "./ModelResult/" + model_name + "/train_first_data_" + str(feature_type) + ".txt"
-        dev_first_process_data_path = "./ModelResult/" + model_name + "/dev_first_data_" + str(feature_type) + ".txt"
-        test_first_process_data_path = "./ModelResult/" + model_name + "/test_first_data_" + str(feature_type) + ".txt"
+        train_first_process_data_path = "./ModelResult/" + model_name + "/train_first_data_" + str(feature_type) + ".pkl"
+        dev_first_process_data_path = "./ModelResult/" + model_name + "/dev_first_data_" + str(feature_type) + ".pkl"
+        test_first_process_data_path = "./ModelResult/" + model_name + "/test_first_data_" + str(feature_type) + ".pkl"
 
         ## extract element for train dataset
         if os.path.exists(train_first_process_data_path):
@@ -308,6 +308,16 @@ def main():
                  train_polarity_representation, train_polarity_label],
                 train_first_process_data_path
             )
+
+            for i in range(3):
+                logger.info("Train pair representation: {}".format(train_pair_representation[i]))
+                logger.info("Train make pair label: {}".format(train_make_pair_label[i]))
+                logger.info("Train polarity label: {}".format(train_polarity_representation[i]))
+                logger.info("Train polarity label: ".format(train_polarity_label[i]))
+
+            with open("./ModelResult/" +  "/train_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
+                for i, pair in enumerate(train_pair_representation):
+                    fout.write(f"{pair}\n{train_make_pair_label[i]}\n{train_polarity_representation[i]}\n{train_polarity_label[i]}\n\n")
         
         ## extract element for dev dataset
         if os.path.exists(dev_first_process_data_path):
@@ -326,6 +336,9 @@ def main():
                 [dev_candidate_pair_col, dev_pair_representation, dev_make_pair_label],
                 dev_first_process_data_path
             )
+            with open("./ModelResult/" +  "/dev_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
+                for i, pair in enumerate(dev_candidate_pair_col):
+                    fout.write(f"{pair}\n{dev_pair_representation[i]}\n{dev_make_pair_label[i]}\n\n")
 
         ## extract element for test dataset
         if os.path.exists(test_first_process_data_path):
@@ -344,6 +357,9 @@ def main():
                 [test_candidate_pair_col, test_pair_representation, test_make_pair_label],
                 test_first_process_data_path
             )
+            with open("./ModelResult/" +  "/test_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
+                for i, pair in enumerate(test_candidate_pair_col):
+                    fout.write(f"{pair}\n{test_pair_representation[i]}\n{test_make_pair_label[i]}\n\n")
 
         pair_representation = [train_pair_representation, dev_pair_representation, test_pair_representation]
         make_pair_label = [train_make_pair_label, dev_make_pair_label, test_make_pair_label]
@@ -370,7 +386,7 @@ def main():
 
         ## from extracted element tuple, predict comparative label
         train_test_utils.pair_stage_model_main(
-            config, pair_representation, make_pair_label,
+            config, dataset, pair_representation, make_pair_label,
             [dev_pair_eval, test_pair_eval, global_pair_eval],
             [train_polarity_representation, train_polarity_label],
             model_parameters, optimizer_parameters, model_name, feature_type

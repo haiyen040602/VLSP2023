@@ -243,7 +243,7 @@ def first_stage_model_main(
     eval_shared_modules.calculate_average_measure(test_comp_eval, global_comp_eval)
 
 
-def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eval, polarity_col,
+def pair_stage_model_main(config, data_gene, pair_representation, make_pair_label, pair_eval, polarity_col,
                           model_parameters, optimizer_parameters, model_name, feature_type):
     """
 
@@ -359,6 +359,11 @@ def pair_stage_model_main(config, pair_representation, make_pair_label, pair_eva
         predict_polarity_model, config, test_polarity_loader, test_pair_eval,
         test_polarity_parameters, mode="polarity", polarity=True, initialize=(True, True)
     )
+
+    # test_pair_eval.print_tuple_pair(
+    #     data_gene.test_data_dict['standard_token'],
+    #     "./ModelResult/" + model_name + "/test_pair_result_file" + ".txt",
+    # )
 
 
     # add average measure.
