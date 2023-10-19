@@ -310,9 +310,9 @@ def main():
             )
 
             for i in range(3):
-                logger.info("Train pair representation: {}".format(train_pair_representation[i]))
+                logger.info("Train pair representation lenght: {}".format(len(train_pair_representation[i])))
                 logger.info("Train make pair label: {}".format(train_make_pair_label[i]))
-                logger.info("Train polarity label: {}".format(train_polarity_representation[i]))
+                logger.info("Train polarity label length: {}".format(len(train_polarity_representation[i])))
                 logger.info("Train polarity label: ".format(train_polarity_label[i]))
 
             with open("./ModelResult/" +  "/train_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
@@ -338,7 +338,7 @@ def main():
             )
             with open("./ModelResult/" +  "/dev_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
                 for i, pair in enumerate(dev_candidate_pair_col):
-                    fout.write(f"{pair}\n{dev_pair_representation[i]}\n{dev_make_pair_label[i]}\n\n")
+                    fout.write(f"{pair}\n{dev_make_pair_label[i]}\n\n")
 
         ## extract element for test dataset
         if os.path.exists(test_first_process_data_path):
@@ -359,7 +359,7 @@ def main():
             )
             with open("./ModelResult/" +  "/test_first_data_" + str(feature_type) + ".txt", "w", encoding="utf8") as fout:
                 for i, pair in enumerate(test_candidate_pair_col):
-                    fout.write(f"{pair}\n{test_pair_representation[i]}\n{test_make_pair_label[i]}\n\n")
+                    fout.write(f"{pair}\n{test_make_pair_label[i]}\n\n")
 
         pair_representation = [train_pair_representation, dev_pair_representation, test_pair_representation]
         make_pair_label = [train_make_pair_label, dev_make_pair_label, test_make_pair_label]

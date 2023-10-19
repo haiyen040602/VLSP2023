@@ -357,6 +357,36 @@ def get_tuple_pair_num(tuple_pair_col):
 
     return pair_num
 
+def get_label_col_num(label_col, elem_col):
+    num = 0
+    empty_label = {key: set() for key in elem_col}
+    for i, label_pair in enumerate(label_col):
+        if label_pair == empty_label:
+            continue
+        max_num = max(len(label_pair[key]) for key in label_pair)
+        num += max_num
+    return num
+
+def check_tuple_match_lable_num(tuple_col, label_col, elem_col):
+    pair_num, null_tuple_pair = 0, [(-1, -1)] * 5
+    label_num = 0
+    empty_label = {key: set() for key in elem_col}
+    for tuple_index, tuple in enumerate(tuple_col):
+        pair_num, label_num = 0, 0
+        for index, pair in enumerate(tuple):
+            if (pair != null_tuple_pair and label_col[tuple_index]== empty_label) or (pair == null_tuple_pair and label_col[tuple_index] != empty_label):
+                print(tuple_col, label_col[tuple_index])
+                continue
+            elif pair == null_tuple_pair and label_col[tuple_index] == empty_label:
+                continue
+            pair_num += 1
+
+        label_num += max(len(label_col[tuple_index][key]) for key in label_col[tuple_index])
+
+        if pair_num != label_num:
+            print("Error matching number {} - {} of {} - {}".format(pair_num, label_num, tuple, label_col[tuple_index]))
+
+
 def get_mask(input_ids, dim=1):
     """
     :param input_ids: a input ids
@@ -381,14 +411,15 @@ def get_sequence_label_item(position_symbol, polarity, elem_type, special_symbol
     :return:
     """
     POLARITY_DICT = {
-        1: "COM",
-        -1: "COM-",
-        2: "COM+",
-        3: "SUP",
-        -2: "SUP-",
-        4: "SUP+", 
-        -3: "DIF",
-        0: "EQL"
+       -1: 'None',
+        0: 'COM', 
+        1: 'COM+', 
+        2: 'COM-', 
+        3: 'SUP', 
+        4: 'SUP+', 
+        5: 'SUP-', 
+        6: 'EQL', 
+        7: 'DIF'
     }
     if elem_type == "result" and special_symbol:
         return position_symbol + "-" + POLARITY_DICT[polarity]
@@ -609,23 +640,4 @@ def create_polarity_train_data(config, tuple_pair_col, feature_out, bert_feature
 
     return representation_col, polarity_col
 
-def get_after_pair_representation(pair_hat, representation):
-    """
-    :param pair_hat:
-    :param representation:
-    :return:
-    """
-    feature_dim = len(representation[0][0])
-
-    if len(pair_hat) == 0:
-        return representation
-
-    for index in range(len(representation)):
-        assert len(pair_hat[index]) == len(representation[index]), "[ERROR] Param error or Data process error."
-
-        for pair_index in range(len(representation[index])):
-            if pair_hat[index][pair_index] == 0:
-                representation[index][pair_index] = [0] * feature_dim
-
-    return representation
 

@@ -75,7 +75,10 @@ class Dataset(object):
             self.char_max_len = max(self.char_max_len, shared_utils.get_max_token_length(data_dict['input_ids'])) + 2
         
         data_dict['tuple_pair_col'] = tuple_pair_col
+
         logger.info("Convert pair number: {}".format(shared_utils.get_tuple_pair_num(data_dict['tuple_pair_col'])) )
+        logger.info("Label_col number: {}".format(shared_utils.get_label_col_num(data_dict['label_col'], self.elem_col)) )
+        shared_utils.check_tuple_match_lable_num(data_dict['tuple_pair_col'], data_dict['label_col'], self.elem_col )
 
         token_col = data_dict['standard_token'] if self.config.model_mode == 'norm' else data_dict['bert_token']
         data_dict['attn_mask'] = shared_utils.get_mask(token_col, dim=1)

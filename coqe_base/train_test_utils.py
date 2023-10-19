@@ -322,6 +322,7 @@ def pair_stage_model_main(config, data_gene, pair_representation, make_pair_labe
     # get representation by is_pair label filter.
     dev_polarity_representation = shared_utils.get_after_pair_representation(dev_pair_eval.y_hat, dev_pair_representation)
     dev_polarity_loader = data_loader_utils.get_loader([dev_polarity_representation], 1)
+    logger.info("Dev polarity representation size: {}".format(len(dev_pair_representation[0][0])))
     eval_shared_modules.clear_optimize_measure(dev_pair_eval)
 
     logger.info("===============Predicting comparative label==================")
@@ -365,7 +366,14 @@ def pair_stage_model_main(config, data_gene, pair_representation, make_pair_labe
     #     "./ModelResult/" + model_name + "/test_pair_result_file" + ".txt",
     # )
 
+    predict_tuple_pair_col = test_pair_eval.get_predict_truth_tuple_pair(test_pair_eval.candidate_pair_col)
+    with open("./ModelResult/" + "/test_quintuple_result_file.txt", "w", encoding="utf8") as fout:
+        for index, pair in enumerate(predict_tuple_pair_col):
+            fout.write(f"{test_pair_eval.gold_pair_col[index]}\n{pair}\n\n")
 
     # add average measure.
     eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
+
+    
+
 

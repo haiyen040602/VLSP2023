@@ -211,6 +211,7 @@ class LogisticClassifier(nn.Module):
     def forward(self, pair_representation, pair_label=None):
         predict_label = self.fc(pair_representation.view(-1, self.feature_dim))
         predict_label = self.dropout(predict_label)
+        print("Predict {} - Truth {}".format(predict_label, pair_label))
 
         # weight = torch.tensor([1, 1, 1, 1]).float().to(self.config.device)
         # calculate loss.
