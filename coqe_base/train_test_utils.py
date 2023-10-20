@@ -96,6 +96,7 @@ def first_stage_model_test(model, config, test_loader, res_eval, eval_parameters
         # eval của ElementEvaluation
         res_eval.eval_model(measure_file, model, model_path, multi_elem_score=True)
     else:
+        # gold_pair là tuple_pair_col
         return res_eval.generate_elem_representation(
             gold_pair_label, torch.cat(elem_feature_embed, dim=0),
             torch.cat(bert_feature_embed, dim=0), feature_type=feature_type
@@ -262,6 +263,9 @@ def pair_stage_model_main(config, data_gene, pair_representation, make_pair_labe
     train_make_pair_label, dev_make_pair_label, test_make_pair_label = make_pair_label
     dev_pair_eval, test_pair_eval, global_pair_eval = pair_eval
     train_polarity_representation, train_polarity_col = polarity_col
+
+    for index in range(10):
+        logger.info("Train pair label: {}; Train polarity label: {} ".format(train_make_pair_label[index], train_polarity_col[index]))
 
     # logger.info("finish second model data generate")
 

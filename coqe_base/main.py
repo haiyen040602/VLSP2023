@@ -293,16 +293,20 @@ def main():
                     eval_parameters=[dataset.train_data_dict['tuple_pair_col']],
                     test_type="gene", feature_type=feature_type
                 )
+            
 
             train_pair_representation, train_make_pair_label = shared_utils.generate_train_pair_data(
                 train_pair_representation, train_make_pair_label
             )
+
+            # train_make_pair_label = dataset.train_data_dict['comparative_label']
 
             train_polarity_representation, train_polarity_label = shared_utils.create_polarity_train_data(
                 config, dataset.train_data_dict['tuple_pair_col'], train_feature_out,
                 train_bert_feature_out, feature_type=feature_type
             )
 
+            # train_polarity_label = dataset.train_data_dict['polarity_label']
             shared_utils.write_pickle(
                 [train_pair_representation, train_make_pair_label,
                  train_polarity_representation, train_polarity_label],
@@ -310,7 +314,7 @@ def main():
             )
 
             for i in range(3):
-                logger.info("Train pair representation lenght: {}".format(len(train_pair_representation[i])))
+                logger.info("Train pair representation length: {}".format(len(train_pair_representation[i])))
                 logger.info("Train make pair label: {}".format(train_make_pair_label[i]))
                 logger.info("Train polarity label length: {}".format(len(train_polarity_representation[i])))
                 logger.info("Train polarity label: ".format(train_polarity_label[i]))

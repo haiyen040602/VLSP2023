@@ -286,7 +286,7 @@ def map_token_index_pair_to_bert_token(tuple_pair_col, mapping_col):
                 if s_index == -1 or e_index == -1:
                     new_tuple_pair.append((-1, -1))
                     continue
-                new_s_index, new_e_index = sequence_map[s_index][0], sequence_map[e_index][-1]
+                new_s_index, new_e_index = sequence_map[s_index][0], sequence_map[e_index][-1] + 1
                 new_tuple_pair.append((new_s_index, new_e_index))
             
             new_tuple_pair.append(pair[4])
@@ -448,6 +448,9 @@ def each_elem_convert_to_multi_sequence_label(sequence_token, each_elem, elem_ty
             polarity = None
 
         ## từ đơn
+        if s_index == -1 or e_index == -1:
+            continue
+
         if e_index == s_index:
             sequence_label[s_index] = get_sequence_label_item("S", polarity, elem_type, special_symbol)
             continue
@@ -640,4 +643,19 @@ def create_polarity_train_data(config, tuple_pair_col, feature_out, bert_feature
 
     return representation_col, polarity_col
 
+def save_dict(data_dict, data_type):
+        write_dict = []
+        for i in range(len(data_dict['standard_token'])):
+            write_dict.append(data_dict['standard_token'][i])
+            write_dict.append("Mulilang bert token: {}".format(data_dict['bert_token'][i]))
+            write_dict.append("label_col: {}".format(data_dict['label_col'][i]))
+            write_dict.append("Tuple_pair_col: {}".format(data_dict['tuple_pair_col'][i]))
+            write_dict.append("comparative_label: {}{}".format(data_dict['comparative_label'][i], data_dict['polarity_label'][i]))
+            write_dict.append("Subject, Object, Aspect: {}".format(data_dict['multi_label'][i]))
+            write_dict.append("predicate element: {}".format(data_dict['result_label'][i]))
+            write_dict.append("Input ids: {}".format(data_dict['input_ids'][i]))
+            write_dict.append("Attention mask: {}".format(data_dict['attn_mask'][i]))
+            write_dict.append("\n")
+        
+        write_text(write_dict, "../data/data_dict/{}_dict.txt".format(data_type))
 

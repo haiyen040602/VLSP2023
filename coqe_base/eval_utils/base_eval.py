@@ -137,8 +137,9 @@ class BaseEvaluation(object):
                     elem_label_ids[i][j], elem_col[i], elem_key[j]
                 )
 
-        for i in range(5):
-            logger.info("Element dictionary: {}".format(elem_col[i]))
+        # for i in range(5):
+        #     logger.info("Element dictionary: {}".format(elem_col[i]))
+            
         return elem_col
 
     def add_data(self, elem_output, result_output, attn_mask):
@@ -711,6 +712,8 @@ class ElementEvaluation(BaseEvaluation):
 
         # using predicted output to get elem_dict.
         self.predict_dict = self.get_elem_dict((self.elem_hat, self.result_hat))
+        for i in range(5):
+            logger.info("Prediction in eval pharase: {}".format(self.predict_dict[i]))
 
         # eval part do not drop elem.
         # Nếu không phải câu comparative (predict_sent_label == 0) thì chuyển predict_dict thành []
@@ -728,9 +731,9 @@ class ElementEvaluation(BaseEvaluation):
 
         assert len(self.predict_dict) == len(self.gold_dict)
 
-        # for i in range(3):
-        #     logger.info("Predict dict: {}".format(self.predict_dict[i]))
-        #     logger.info("Gold dict: {}".format(self.gold_dict[i]))
+        for i in range(3):
+            logger.info("Predict dict in eval phrase (after mask non-com): {}".format(self.predict_dict[i]))
+            logger.info("Gold dict in eval phrase: {}".format(self.gold_dict[i]))
 
         # calculate elem dict.
         for index in range(len(self.gold_dict)):
@@ -961,6 +964,8 @@ class ElementEvaluation(BaseEvaluation):
         # a list elem_dict: {elem: [(s_index, e_index)]}
         self.predict_dict = self.get_elem_dict((self.elem_hat, self.result_hat))
 
+        logger.info("Number of prediction in first stage test: {}".format(len(self.predict_dict)))
+
         candidate_pair_col = []
 
         # elem_col = {"entity_1", "entity_2", "aspect", "result"}
@@ -977,6 +982,13 @@ class ElementEvaluation(BaseEvaluation):
                 cur_candidate_pair_col = eval_shared_modules.cartesian_product(cur_candidate_pair_col, cur_elem)
 
             candidate_pair_col.append(cur_candidate_pair_col)
+
+        logger.info("number candicate quintupe after castesion: {}".format(len(candidate_pair_col)))
+        for i in range(5):
+            logger.info("Gold pair {} in test phrase: {}".format(i, gold_pair_label[i]))
+            logger.info("Predicted tuple {} in test phrase: {}".format(i, self.predict_dict[i]))
+            logger.info("Candidate tuple  {} in test pharase: {}".format(i, candidate_pair_col[i]))
+
 
         pair_representation = self.create_pair_representation(
             candidate_pair_col, feature_embed, bert_feature_embed, feature_type=feature_type
@@ -1028,7 +1040,7 @@ class ElementEvaluation(BaseEvaluation):
 
                     else:
                         # 采用5维 + 768维
-                        # tensor có kích thước = 5 lưu giá trị trung bình biểu diễn của các element (từ s_index -> e_index)
+                        # tensor có kích thước = 5 lưu giá trị trung bình biểu diễn của các element (từ s_index -> e_index), đại diện cho 4 element và 1 comp label
                         # concatenate element extraction from s-> e_index with hidden_representation of all sentence but from (s->e_index of element) 
                         if feature_type == 0:
                             each_pair_representation.append(
@@ -1091,7 +1103,7 @@ class ElementEvaluation(BaseEvaluation):
             for j in range(len(candidate_col[i])):
                 # truth predicate pair num
                 isExist = False
-                for k in range(len(truth_pair_label[i])):
+                for k in range(len(truth_pair_label[i])): # check if  candidate pair is match with truth pair
                     if self.is_equal_tuple_pair(candidate_col[i][j], truth_pair_label[i][k], null_pair):
                         isExist = True
 

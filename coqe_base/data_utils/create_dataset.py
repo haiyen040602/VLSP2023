@@ -73,7 +73,8 @@ class Dataset(object):
             self.vocab, self.vocab_index = shared_utils.update_vocab(data_dict['standard_token'], self.vocab, self.vocab_index, dim=2)
             data_dict['input_ids'] = shared_utils.transfer_data(data_dict['standard_token'], self.vocab, dim=1)
             self.char_max_len = max(self.char_max_len, shared_utils.get_max_token_length(data_dict['input_ids'])) + 2
-        
+
+        # data_dict['label_col'] = label_col
         data_dict['tuple_pair_col'] = tuple_pair_col
 
         logger.info("Convert pair number: {}".format(shared_utils.get_tuple_pair_num(data_dict['tuple_pair_col'])) )
@@ -106,17 +107,7 @@ class Dataset(object):
             dim=1
         )
         
-        write_dict = []
-        for i in range(len(label_col)):
-            write_dict.append(data_dict['standard_token'][i])
-            write_dict.append("Mulilang bert token: {}".format(data_dict['bert_token'][i]))
-            write_dict.append("label_col: {}".format(data_dict['label_col'][i]))
-            write_dict.append("Tuple_pair_col: {}".format(data_dict['tuple_pair_col'][i]))
-            write_dict.append("comparative_label: {}{}".format(data_dict['comparative_label'][i], data_dict['polarity_label'][i]))
-            write_dict.append("Subject, Object, Aspect: {}".format(data_dict['multi_label'][i]))
-            write_dict.append("predicate element: {}".format(data_dict['result_label'][i]))
         
-        shared_utils.write_text(write_dict, "../data/data_dict/{}_dict.txt".format(data_type))
 
         return data_dict
         
@@ -144,6 +135,11 @@ class Dataset(object):
         self.train_data_dict = self.data_dict_to_numpy(self.train_data_dict)
         self.dev_data_dict = self.data_dict_to_numpy(self.dev_data_dict)
         self.test_data_dict = self.data_dict_to_numpy(self.test_data_dict)
+
+        shared_utils.save_dict(self.train_data_dict, "train")
+        shared_utils.save_dict(self.dev_data_dict, "dev")
+        shared_utils.save_dict(self.test_data_dict, "test")
+        
 
     def padding_data_dict(self, data_dict):
         """
