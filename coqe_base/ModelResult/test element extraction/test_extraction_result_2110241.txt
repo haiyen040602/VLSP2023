@@ -1,0 +1,73 @@
+========================================
+fold: 0 Best Model Measure
+========================================
+========================================
+Exact Measure
+========================================
+Exact Measure's subject Precision value is 63.80
+Exact Measure's subject Recall value is 58.02
+Exact Measure's subject F-Measure value is 60.78
+Exact Measure's object Precision value is 75.45
+Exact Measure's object Recall value is 50.92
+Exact Measure's object F-Measure value is 60.81
+Exact Measure's aspect Precision value is 55.70
+Exact Measure's aspect Recall value is 57.44
+Exact Measure's aspect F-Measure value is 56.56
+Exact Measure's result Precision value is 60.18
+Exact Measure's result Recall value is 64.42
+Exact Measure's result F-Measure value is 62.23
+Exact Measure's macro Precision value is 63.78
+Exact Measure's macro Recall value is 57.70
+Exact Measure's macro F-Measure value is 60.59
+Exact Measure's micro Precision value is 61.37
+Exact Measure's micro Recall value is 58.69
+Exact Measure's micro F-Measure value is 60.00
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
+========================================
+Proportional Measure
+========================================
+Proportional Measure's subject Precision value is 73.16
+Proportional Measure's subject Recall value is 66.53
+Proportional Measure's subject F-Measure value is 69.69
+Proportional Measure's object Precision value is 81.34
+Proportional Measure's object Recall value is 54.89
+Proportional Measure's object F-Measure value is 65.55
+Proportional Measure's aspect Precision value is 66.04
+Proportional Measure's aspect Recall value is 68.10
+Proportional Measure's aspect F-Measure value is 67.05
+Proportional Measure's result Precision value is 72.38
+Proportional Measure's result Recall value is 77.48
+Proportional Measure's result F-Measure value is 74.84
+Proportional Measure's macro Precision value is 73.23
+Proportional Measure's macro Recall value is 66.75
+Proportional Measure's macro F-Measure value is 69.84
+Proportional Measure's micro Precision value is 71.62
+Proportional Measure's micro Recall value is 68.49
+Proportional Measure's micro F-Measure value is 70.02
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
+========================================
+Binary Measure
+========================================
+Binary Measure's subject Precision value is 76.47
+Binary Measure's subject Recall value is 69.55
+Binary Measure's subject F-Measure value is 72.84
+Binary Measure's object Precision value is 82.73
+Binary Measure's object Recall value is 55.83
+Binary Measure's object F-Measure value is 66.67
+Binary Measure's aspect Precision value is 69.13
+Binary Measure's aspect Recall value is 71.28
+Binary Measure's aspect F-Measure value is 70.19
+Binary Measure's result Precision value is 76.35
+Binary Measure's result Recall value is 81.73
+Binary Measure's result F-Measure value is 78.95
+Binary Measure's macro Precision value is 76.17
+Binary Measure's macro Recall value is 69.60
+Binary Measure's macro F-Measure value is 72.73
+Binary Measure's micro Precision value is 74.87
+Binary Measure's micro Recall value is 71.60
+Binary Measure's micro F-Measure value is 73.20
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
+========================================

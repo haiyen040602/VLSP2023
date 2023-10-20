@@ -1,0 +1,69 @@
+========================================
+exact Measure
+========================================
+exact Measure's subject Precision value is 63.80
+exact Measure's subject Recall value is 58.02
+exact Measure's subject F-Measure value is 60.78
+exact Measure's object Precision value is 75.45
+exact Measure's object Recall value is 50.92
+exact Measure's object F-Measure value is 60.81
+exact Measure's aspect Precision value is 55.70
+exact Measure's aspect Recall value is 57.44
+exact Measure's aspect F-Measure value is 56.56
+exact Measure's result Precision value is 60.18
+exact Measure's result Recall value is 64.42
+exact Measure's result F-Measure value is 62.23
+exact Measure's macro Precision value is 63.78
+exact Measure's macro Recall value is 57.70
+exact Measure's macro F-Measure value is 60.59
+exact Measure's micro Precision value is 61.37
+exact Measure's micro Recall value is 58.69
+exact Measure's micro F-Measure value is 60.00
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
+========================================
+prop Measure
+========================================
+prop Measure's subject Precision value is 73.16
+prop Measure's subject Recall value is 66.53
+prop Measure's subject F-Measure value is 69.69
+prop Measure's object Precision value is 81.34
+prop Measure's object Recall value is 54.89
+prop Measure's object F-Measure value is 65.55
+prop Measure's aspect Precision value is 66.04
+prop Measure's aspect Recall value is 68.10
+prop Measure's aspect F-Measure value is 67.05
+prop Measure's result Precision value is 72.38
+prop Measure's result Recall value is 77.48
+prop Measure's result F-Measure value is 74.84
+prop Measure's macro Precision value is 73.23
+prop Measure's macro Recall value is 66.75
+prop Measure's macro F-Measure value is 69.84
+prop Measure's micro Precision value is 71.62
+prop Measure's micro Recall value is 68.49
+prop Measure's micro F-Measure value is 70.02
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
+========================================
+binary Measure
+========================================
+binary Measure's subject Precision value is 76.47
+binary Measure's subject Recall value is 69.55
+binary Measure's subject F-Measure value is 72.84
+binary Measure's object Precision value is 82.73
+binary Measure's object Recall value is 55.83
+binary Measure's object F-Measure value is 66.67
+binary Measure's aspect Precision value is 69.13
+binary Measure's aspect Recall value is 71.28
+binary Measure's aspect F-Measure value is 70.19
+binary Measure's result Precision value is 76.35
+binary Measure's result Recall value is 81.73
+binary Measure's result F-Measure value is 78.95
+binary Measure's macro Precision value is 76.17
+binary Measure's macro Recall value is 69.60
+binary Measure's macro F-Measure value is 72.73
+binary Measure's micro Precision value is 74.87
+binary Measure's micro Recall value is 71.60
+binary Measure's micro F-Measure value is 73.20
+Comparative Sentence Label Accuracy is 86.01%
+Predicate Correspond Sentence Label Accuracy is 86.43%
