@@ -1082,15 +1082,11 @@ class ElementEvaluation(BaseEvaluation):
             return False
 
         if len(candidate_tuple_col) != len(truth_tuple_col):
-            sub, obj, asp, res = truth_tuple_col[:-1]
-            truth = [res, sub, obj, asp]
-            if candidate_tuple_col == truth:
+            if candidate_tuple_col == truth_tuple_col[:-1]:
                 return True
             return False
         else:
-            sub, obj, asp, res = truth_tuple_col
-            truth = [res, sub, obj, asp]
-            if candidate_tuple_col == truth:
+            if candidate_tuple_col == truth_tuple_col:
                 return True
             return False
 
