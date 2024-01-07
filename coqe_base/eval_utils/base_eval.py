@@ -418,6 +418,8 @@ class BaseEvaluation(object):
         :param polarity:
         :return:
         """
+        # logger.info("Gold pair: {} - Predict pair: {}".format(gold_pair_col, predict_pair_col))
+
         exact_num = self.get_exact_pair_num(gold_pair_col, predict_pair_col, polarity)
         prop_num = self.get_cover_pair_num(gold_pair_col, predict_pair_col, "prop", polarity)
         binary_num = self.get_cover_pair_num(gold_pair_col, predict_pair_col, "binary", polarity)
@@ -712,8 +714,8 @@ class ElementEvaluation(BaseEvaluation):
 
         # using predicted output to get elem_dict.
         self.predict_dict = self.get_elem_dict((self.elem_hat, self.result_hat))
-        for i in range(5):
-            logger.info("Prediction in eval pharase: {}".format(self.predict_dict[i]))
+        # for i in range(5):
+        #     logger.info("Prediction in eval pharase: {}".format(self.predict_dict[i]))
 
         # eval part do not drop elem.
         # Nếu không phải câu comparative (predict_sent_label == 0) thì chuyển predict_dict thành []
@@ -731,9 +733,9 @@ class ElementEvaluation(BaseEvaluation):
 
         assert len(self.predict_dict) == len(self.gold_dict)
 
-        for i in range(3):
-            logger.info("Predict dict in eval phrase (after mask non-com): {}".format(self.predict_dict[i]))
-            logger.info("Gold dict in eval phrase: {}".format(self.gold_dict[i]))
+        # for i in range(3):
+        #     logger.info("Predict dict in eval phrase (after mask non-com): {}".format(self.predict_dict[i]))
+        #     logger.info("Gold dict in eval phrase: {}".format(self.gold_dict[i]))
 
         # calculate elem dict.
         for index in range(len(self.gold_dict)):
@@ -940,12 +942,13 @@ class ElementEvaluation(BaseEvaluation):
 
             write_str += self.elem_dict_to_string(token_list, self.predict_dict[index]) + "\n"
             write_str += self.elem_dict_to_string(token_list, self.gold_dict[index]) + "\n"
+            write_str += str(self.predict_dict[index]) + "\n"
             
 
-            if index < 3:
-                logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], skip_special_tokens = True)))
-                logger.info("Gold token list: {}".format(self.gold_dict[index]))
-                logger.info("Predict dict: {} ".format(self.predict_dict[index]))
+            # if index < 3:
+            #     logger.info("Gold sentence: {}".format(self.bert_tokenizer.decode(input_ids[index][1:-1], skip_special_tokens = True)))
+            #     logger.info("Gold token list: {}".format(self.gold_dict[index]))
+            #     logger.info("Predict dict: {} ".format(self.predict_dict[index]))
 
         with open(write_path, "w", encoding='utf-8', errors='ignore') as f:
             f.write(write_str)
@@ -964,7 +967,7 @@ class ElementEvaluation(BaseEvaluation):
         # a list elem_dict: {elem: [(s_index, e_index)]}
         self.predict_dict = self.get_elem_dict((self.elem_hat, self.result_hat))
 
-        logger.info("Number of prediction in first stage test: {}".format(len(self.predict_dict)))
+        # logger.info("Number of prediction in first stage test: {}".format(len(self.predict_dict)))
 
         candidate_pair_col = []
 
@@ -984,10 +987,10 @@ class ElementEvaluation(BaseEvaluation):
             candidate_pair_col.append(cur_candidate_pair_col)
 
         logger.info("number candicate quintupe after castesion: {}".format(len(candidate_pair_col)))
-        for i in range(5):
-            logger.info("Gold pair {} in test phrase: {}".format(i, gold_pair_label[i]))
-            logger.info("Predicted tuple {} in test phrase: {}".format(i, self.predict_dict[i]))
-            logger.info("Candidate tuple  {} in test pharase: {}".format(i, candidate_pair_col[i]))
+        # for i in range(5):
+        #     logger.info("Gold pair {} in test phrase: {}".format(i, gold_pair_label[i]))
+        #     logger.info("Predicted tuple {} in test phrase: {}".format(i, self.predict_dict[i]))
+        #     logger.info("Candidate tuple  {} in test pharase: {}".format(i, candidate_pair_col[i]))
 
 
         pair_representation = self.create_pair_representation(
@@ -1147,21 +1150,11 @@ class PairEvaluation(BaseEvaluation):
         binary_correct_num = {"init_pair": 0.0, "pair": 0.0}
 
         predict_tuple_pair_col = self.get_predict_truth_tuple_pair(self.candidate_pair_col)
+        print(len(self.gold_pair_col), len(predict_tuple_pair_col))
 
         assert len(self.gold_pair_col) == len(predict_tuple_pair_col), "data length error!"
 
-        # resultfile= "predict"
-        # if initialize[0]:
-        #     resultfile += "_com_label"
-        # if initialize[1]:
-        #     resultfile += "_pair"
-      
-
-        # with open("./ModelResult/"+resultfile+".txt", 'w', encoding='utf-8') as fp:
-        #     for i, sent in enumerate(self.gold_pair_col):
-        #         fp.write(f"{sent} ===> {predict_tuple_pair_col[i]}\n")
-
-        # for i in range(10):
+        # for i in range(5):
         #     logger.info("Gold pair label: {}".format(self.gold_pair_col[i]))
         #     logger.info("Candidate pair label: {}".format(self.candidate_pair_col[i]))
         #     logger.info("Predict pair label: {}".format(predict_tuple_pair_col[i]))
@@ -1178,6 +1171,7 @@ class PairEvaluation(BaseEvaluation):
             gold_num['init_pair'] += self.get_effective_pair_num(gold_sequence_pair_col)
             predict_num['init_pair'] += self.get_effective_pair_num(self.candidate_pair_col[index])
 
+            # count số lượng tuple predict đúng
             cur_exact_num, cur_prop_num, cur_binary_num = self.get_pair_num(
                 gold_sequence_pair_col, predict_sequence_pair_col, polarity=polarity
             )
@@ -1217,10 +1211,17 @@ class PairEvaluation(BaseEvaluation):
         prop_measure = self.get_polarity_acc(prop_measure, prop_correct_num['pair'], gold_num['pair'])
         binary_measure = self.get_polarity_acc(binary_measure, binary_correct_num['pair'], gold_num['pair'])
 
+        # if predict_num['init_pair'] == 0:
+        #     keep_rate = 0.0
+        # else:
         keep_rate = predict_num['pair'] / predict_num['init_pair'] * 100
         keep_rate_dict = {"P": keep_rate, "R": keep_rate, "F": keep_rate}
         exact_measure['keep_rate'], prop_measure['keep_rate'] = keep_rate_dict, keep_rate_dict
         binary_measure['keep_rate'] = keep_rate_dict
+
+        logger.info("Extraction result: {}".format(exact_measure))
+        logger.info("Proportion result: {}".format(prop_measure))
+        logger.info("Binary result: {}".format(binary_measure))
 
         # print result in file
         self.print_measure(exact_measure, measure_file, measure_type='exact')
@@ -1234,6 +1235,17 @@ class PairEvaluation(BaseEvaluation):
 
             if self.save_model:
                 torch.save(model, model_path)
+        
+        if polarity:
+            with open("./ModelResult/" + "/test_quintuple_wi_polarity_result_file.txt", "w", encoding="utf8") as fout:
+                for index, pair in enumerate(predict_tuple_pair_col):
+                    fout.write(f"{pair}\t{self.y_hat[index]}\t{self.polarity_hat[index]}\n")
+            fout.close()
+        else:
+            with open("./ModelResult/" + "/test_quintuple_wo_polarity_result_file.txt", "w", encoding="utf8") as fout:
+                for index, pair in enumerate(predict_tuple_pair_col):
+                    fout.write(f"{pair}\t{self.y_hat[index]}\n")
+            fout.close()
 
         if initialize[0]:
             self.polarity_hat = [] # predict comparative label of sentence
@@ -1298,25 +1310,31 @@ class PairEvaluation(BaseEvaluation):
 
         # with polarity and is_pair. (in training)
         if len(self.y_hat) != 0 and len(self.polarity_hat) != 0:
+            logger.info("Len(y_hat) and len(polarity_hat) is not 0")
 
             for index in range(len(candidate_tuple_pair_col)):
                 cur_predicate_tuple_pair = []
 
-                # drop none-pair and add polarity to pair.
+                # Thêm polarity vào các candidate có y_hat = 1 (là comparative sentence).
                 for k in range(len(self.y_hat[index])):
                     if self.y_hat[index][k] == 1:
                         cur_predicate_tuple_pair.append(
                             self.add_polarity_to_tuple_pair(candidate_tuple_pair_col[index][k], self.polarity_hat[index][k])
                         )
+                    else:
+                        cur_predicate_tuple_pair.append([(-1, -1)]*5)
 
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 
         elif len(self.polarity_hat) != 0: # test stage 3
+            logger.info("len(polarity_hat) is not 0")
             for index in range(len(candidate_tuple_pair_col)):
                 cur_predicate_tuple_pair = []
 
-                # drop none-pair and add polarity to pair.
+                # Thêm polarity vào các candidate
                 for k in range(len(self.polarity_hat[index])):
+                    if len(candidate_tuple_pair_col[index][k]) == 0:
+                        cur_predicate_tuple_pair = [(-1, -1)]*4
                     cur_predicate_tuple_pair.append(
                         self.add_polarity_to_tuple_pair(candidate_tuple_pair_col[index][k], self.polarity_hat[index][k])
                     )
@@ -1324,6 +1342,7 @@ class PairEvaluation(BaseEvaluation):
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 
         elif len(self.y_hat) != 0: # test stage 2
+            logger.info("Len(y_hat) is not 0")
             for index in range(len(candidate_tuple_pair_col)):
                 cur_predicate_tuple_pair = []
 
@@ -1331,6 +1350,8 @@ class PairEvaluation(BaseEvaluation):
                 for k in range(len(self.y_hat[index])):
                     if self.y_hat[index][k] == 1: # comparative sentence
                         cur_predicate_tuple_pair.append(copy.deepcopy(candidate_tuple_pair_col[index][k]))
+                    else:
+                        cur_predicate_tuple_pair.append([(-1, -1)]*5)
 
                 truth_tuple_pair_col.append(cur_predicate_tuple_pair)
 

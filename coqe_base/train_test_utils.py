@@ -370,11 +370,9 @@ def pair_stage_model_main(config, data_gene, pair_representation, make_pair_labe
     #     "./ModelResult/" + model_name + "/test_pair_result_file" + ".txt",
     # )
 
-    predict_tuple_pair_col = test_pair_eval.get_predict_truth_tuple_pair(test_pair_eval.candidate_pair_col)
-    with open("./ModelResult/" + "/test_quintuple_result_file.txt", "w", encoding="utf8") as fout:
-        for index, pair in enumerate(predict_tuple_pair_col):
-            fout.write(f"{test_pair_eval.gold_pair_col[index]}\n{pair}\n\n")
+    # predict_tuple_pair_col = test_pair_eval.get_predict_truth_tuple_pair(test_pair_eval.candidate_pair_col)
 
+   
     # add average measure.
     eval_shared_modules.calculate_average_measure(test_pair_eval, global_pair_eval)
 

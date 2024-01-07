@@ -31,12 +31,17 @@ class Dataset(object):
         """
         data_dict = {}
         sent_col, label_col, comparative_label = shared_utils.read_standard_file(data_path)
+        # for i in range(3):
+        #     print(label_col[i])
 
         LP = LabelParser(label_col, self.elem_col, sent_col)
 
         ## label_col: list of {'subject': {(s_index, e_index)* num_label_per_sent}, 'object': set(), 'aspect': set(), 'opinion': {(s_index, e_index, label)}}
         ## tuple_pair_col: list of [index tuple of each element * num_label_per_sent]
         label_col, tuple_pair_col = LP.parse_sequence_label("&&", self.config.val.polarity_dict, sent_col)
+
+        # for i in range(3):
+        #     print(tuple_pair_col[i])
         
         ## tokenize các câu:
         # "standard": sử dụng thư viện ntlk
@@ -75,6 +80,9 @@ class Dataset(object):
             self.char_max_len = max(self.char_max_len, shared_utils.get_max_token_length(data_dict['input_ids'])) + 2
 
         # data_dict['label_col'] = label_col
+
+        # for i in range(3):
+        #     print(tuple_pair_col[i])
         data_dict['tuple_pair_col'] = tuple_pair_col
 
         logger.info("Convert pair number: {}".format(shared_utils.get_tuple_pair_num(data_dict['tuple_pair_col'])) )
@@ -175,8 +183,12 @@ class Dataset(object):
         key_col = ["input_ids", "attn_mask", "tuple_pair_col", "result_label", "multi_label", "comparative_label"]
 
         for key in key_col:
+            if key == "tuple_pair_col" and np.ndim(np.array(data_dict[key])) != 1:
+                continue
+
             data_dict[key] = np.array(data_dict[key])
             print(key, data_dict[key].shape)
+            
 
         data_dict['comparative_label'] = np.array(data_dict['comparative_label']).reshape(-1, 1)
 

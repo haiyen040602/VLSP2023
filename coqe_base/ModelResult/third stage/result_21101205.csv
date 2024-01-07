@@ -1,0 +1,15 @@
+data_bert-base-multilingual-cased_multitask_multitask_run/embe_1
+measure_type,subject,object,aspect,result,macro,micro,sent_acc,elem_acc
+Exact,60.78,60.81,56.56,62.23,60.59,60.0,86.01,86.43
+Prop,69.69,65.55,67.05,74.84,69.84,70.02,86.01,86.43
+Binary,72.84,66.67,70.19,78.95,72.73,73.2,86.01,86.43
+data_bert-base-multilingual-cased_multitask_multitask_run/embe_1
+measure_type,init_pair,pair,polarity_acc,keep_rate
+Exact,16.73,18.03,21.33,70.85
+Prop,25.81,27.45,32.47,70.85
+Binary,27.56,29.48,34.87,70.85
+data_bert-base-multilingual-cased_multitask_multitask_run/embe_1
+measure_type,init_pair,pair,polarity_acc,keep_rate
+Exact,16.73,15.59,18.44,70.85
+Prop,25.81,22.95,27.15,70.85
+Binary,27.56,24.6,29.11,70.85

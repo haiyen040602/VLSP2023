@@ -1,0 +1,203 @@
+========================================
+exact Measure
+========================================
+exact Measure's init_pair Precision value is 9.89
+exact Measure's init_pair Recall value is 23.64
+exact Measure's init_pair F-Measure value is 13.94
+exact Measure's pair Precision value is 19.01
+exact Measure's pair Recall value is 20.91
+exact Measure's pair F-Measure value is 19.91
+Polarity Label Accuracy is 20.91%
+exact Measure's keep_rate Precision value is 46.01
+exact Measure's keep_rate Recall value is 46.01
+exact Measure's keep_rate F-Measure value is 46.01
+========================================
+prop Measure
+========================================
+prop Measure's init_pair Precision value is 16.31
+prop Measure's init_pair Recall value is 39.00
+prop Measure's init_pair F-Measure value is 23.00
+prop Measure's pair Precision value is 26.67
+prop Measure's pair Recall value is 29.33
+prop Measure's pair F-Measure value is 27.94
+Polarity Label Accuracy is 29.33%
+prop Measure's keep_rate Precision value is 46.01
+prop Measure's keep_rate Recall value is 46.01
+prop Measure's keep_rate F-Measure value is 46.01
+========================================
+binary Measure
+========================================
+binary Measure's init_pair Precision value is 16.73
+binary Measure's init_pair Recall value is 40.00
+binary Measure's init_pair F-Measure value is 23.59
+binary Measure's pair Precision value is 27.27
+binary Measure's pair Recall value is 30.00
+binary Measure's pair F-Measure value is 28.57
+Polarity Label Accuracy is 30.00%
+binary Measure's keep_rate Precision value is 46.01
+binary Measure's keep_rate Recall value is 46.01
+binary Measure's keep_rate F-Measure value is 46.01
+========================================
+exact Measure
+========================================
+exact Measure's init_pair Precision value is 12.71
+exact Measure's init_pair Recall value is 24.50
+exact Measure's init_pair F-Measure value is 16.73
+exact Measure's pair Precision value is 15.61
+exact Measure's pair Recall value is 21.33
+exact Measure's pair F-Measure value is 18.03
+Polarity Label Accuracy is 21.33%
+exact Measure's keep_rate Precision value is 70.85
+exact Measure's keep_rate Recall value is 70.85
+exact Measure's keep_rate F-Measure value is 70.85
+========================================
+prop Measure
+========================================
+prop Measure's init_pair Precision value is 19.60
+prop Measure's init_pair Recall value is 37.78
+prop Measure's init_pair F-Measure value is 25.81
+prop Measure's pair Precision value is 23.77
+prop Measure's pair Recall value is 32.47
+prop Measure's pair F-Measure value is 27.45
+Polarity Label Accuracy is 32.47%
+prop Measure's keep_rate Precision value is 70.85
+prop Measure's keep_rate Recall value is 70.85
+prop Measure's keep_rate F-Measure value is 70.85
+========================================
+binary Measure
+========================================
+binary Measure's init_pair Precision value is 20.93
+binary Measure's init_pair Recall value is 40.35
+binary Measure's init_pair F-Measure value is 27.56
+binary Measure's pair Precision value is 25.53
+binary Measure's pair Recall value is 34.87
+binary Measure's pair F-Measure value is 29.48
+Polarity Label Accuracy is 34.87%
+binary Measure's keep_rate Precision value is 70.85
+binary Measure's keep_rate Recall value is 70.85
+binary Measure's keep_rate F-Measure value is 70.85
+========================================
+fold: 0 Best Model Measure
+========================================
+========================================
+Exact Measure
+========================================
+Exact Measure's init_pair Precision value is 12.71
+Exact Measure's init_pair Recall value is 24.50
+Exact Measure's init_pair F-Measure value is 16.73
+Exact Measure's pair Precision value is 15.61
+Exact Measure's pair Recall value is 21.33
+Exact Measure's pair F-Measure value is 18.03
+Polarity Label Accuracy is 21.33%
+Exact Measure's keep_rate Precision value is 70.85
+Exact Measure's keep_rate Recall value is 70.85
+Exact Measure's keep_rate F-Measure value is 70.85
+========================================
+Proportional Measure
+========================================
+Proportional Measure's init_pair Precision value is 19.60
+Proportional Measure's init_pair Recall value is 37.78
+Proportional Measure's init_pair F-Measure value is 25.81
+Proportional Measure's pair Precision value is 23.77
+Proportional Measure's pair Recall value is 32.47
+Proportional Measure's pair F-Measure value is 27.45
+Polarity Label Accuracy is 32.47%
+Proportional Measure's keep_rate Precision value is 70.85
+Proportional Measure's keep_rate Recall value is 70.85
+Proportional Measure's keep_rate F-Measure value is 70.85
+========================================
+Binary Measure
+========================================
+Binary Measure's init_pair Precision value is 20.93
+Binary Measure's init_pair Recall value is 40.35
+Binary Measure's init_pair F-Measure value is 27.56
+Binary Measure's pair Precision value is 25.53
+Binary Measure's pair Recall value is 34.87
+Binary Measure's pair F-Measure value is 29.48
+Polarity Label Accuracy is 34.87%
+Binary Measure's keep_rate Precision value is 70.85
+Binary Measure's keep_rate Recall value is 70.85
+Binary Measure's keep_rate F-Measure value is 70.85
+========================================
+========================================
+exact Measure
+========================================
+exact Measure's init_pair Precision value is 12.71
+exact Measure's init_pair Recall value is 24.50
+exact Measure's init_pair F-Measure value is 16.73
+exact Measure's pair Precision value is 13.50
+exact Measure's pair Recall value is 18.44
+exact Measure's pair F-Measure value is 15.59
+Polarity Label Accuracy is 18.44%
+exact Measure's keep_rate Precision value is 70.85
+exact Measure's keep_rate Recall value is 70.85
+exact Measure's keep_rate F-Measure value is 70.85
+========================================
+prop Measure
+========================================
+prop Measure's init_pair Precision value is 19.60
+prop Measure's init_pair Recall value is 37.78
+prop Measure's init_pair F-Measure value is 25.81
+prop Measure's pair Precision value is 19.87
+prop Measure's pair Recall value is 27.15
+prop Measure's pair F-Measure value is 22.95
+Polarity Label Accuracy is 27.15%
+prop Measure's keep_rate Precision value is 70.85
+prop Measure's keep_rate Recall value is 70.85
+prop Measure's keep_rate F-Measure value is 70.85
+========================================
+binary Measure
+========================================
+binary Measure's init_pair Precision value is 20.93
+binary Measure's init_pair Recall value is 40.35
+binary Measure's init_pair F-Measure value is 27.56
+binary Measure's pair Precision value is 21.31
+binary Measure's pair Recall value is 29.11
+binary Measure's pair F-Measure value is 24.60
+Polarity Label Accuracy is 29.11%
+binary Measure's keep_rate Precision value is 70.85
+binary Measure's keep_rate Recall value is 70.85
+binary Measure's keep_rate F-Measure value is 70.85
+========================================
+fold: 0 Best Model Measure
+========================================
+========================================
+Exact Measure
+========================================
+Exact Measure's init_pair Precision value is 12.71
+Exact Measure's init_pair Recall value is 24.50
+Exact Measure's init_pair F-Measure value is 16.73
+Exact Measure's pair Precision value is 13.50
+Exact Measure's pair Recall value is 18.44
+Exact Measure's pair F-Measure value is 15.59
+Polarity Label Accuracy is 18.44%
+Exact Measure's keep_rate Precision value is 70.85
+Exact Measure's keep_rate Recall value is 70.85
+Exact Measure's keep_rate F-Measure value is 70.85
+========================================
+Proportional Measure
+========================================
+Proportional Measure's init_pair Precision value is 19.60
+Proportional Measure's init_pair Recall value is 37.78
+Proportional Measure's init_pair F-Measure value is 25.81
+Proportional Measure's pair Precision value is 19.87
+Proportional Measure's pair Recall value is 27.15
+Proportional Measure's pair F-Measure value is 22.95
+Polarity Label Accuracy is 27.15%
+Proportional Measure's keep_rate Precision value is 70.85
+Proportional Measure's keep_rate Recall value is 70.85
+Proportional Measure's keep_rate F-Measure value is 70.85
+========================================
+Binary Measure
+========================================
+Binary Measure's init_pair Precision value is 20.93
+Binary Measure's init_pair Recall value is 40.35
+Binary Measure's init_pair F-Measure value is 27.56
+Binary Measure's pair Precision value is 21.31
+Binary Measure's pair Recall value is 29.11
+Binary Measure's pair F-Measure value is 24.60
+Polarity Label Accuracy is 29.11%
+Binary Measure's keep_rate Precision value is 70.85
+Binary Measure's keep_rate Recall value is 70.85
+Binary Measure's keep_rate F-Measure value is 70.85
+========================================

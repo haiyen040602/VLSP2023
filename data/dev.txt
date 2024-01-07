@@ -1,3 +1,169 @@
+des : Không có nhiều sự khác biệt về khả năng tiết kiệm điện năng
+[{'subject': [], 'object': [], 'aspect': ['10&&khả', '11&&năng', '12&&tiết', '13&&kiệm', '14&&điện', '15&&năng'], 'predicate': ['3&&Không', '4&&có', '5&&nhiều', '6&&sự', '7&&khác', '8&&biệt'], 'label': 'EQL'}]
+Bài viết trên đây đã giúp bạn so sánh Oppo Find N2 Flip và Samsung Galaxy Z Flip 4 : Nên mua máy nào ?
+[{}]
+Hẹn gặp lại bạn ở các bài viết sau !
+[{}]
+Samsung đã chính thức trình làng dòng điện thoại Galaxy S23 mới nhất của mình trong sự kiện Unpacked 2023 vừa rồi .
+[{}]
+Tuy rằng phải đến 17 / 2 này Galaxy S23 mới chính thức có mặt tại các cửa hàng trên toàn quốc , bạn hoàn toàn có thể tham khảo cấu hình máy ngay từ bây giờ để có thể quyết định xem liệu rằng có nên “ xuống tay ” hay không .
+[{}]
+Hãy cùng Hoàng Hà Mobile điểm qua một vài những ưu điểm vượt trội trên Samsung Galaxy S23 series – những chiếc flagship mới nhất của ông lớn đến từ Hàn Quốc này .
+[{'subject': ['16&&Samsung', '17&&Galaxy', '18&&S23', '19&&series'], 'object': [], 'aspect': [], 'predicate': ['24&&mới', '25&&nhất', '26&&của', '27&&ông', '28&&lớn', '29&&đến', '30&&từ', '31&&Hàn', '32&&Quốc', '33&&này'], 'label': 'SUP+'}]
+Theo thông lệ , các mẫu điện thoại mới ra mắt của nhà Samsung đều được trang bị những con chip vô cùng “ xịn xò ” , hứa hẹn những bước tiến lớn về hiệu suất và độ tiết kiệm năng lượng .
+[{'subject': ['5&&các', '6&&mẫu', '7&&điện', '8&&thoại', '9&&mới', '10&&ra', '11&&mắt', '12&&của', '13&&nhà', '14&&Samsung'], 'object': ['5&&các', '6&&mẫu', '7&&điện', '8&&thoại', '9&&mới', '10&&ra', '11&&mắt', '12&&của', '13&&nhà', '14&&Samsung'], 'aspect': ['19&&những', '20&&con', '21&&chip', '22&&vô', '23&&cùng', '24&&“', '25&&xịn', '26&&xò', '27&&”'], 'predicate': ['15&&đều', '16&&được', '17&&trang', '18&&bị'], 'label': 'EQL'}]
+Và con chip Snapdragon 8 Gen 2 đi kèm với dòng S23 này là lời khẳng định hoàn hảo nhất cho “ thông lệ ” của tập đoàn công nghệ hàng đầu thế giới này .
+[{}]
+Dòng điện thoại Galaxy S23 không chỉ đơn thuần sở hữu chipset Qualcomm silicon phiên bản sẵn có mới nhất ; thay vào đó , nó sẽ có một phiên bản khác mang tên Snapdragon 8 Gen 2 Mobile Platform dành riêng cho thế hệ Galaxy này .
+[{}]
+Phiên bản mới này sẽ giúp lõi CPU chính sở hữu một tốc độ xung nhịp đáng kinh ngạc .
+[{}]
+Tuy nhiên , một số bài kiểm tra cho rằng S23 Ultra đã dễ dàng đánh bại các thiết bị Android khác đang có mặt trên thị trường và thậm chí còn vượt qua kết quả đa lõi Geekbench của iPhone 14 .
+[{'subject': ['11&&S23', '12&&Ultra'], 'object': ['18&&các', '19&&thiết', '20&&bị', '21&&Android', '22&&khác', '23&&đang', '24&&có', '25&&mặt', '26&&trên', '27&&thị', '28&&trường'], 'aspect': ['4&&một', '5&&số', '6&&bài', '7&&kiểm', '8&&tra'], 'predicate': ['14&&dễ', '15&&dàng', '16&&đánh', '17&&bại'], 'label': 'COM+'}, {'subject': ['11&&S23', '12&&Ultra'], 'object': ['41&&iPhone', '42&&14'], 'aspect': ['35&&kết', '36&&quả', '37&&đa', '38&&lõi', '39&&Geekbench'], 'predicate': ['33&&vượt', '34&&qua'], 'label': 'COM+'}]
+iPhone 14 Pro ( sử dụng chipset A16 Bionic ) dường như đang là thiết bị đang có hiệu năng tốt nhất ở thời điểm hiện tại .
+[{'subject': ['1&&iPhone', '2&&14', '3&&Pro'], 'object': [], 'aspect': ['19&&hiệu', '20&&năng'], 'predicate': ['21&&tốt', '22&&nhất', '23&&ở', '24&&thời', '25&&điểm', '26&&hiện', '27&&tại'], 'label': 'SUP+'}]
+Tuy nhiên , chúng ta cần phải chờ xem người dùng sẽ có trải nghiệm như thế nào khi thật sự “ con quái vật ” đến từ nhà Samsung này .
+[{}]
+Với lượng RAM bổ sung của mình , S23 có thể phần nào được hưởng lợi về hiệu năng của chip hơn các điện thoại khác .
+[{'subject': ['9&&S23'], 'object': ['23&&các', '24&&điện', '25&&thoại', '26&&khác'], 'aspect': ['18&&hiệu', '19&&năng', '20&&của', '21&&chip'], 'predicate': ['12&&phần', '13&&nào', '14&&được', '15&&hưởng', '16&&lợi', '17&&về', '18&&hiệu', '19&&năng', '20&&của', '21&&chip', '22&&hơn'], 'label': 'COM+'}]
+Trước đây , một số reviewer đã thực hiện so sánh độ sáng màn hình của Galaxy S22 , iPhone 14 và Pixel 7 để xem đâu là chiếc điện thoại sở hữu màn hình tốt nhất .
+[{}]
+Kết quả không quá chênh lệch giữa các chiếc điện thoại trên và phần thắng nhỉnh về Samsung .
+[{'subject': ['8&&các', '9&&chiếc', '10&&điện', '11&&thoại', '12&&trên'], 'object': ['8&&các', '9&&chiếc', '10&&điện', '11&&thoại', '12&&trên'], 'aspect': ['1&&Kết', '2&&quả'], 'predicate': ['3&&không', '4&&quá', '5&&chênh', '6&&lệch'], 'label': 'EQL'}, {'subject': ['18&&Samsung'], 'object': [], 'aspect': [], 'predicate': ['14&&phần', '15&&thắng', '16&&nhỉnh', '17&&về'], 'label': 'COM+'}]
+Liệu rằng dòng S23 có giữ vững ngôi vương này cho Samsung ?
+[{}]
+Màn hình của Galaxy S22 đã rất sáng kể từ khi mới ra mắt .
+[{}]
+Chiếc điện thoại này sở hữu độ sáng đến 1.300 nit .
+[{}]
+Và dường như độ sáng này là chưa đủ đối với Samsung .
+[{}]
+Hãng đã tiếp tục cải thiện và tăng thêm độ sáng của màn hình trên S23 .
+[{'subject': ['16&&S23'], 'object': [], 'aspect': ['10&&độ', '11&&sáng', '12&&của', '13&&màn', '14&&hình'], 'predicate': ['5&&cải', '6&&thiện', '7&&và', '8&&tăng', '9&&thêm'], 'label': 'COM+'}]
+Đối với Galaxy S23 , nó sẽ sở hữu độ sáng tối đa lên đến 1.750 nit – một độ sáng vượt trội hơn các đối thủ khác trong tầm giá .
+[{'subject': ['3&&Galaxy', '4&&S23'], 'object': ['25&&các', '26&&đối', '27&&thủ', '28&&khác', '29&&trong', '30&&tầm', '31&&giá'], 'aspect': ['20&&độ', '21&&sáng'], 'predicate': ['22&&vượt', '23&&trội', '24&&hơn'], 'label': 'COM+'}]
+Một vài số liệu cho thấy rằng dòng Galaxy S23 bền hơn rất nhiều so với tiền nhiệm của nó .
+[{'subject': ['9&&Galaxy', '10&&S23'], 'object': ['17&&tiền', '18&&nhiệm', '19&&của', '20&&nó'], 'aspect': [], 'predicate': ['11&&bền', '12&&hơn', '13&&rất', '14&&nhiều'], 'label': 'COM+'}]
+Tuy nhiên , chúng ta phải đợi đến khi các reviewer và người dùng thử nghiệm các bài drop-test mới có thể biết được độ bền thật sự của dòng điện thoại này .
+[{}]
+Một trong những ưu điểm của dòng S23 đó chính là đây sẽ là dòng sản phẩm đầu tiên được trang bị kính cường lực Gorilla Glass Victus 2 của Corning .
+[{}]
+Chắc chắn đây “ lớp giáp ” hoàn hảo cho cả mặt trước lẫn mặt sau của điện thoại .
+[{}]
+S23 vẫn sẽ sở hữu chất liệu nhôm chống trầy xước – một chất liệu thường thấy trên các flagship của Samsung ra mắt năm ngoái .
+[{'subject': ['1&&S23'], 'object': ['19&&các', '20&&flagship', '21&&của', '22&&Samsung', '23&&ra', '24&&mắt', '25&&năm', '26&&ngoái'], 'aspect': ['6&&chất', '7&&liệu', '8&&nhôm', '9&&chống', '10&&trầy', '11&&xước'], 'predicate': ['2&&vẫn', '3&&sẽ', '4&&sở', '5&&hữu'], 'label': 'EQL'}]
+Bên cạnh đó , chiếc điện thoại này cũng sẽ sở hữu khả năng chống nước và bụi IP68 .
+[{'subject': ['5&&chiếc', '6&&điện', '7&&thoại', '8&&này'], 'object': [], 'aspect': ['13&&khả', '14&&năng', '15&&chống', '16&&nước', '17&&và', '18&&bụi', '19&&IP68'], 'predicate': ['9&&cũng', '10&&sẽ', '11&&sở', '12&&hữu'], 'label': 'EQL'}]
+Nếu bạn là người muốn sở hữu một chiếc điện thoại với độ bền cao , Samsung Galaxy S23 chắc chắn là một sự lựa chọn hoàn hảo .
+[{}]
+Và chắc chắn camera trước của dòng S23 không là ngoại lệ .
+[{}]
+So với tiền nhiệm S22 ( sở hữu camera trước 10MP ) , S23 đã có camera trước với độ phân giải lên đến 12MP vô cùng sắc nét .
+[{}]
+Đây chắc chắn là một cải tiến vô cùng quan trọng giúp cho trải nghiệm facetime và chụp ảnh selfie của người dùng trở nên tốt hơn phiên bản cũ .
+[{'subject': [], 'object': ['28&&phiên', '29&&bản', '30&&cũ'], 'aspect': ['14&&trải', '15&&nghiệm', '16&&facetime'], 'predicate': ['26&&tốt', '27&&hơn'], 'label': 'COM+'}, {'subject': [], 'object': ['28&&phiên', '29&&bản', '30&&cũ'], 'aspect': ['18&&chụp', '19&&ảnh', '20&&selfie'], 'predicate': ['26&&tốt', '27&&hơn'], 'label': 'COM+'}]
+Nâng cấp trên camera trước không chỉ dừng lại ở việc tăng MP trên cảm biến máy ảnh .
+[{}]
+Giờ đây , bạn hoàn toàn có thể sở hữu những bức ảnh chân dung trong điều kiện thiếu sáng tốt hơn nhờ khả năng lấy nét tự động nhanh cùng với nhiều cải tiến về khả năng chụp đêm .
+[{'subject': [], 'object': [], 'aspect': ['11&&những', '12&&bức', '13&&ảnh', '14&&chân', '15&&dung', '16&&trong', '17&&điều', '18&&kiện', '19&&thiếu', '20&&sáng'], 'predicate': ['21&&tốt', '22&&hơn'], 'label': 'COM+'}, {'subject': [], 'object': [], 'aspect': ['37&&khả', '38&&năng', '39&&chụp', '40&&đêm'], 'predicate': ['33&&nhiều', '34&&cải', '35&&tiến'], 'label': 'COM+'}]
+Bên cạnh đó , bạn cũng có thể quay video 4K với tốc độ 60 khung hình / giây – một tính năng hiếm có chiếc điện thoại nào có thể sánh kịp ở thời điểm hiện tại .
+[{}]
+Chụp ảnh ban đêm đã trở thành một trong những vấn đề Samsung quan tâm nhất khoảng thời gian gần đây và điều đó lại được tiếp tục thể hiện trên dòng S23 này .
+[{}]
+Một trong những tính năng đáng chú ý trong buổi ra mắt của dòng điện thoại này chính là thuật toán ISP do AI tạo ra nhằm cải thiện độ sắc nét và màu sắc cho mọi bức ảnh của bạn .
+[{}]
+Bên cạnh đó , tính năng AI Stereo Depth Map trên dòng điện thoại này giúp nổi bật chủ thể trong các bức ảnh chụp chân dung hơn ( ngay cả trong điều kiện ánh sáng yếu ) .
+[{'subject': ['13&&điện', '14&&thoại', '15&&này'], 'object': [], 'aspect': ['19&&chủ', '20&&thể', '21&&trong', '22&&các', '23&&bức', '24&&ảnh', '25&&chụp', '26&&chân'], 'predicate': ['17&&nổi', '18&&bật', '19&&chủ', '20&&thể', '21&&trong', '22&&các', '23&&bức', '24&&ảnh', '25&&chụp', '26&&chân', '27&&dung', '28&&hơn'], 'label': 'COM+'}]
+Một trong những nâng cấp được Samsung nhấn mạnh nhất đó chính là camera sau với độ phân giải lên đến 200MP – vượt xa so với 108MP của tiền nhiệm trước đó .
+[{'subject': ['14&&camera', '15&&sau'], 'object': ['30&&tiền', '31&&nhiệm', '32&&trước', '33&&đó'], 'aspect': ['17&&độ', '18&&phân', '19&&giải'], 'predicate': ['24&&vượt', '25&&xa'], 'label': 'COM+'}]
+Đây là một độ phân giải giúp Samsung có thể tự tin bỏ xa các đối thủ khác về mảng máy ảnh trên điện thoại này .
+[{'subject': ['8&&Samsung'], 'object': ['15&&các', '16&&đối', '17&&thủ', '18&&khác'], 'aspect': ['21&&máy', '22&&ảnh'], 'predicate': ['13&&bỏ', '14&&xa'], 'label': 'COM+'}]
+Không dừng lại ở đó , máy ảnh của Galaxy S23 còn cho phép bạn có thể quay phim ở độ phân giải 8K với tốc độ 30 khung hình / giây .
+[{}]
+Trên lý thuyết , những tính năng mới được công bố này vô cùng hấp dẫn .
+[{}]
+Nhưng chúng ta còn phải chờ xem liệu rằng khi người dùng thật sự tiếp cận những công nghệ này thì họ có thật sự thấy thích thú như cách mà Samsung đem đến tại sự kiện ra mắt của mình hay không .
+[{}]
+Tuy nhiên , nếu bạn đang tìm kiếm một chiếc điện thoại có khả năng chụp ảnh ban đêm với độ chi tiết hoàn hảo ; chắc chắn một điều rằng , S23 là dòng điện thoại mà bạn không nên bỏ qua .
+[{}]
+title : Samsung Galaxy A73 5G ra mắt khi nào ? Giá bao nhiêu ? Có nên mua không ?
+[{}]
+Vào tháng 04 / 2022 , Samsung cho ra mắt Samsung Galaxy A73 5G tại thị trường Việt Nam .
+[{}]
+Sản phẩm dự kiến sẽ là một trong những mẫu điện thoại nổi bật trong dòng Galaxy A .
+[{}]
+Cùng tìm hiểu giá bán Samsung Galaxy A73 5G và một số thông tin về sản phẩm này .
+[{}]
+Vào đầu tháng 04 / 2022 Samsung Galaxy A73 5G được chính thức mở bán tại thị trường Việt Nam .
+[{}]
+Với những thiết kế cùng công nghệ hiện đại thừa kế từ thế hế tiền nhiệm , Samsung Galaxy A73 5G chắc chắn sẽ là sản phẩm chủ lực thuộc dòng Galaxy A của Samsung .
+[{}]
+Ngoại hình Samsung Galaxy A73 5G sở hữu những đường nét thiết kế trẻ trung , năng động và cũng không kém phần hiện đại , sang trọng .
+[{}]
+Ngoài ra , người dùng có thể thoải mái lựa chọn với 3 phiên bản màu sắc đa dạng .
+[{}]
+Không chỉ có vẻ ngoài bắt mắt , bộ máy của sản phẩm được đánh giá cao với cấu hình phần cứng mạnh mẽ cùng độ bền sản phẩm cao .
+[{}]
+Bộ camera chất lượng với camera chính 108MP đầy ấn tượng .
+[{}]
+Và dù thuộc phân khúc cận cao cấp nhưng giá của sản phẩm lại phải chăng phù hợp cho nhiều đối tượng khách hàng .
+[{}]
+Về tổng quan , thiết kế của chiếc mày này khá giống với các thế hệ tiền nhiệm với các cạnh và mặt được vát phẳng , tạo hình vuông vắn .
+[{'subject': ['8&&chiếc', '9&&mày', '10&&này'], 'object': ['14&&các', '15&&thế', '16&&hệ', '17&&tiền', '18&&nhiệm'], 'aspect': ['5&&thiết', '6&&kế'], 'predicate': ['11&&khá', '12&&giống'], 'label': 'EQL'}]
+Thêm vào đó , 3 tông màu xanh lá , xám và đen mang đến sự trẻ trung , hiện đại cho sản phẩm .
+[{}]
+Lớp vỏ ngoài làm bằng nhựa cho nên trọng lượng máy khá nhẹ , thuận tiện cho người dùng .
+[{}]
+Cụm camera hình chữ nhật thiết kế nhô lên nhẹ so với mặt lưng .
+[{}]
+Logo Samsung được khắc mờ trên vỏ máy tạo điểm nhấn cho mặt sau điện thoại .
+[{}]
+Galaxy A73 5G có RAM 8GB hỗ trợ các thao tác đa nhiệm mượt mà , hạn chế tối đa tình trạng lỗi máy khi khởi chạy nhiều ứng dụng đồng thời .
+[{}]
+Ngoài ra điện thoại được trang bị bộ nhớ trong dung lượng lên đến 128GB giúp mang đến cho bạn không gian lưu trữ rộng lớn , thuận tiện lưu trữ dữ liệu .
+[{}]
+Nói đến Samsung Galaxy A73 5G không thể bỏ qua cụm camera siêu chất của máy .
+[{}]
+Bộ 4 camera với nhiều tính năng hiện đại như chụp đêm , chụp toàn cảnh , làm đẹp , . . . Đặc biệt , với camera chính 108MP , bạn chắc chắc sẽ được sở hữu những bức ảnh vô cùng chi tiết và sắc nét , cho bạn thỏa sức đam mê nhiếp ảnh .
+[{}]
+Camera trước 32MP sẽ mang đến trải nghiệm selfie hoàn hảo nhờ độ phân giải cao và nhiều tính năng hiện đại .
+[{}]
+Các bức ảnh thu được sẽ luôn đạt chất lượng , kể cả khi chụp ngược sáng .
+[{}]
+Thêm nữa , các camera trên máy đều có khả năng chống rung quang học .
+[{}]
+Với việc trang bị chuấn chống nước IP67 , bạn có thể thoải mái sử dụng thiết bị ngay cả khi trời mưa mà không lo hư hỏng .
+[{}]
+Màn hình điện thoại có tần số quét 120Hz và độ sáng 800 nits hỗ trợ hiển thị nội dung khi xem phim hay giải trí với những khung hình mượt mà , không mờ nhòe , siêu chi tiết và độ tương phản cao .
+[{}]
+Samsung Galaxy A73 5G cũng hỗ trợ sạc nhanh tối đa 25W cùng tính năng thích ứng thói quen sử dụng để tự động tối ưu hóa thời lượng sử dụng pin tốt hơn .
+[{}]
+Nên mua không ?
+[{}]
+Dù sở hữu nhiều tính năng vượt trội so với các sản phẩm khác trong cùng phân khúc nhưng Samsung Galaxy A73 5G có mức giá thành rất hợp lý .
+[{'subject': ['20&&Samsung', '21&&Galaxy', '22&&A73', '23&&5G'], 'object': ['11&&các', '12&&sản', '13&&phẩm', '14&&khác', '15&&trong', '16&&cùng', '17&&phân', '18&&khúc'], 'aspect': ['4&&nhiều', '5&&tính', '6&&năng'], 'predicate': ['7&&vượt', '8&&trội'], 'label': 'COM+'}]
+Tóm lại đây là một mẫu điện thoại vô cùng chất lượng có thể đáp ứng mọi yêu cầu từ mọi đối tượng .
+[{}]
+Dù bạn là sinh viên hay nhân viên văn phòng và kể cả là doanh nhân , chiếc điện thoại này đều có thể phục vụ tối đa các yêu cầu từ cơ bản đến nâng cao của bạn .
+[{}]
+Giá bán điện thoại Samsung Galaxy A73 5G bao nhiêu ?
+[{}]
+Bài viết đã giới thiệu đến bạn một số thông tin và giá bán của điện thoại Samsung Galaxy A73 5G .
+[{}]
+Hy vọng bạn sẽ chọn được sản phẩm phù hợp khi có nhu cầu mua điện thoại .
+[{}]
+Samsung Galaxy A52s và Samsung Galaxy A53 là hai chiếc điện thoại thuộc dòng sản phẩm Galaxy A khá " hot " của Samsung .
+[{}]
+Vậy hai chiếc smartphone này có gì khác nhau và liệu có đáng để mua ?
+[{}]
+Cùng Thế Giới Di Động so sánh Samsung Galaxy A52s 5G và Galaxy A53 5G nhé !
+[{}]
+Samsung Galaxy A52s 5G là phiên bản nâng cấp của chiếc smartphone tầm trung Samsung Galaxy A52 , được ra mắt vào tháng 09 / 2021 .
+[{'subject': ['1&&Samsung', '2&&Galaxy', '3&&A52s', '4&&5G'], 'object': ['15&&Samsung', '16&&Galaxy', '17&&A52'], 'aspect': [], 'predicate': ['5&&là', '6&&phiên', '7&&bản', '8&&nâng', '9&&cấp'], 'label': 'COM+'}]
+Máy có thiết kế nguyên khối trẻ trung , đi kèm với màn hình Super AMOLED siêu sắc nét , có tần số quét 120 Hz . Hình ảnh hiển thị rất sống động và mượt mà .
+[{}]
+Con chip Snapdragon 778G kết hợp 8 GB RAM và 128 GB bộ nhớ trong mang đến khả năng xử lý tác vụ game và tác vụ giải trí bình thường nhanh chóng .
+[{}]
 Samsung Galaxy A52s 5G là phiên bản nâng cấp của Galaxy A52 .
 [{'subject': ['1&&Samsung', '2&&Galaxy', '3&&A52s', '4&&5G'], 'object': ['11&&Galaxy', '12&&A52'], 'aspect': [], 'predicate': ['5&&là', '6&&phiên', '7&&bản', '8&&nâng', '9&&cấp', '10&&của'], 'label': 'COM+'}]
 Samsung Galaxy A53 5G là sản phẩm hướng đến đối tượng Gen Z năng động với nhiều cải tiến mạnh mẽ , được ra mắt vào tháng 03 / 2022 .

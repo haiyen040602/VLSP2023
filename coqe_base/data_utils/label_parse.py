@@ -37,6 +37,7 @@ class LabelParser(object):
         tuple_pair_col, elem_representation = [], []
         for label_index, label in enumerate(self.label_col):
             if label == null_label:
+                # print(null_label)
                 tuple_pair_col.append([[(-1, -1)]* 5]) ## list of one list contain 5 tuple (-1, -1)
                 elem_representation.append(self.init_label_representation())
             
@@ -103,9 +104,7 @@ class LabelParser(object):
     def init_label_representation(self):
         return {key: set() for key in self.elem_col} ##{'subject': set(), 'object': set(), 'aspect': set(), 'opinion': set()}
     
-    def init_label_representation(self):
-        return {key: set() for key in self.elem_col} ##{'subject': set(), 'object': set(), 'aspect': set(), 'opinion': set()}
-
+   
 # sent_col, label_col = shared_utils.read_standard_file('D:/Research/comOP/competition/VLSP2023/data/train.txt')
 # elem_col = ["subject", "object", "aspect", "predicate"]
 

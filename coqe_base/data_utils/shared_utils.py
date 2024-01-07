@@ -74,6 +74,8 @@ def read_standard_file(path):
     """
     sent_col, label_col, comparative_labels = [], [], []
     last_sentence = ""
+    labels = ""
+    isComparative = 0
     with open(path, "r", encoding="utf-8") as f:
         for line in f.readlines():
             line = line.rstrip('\n')

@@ -1,14 +1,14 @@
-[10/21/2023 02:05:56 - root:100]: Using model: data_bert-base-multilingual-cased_crf_crf_run/embe_1
-[10/21/2023 02:05:57 - data_utils.create_dataset:80]: Convert pair number: 632
-[10/21/2023 02:05:57 - data_utils.create_dataset:81]: Label_col number: 630
-[10/21/2023 02:05:57 - data_utils.create_dataset:80]: Convert pair number: 110
-[10/21/2023 02:05:57 - data_utils.create_dataset:81]: Label_col number: 110
-[10/21/2023 02:05:58 - data_utils.create_dataset:80]: Convert pair number: 347
-[10/21/2023 02:05:58 - data_utils.create_dataset:81]: Label_col number: 346
-[10/21/2023 02:06:02 - root:108]: =======================CREATE DATA LOADER==========================
-[10/21/2023 02:06:02 - root:109]: Train dataset input ids shape: (1410, 115)
-[10/21/2023 02:06:02 - data_utils.data_loader_utils:45]: train data loader size: 1410 
-[10/21/2023 02:06:02 - data_utils.data_loader_utils:45]: dev data loader size: 259 
-[10/21/2023 02:06:02 - data_utils.data_loader_utils:45]: test data loader size: 715 
-[10/21/2023 02:06:02 - root:117]: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIRST STAGE RUNNING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-[10/21/2023 02:06:07 - train_test_utils:224]: ===============TRAIN FIRST STAGE==================
+[11/02/2023 14:35:47 - root:100]: Using model: data_bert-base-multilingual-cased_multitask_multitask_run/embe_1
+[11/02/2023 14:35:50 - data_utils.create_dataset:88]: Convert pair number: 1426
+[11/02/2023 14:35:50 - data_utils.create_dataset:89]: Label_col number: 1421
+[11/02/2023 14:35:52 - data_utils.create_dataset:88]: Convert pair number: 134
+[11/02/2023 14:35:52 - data_utils.create_dataset:89]: Label_col number: 134
+[11/02/2023 14:35:55 - data_utils.create_dataset:88]: Convert pair number: 0
+[11/02/2023 14:35:55 - data_utils.create_dataset:89]: Label_col number: 0
+[11/02/2023 14:36:13 - root:108]: =======================CREATE DATA LOADER==========================
+[11/02/2023 14:36:13 - root:109]: Train dataset input ids shape: (3060, 120)
+[11/02/2023 14:36:13 - data_utils.data_loader_utils:45]: train data loader size: 3060 
+[11/02/2023 14:36:13 - data_utils.data_loader_utils:45]: dev data loader size: 342 
+[11/02/2023 14:36:13 - data_utils.data_loader_utils:45]: test data loader size: 3270 
+[11/02/2023 14:36:13 - root:117]: %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIRST STAGE RUNNING%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[11/02/2023 14:36:21 - train_test_utils:224]: ===============TRAIN FIRST STAGE==================
